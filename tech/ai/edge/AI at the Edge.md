@@ -3,14 +3,11 @@ Solving Real-World Problems with Embedded Machine Learning
 
 임베디드 머신러닝으로 해결하는 실세계 문제
 
+![AI at the Edge](AI%20at%20the%20Edge-01.png)
 
+https://drive.google.com/file/d/199HvSIFl2xUguaY3CgunMge-9pBRXGXr/view?usp=drive_link
 
-
-
-
-
-
-
+<br><br>
 
 엣지 AI(Edge AI)는 컴퓨터가 현실 세계와 상호작용하는 방식을 혁신하고 있습니다. 이를 통해 사물인터넷(IoT) 기기는 과거 비용, 대역폭, 전력 등의 제약으로 인해 버려지던 99%의 센서 데이터를 활용하여 의사결정을 내릴 수 있게 되었습니다. 개발자는 임베디드 머신러닝과 같은 기술을 활용해 인간의 직관을 시스템에 반영하고, 초저전력 마이크로컨트롤러부터 유연한 임베디드 리눅스 기기에 이르기까지 다양한 플랫폼에 이를 적용할 수 있습니다. 이러한 애플리케이션은 지연 시간을 줄이고 개인정보를 보호하며 네트워크 연결 없이도 작동하여 IoT의 역량을 크게 확장합니다.
 
