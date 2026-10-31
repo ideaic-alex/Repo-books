@@ -13,6 +13,8 @@
 
 <p align="center"><img src="images/mindmap.png" alt="Claude Code The Definitive Guide to Agentic Development Mind Map"></p>
 
+---
+
 - 클로드 코드
   - 컨텍스트 엔지니어링
     - CLAUDE.md
