@@ -1,17 +1,17 @@
 # **Pro Windows Subsystem for Linux (WSL)**
-(Pro WSL: ?щ줈???뚮옯??媛쒕컻怨??묒뾽???꾪븳 媛뺣젰???꾧뎄? ?ㅻТ)
+(Pro WSL: 크로스 플랫폼 개발과 협업을 위한 강력한 도구와 실무)
 <br>
 
-<p align="center"><img src="images/cover.jpg" alt="Pro Windows Subsystem for Linux (WSL) ?쒖?" width="360"></p>
-<br>
-<br>
-
-??臾몄꽌??Hayden Barnes媛 ???랶ro Windows Subsystem for Linux (WSL)??Apress)瑜??λ퀎濡??뺣━???쒓뎅???숈뒿 ?명듃?낅땲?? ?먮Ц??洹몃?濡?踰덉뿭??寃껋씠 ?꾨땲???듭떖 媛쒕뀗怨?紐낅졊?대? ?붿빟???ㅼ떆 ?뺣━?덉뒿?덈떎. WSL??援ъ“(WSL 1怨?WSL 2)? ?ㅼ튂쨌?쒖꽦?붿뿉???쒖옉??諛고룷??愿由ъ? ?좎?蹂댁닔, `wsl.conf`? `.wslconfig`瑜??댁슜??援ъ꽦, ?ъ슜???뺤쓽, systemd? 而ㅻ꼸 鍮뚮뱶 媛숈? WSL 2 ?ы솕 二쇱젣瑜??ㅻ９?덈떎. ?댁뼱??Windows????곹샇?댁슜?? 荑좊쾭?ㅽ떚?ㅒ텱ocker쨌GPU瑜??쒖슜???뷀꽣?꾨씪?댁쫰 媛쒕컻, 臾몄젣 ?닿껐, 洹몃━怨?Intune쨌Landscape쨌Ansible???댁슜???洹쒕え 諛고룷源뚯? ?댁뼱吏묐땲??
-<br>
+<p align="center"><img src="images/cover.jpg" alt="Pro Windows Subsystem for Linux (WSL) 표지" width="360"></p>
 <br>
 <br>
 
-<p align="center"><img src="images/mindmap.png" alt="Pro Windows Subsystem for Linux (WSL) 留덉씤?쒕㏊"></p>
+이 문서는 Hayden Barnes가 쓴 『Pro Windows Subsystem for Linux (WSL)』(Apress)를 장별로 정리한 한국어 학습 노트입니다. 원문을 그대로 번역한 것이 아니라 핵심 개념과 명령어를 요약해 다시 정리했습니다. WSL의 구조(WSL 1과 WSL 2)와 설치·활성화에서 시작해 배포판 관리와 유지보수, `wsl.conf`와 `.wslconfig`를 이용한 구성, 사용자 정의, systemd와 커널 빌드 같은 WSL 2 심화 주제를 다룹니다. 이어서 Windows와의 상호운용성, 쿠버네티스·Docker·GPU를 활용한 엔터프라이즈 개발, 문제 해결, 그리고 Intune·Landscape·Ansible을 이용한 대규모 배포까지 이어집니다.
+<br>
+<br>
+<br>
+
+<p align="center"><img src="images/mindmap.png" alt="Pro Windows Subsystem for Linux (WSL) 마인드맵"></p>
 
 ---
 
