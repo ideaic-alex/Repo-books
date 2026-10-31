@@ -41,3 +41,9 @@
 ---
 
 💡 지금까지 다룬 Claude Code의 전체 아키텍처와 핵심 가이드라인을 한눈에 볼 수 있는 **요약 보고서(Report)** 문서나 슬라이드 덱 형태로 만들어드릴까요?
+
+<br>
+<br>
+<br>
+
+[Claude Code The Definitive Guide to Agentic Development](../)

@@ -49,3 +49,9 @@ Claude Code 환경에서 **컨텍스트 윈도우(Context Window)**는 단순한
 ---
 
 💡 컨텍스트 엔지니어링 관점에서 점유 비용을 제로(0)로 최적화해 주는 `disable-model-invocation: true` **스킬 작성 패턴**이나, 자동 축소 시 지침을 보호해 주는 `Compact Instructions` **헤더 작성 예시**에 대해서도 구체적으로 다뤄볼까요?
+
+<br>
+<br>
+<br>
+
+[Claude Code The Definitive Guide to Agentic Development](../../)

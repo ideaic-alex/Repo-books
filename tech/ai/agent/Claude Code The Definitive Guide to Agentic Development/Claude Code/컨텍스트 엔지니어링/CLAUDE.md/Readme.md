@@ -55,3 +55,9 @@
 ---
 
 💡 프로젝트의 컨텍스트 예산을 점검할 수 있는 `/context` 진단 명령어나, 스킬 프런트매터를 활용한 수동 전용 스킬 설정 패턴에 대해서도 더 알아볼까요?
+
+<br>
+<br>
+<br>
+
+[Claude Code The Definitive Guide to Agentic Development](../../../)
