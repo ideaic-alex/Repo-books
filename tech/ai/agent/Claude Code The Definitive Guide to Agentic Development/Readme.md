@@ -2,7 +2,7 @@
 (Claude Code: 에이전트형 개발을 위한 결정적 가이드)
 <br>
 
-<p align="center"><img src="../images/cover.png" alt="Claude Code The Definitive Guide to Agentic Development"></p>
+<p align="center"><img src="images/cover.png" alt="Claude Code The Definitive Guide to Agentic Development"></p>
 <br>
 <br>
 
@@ -11,16 +11,16 @@
 <br>
 <br>
 
-<p align="center"><img src="../images/mindmap.png" alt="Claude Code The Definitive Guide to Agentic Development Mind Map"></p>
+<p align="center"><img src="images/mindmap.png" alt="Claude Code The Definitive Guide to Agentic Development Mind Map"></p>
 
 ---
 
-- [클로드 코드](../../Readme.md)
-  - [컨텍스트 엔지니어링](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/Readme.md)
-    - [CLAUDE.md](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/Readme.md)
-      - [영구 지침 저장소](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/%EC%98%81%EA%B5%AC%20%EC%A7%80%EC%B9%A8%20%EC%A0%80%EC%9E%A5%EC%86%8C.md)
-      - [500라인 가이드라인](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/500%EB%9D%BC%EC%9D%B8%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.md)
-      - [프로젝트별 지식 및 규칙](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B3%84%20%EC%A7%80%EC%8B%9D%20%EB%B0%8F%20%EA%B7%9C%EC%B9%99.md)
-    - [스킬](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%8A%A4%ED%82%AC.md)
-    - [컨텍스트 관리](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EA%B4%80%EB%A6%AC.md)
-    - [압축 지침](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%95%95%EC%B6%95%20%EC%A7%80%EC%B9%A8.md)
+- [클로드 코드](Claude%20Code/Readme.md)
+  - [컨텍스트 엔지니어링](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/Readme.md)
+    - [CLAUDE.md](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/Readme.md)
+      - [영구 지침 저장소](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/%EC%98%81%EA%B5%AC%20%EC%A7%80%EC%B9%A8%20%EC%A0%80%EC%9E%A5%EC%86%8C.md)
+      - [500라인 가이드라인](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/500%EB%9D%BC%EC%9D%B8%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.md)
+      - [프로젝트별 지식 및 규칙](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B3%84%20%EC%A7%80%EC%8B%9D%20%EB%B0%8F%20%EA%B7%9C%EC%B9%99.md)
+    - [스킬](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%8A%A4%ED%82%AC.md)
+    - [컨텍스트 관리](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EA%B4%80%EB%A6%AC.md)
+    - [압축 지침](Claude%20Code/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%95%95%EC%B6%95%20%EC%A7%80%EC%B9%A8.md)
