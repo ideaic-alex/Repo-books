@@ -1,18 +1,18 @@
 # 6장. WSL 2 구성 (Configuring WSL 2)
 
-WSL 2는 가벼운 가상 머신으로 동작하기 때문에 메모리나 프로세서 수 같은 자원을 지정하는 설정이 따로 있다. 이런 설정은 Windows 사용자 홈의 `.wslconfig`에 적으며, 모든 WSL 2 배포판에 전역으로 적용된다. 이 장은 커널, 자원, 네트워크, 가상화, 디버깅 설정과 레지스트리 설정을 살펴본다.
+WSL 2는 가벼운 가상 머신으로 동작한다. 그래서 메모리나 프로세서 수 같은 자원을 얼마나 쓸지 정하는 설정이 따로 있다. 이런 설정은 Windows 사용자 홈 폴더의 `.wslconfig`에 적으며, 모든 WSL 2 배포판에 똑같이 적용된다. 이 장에서는 커널, 자원, 네트워크, 가상화, 디버깅 설정과 레지스트리 설정을 차례로 살펴본다.
 
 ---
 
 ## 1. 핵심 요점
 
-- `.wslconfig`의 `[wsl2]` 섹션은 전역 설정이며, 파일이 없으면 기본값이 적용된다.
-- 공식 WSL 2 커널을 `kernel=`로 교체할 수 있고, `kernelCommandLine=`으로 커널 매개변수를 더할 수 있다.
-- `processors`, `memory`, `swap`, `swapfile`로 CPU, RAM, 스왑을 조절하며 기본 메모리 상한은 RAM의 50%와 8GB 중 작은 값이다.
-- `pageReporting`은 사용하지 않는 메모리를 Windows에 돌려주는 기능이다.
-- `localhostforwarding`, `nestedVirtualization`, `debugConsole`로 네트워크, 중첩 가상화, 커널 로그 확인을 설정한다.
-- 변경 사항은 `wsl.exe --shutdown` 후에 반영되며, 파일은 CRLF 줄바꿈이어야 한다.
-- 레지스트리의 `Lxss` 키에서 일부 설정을 볼 수 있지만 마지막 수단으로만 쓴다.
+- `.wslconfig`의 `[wsl2]` 섹션은 모든 배포판에 적용되는 설정이다. 파일이 없으면 기본값이 쓰인다.
+- `kernel=`로 공식 WSL 2 커널을 다른 커널로 바꿀 수 있고, `kernelCommandLine=`으로 커널 매개변수를 추가할 수 있다.
+- `processors`, `memory`, `swap`, `swapfile`로 CPU, RAM, 스왑을 조절한다. 메모리 기본 상한은 RAM의 50%와 8GB 중 작은 값이다.
+- `pageReporting`은 쓰지 않는 메모리를 Windows에 돌려주는 기능이다.
+- `localhostforwarding`, `nestedVirtualization`, `debugConsole`로 각각 localhost 접근, 중첩 가상화, 커널 로그 확인을 설정한다.
+- 바꾼 설정은 `wsl.exe --shutdown`으로 종료한 뒤 다시 시작해야 반영된다. 파일의 줄바꿈은 CRLF여야 한다.
+- 레지스트리의 `Lxss` 키에서도 일부 설정을 볼 수 있다. 하지만 다른 방법이 없을 때만 쓴다.
 
 ---
 
