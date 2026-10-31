@@ -12,3 +12,5 @@
 <br>
 
 <p align="center"><img src="images/mindmap.png" alt="Claude Code The Definitive Guide to Agentic Development Mind Map"></p>
+
+[영구 지침 저장소](%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/CLAUDE.md/%EC%98%81%EA%B5%AC%20%EC%A7%80%EC%B9%A8%20%EC%A0%80%EC%9E%A5%EC%86%8C.md)
