@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+    .m{font-size:18px;font-weight:700}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4A5260"/></marker>
+  </defs>
+  <rect width="1500" height="560" fill="#FFFFFF"/>
+  <text class="t" x="750" y="50" text-anchor="middle">/rewind "여기서부터 요약": 막다른 구간만 접는다</text>
+
+  <!-- 이전 -->
+  <text class="h" x="60" y="140">이전</text>
+  <g>
+    <rect x="160" y="110" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="210" y="145" text-anchor="middle">1</text>
+    <rect x="272" y="110" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="322" y="145" text-anchor="middle">2</text>
+    <rect x="384" y="110" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="434" y="145" text-anchor="middle">3</text>
+    <rect x="496" y="110" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="546" y="145" text-anchor="middle">4</text>
+    <rect x="608" y="110" width="100" height="56" rx="10" fill="#FBE9E4" stroke="#B5523B" stroke-width="2"/><text class="m" x="658" y="145" text-anchor="middle">5</text>
+    <rect x="720" y="110" width="100" height="56" rx="10" fill="#FBE9E4" stroke="#B5523B" stroke-width="2"/><text class="m" x="770" y="145" text-anchor="middle">6</text>
+    <rect x="832" y="110" width="100" height="56" rx="10" fill="#FBE9E4" stroke="#B5523B" stroke-width="2"/><text class="m" x="882" y="145" text-anchor="middle">…</text>
+    <rect x="944" y="110" width="100" height="56" rx="10" fill="#FBE9E4" stroke="#B5523B" stroke-width="2"/><text class="m" x="994" y="145" text-anchor="middle">34</text>
+    <rect x="1056" y="110" width="100" height="56" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/><text class="m" x="1106" y="145" text-anchor="middle">35</text>
+  </g>
+  <path d="M160 186 V198 H596 V186" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="s" x="378" y="222" text-anchor="middle" style="fill:#3B6EA8">쓸모 있는 작업</text>
+  <path d="M608 186 V198 H1044 V186" fill="none" stroke="#B5523B" stroke-width="2"/>
+  <text class="s" x="826" y="222" text-anchor="middle" style="fill:#B5523B">30턴짜리 막다른 탐색</text>
+  <text class="s" x="1106" y="222" text-anchor="middle" style="fill:#3E8A5A">올바른 방법 발견</text>
+  <!-- 체크포인트 -->
+  <line x1="602" y1="98" x2="602" y2="176" stroke="#2B2F36" stroke-width="3" stroke-dasharray="6 4"/>
+  <text class="b" x="612" y="96" style="font-weight:700">← 여기를 고름</text>
+
+  <!-- 화살표 -->
+  <line x1="660" y1="250" x2="660" y2="320" stroke="#4A5260" stroke-width="3" marker-end="url(#a)"/>
+  <text class="b" x="680" y="292">Summarize from here</text>
+
+  <!-- 이후 -->
+  <text class="h" x="60" y="370">이후</text>
+  <g>
+    <rect x="160" y="340" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="210" y="375" text-anchor="middle">1</text>
+    <rect x="272" y="340" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="322" y="375" text-anchor="middle">2</text>
+    <rect x="384" y="340" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="434" y="375" text-anchor="middle">3</text>
+    <rect x="496" y="340" width="100" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/><text class="m" x="546" y="375" text-anchor="middle">4</text>
+    <rect x="608" y="340" width="300" height="56" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/><text class="b" x="758" y="375" text-anchor="middle">5~35턴 요약본</text>
+  </g>
+  <rect x="924" y="340" width="516" height="56" rx="10" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="b" x="1182" y="375" text-anchor="middle" style="fill:#6B7280">다시 확보한 공간</text>
+
+  <rect x="60" y="430" width="1380" height="100" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="90" y="470">· 1~4턴은 원본 그대로 남는다. 고른 지점 이후만 짧은 요약으로 바뀐다.</text>
+  <text class="b" x="90" y="504">· /compact가 대화 전체를 요약한다면, 이 방법은 필요 없는 구간만 골라 접는다.</text>
+</svg>

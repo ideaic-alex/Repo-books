@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:15px;fill:#666}
+    .c{font-size:16px;font-weight:700;fill:#FFFFFF}
+  </style>
+  <rect width="1500" height="800" fill="#FFFFFF"/>
+  <text class="t" x="750" y="60" text-anchor="middle">턴마다 무엇이 메인 컨텍스트 자리를 차지하나</text>
+  <text class="s" x="750" y="94" text-anchor="middle" style="font-size:18px">칸이 채워져 있으면 그 턴에 컨텍스트를 쓰고 있다는 뜻이다</text>
+
+  <!-- 머리글 -->
+  <g class="h" text-anchor="middle">
+    <text x="502" y="150">턴 1</text><text x="667" y="150">턴 2</text><text x="832" y="150">턴 3</text>
+    <text x="997" y="150">턴 4</text><text x="1162" y="150">턴 5</text><text x="1327" y="150">턴 6</text>
+  </g>
+
+  <!-- 격자 -->
+  <g stroke="#D5D9DE" stroke-width="1.5" fill="none">
+    <rect x="420" y="168" width="990" height="504"/>
+    <line x1="585" y1="168" x2="585" y2="672"/><line x1="750" y1="168" x2="750" y2="672"/>
+    <line x1="915" y1="168" x2="915" y2="672"/><line x1="1080" y1="168" x2="1080" y2="672"/>
+    <line x1="1245" y1="168" x2="1245" y2="672"/>
+    <line x1="60" y1="240" x2="1410" y2="240"/><line x1="60" y1="312" x2="1410" y2="312"/>
+    <line x1="60" y1="384" x2="1410" y2="384"/><line x1="60" y1="456" x2="1410" y2="456"/>
+    <line x1="60" y1="528" x2="1410" y2="528"/><line x1="60" y1="600" x2="1410" y2="600"/>
+  </g>
+
+  <!-- 행 이름 -->
+  <text class="h" x="70" y="200">CLAUDE.md</text><text class="s" x="70" y="226">시작할 때 전체 로딩</text>
+  <text class="h" x="70" y="272">MCP 서버</text><text class="s" x="70" y="298">모든 도구 정의 로딩</text>
+  <text class="h" x="70" y="344">스킬 — 설명 한 줄</text><text class="s" x="70" y="370">Claude가 언제 쓸지 판단하는 용도</text>
+  <text class="h" x="70" y="416">스킬 — 본문</text><text class="s" x="70" y="442">호출할 때 비로소 로딩</text>
+  <text class="h" x="70" y="488">수동 전용 스킬</text><text class="s" x="70" y="514">disable-model-invocation: true</text>
+  <text class="h" x="70" y="560">서브에이전트</text><text class="s" x="70" y="586">일은 바깥에서, 요약만 돌아옴</text>
+  <text class="h" x="70" y="632">훅</text><text class="s" x="70" y="658">외부 프로그램으로 실행</text>
+
+  <!-- CLAUDE.md: 항상 -->
+  <g fill="#3B6EA8">
+    <rect x="428" y="178" width="149" height="52" rx="6"/><rect x="593" y="178" width="149" height="52" rx="6"/>
+    <rect x="758" y="178" width="149" height="52" rx="6"/><rect x="923" y="178" width="149" height="52" rx="6"/>
+    <rect x="1088" y="178" width="149" height="52" rx="6"/><rect x="1253" y="178" width="149" height="52" rx="6"/>
+  </g>
+  <!-- MCP: 항상 -->
+  <g fill="#B8862B">
+    <rect x="428" y="250" width="149" height="52" rx="6"/><rect x="593" y="250" width="149" height="52" rx="6"/>
+    <rect x="758" y="250" width="149" height="52" rx="6"/><rect x="923" y="250" width="149" height="52" rx="6"/>
+    <rect x="1088" y="250" width="149" height="52" rx="6"/><rect x="1253" y="250" width="149" height="52" rx="6"/>
+  </g>
+  <!-- 스킬 설명: 조금씩 항상 -->
+  <g fill="#3E8A5A">
+    <rect x="428" y="341" width="149" height="14" rx="4"/><rect x="593" y="341" width="149" height="14" rx="4"/>
+    <rect x="758" y="341" width="149" height="14" rx="4"/><rect x="923" y="341" width="149" height="14" rx="4"/>
+    <rect x="1088" y="341" width="149" height="14" rx="4"/><rect x="1253" y="341" width="149" height="14" rx="4"/>
+  </g>
+  <!-- 스킬 본문: 턴 4에 호출 -->
+  <g fill="#3E8A5A">
+    <rect x="923" y="394" width="149" height="52" rx="6"/><rect x="1088" y="394" width="149" height="52" rx="6"/>
+    <rect x="1253" y="394" width="149" height="52" rx="6"/>
+  </g>
+  <text class="c" x="997" y="426" text-anchor="middle">Claude가 호출</text>
+  <g class="s" text-anchor="middle"><text x="502" y="426">0</text><text x="667" y="426">0</text><text x="832" y="426">0</text></g>
+  <!-- 수동 전용 스킬: 턴 5에 사람이 호출 -->
+  <g fill="#3E8A5A">
+    <rect x="1088" y="466" width="149" height="52" rx="6"/><rect x="1253" y="466" width="149" height="52" rx="6"/>
+  </g>
+  <text class="c" x="1162" y="498" text-anchor="middle">사람이 /deploy</text>
+  <g class="s" text-anchor="middle"><text x="502" y="498">0</text><text x="667" y="498">0</text><text x="832" y="498">0</text><text x="997" y="498">0</text></g>
+  <!-- 서브에이전트: 요약만 -->
+  <rect x="758" y="553" width="149" height="22" rx="5" fill="#7A5BA8"/>
+  <text class="s" x="832" y="596" text-anchor="middle" style="fill:#7A5BA8;font-weight:700">요약만 도착</text>
+  <!-- 훅 -->
+  <g class="s" text-anchor="middle">
+    <text x="502" y="642">0</text><text x="667" y="642">0</text><text x="832" y="642">0</text>
+    <text x="997" y="642">0</text><text x="1162" y="642">0</text><text x="1327" y="642">0</text>
+  </g>
+
+  <text class="b" x="60" y="720">· 파란·주황 줄(CLAUDE.md, MCP)은 아무 일을 하지 않아도 매 턴 자리를 차지한다 → 가장 먼저 다이어트할 대상</text>
+  <text class="b" x="60" y="752">· 스킬 본문은 쓰기 전까지 비용이 거의 없고, 훅은 결과를 돌려주지 않는 한 비용이 0이다</text>
+  <text class="s" x="1440" y="784" text-anchor="end">※ 칸의 크기는 개념을 보여 주기 위한 예시다</text>
+</svg>

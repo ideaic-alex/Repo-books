@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4A5260"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3E8A5A"/></marker>
+  </defs>
+  <rect width="1500" height="720" fill="#FFFFFF"/>
+  <text class="t" x="750" y="60" text-anchor="middle">서브에이전트: 무거운 일은 바깥 책상에서, 결과만 돌려받는다</text>
+
+  <!-- 메인 세션 -->
+  <rect x="60" y="140" width="460" height="460" rx="16" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+  <text class="h" x="290" y="185" text-anchor="middle">메인 세션 (나와 대화하는 Claude)</text>
+  <text class="s" x="290" y="212" text-anchor="middle">컨텍스트 사용량</text>
+  <rect x="100" y="232" width="380" height="34" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <rect x="100" y="232" width="95" height="34" fill="#3B6EA8"/>
+  <text class="s" x="290" y="292" text-anchor="middle">지시를 내리고 요약을 모으는 데만 쓴다</text>
+  <text class="b" x="90" y="350">· 작업 나누기</text>
+  <text class="b" x="90" y="385">· 진행 상황 추적</text>
+  <text class="b" x="90" y="420">· 돌아온 요약 종합</text>
+  <rect x="90" y="455" width="400" height="120" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="290" y="490" text-anchor="middle" style="font-weight:700">실제 사례</text>
+  <text class="s" x="290" y="520" text-anchor="middle">서브에이전트 14개를 조율한 뒤에도</text>
+  <text class="s" x="290" y="546" text-anchor="middle">메인은 200,000 중 143,000 토큰(71%)</text>
+
+  <!-- 서브에이전트 3개 -->
+  <g>
+    <rect x="900" y="120" width="540" height="140" rx="14" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+    <text class="h" x="930" y="160">서브에이전트 A</text>
+    <text class="s" x="930" y="188">파일 50개 읽기 · 명령 20개 실행</text>
+    <rect x="930" y="206" width="480" height="30" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+    <rect x="930" y="206" width="420" height="30" fill="#3E8A5A"/>
+  </g>
+  <g>
+    <rect x="900" y="300" width="540" height="140" rx="14" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+    <text class="h" x="930" y="340">서브에이전트 B</text>
+    <text class="s" x="930" y="368">마이그레이션 작업 · 변경 커밋</text>
+    <rect x="930" y="386" width="480" height="30" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+    <rect x="930" y="386" width="380" height="30" fill="#3E8A5A"/>
+  </g>
+  <g>
+    <rect x="900" y="480" width="540" height="140" rx="14" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+    <text class="h" x="930" y="520">서브에이전트 C … (사례에선 14개)</text>
+    <text class="s" x="930" y="548">로그 분석 · 긴 출력 처리</text>
+    <rect x="930" y="566" width="480" height="30" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+    <rect x="930" y="566" width="440" height="30" fill="#3E8A5A"/>
+  </g>
+  <text class="s" x="1170" y="650" text-anchor="middle">각자 자기 컨텍스트 윈도를 가득 써도 메인에는 보이지 않는다</text>
+
+  <!-- 화살표: 지시 -->
+  <line x1="524" y1="250" x2="892" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="524" y1="370" x2="892" y2="360" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="524" y1="490" x2="892" y2="540" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <text class="b" x="700" y="200" text-anchor="middle">작업 지시 →</text>
+  <!-- 화살표: 요약 -->
+  <line x1="892" y1="230" x2="528" y2="300" stroke="#3E8A5A" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#g)"/>
+  <line x1="892" y1="410" x2="528" y2="420" stroke="#3E8A5A" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#g)"/>
+  <line x1="892" y1="590" x2="528" y2="540" stroke="#3E8A5A" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#g)"/>
+  <text class="b" x="700" y="610" text-anchor="middle" style="fill:#3E8A5A">← 짧은 요약만</text>
+
+  <text class="b" x="750" y="695" text-anchor="middle">돌려주는 요약이 길면 격리의 의미가 사라진다 — 꼭 필요한 결론만 돌려받도록 설계한다</text>
+</svg>

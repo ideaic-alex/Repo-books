@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:23px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4A5260"/></marker>
+  </defs>
+  <rect width="1500" height="560" fill="#FFFFFF"/>
+  <text class="t" x="750" y="60" text-anchor="middle">변하지 않는 규칙 + 지금의 상황 = 세션의 출발점</text>
+
+  <!-- CLAUDE.md -->
+  <rect x="60" y="110" width="560" height="170" rx="16" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="90" y="152">CLAUDE.md — 정적</text>
+  <text class="s" x="90" y="180">누군가 편집할 때만 바뀐다 · 매 요청마다 로딩</text>
+  <text class="b" x="90" y="220">· 빌드·테스트 명령, 코드 규칙</text>
+  <text class="b" x="90" y="254">· 아키텍처 결정과 그 이유</text>
+
+  <!-- SessionStart 훅 -->
+  <rect x="60" y="320" width="560" height="200" rx="16" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="90" y="362">SessionStart 훅 — 동적</text>
+  <text class="s" x="90" y="390">시작할 때 스크립트를 실행해 그 출력을 한 번만 주입</text>
+  <text class="b" x="90" y="430">· 지금 열려 있는 PR과 리뷰 코멘트</text>
+  <text class="b" x="90" y="464">· 내 브랜치가 갈라진 뒤 main에 들어온 커밋</text>
+  <text class="b" x="90" y="498">· 개발 / 스테이징 / 프로덕션 환경 정보</text>
+
+  <!-- 화살표 -->
+  <line x1="626" y1="195" x2="880" y2="290" stroke="#4A5260" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="626" y1="420" x2="880" y2="330" stroke="#4A5260" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 결과 -->
+  <rect x="890" y="200" width="550" height="220" rx="16" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2.5"/>
+  <text class="h" x="1165" y="250" text-anchor="middle">새 세션을 시작한 Claude</text>
+  <text class="b" x="1165" y="300" text-anchor="middle">"이 프로젝트의 규칙"도 알고</text>
+  <text class="b" x="1165" y="336" text-anchor="middle">"오늘 무엇이 바뀌었는지"도 안다</text>
+  <text class="s" x="1165" y="384" text-anchor="middle">출근한 직원이 업무 매뉴얼과 아침 브리핑을 함께 받는 것과 같다</text>
+</svg>

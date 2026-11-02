@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">컨텍스트 윈도는 크기가 정해진 작업 책상이다</text>
+
+  <!-- 구간 표시 -->
+  <path d="M62 205 V192 H472 V205" fill="none" stroke="#4A5260" stroke-width="2"/>
+  <text class="h" x="267" y="178" text-anchor="middle">늘 올려 두는 몫 (매 요청)</text>
+  <path d="M478 205 V192 H1022 V205" fill="none" stroke="#4A5260" stroke-width="2"/>
+  <text class="h" x="750" y="178" text-anchor="middle">작업할수록 늘어나는 몫</text>
+  <path d="M1028 205 V192 H1438 V205" fill="none" stroke="#4A5260" stroke-width="2"/>
+  <text class="h" x="1233" y="178" text-anchor="middle">실제 작업에 쓸 여유</text>
+
+  <!-- 막대 -->
+  <rect x="60" y="220" width="138" height="110" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="b" x="129" y="268" text-anchor="middle">시스템</text>
+  <text class="b" x="129" y="294" text-anchor="middle">프롬프트</text>
+  <rect x="198" y="220" width="110" height="110" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="253" y="281" text-anchor="middle" style="font-size:17px">CLAUDE.md</text>
+  <rect x="308" y="220" width="166" height="110" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="b" x="391" y="268" text-anchor="middle">MCP</text>
+  <text class="b" x="391" y="294" text-anchor="middle">도구 정의</text>
+  <rect x="474" y="220" width="552" height="110" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="b" x="750" y="268" text-anchor="middle">대화 기록 · 읽은 파일 내용 · 명령 실행 결과</text>
+  <text class="s" x="750" y="296" text-anchor="middle">한 턴 오갈 때마다 쌓인다</text>
+  <rect x="1026" y="220" width="414" height="110" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="b" x="1233" y="281" text-anchor="middle" style="fill:#6B7280">남은 공간</text>
+
+  <!-- 비유 상자 -->
+  <rect x="60" y="380" width="1380" height="190" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="90" y="422">책상에 비유하면</text>
+  <text class="b" x="90" y="462">· 책상(컨텍스트 윈도)은 넓지만 크기가 정해져 있다.</text>
+  <text class="b" x="90" y="496">· 늘 올려 두는 물건(CLAUDE.md, MCP 도구 목록)이 많을수록 지금 하는 일에 펼칠 자리가 줄어든다.</text>
+  <text class="b" x="90" y="530">· 책상이 거의 차면 오래된 서류를 요약본 한 장으로 바꿔 치운다. 이것이 '자동 압축'이다.</text>
+  <text class="b" x="90" y="560" style="fill:#666;font-size:17px">→ 컨텍스트 엔지니어링 = 이 책상에 무엇을 올리고, 무엇을 서랍에 넣고, 무엇을 남에게 맡길지 정하는 일</text>
+
+  <text class="s" x="1440" y="615" text-anchor="end">※ 막대의 비율은 이해를 돕기 위한 예시다</text>
+</svg>

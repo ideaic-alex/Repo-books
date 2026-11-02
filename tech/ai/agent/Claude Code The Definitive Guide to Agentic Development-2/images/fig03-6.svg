@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4A5260"/></marker>
+  </defs>
+  <rect width="1500" height="800" fill="#FFFFFF"/>
+  <text class="t" x="750" y="60" text-anchor="middle">컨텍스트가 차오를 때: 압축은 언제, 무엇을 남기나</text>
+
+  <!-- 게이지 -->
+  <rect x="60" y="150" width="1104" height="56" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <rect x="1164" y="150" width="207" height="56" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <rect x="1371" y="150" width="69" height="56" fill="#FBE9E4" stroke="#B5523B" stroke-width="2"/>
+  <text class="b" x="612" y="185" text-anchor="middle">여유 있게 작업하는 구간</text>
+  <g class="s" text-anchor="middle"><text x="60" y="232">0%</text><text x="1440" y="232">100%</text></g>
+  <!-- 80% 표지 -->
+  <line x1="1164" y1="118" x2="1164" y2="214" stroke="#B8862B" stroke-width="3"/>
+  <text class="h" x="1164" y="108" text-anchor="middle" style="fill:#8A6418">80% — 여기서 /compact 권장</text>
+  <!-- 95% 표지 -->
+  <line x1="1371" y1="206" x2="1371" y2="262" stroke="#B5523B" stroke-width="3"/>
+  <text class="h" x="1440" y="288" text-anchor="end" style="fill:#B5523B">약 95% — 자동 압축</text>
+
+  <!-- 압축 전 -->
+  <text class="h" x="300" y="350" text-anchor="middle">압축 전</text>
+  <rect x="100" y="370" width="400" height="60" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="b" x="300" y="407" text-anchor="middle">시스템 · CLAUDE.md</text>
+  <rect x="100" y="430" width="400" height="110" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="b" x="300" y="478" text-anchor="middle">20턴 전에 읽은 파일 내용</text>
+  <text class="b" x="300" y="508" text-anchor="middle">지난 명령 출력</text>
+  <rect x="100" y="540" width="400" height="90" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="b" x="300" y="580" text-anchor="middle">앞부분 대화 · 중간 추론</text>
+  <text class="s" x="300" y="606" text-anchor="middle">(초반에 정한 결정도 여기 묻혀 있다)</text>
+  <rect x="100" y="630" width="400" height="70" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="300" y="672" text-anchor="middle">최근 대화</text>
+
+  <!-- 화살표 -->
+  <line x1="530" y1="535" x2="680" y2="535" stroke="#4A5260" stroke-width="3" marker-end="url(#a)"/>
+  <text class="b" x="605" y="520" text-anchor="middle">압축</text>
+
+  <!-- 압축 후 -->
+  <text class="h" x="900" y="350" text-anchor="middle">압축 후</text>
+  <rect x="700" y="370" width="400" height="60" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="b" x="900" y="407" text-anchor="middle">시스템 · CLAUDE.md</text>
+  <rect x="700" y="430" width="400" height="70" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="b" x="900" y="472" text-anchor="middle">요약본 (세부는 사라짐)</text>
+  <rect x="700" y="500" width="400" height="200" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="b" x="900" y="608" text-anchor="middle" style="fill:#6B7280">다시 확보한 공간</text>
+
+  <!-- 살아남는 것 -->
+  <rect x="1150" y="370" width="290" height="330" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="1295" y="410" text-anchor="middle">압축을 견디는 것</text>
+  <text class="b" x="1172" y="452">① Compact</text>
+  <text class="b" x="1172" y="478">    Instructions 섹션</text>
+  <text class="s" x="1172" y="502">    명시적으로 보존</text>
+  <text class="b" x="1172" y="544">② /compact 초점 지시</text>
+  <text class="s" x="1172" y="568">    무엇을 살릴지 알려 줌</text>
+  <text class="b" x="1172" y="610">③ 디스크의 파일</text>
+  <text class="s" x="1172" y="634">    스펙 문서 등은 그대로</text>
+  <text class="s" x="1172" y="656">    남아 다시 읽으면 된다</text>
+
+  <text class="b" x="750" y="760" text-anchor="middle">95%까지 기다리기보다 80%쯤에서 직접 압축하면, 무엇을 남길지 내가 정할 수 있다</text>
+</svg>
