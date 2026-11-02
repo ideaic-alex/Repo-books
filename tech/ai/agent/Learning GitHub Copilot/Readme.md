@@ -2,7 +2,8 @@
 (Learning GitHub Copilot: 코딩 생산성을 몇 배로 키우는 방법)
 <br>
 
-<p align="center"><img src="images/cover.jpg" alt="Learning GitHub Copilot 표지" width="360"></p>
+<p align="center"><img src="images/cover-en.jpg" alt="Learning GitHub Copilot 표지 (원문 그대로)" width="300">&nbsp;&nbsp;&nbsp;<img src="images/cover.jpg" alt="Learning GitHub Copilot 표지 (한국어판)" width="300"></p>
+<p align="center">원문 표지(왼쪽) · 한국어 표지(오른쪽)</p>
 <br>
 <br>
 
