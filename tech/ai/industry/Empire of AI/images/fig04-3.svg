@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:15px;fill:#666}
+  </style>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="700" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="56" text-anchor="middle">해임 결정에서 복귀까지</text>
+  <text class="h" x="60" y="112" text-anchor="start">1. 결정까지 (독립 이사 3인)</text>
+  <rect x="60" y="130" width="290" height="110" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="205.0" y="164" text-anchor="middle">10월 31일</text>
+  <text class="b" x="205.0" y="190" text-anchor="middle">3인이 거의 매일</text>
+  <text class="b" x="205.0" y="216" text-anchor="middle">화상회의 시작</text>
+  <line x1="350" y1="185" x2="410" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="410" y="130" width="290" height="110" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="555.0" y="164" text-anchor="middle">11월 9일</text>
+  <text class="b" x="555.0" y="190" text-anchor="middle">수츠케버가 맥콜리에게</text>
+  <text class="b" x="555.0" y="216" text-anchor="middle">재확인, 또 거짓말</text>
+  <line x1="700" y1="185" x2="760" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="760" y="130" width="290" height="110" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="905.0" y="164" text-anchor="middle">11월 11일</text>
+  <text class="b" x="905.0" y="190" text-anchor="middle">해임과 무라티 임시</text>
+  <text class="b" x="905.0" y="216" text-anchor="middle">CEO 방안을 확정</text>
+  <line x1="1050" y1="185" x2="1110" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1110" y="130" width="290" height="110" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="1255.0" y="164" text-anchor="middle">11월 16일 밤</text>
+  <text class="b" x="1255.0" y="190" text-anchor="middle">무라티에게 통보,</text>
+  <text class="b" x="1255.0" y="216" text-anchor="middle">동의를 받음</text>
+  <text class="h" x="60" y="292" text-anchor="start">2. 5일간의 위기</text>
+  <rect x="60" y="310" width="320" height="190" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="220.0" y="371" text-anchor="middle">금요일 11월 17일</text>
+  <text class="b" x="220.0" y="397" text-anchor="middle">해임 발표, 경영진 반발</text>
+  <text class="b" x="220.0" y="423" text-anchor="middle">"수츠케버의 쿠데타"</text>
+  <text class="b" x="220.0" y="449" text-anchor="middle">브록먼 등 연쇄 사임</text>
+  <line x1="380" y1="405" x2="410" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="410" y="310" width="320" height="190" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="570.0" y="371" text-anchor="middle">토·일</text>
+  <text class="b" x="570.0" y="397" text-anchor="middle">임시 CEO 물색</text>
+  <text class="b" x="570.0" y="423" text-anchor="middle">시어가 수락했다 이탈</text>
+  <text class="b" x="570.0" y="449" text-anchor="middle">일요일 밤 MS가 올트먼 영입</text>
+  <line x1="730" y1="405" x2="760" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="760" y="310" width="320" height="190" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="920.0" y="371" text-anchor="middle">월요일</text>
+  <text class="b" x="920.0" y="397" text-anchor="middle">직원 공개서한</text>
+  <text class="b" x="920.0" y="423" text-anchor="middle">무라티가 첫 서명</text>
+  <text class="b" x="920.0" y="449" text-anchor="middle">수츠케버도 서명</text>
+  <line x1="1080" y1="405" x2="1110" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1110" y="310" width="320" height="190" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1270.0" y="371" text-anchor="middle">화요일</text>
+  <text class="b" x="1270.0" y="397" text-anchor="middle">머스크가 편지 공유</text>
+  <text class="b" x="1270.0" y="423" text-anchor="middle">이사회 합의 타결</text>
+  <text class="b" x="1270.0" y="449" text-anchor="middle">올트먼 복귀 발표</text>
+  <text class="h" x="750" y="560" text-anchor="middle">이사들이 남긴 것: 이사 1명 유지, 새 독립 이사 2명, 올트먼 조사 수용</text>
+  <text class="b" x="750" y="600" text-anchor="middle">2024년 3월 8일 새 이사회의 조사가 끝났고, 올트먼과 브록먼에 대한 신임이 선언됐다</text>
+</svg>

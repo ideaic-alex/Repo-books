@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">닷새간의 소동 (2023년 11월 17일부터 21일)</text>
+  <line x1="60" y1="160" x2="1440" y2="160" stroke="#4A5260" stroke-width="3"/>
+  <circle cx="190" cy="160" r="12" fill="#B04A4A"/>
+  <circle cx="470" cy="160" r="12" fill="#B8862B"/>
+  <circle cx="750" cy="160" r="12" fill="#3B6EA8"/>
+  <circle cx="1030" cy="160" r="12" fill="#3B6EA8"/>
+  <circle cx="1310" cy="160" r="12" fill="#3E8E5B"/>
+  <text class="h" x="190" y="125" text-anchor="middle">금 17일</text>
+  <text class="h" x="470" y="125" text-anchor="middle">토 18일</text>
+  <text class="h" x="750" y="125" text-anchor="middle">일 19일</text>
+  <text class="h" x="1030" y="125" text-anchor="middle">월 20일</text>
+  <text class="h" x="1310" y="125" text-anchor="middle">화 21일</text>
+  <rect x="60" y="205" width="260" height="290" fill="#F6E7E7" stroke="#B04A4A" stroke-width="2"/>
+  <text class="b" x="190" y="245" text-anchor="middle">이사회가 Altman</text>
+  <text class="b" x="190" y="273" text-anchor="middle">해임 통보</text>
+  <text class="b" x="190" y="320" text-anchor="middle">Murati 임시 CEO</text>
+  <text class="b" x="190" y="365" text-anchor="middle">전 직원 회의에서</text>
+  <text class="b" x="190" y="393" text-anchor="middle">사유 설명 없음</text>
+  <text class="b" x="190" y="440" text-anchor="middle">Brockman 항의 퇴사</text>
+  <rect x="340" y="205" width="260" height="290" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="b" x="470" y="245" text-anchor="middle">임원진이 복귀와</text>
+  <text class="b" x="470" y="273" text-anchor="middle">이사회 사퇴 요구</text>
+  <text class="b" x="470" y="320" text-anchor="middle">오후 5시 기한</text>
+  <text class="b" x="470" y="350" text-anchor="middle">이사회는 거부</text>
+  <text class="b" x="470" y="395" text-anchor="middle">Murati도 임시 CEO</text>
+  <text class="b" x="470" y="423" text-anchor="middle">계속을 거부</text>
+  <rect x="620" y="205" width="260" height="290" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="750" y="245" text-anchor="middle">Shear를 새 임시</text>
+  <text class="b" x="750" y="273" text-anchor="middle">CEO로 발표</text>
+  <text class="b" x="750" y="320" text-anchor="middle">직원 약 200명</text>
+  <text class="b" x="750" y="348" text-anchor="middle">연설 보이콧</text>
+  <text class="b" x="750" y="395" text-anchor="middle">Nadella가 Altman</text>
+  <text class="b" x="750" y="423" text-anchor="middle">영입을 발표</text>
+  <rect x="900" y="205" width="260" height="290" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="1030" y="245" text-anchor="middle">공개서한 서명</text>
+  <text class="b" x="1030" y="273" text-anchor="middle">700명 넘게</text>
+  <text class="b" x="1030" y="320" text-anchor="middle">Sutskever도 서명</text>
+  <text class="b" x="1030" y="348" text-anchor="middle">후회를 공개 표명</text>
+  <text class="b" x="1030" y="395" text-anchor="middle">직원 전체 770명 중</text>
+  <text class="b" x="1030" y="423" text-anchor="middle">대다수가 동참</text>
+  <rect x="1180" y="205" width="260" height="290" fill="#E6F3EA" stroke="#3E8E5B" stroke-width="2"/>
+  <text class="b" x="1310" y="245" text-anchor="middle">Altman 복귀 합의</text>
+  <text class="b" x="1310" y="290" text-anchor="middle">새 이사회</text>
+  <text class="b" x="1310" y="318" text-anchor="middle">D'Angelo 잔류</text>
+  <text class="b" x="1310" y="346" text-anchor="middle">Taylor, Summers 합류</text>
+  <text class="b" x="1310" y="393" text-anchor="middle">Altman은 조사 수용</text>
+  <text class="b" x="1310" y="440" text-anchor="middle">사무실 축제</text>
+  <text class="s" x="750" y="560" text-anchor="middle">출처: 『Empire of AI』 프롤로그를 바탕으로 정리</text>
+</svg>

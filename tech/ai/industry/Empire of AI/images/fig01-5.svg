@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">"먼저 도달하지 못하면 사라진다"는 전제의 연쇄</text>
+<rect x="90" y="130" width="520" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="350.0" y="182.4" text-anchor="middle">1. 선두를 놓치면 사명을</text>
+<text class="b" x="350.0" y="210.9" text-anchor="middle">실현할 수단도 잃는다는 믿음</text>
+<rect x="890" y="130" width="520" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1150.0" y="182.4" text-anchor="middle">2. 성장 곡선(오픈AI의 법칙)을</text>
+<text class="b" x="1150.0" y="210.9" text-anchor="middle">계속 따라가야 한다</text>
+<rect x="890" y="400" width="520" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1150.0" y="452.4" text-anchor="middle">3. 컴퓨트와 데이터를</text>
+<text class="b" x="1150.0" y="480.9" text-anchor="middle">막대하게 소비한다</text>
+<rect x="90" y="400" width="520" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="350.0" y="452.4" text-anchor="middle">4. 막대한 자금이 필요하다</text>
+<text class="b" x="350.0" y="480.9" text-anchor="middle">LP 구조, 마이크로소프트 투자</text>
+<line x1="612" y1="190" x2="888" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1150" y1="252" x2="1150" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="888" y1="460" x2="612" y2="460" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="350" y1="398" x2="350" y2="252" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="520" y="290" width="460" height="100" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.0" y="332.4" text-anchor="middle">저자의 해석</text>
+<text class="b" x="750.0" y="360.9" text-anchor="middle">이 전제가 모든 행동을 정당화했다</text>
+<text class="s" x="750" y="580" text-anchor="middle">저자는 환경 비용과 동의 없는 데이터 수집도 이 전제 위에서 설명된다고 본다.</text>
+</svg>

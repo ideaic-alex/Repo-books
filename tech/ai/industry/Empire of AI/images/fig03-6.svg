@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">데이터센터에 맞선 두 사례: 칠레와 우루과이</text>
+
+  <text class="h" x="110" y="205" text-anchor="middle">칠레</text>
+  <text class="s" x="110" y="232" text-anchor="middle">세리요스</text>
+
+  <rect x="210" y="110" width="360" height="190" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="390" y="150" text-anchor="middle">2019년 7월, 구글 환경 서류</text>
+  <text class="b" x="390" y="182" text-anchor="middle">347쪽에 숨은 수치</text>
+  <text class="b" x="390" y="214" text-anchor="middle">식수급 물 초당 169리터</text>
+  <text class="b" x="390" y="246" text-anchor="middle">MOSACAT이 전부 읽어 냄</text>
+
+  <rect x="620" y="110" width="360" height="190" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="b" x="800" y="150" text-anchor="middle">주민 설명회와 항의,</text>
+  <text class="b" x="800" y="182" text-anchor="middle">주민투표에 질문 추가</text>
+  <text class="b" x="800" y="214" text-anchor="middle">2019년 12월 근소한 차로</text>
+  <text class="b" x="800" y="246" text-anchor="middle">건설 반대가 이김</text>
+
+  <rect x="1030" y="110" width="360" height="190" rx="12" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="b" x="1210" y="150" text-anchor="middle">2024년 환경법원 판결</text>
+  <text class="b" x="1210" y="182" text-anchor="middle">물을 쓰는 데이터센터는</text>
+  <text class="b" x="1210" y="214" text-anchor="middle">산티아고에 지을 수 없음</text>
+  <text class="b" x="1210" y="246" text-anchor="middle">구글은 공랭식으로 재추진</text>
+
+  <path d="M570 205 L620 205 M980 205 L1030 205" stroke="#4A5260" stroke-width="3" fill="none"/>
+
+  <text class="h" x="110" y="445" text-anchor="middle">우루과이</text>
+  <text class="s" x="110" y="472" text-anchor="middle">몬테비데오 인근</text>
+
+  <rect x="210" y="350" width="360" height="190" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="390" y="390" text-anchor="middle">극심한 가뭄 속에 구글이</text>
+  <text class="b" x="390" y="422" text-anchor="middle">자유무역지대 부지 구입</text>
+  <text class="b" x="390" y="454" text-anchor="middle">환경부는 물 사용량을</text>
+  <text class="b" x="390" y="486" text-anchor="middle">'기밀'이라며 공개 거부</text>
+
+  <rect x="620" y="350" width="360" height="190" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="b" x="800" y="390" text-anchor="middle">대니얼 페냐가 헌법의</text>
+  <text class="b" x="800" y="422" text-anchor="middle">물 권리 조항으로 소송</text>
+  <text class="b" x="800" y="454" text-anchor="middle">2023년 3월 승소, 하루</text>
+  <text class="b" x="800" y="486" text-anchor="middle">약 200만 갤런 계획 공개</text>
+
+  <rect x="1030" y="350" width="360" height="190" rx="12" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="b" x="1210" y="390" text-anchor="middle">시민 수천 명이 거리 시위</text>
+  <text class="b" x="1210" y="422" text-anchor="middle">2023년 말 구글이 계획을</text>
+  <text class="b" x="1210" y="454" text-anchor="middle">무수 냉각, 규모 3분의 1로</text>
+  <text class="b" x="1210" y="486" text-anchor="middle">조용히 수정</text>
+
+  <path d="M570 445 L620 445 M980 445 L1030 445" stroke="#4A5260" stroke-width="3" fill="none"/>
+
+  <text class="s" x="750" y="595" text-anchor="middle">※ 두 사례 모두 주민이 서류를 직접 읽고 법과 투표라는 수단으로 정보 공개를 끌어냈다는 점이 같다</text>
+</svg>

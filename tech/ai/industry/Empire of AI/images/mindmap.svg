@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="620" fill="#FFFFFF"/>
+  <text class="t" x="750" y="58" text-anchor="middle">Empire of AI 학습 노트 한눈에 보기</text>
+  <rect x="560" y="90" width="380" height="64" rx="12" fill="#2B2F36"/>
+  <text class="h" x="750" y="130" text-anchor="middle" style="fill:#FFFFFF">Empire of AI (Karen Hao)</text>
+  <path d="M750 154 V180 H136 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="24" y="204" width="224" height="48" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="136" y="236" text-anchor="middle">저자의 말·프롤로그</text>
+  <rect x="24" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="136" y="301" text-anchor="middle">저자의 말</text>
+  <rect x="24" y="330" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="136" y="359" text-anchor="middle" style="font-size:15px">프롤로그 왕좌를 향한 질주</text>
+  <path d="M750 154 V180 H372 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="260" y="204" width="224" height="48" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="372" y="236" text-anchor="middle">1부</text>
+  <rect x="260" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="372" y="301" text-anchor="middle">1장 신의 권리</text>
+  <rect x="260" y="330" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="372" y="359" text-anchor="middle">2장 문명화 사명</text>
+  <rect x="260" y="388" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="372" y="417" text-anchor="middle">3장 신경 중추</text>
+  <rect x="260" y="446" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="372" y="475" text-anchor="middle">4장 근대성의 꿈</text>
+  <rect x="260" y="504" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="372" y="533" text-anchor="middle">5장 야망의 규모</text>
+  <path d="M750 154 V180 H608 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="496" y="204" width="224" height="48" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="608" y="236" text-anchor="middle">2부</text>
+  <rect x="496" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="608" y="301" text-anchor="middle">6장 승천</text>
+  <rect x="496" y="330" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="608" y="359" text-anchor="middle">7장 갇힌 과학</text>
+  <rect x="496" y="388" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="608" y="417" text-anchor="middle">8장 상업의 새벽</text>
+  <rect x="496" y="446" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="608" y="475" text-anchor="middle">9장 재난 자본주의</text>
+  <path d="M750 154 V180 H844 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="732" y="204" width="224" height="48" rx="10" fill="#F3E8F7" stroke="#8A5AA8" stroke-width="2"/>
+  <text class="h" x="844" y="236" text-anchor="middle">3부</text>
+  <rect x="732" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="844" y="301" text-anchor="middle">10장 신과 악마</text>
+  <rect x="732" y="330" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="844" y="359" text-anchor="middle">11장 정점</text>
+  <rect x="732" y="388" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="844" y="417" text-anchor="middle">12장 약탈당한 지구</text>
+  <rect x="732" y="446" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="844" y="475" text-anchor="middle">13장 두 예언자</text>
+  <rect x="732" y="504" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="844" y="533" text-anchor="middle">14장 구원</text>
+  <path d="M750 154 V180 H1080 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="968" y="204" width="224" height="48" rx="10" fill="#FBE8E8" stroke="#B85A5A" stroke-width="2"/>
+  <text class="h" x="1080" y="236" text-anchor="middle">4부</text>
+  <rect x="968" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1080" y="301" text-anchor="middle">15장 도박수</text>
+  <rect x="968" y="330" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1080" y="359" text-anchor="middle">16장 첩보전</text>
+  <rect x="968" y="388" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1080" y="417" text-anchor="middle">17장 청산</text>
+  <rect x="968" y="446" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1080" y="475" text-anchor="middle">18장 제국의 공식</text>
+  <path d="M750 154 V180 H1316 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1204" y="204" width="224" height="48" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1316" y="236" text-anchor="middle">에필로그</text>
+  <rect x="1204" y="272" width="224" height="46" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text class="b" x="1316" y="301" text-anchor="middle" style="font-size:15px">제국은 어떻게 무너지는가</text>
+  <text class="s" x="750" y="592" text-anchor="middle">※ 장 제목은 원서 목차를 우리말로 옮긴 것이다. 각 장은 이 노트가 내용을 풀어 정리한 문서로 연결된다.</text>
+</svg>

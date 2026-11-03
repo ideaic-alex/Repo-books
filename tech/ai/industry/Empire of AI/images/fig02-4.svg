@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="820" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">8장: 2021년 로드맵의 자기강화 고리와 Codex 협업 구도</text>
+  <text class="s" x="750" y="100" text-anchor="middle">2021년 연구 로드맵: 세 갈래 노력이 제품과 데이터의 순환으로 이어진다</text>
+  <rect x="40" y="125" width="420" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="250.0" y="180.48" text-anchor="middle">1. 규모 확대</text>
+  <text class="b" x="250.0" y="209.44" text-anchor="middle">MS 슈퍼컴퓨터(엔비디아 A100</text>
+  <text class="b" x="250.0" y="236.44" text-anchor="middle">1만 8천 장)로 GPT-3를 10배 키움</text>
+  <rect x="540" y="125" width="420" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="750.0" y="180.48" text-anchor="middle">2. 컴퓨트 효율</text>
+  <text class="b" x="750.0" y="209.44" text-anchor="middle">같은 칩에서 뽑는 성능을</text>
+  <text class="b" x="750.0" y="236.44" text-anchor="middle">25배 높이는 연구</text>
+  <rect x="1040" y="125" width="420" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1250.0" y="180.48" text-anchor="middle">3. 데이터의 양과 질</text>
+  <text class="b" x="1250.0" y="209.44" text-anchor="middle">사용자 데이터 활용, RLHF로</text>
+  <text class="b" x="1250.0" y="236.44" text-anchor="middle">좋은 데이터 쪽으로 모델을 조정</text>
+  <rect x="40" y="340" width="420" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="250.0" y="375.48" text-anchor="middle">제품화</text>
+  <text class="b" x="250.0" y="404.44" text-anchor="middle">언어, 코드, 이미지 모델을</text>
+  <text class="b" x="250.0" y="431.44" text-anchor="middle">크게 키우고 제품으로 출시</text>
+  <rect x="540" y="340" width="420" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="750.0" y="375.48" text-anchor="middle">사용자 상호작용</text>
+  <text class="b" x="750.0" y="404.44" text-anchor="middle">사용자의 반응이 새 데이터가 된다</text>
+  <text class="b" x="750.0" y="431.44" text-anchor="middle">(로드맵의 표현: 데이터 플라이휠)</text>
+  <rect x="1040" y="340" width="420" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1250.0" y="375.48" text-anchor="middle">다시 규모 확대로</text>
+  <text class="b" x="1250.0" y="404.44" text-anchor="middle">더 나은 모델, 더 많은 사용자</text>
+  <text class="b" x="1250.0" y="431.44" text-anchor="middle">더 많은 매출과 컴퓨트</text>
+  <line x1="250" y1="275" x2="250" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="750" y1="275" x2="750" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="1250" y1="275" x2="1250" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="460" y1="395" x2="538" y2="395" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="960" y1="395" x2="1038" y2="395" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="750" y="500" text-anchor="middle">코드 생성 모델 Codex를 둘러싼 세 주체</text>
+  <rect x="60" y="530" width="400" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="260.0" y="585.48" text-anchor="middle">OpenAI</text>
+  <text class="b" x="260.0" y="614.44" text-anchor="middle">Codex 개발</text>
+  <text class="b" x="260.0" y="641.44" text-anchor="middle">(Zaremba가 중심)</text>
+  <rect x="550" y="530" width="400" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="750.0" y="585.48" text-anchor="middle">Microsoft</text>
+  <text class="b" x="750.0" y="614.44" text-anchor="middle">GitHub를 소유</text>
+  <text class="b" x="750.0" y="641.44" text-anchor="middle">CTO 케빈 스콧이 제품화 주도</text>
+  <rect x="1040" y="530" width="400" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1240.0" y="585.48" text-anchor="middle">출시 방식 타협</text>
+  <text class="b" x="1240.0" y="614.44" text-anchor="middle">Copilot 출시(2021.6)</text>
+  <text class="b" x="1240.0" y="641.44" text-anchor="middle">Codex는 API로 출시(2021.8)</text>
+  <line x1="460" y1="605" x2="548" y2="605" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="950" y1="605" x2="1038" y2="605" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="60" y="710" width="1380" height="80" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="750.0" y="755.94" text-anchor="middle">OpenAI는 성과의 공이 MS와 GitHub로 돌아가는 것을 아쉬워했고, 자체 소비자 제품의 필요성을 느끼게 된다</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:15px;fill:#666}
+  </style>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="780" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="56" text-anchor="middle">제국의 공식: 사명이 힘을 모으는 세 가지 방식</text>
+  <rect x="60" y="100" width="430" height="130" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="275.0" y="144" text-anchor="middle">1. 인재를 모은다</text>
+  <text class="b" x="275.0" y="170" text-anchor="middle">큰 야망 아래 사람을</text>
+  <text class="b" x="275.0" y="196" text-anchor="middle">결집시킨다</text>
+  <rect x="545" y="100" width="430" height="130" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="760.0" y="144" text-anchor="middle">2. 자본과 자원을 모은다</text>
+  <text class="b" x="760.0" y="170" text-anchor="middle">규제와 반대를 줄이고</text>
+  <text class="b" x="760.0" y="196" text-anchor="middle">"경쟁자가 더 위험하다"고 주장</text>
+  <rect x="1030" y="100" width="430" height="130" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="1245.0" y="144" text-anchor="middle">3. 뜻을 늘 다시 해석한다</text>
+  <text class="b" x="1245.0" y="170" text-anchor="middle">무엇이 이로운가?</text>
+  <text class="b" x="1245.0" y="196" text-anchor="middle">AGI란 무엇인가?</text>
+  <text class="h" x="750" y="270" text-anchor="middle">이 모든 것이 올트먼 중심의 권력 구조로 모인다</text>
+  <text class="h" x="60" y="330" text-anchor="start">"사명"의 뜻이 바뀐 과정 (책이 인용한 시점별 표현)</text>
+  <rect x="60" y="360" width="215" height="150" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="167.5" y="414" text-anchor="middle">2015</text>
+  <text class="b" x="167.5" y="440" text-anchor="middle">비영리,</text>
+  <text class="b" x="167.5" y="466" text-anchor="middle">연구 공개</text>
+  <line x1="275" y1="435" x2="292" y2="435" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="292" y="360" width="215" height="150" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="399.5" y="414" text-anchor="middle">2016</text>
+  <text class="b" x="399.5" y="440" text-anchor="middle">혜택은 나누되</text>
+  <text class="b" x="399.5" y="466" text-anchor="middle">과학은 안 나눠도 됨</text>
+  <line x1="507" y1="435" x2="524" y2="435" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="524" y="360" width="215" height="150" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="631.5" y="414" text-anchor="middle">2018-19</text>
+  <text class="b" x="631.5" y="440" text-anchor="middle">상한 이익 구조로</text>
+  <text class="b" x="631.5" y="466" text-anchor="middle">자원 확보</text>
+  <line x1="739" y1="435" x2="756" y2="435" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="756" y="360" width="215" height="150" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="863.5" y="414" text-anchor="middle">2020</text>
+  <text class="b" x="863.5" y="440" text-anchor="middle">모델은 비공개,</text>
+  <text class="b" x="863.5" y="466" text-anchor="middle">API로 혜택 공유</text>
+  <line x1="971" y1="435" x2="988" y2="435" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="988" y="360" width="215" height="150" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1095.5" y="414" text-anchor="middle">2022</text>
+  <text class="b" x="1095.5" y="440" text-anchor="middle">반복 배포,</text>
+  <text class="b" x="1095.5" y="466" text-anchor="middle">최대한 빨리 출시</text>
+  <line x1="1203" y1="435" x2="1220" y2="435" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1220" y="360" width="215" height="150" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1327.5" y="414" text-anchor="middle">2024</text>
+  <text class="b" x="1327.5" y="440" text-anchor="middle">강력한 AI 도구를</text>
+  <text class="b" x="1327.5" y="466" text-anchor="middle">널리 보급</text>
+  <rect x="60" y="560" width="1380" height="150" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="750.0" y="614" text-anchor="middle">같은 말, 달라진 쓰임</text>
+  <text class="b" x="750.0" y="640" text-anchor="middle">2024년 5월 전사 회의: "AGI 시대에 들어선다고 가정하겠다"며 더 폐쇄적으로, 동시에 상업화는 계속</text>
+  <text class="b" x="750.0" y="666" text-anchor="middle">마이크로소프트 계약의 "충분한 AGI" 조항도 "연속적인 것"으로 다시 해석 / 비영리 이사회 통제 해체 검토</text>
+</svg>

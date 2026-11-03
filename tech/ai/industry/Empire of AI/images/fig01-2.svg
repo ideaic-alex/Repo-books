@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">샘 올트먼을 만든 관계망</text>
+<rect x="570" y="250" width="360" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="283.1" text-anchor="middle">샘 올트먼</text>
+<text class="b" x="750.0" y="311.6" text-anchor="middle">1985년생, 스탠퍼드 중퇴</text>
+<text class="b" x="750.0" y="340.1" text-anchor="middle">Loopt 창업 → YC 사장 → 오픈AI</text>
+<rect x="60" y="130" width="380" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="250.0" y="168.2" text-anchor="middle">폴 그레이엄 (멘토)</text>
+<text class="b" x="250.0" y="196.7" text-anchor="middle">Y Combinator 창업자</text>
+<text class="b" x="250.0" y="225.2" text-anchor="middle">2014년 올트먼을 후임으로 지명</text>
+<rect x="60" y="380" width="380" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="250.0" y="418.1" text-anchor="middle">피터 틸 (멘토)</text>
+<text class="b" x="250.0" y="446.6" text-anchor="middle">PayPal·Palantir 창업자</text>
+<text class="b" x="250.0" y="475.1" text-anchor="middle">Hydrazine 자금 대부분 출자</text>
+<rect x="1060" y="130" width="380" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1250.0" y="168.2" text-anchor="middle">Y Combinator</text>
+<text class="b" x="1250.0" y="196.7" text-anchor="middle">스타트업 육성 기관</text>
+<text class="b" x="1250.0" y="225.2" text-anchor="middle">올트먼의 "플랫폼이자 가속기"</text>
+<rect x="1060" y="380" width="380" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1250.0" y="418.1" text-anchor="middle">Hydrazine, 소액 다수 투자</text>
+<text class="b" x="1250.0" y="446.6" text-anchor="middle">400곳 넘는 회사와 금전 관계</text>
+<text class="b" x="1250.0" y="475.1" text-anchor="middle">(2024년 WSJ 추산)</text>
+<line x1="442" y1="190" x2="568" y2="275" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="442" y1="440" x2="568" y2="335" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="932" y1="275" x2="1058" y2="200" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="932" y1="335" x2="1058" y2="430" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="750" y="560" text-anchor="middle">멘토에게서 배운 것: 성장 우선, 독점 지향, 인맥과 자금을 엮는 방식</text>
+<text class="s" x="750" y="596" text-anchor="middle">책은 이 관계망이 올트먼의 힘이자, 사익 추구와 진실 왜곡이라는 비판의 배경이었다고 서술한다.</text>
+</svg>

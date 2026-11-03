@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1600" height="400" fill="#FFFFFF"/>
+  <text class="t" x="800" y="62" text-anchor="middle">애니 올트먼 이야기의 시간 흐름 (14장, 책의 서술 기준)</text>
+  <rect x="50" y="150" width="195" height="160" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="147" y="195" text-anchor="middle">2018.5</text>
+  <text class="b" x="147" y="235" text-anchor="middle">아버지 사망</text>
+  <text class="s" x="147" y="270" text-anchor="middle">가장 가까운 지지자</text>
+  <line x1="248" y1="230" x2="262" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="265" y="150" width="195" height="160" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="362" y="195" text-anchor="middle">2019.5</text>
+  <text class="b" x="362" y="235" text-anchor="middle">상속 갈등</text>
+  <text class="s" x="362" y="270" text-anchor="middle">401(k)를 두고 이견</text>
+  <line x1="463" y1="230" x2="477" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="480" y="150" width="195" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="577" y="195" text-anchor="middle">2019.12</text>
+  <text class="b" x="577" y="235" text-anchor="middle">계좌 마이너스</text>
+  <text class="s" x="577" y="270" text-anchor="middle">생활고 심화</text>
+  <line x1="678" y1="230" x2="692" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="695" y="150" width="195" height="160" rx="10" fill="#F6E6E6" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="792" y="195" text-anchor="middle">2020.5</text>
+  <text class="b" x="792" y="235" text-anchor="middle">연락 단절</text>
+  <text class="s" x="792" y="270" text-anchor="middle">치료비 요청 거절</text>
+  <line x1="893" y1="230" x2="907" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="910" y="150" width="195" height="160" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="1007" y="195" text-anchor="middle">2021.11</text>
+  <text class="b" x="1007" y="235" text-anchor="middle">첫 공개 주장</text>
+  <text class="s" x="1007" y="270" text-anchor="middle">반응 거의 없음</text>
+  <line x1="1108" y1="230" x2="1122" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="1125" y="150" width="195" height="160" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1222" y="195" text-anchor="middle">2023.9</text>
+  <text class="b" x="1222" y="235" text-anchor="middle">뉴욕 매거진 기사</text>
+  <text class="s" x="1222" y="270" text-anchor="middle">사전에 사과 메일</text>
+  <line x1="1323" y1="230" x2="1337" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="1340" y="150" width="195" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1437" y="195" text-anchor="middle">2025.1</text>
+  <text class="b" x="1437" y="235" text-anchor="middle">소송 제기</text>
+  <text class="s" x="1437" y="270" text-anchor="middle">가족은 강하게 부인</text>
+  <text class="s" x="800" y="360" text-anchor="middle">학대 주장은 가족이 부인하며, 저자도 어린 시절 주장은 알 수 없다고 밝힌다</text>
+</svg>

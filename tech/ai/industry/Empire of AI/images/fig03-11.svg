@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="580" viewBox="0 0 1560 580">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1560" height="580" fill="#FFFFFF"/>
+  <text class="t" x="780" y="62" text-anchor="middle">계산량 기준이 정책이 되기까지 (13장)</text>
+  <rect x="60" y="110" width="220" height="160" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="170" y="155" text-anchor="middle">2022.10</text>
+  <text class="b" x="170" y="195" text-anchor="middle">AI 칩 수출통제</text>
+  <text class="s" x="170" y="230" text-anchor="middle">미 상무부, 대중국</text>
+  <line x1="283" y1="190" x2="301" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="304" y="110" width="220" height="160" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="414" y="155" text-anchor="middle">2023.5</text>
+  <text class="b" x="414" y="195" text-anchor="middle">상원 청문회</text>
+  <text class="s" x="414" y="230" text-anchor="middle">허가제·감사 제안</text>
+  <line x1="527" y1="190" x2="545" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="548" y="110" width="220" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="658" y="155" text-anchor="middle">2023.7</text>
+  <text class="b" x="658" y="195" text-anchor="middle">프런티어 백서</text>
+  <text class="s" x="658" y="230" text-anchor="middle">기준 10의 26제곱</text>
+  <line x1="771" y1="190" x2="789" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="792" y="110" width="220" height="160" rx="10" fill="#F6E6E6" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="902" y="155" text-anchor="middle">2023.10</text>
+  <text class="b" x="902" y="195" text-anchor="middle">미국 행정명령</text>
+  <text class="s" x="902" y="230" text-anchor="middle">보고 기준으로 채택</text>
+  <line x1="1015" y1="190" x2="1033" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="1036" y="110" width="220" height="160" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="1146" y="155" text-anchor="middle">2023 말</text>
+  <text class="b" x="1146" y="195" text-anchor="middle">EU AI법</text>
+  <text class="s" x="1146" y="230" text-anchor="middle">기준 10의 25제곱</text>
+  <line x1="1259" y1="190" x2="1277" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="1280" y="110" width="220" height="160" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1390" y="155" text-anchor="middle">2024 초</text>
+  <text class="b" x="1390" y="195" text-anchor="middle">SB 1047 법안</text>
+  <text class="s" x="1390" y="230" text-anchor="middle">10의 26제곱, 거부됨</text>
+  <rect x="60" y="360" width="700" height="130" rx="10" fill="#F6E6E6" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="410" y="398" text-anchor="middle">닫힌 쪽 (Closed)</text>
+  <text class="b" x="410" y="431" text-anchor="middle">프런티어 모델 포럼 참가자, 비관론자 공동체</text>
+  <text class="b" x="410" y="460" text-anchor="middle">미국 안보·정보 기관 / 가중치 공개 제한 주장</text>
+  <rect x="800" y="360" width="700" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1150" y="398" text-anchor="middle">열린 쪽 (Open)</text>
+  <text class="b" x="1150" y="431" text-anchor="middle">메타, 오픈소스 개발자, 스타트업</text>
+  <text class="b" x="1150" y="460" text-anchor="middle">시민단체, 독립 학자 / 공개와 협력이 안전과 혁신의 기반</text>
+  <text class="s" x="780" y="545" text-anchor="middle">상무부의 모델 가중치 수출통제 검토가 AI 진영을 둘로 갈랐다</text>
+</svg>

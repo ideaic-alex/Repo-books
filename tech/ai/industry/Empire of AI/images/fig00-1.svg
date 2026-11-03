@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="520" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">저자의 말 한눈에 보기</text>
+  <rect x="40" y="110" width="330" height="300" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="205" y="152" text-anchor="middle">1. 취재 규모</text>
+  <text class="b" x="205" y="205" text-anchor="middle">인터뷰 300건 이상</text>
+  <text class="b" x="205" y="240" text-anchor="middle">약 260명</text>
+  <text class="b" x="205" y="290" text-anchor="middle">OpenAI 관련 150건 이상</text>
+  <text class="b" x="205" y="325" text-anchor="middle">타사·주변인 약 40명</text>
+  <rect x="390" y="110" width="330" height="300" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="555" y="152" text-anchor="middle">2. 검증 규칙</text>
+  <text class="b" x="555" y="205" text-anchor="middle">인용문은 사본이나</text>
+  <text class="b" x="555" y="235" text-anchor="middle">소송 서류에서만</text>
+  <text class="b" x="555" y="285" text-anchor="middle">장면과 숫자는 두 사람</text>
+  <text class="b" x="555" y="315" text-anchor="middle">이상 확인과 기록</text>
+  <rect x="740" y="110" width="330" height="300" fill="#E6F3EA" stroke="#3E8E5B" stroke-width="2"/>
+  <text class="h" x="905" y="152" text-anchor="middle">3. 책의 성격</text>
+  <text class="b" x="905" y="205" text-anchor="middle">회사 책이 아니다</text>
+  <text class="b" x="905" y="245" text-anchor="middle">OpenAI는 프리즘</text>
+  <text class="b" x="905" y="295" text-anchor="middle">야망, 영향, 권력에</text>
+  <text class="b" x="905" y="325" text-anchor="middle">대한 이야기</text>
+  <rect x="1090" y="110" width="370" height="300" fill="#F6E7E7" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="1275" y="152" text-anchor="middle">4. 취재 요청 결과</text>
+  <text class="b" x="1275" y="205" text-anchor="middle">핵심 인물과 회사에</text>
+  <text class="b" x="1275" y="235" text-anchor="middle">모두 요청</text>
+  <text class="b" x="1275" y="290" text-anchor="middle">OpenAI와 Altman은</text>
+  <text class="b" x="1275" y="320" text-anchor="middle">협조하지 않음</text>
+  <text class="s" x="750" y="470" text-anchor="middle">출처: 『Empire of AI』 저자의 말을 바탕으로 정리</text>
+</svg>

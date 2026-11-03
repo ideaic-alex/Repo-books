@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:24px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">ChatGPT 이후 마이크로소프트와 OpenAI의 관계</text>
+
+  <rect x="60" y="110" width="520" height="250" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="320" y="150" text-anchor="middle">마이크로소프트</text>
+  <text class="b" x="320" y="192" text-anchor="middle">슈퍼컴퓨터와 클라우드(Azure) 제공</text>
+  <text class="b" x="320" y="224" text-anchor="middle">세 번째 투자: 100억 달러(2023.1)</text>
+  <text class="b" x="320" y="256" text-anchor="middle">GPU를 연구팀에서 OpenAI 쪽으로 이동</text>
+  <text class="b" x="320" y="288" text-anchor="middle">Bing, Microsoft 365 등에 Copilot 탑재</text>
+  <text class="s" x="320" y="330" text-anchor="middle">Azure OpenAI 월 추론 요청 1천억에서 1조 건으로</text>
+
+  <rect x="920" y="110" width="520" height="250" rx="12" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1180" y="150" text-anchor="middle">OpenAI</text>
+  <text class="b" x="1180" y="192" text-anchor="middle">GPT-3.5, GPT-4 모델 공급</text>
+  <text class="b" x="1180" y="224" text-anchor="middle">자체 유료 제품과 API도 직접 판매</text>
+  <text class="b" x="1180" y="256" text-anchor="middle">끝없이 더 많은 칩과 전력을 요구</text>
+  <text class="b" x="1180" y="288" text-anchor="middle">마이크로소프트를 만족시켜야 한다는 부담</text>
+  <text class="s" x="1180" y="330" text-anchor="middle">Arrakis 프로젝트 실패로 일부 임원이 실망</text>
+
+  <path d="M580 190 L920 190" stroke="#3B6EA8" stroke-width="4" fill="none"/>
+  <path d="M900 178 L920 190 L900 202" stroke="#3B6EA8" stroke-width="4" fill="none"/>
+  <text class="b" x="750" y="176" text-anchor="middle">컴퓨팅, 자금</text>
+  <path d="M920 290 L580 290" stroke="#3E8A5A" stroke-width="4" fill="none"/>
+  <path d="M600 278 L580 290 L600 302" stroke="#3E8A5A" stroke-width="4" fill="none"/>
+  <text class="b" x="750" y="276" text-anchor="middle">모델, 명성</text>
+
+  <rect x="60" y="410" width="1380" height="190" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="90" y="450">서로 얽히면서 생긴 긴장</text>
+  <text class="b" x="90" y="488">· 같은 고객에게 같은 기술을 두 회사가 각각 영업하는 경쟁 관계가 생겼다.</text>
+  <text class="b" x="90" y="520">· 한 OpenAI 직원에게 마이크로소프트 쪽 문의가 수십 건씩 몰렸다.</text>
+  <text class="b" x="90" y="552">· 2023년 여름부터 마이크로소프트 엔지니어들이 OpenAI 안에 파견되어 일했다.</text>
+  <text class="b" x="90" y="584">· 마이크로소프트 일부는 '이제 OpenAI가 우리에게 힘을 갖는다'고 느꼈다.</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:24px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="700" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">Te Hiku 방식과 OpenAI 방식의 비교</text>
+  <rect x="60" y="100" width="260" height="60" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="190" y="139" text-anchor="middle">비교 항목</text>
+  <rect x="340" y="100" width="520" height="60" fill="#E6F3EA" stroke="#3E8E5B" stroke-width="2"/>
+  <text class="h" x="600" y="139" text-anchor="middle">Te Hiku Media</text>
+  <rect x="880" y="100" width="560" height="60" fill="#F6E7E7" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="1160" y="139" text-anchor="middle">OpenAI(책의 서술)</text>
+  <g>
+    <rect x="60" y="180" width="260" height="90" fill="#F7F8FA" stroke="#C5CAD1"/>
+    <text class="b" x="190" y="232" text-anchor="middle">모델의 목표</text>
+    <rect x="340" y="180" width="520" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="600" y="232" text-anchor="middle">작고 한 가지에 특화된 모델</text>
+    <rect x="880" y="180" width="560" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="1160" y="232" text-anchor="middle">무엇이든 하는 거대한 단일 모델</text>
+  </g>
+  <g>
+    <rect x="60" y="280" width="260" height="90" fill="#F7F8FA" stroke="#C5CAD1"/>
+    <text class="b" x="190" y="332" text-anchor="middle">데이터</text>
+    <rect x="340" y="280" width="520" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="600" y="318" text-anchor="middle">이해하고 동의한 사람의 기부</text>
+    <text class="b" x="600" y="346" text-anchor="middle">310시간, 약 2,500명</text>
+    <rect x="880" y="280" width="560" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="1160" y="318" text-anchor="middle">웹에서 수집한 방대한 음성</text>
+    <text class="b" x="1160" y="346" text-anchor="middle">Whisper는 68만 시간</text>
+  </g>
+  <g>
+    <rect x="60" y="380" width="260" height="90" fill="#F7F8FA" stroke="#C5CAD1"/>
+    <text class="b" x="190" y="432" text-anchor="middle">컴퓨팅</text>
+    <rect x="340" y="380" width="520" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="600" y="418" text-anchor="middle">자체 GPU와 서버</text>
+    <text class="b" x="600" y="446" text-anchor="middle">GPU 두 개로 학습</text>
+    <rect x="880" y="380" width="560" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="1160" y="418" text-anchor="middle">거대한 슈퍼컴퓨터</text>
+    <text class="b" x="1160" y="446" text-anchor="middle">막대한 에너지와 땅이 필요</text>
+  </g>
+  <g>
+    <rect x="60" y="480" width="260" height="90" fill="#F7F8FA" stroke="#C5CAD1"/>
+    <text class="b" x="190" y="532" text-anchor="middle">데이터의 주인</text>
+    <rect x="340" y="480" width="520" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="600" y="518" text-anchor="middle">공동체가 수호하며</text>
+    <text class="b" x="600" y="546" text-anchor="middle">동의한 용도에만 허가</text>
+    <rect x="880" y="480" width="560" height="90" fill="#FFFFFF" stroke="#C5CAD1"/>
+    <text class="b" x="1160" y="518" text-anchor="middle">저자는 허락과 보상 없이</text>
+    <text class="b" x="1160" y="546" text-anchor="middle">가져갔다고 비판</text>
+  </g>
+  <text class="s" x="750" y="620" text-anchor="middle">Te Hiku의 첫 마오리어 음성 인식 모델 정확도는 86퍼센트였다고 책은 쓴다</text>
+  <text class="s" x="750" y="650" text-anchor="middle">출처: 『Empire of AI』 에필로그를 바탕으로 정리</text>
+</svg>

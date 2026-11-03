@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="820" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">9장: 위기 국가를 찾는 '데이터 노동 공식'</text>
+  <rect x="30" y="130" width="260" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="160.0" y="197.48" text-anchor="middle">1. 위기 국가 발굴</text>
+  <text class="b" x="160.0" y="225.0" text-anchor="middle">교육 수준과 인터넷은 좋은데</text>
+  <text class="b" x="160.0" y="250.0" text-anchor="middle">경제가 무너진 곳을 찾는다</text>
+  <line x1="290" y1="215" x2="320" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="320" y="130" width="260" height="170" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="450.0" y="197.48" text-anchor="middle">2. 높은 보수로 모집</text>
+  <text class="b" x="450.0" y="225.0" text-anchor="middle">추천 코드와 홍보 영상으로</text>
+  <text class="b" x="450.0" y="250.0" text-anchor="middle">달러 수입을 내세운다</text>
+  <line x1="580" y1="215" x2="610" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="610" y="130" width="260" height="170" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="740.0" y="197.48" text-anchor="middle">3. 시장 장악</text>
+  <text class="b" x="740.0" y="225.0" text-anchor="middle">경쟁 플랫폼이 밀려나고</text>
+  <text class="b" x="740.0" y="250.0" text-anchor="middle">의존도가 높아진다</text>
+  <line x1="870" y1="215" x2="900" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="900" y="130" width="260" height="170" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="h" x="1030.0" y="197.48" text-anchor="middle">4. 보수 삭감</text>
+  <text class="b" x="1030.0" y="225.0" text-anchor="middle">수입이 몇 주 만에 줄고</text>
+  <text class="b" x="1030.0" y="250.0" text-anchor="middle">불만을 말하면 계정 정지</text>
+  <line x1="1160" y1="215" x2="1190" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1190" y="130" width="260" height="170" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1320.0" y="197.48" text-anchor="middle">5. 다음 나라로</text>
+  <text class="b" x="1320.0" y="225.0" text-anchor="middle">이탈한 자리를 새 국가의</text>
+  <text class="b" x="1320.0" y="250.0" text-anchor="middle">노동자로 채운다</text>
+  <path d="M1320 300 V340 H160 V302" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="s" x="750" y="332" text-anchor="middle">반복</text>
+  <text class="h" x="750" y="400" text-anchor="middle">책이 서술한 Scale AI의 사례</text>
+  <text class="h" x="160" y="450" text-anchor="middle">2016</text>
+  <rect x="30" y="465" width="260" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="160.0" y="523.0" text-anchor="middle">Scale AI 창업</text>
+  <text class="b" x="160.0" y="548.0" text-anchor="middle">자율주행용 데이터 라벨링</text>
+  <line x1="290" y1="530" x2="320" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="450" y="450" text-anchor="middle">2019</text>
+  <rect x="320" y="465" width="260" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="450.0" y="523.0" text-anchor="middle">베네수엘라</text>
+  <text class="b" x="450.0" y="548.0" text-anchor="middle">확장 캠페인 시작</text>
+  <line x1="580" y1="530" x2="610" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="740" y="450" text-anchor="middle">2020</text>
+  <rect x="610" y="465" width="260" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="740.0" y="523.0" text-anchor="middle">Remotasks Plus</text>
+  <text class="b" x="740.0" y="548.0" text-anchor="middle">베네수엘라 전용 프로그램</text>
+  <line x1="870" y1="530" x2="900" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="1030" y="450" text-anchor="middle">2021.4</text>
+  <rect x="900" y="465" width="260" height="130" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1030.0" y="523.0" text-anchor="middle">Plus 종료</text>
+  <text class="b" x="1030.0" y="548.0" text-anchor="middle">주당 40달러→6달러 미만</text>
+  <line x1="1160" y1="530" x2="1190" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="1320" y="450" text-anchor="middle">2024.3</text>
+  <rect x="1190" y="465" width="260" height="130" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1320.0" y="523.0" text-anchor="middle">케냐 전면 차단</text>
+  <text class="b" x="1320.0" y="548.0" text-anchor="middle">나이지리아와 파키스탄도 포함</text>
+  <rect x="30" y="630" width="1440" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="750.0" y="673.48" text-anchor="middle">읽을 때 유의할 점</text>
+  <text class="b" x="750.0" y="701.72" text-anchor="middle">회사 측은 이 서술을 부인하며 지리적, 언어적 다양성과 24시간 대응 등이 이유라고 밝힌다</text>
+  <text class="b" x="750.0" y="727.72" text-anchor="middle">보수 수치는 노동자 인터뷰와 공개 스프레드시트, 회사 측 설명이 서로 다르다</text>
+  <text class="b" x="750.0" y="753.72" text-anchor="middle">자율주행 시장이 기대에 못 미친 뒤 Scale은 챗봇 학습용(RLHF) 노동 공급으로 방향을 바꿨다</text>
+</svg>

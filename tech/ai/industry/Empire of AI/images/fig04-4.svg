@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:15px;fill:#666}
+  </style>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="56" text-anchor="middle">2024년 5월의 연쇄 위기 (옴니크라이시스)</text>
+  <rect x="40" y="100" width="220" height="130" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="150.0" y="172" text-anchor="middle">GPT-4o와 Sky</text>
+  <rect x="290" y="100" width="250" height="130" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="415.0" y="157" text-anchor="middle">5월 13일</text>
+  <text class="b" x="415.0" y="183" text-anchor="middle">GPT-4o 시연</text>
+  <line x1="540" y1="165" x2="580" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="580" y="100" width="250" height="130" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="705.0" y="144" text-anchor="middle">5월 19일</text>
+  <text class="b" x="705.0" y="170" text-anchor="middle">Sky는 다른 배우</text>
+  <text class="b" x="705.0" y="196" text-anchor="middle">라는 블로그 글</text>
+  <line x1="830" y1="165" x2="870" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="870" y="100" width="250" height="130" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="995.0" y="144" text-anchor="middle">5월 20일</text>
+  <text class="b" x="995.0" y="170" text-anchor="middle">조핸슨 성명</text>
+  <text class="b" x="995.0" y="196" text-anchor="middle">Sky 중단</text>
+  <rect x="40" y="250" width="220" height="130" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="150.0" y="322" text-anchor="middle">안전팀 이탈</text>
+  <rect x="290" y="250" width="250" height="130" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="415.0" y="294" text-anchor="middle">5월 14일</text>
+  <text class="b" x="415.0" y="320" text-anchor="middle">수츠케버 퇴사,</text>
+  <text class="b" x="415.0" y="346" text-anchor="middle">레이케 사임</text>
+  <line x1="540" y1="315" x2="580" y2="315" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="580" y="250" width="250" height="130" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="705.0" y="294" text-anchor="middle">5월 17일</text>
+  <text class="b" x="705.0" y="320" text-anchor="middle">레이케 "안전이</text>
+  <text class="b" x="705.0" y="346" text-anchor="middle">제품에 밀렸다"</text>
+  <rect x="40" y="400" width="220" height="130" rx="8" fill="#FFFFFF" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="150.0" y="472" text-anchor="middle">지분 환수 조항</text>
+  <rect x="290" y="400" width="250" height="130" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="415.0" y="457" text-anchor="middle">5월 17일</text>
+  <text class="b" x="415.0" y="483" text-anchor="middle">Vox 보도</text>
+  <line x1="540" y1="465" x2="580" y2="465" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="580" y="400" width="250" height="130" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="705.0" y="444" text-anchor="middle">5월 18일</text>
+  <text class="b" x="705.0" y="470" text-anchor="middle">올트먼 "환수한</text>
+  <text class="b" x="705.0" y="496" text-anchor="middle">적 없다" 트윗</text>
+  <line x1="830" y1="465" x2="870" y2="465" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="870" y="400" width="250" height="130" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="995.0" y="444" text-anchor="middle">5월 22일</text>
+  <text class="b" x="995.0" y="470" text-anchor="middle">두 번째 보도,</text>
+  <text class="b" x="995.0" y="496" text-anchor="middle">전사 회의</text>
+  <line x1="1120" y1="465" x2="1160" y2="465" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1160" y="400" width="250" height="130" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="1285.0" y="444" text-anchor="middle">5월 23일</text>
+  <text class="b" x="1285.0" y="470" text-anchor="middle">"더 넓고 길고</text>
+  <text class="b" x="1285.0" y="496" text-anchor="middle">나빴다" 시인</text>
+  <rect x="40" y="550" width="220" height="130" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="150.0" y="622" text-anchor="middle">수츠케버 복귀 시도</text>
+  <rect x="290" y="550" width="250" height="130" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="415.0" y="594" text-anchor="middle">5월 23일</text>
+  <text class="b" x="415.0" y="620" text-anchor="middle">경영진이 자택</text>
+  <text class="b" x="415.0" y="646" text-anchor="middle">방문해 복귀 요청</text>
+  <line x1="540" y1="615" x2="580" y2="615" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="580" y="550" width="250" height="130" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="705.0" y="594" text-anchor="middle">24시간 이내</text>
+  <text class="b" x="705.0" y="620" text-anchor="middle">브록먼이 복귀</text>
+  <text class="b" x="705.0" y="646" text-anchor="middle">논의 종료 통보</text>
+  <text class="s" x="750" y="725" text-anchor="middle">회사는 이 주를 "옴니크라이시스"라 불렀다. 블립(2023년 해임 사태) 다음으로 나쁜 주로 묘사된다</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:24px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">효과적 이타주의에서 갈라진 두 진영</text>
+
+  <rect x="470" y="100" width="560" height="110" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="750" y="143" text-anchor="middle">효과적 이타주의(EA)</text>
+  <text class="b" x="750" y="178" text-anchor="middle">기대값 계산 · 먼 미래 우선 · 실존 위험 대비</text>
+
+  <path d="M600 210 L400 280" stroke="#4A5260" stroke-width="3" fill="none"/>
+  <path d="M900 210 L1100 280" stroke="#4A5260" stroke-width="3" fill="none"/>
+
+  <rect x="100" y="280" width="600" height="190" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="400" y="320" text-anchor="middle">AI 안전 진영 (Doomers)</text>
+  <text class="b" x="400" y="360" text-anchor="middle">AI가 인류를 파괴할 수 있다고 걱정한다</text>
+  <text class="b" x="400" y="392" text-anchor="middle">속도를 늦추거나 브레이크를 밟자는 쪽</text>
+  <text class="s" x="400" y="440" text-anchor="middle">용어 예: 파멸 확률 p(doom), AI 타임라인</text>
+
+  <rect x="800" y="280" width="600" height="190" rx="12" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1100" y="320" text-anchor="middle">효과적 가속주의 (e/acc, Boomers)</text>
+  <text class="b" x="1100" y="360" text-anchor="middle">기술 진보는 무조건 좋은 일이라고 본다</text>
+  <text class="b" x="1100" y="392" text-anchor="middle">가능한 한 빨리 밟자는 쪽</text>
+  <text class="s" x="1100" y="440" text-anchor="middle">EA를 풍자하는 농담에서 출발했다</text>
+
+  <text class="h" x="750" y="385" text-anchor="middle">대립</text>
+
+  <rect x="100" y="510" width="1300" height="90" rx="12" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="b" x="750" y="548" text-anchor="middle">저자의 해석: 둘은 서로 반대라 하지만 같은 성경을 읽는다</text>
+  <text class="b" x="750" y="578" text-anchor="middle">AGI를 기정사실로 보고, 먼 미래와 도덕적 권위를 내세운다</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">무어의 법칙과 "오픈AI의 법칙"</text>
+<text class="h" x="60" y="140" text-anchor="start">컴퓨트 성장 속도 비교 (2배가 되는 데 걸리는 시간)</text>
+<text class="b" x="60" y="200" text-anchor="start">칩 한 개의 성능 (무어의 법칙)</text>
+<rect x="60" y="215" width="840" height="48" rx="6" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="930" y="248" text-anchor="start">약 2년마다 2배</text>
+<text class="b" x="60" y="320" text-anchor="start">AI 학습에 쓰인 컴퓨트 (2012~2018)</text>
+<rect x="60" y="335" width="119" height="48" rx="6" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="210" y="368" text-anchor="start">약 3.4개월마다 2배 (브록먼은 "오픈AI의 법칙"이라 불렀다)</text>
+<rect x="60" y="430" width="440" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="280.0" y="472.4" text-anchor="middle">컴퓨트의 구성</text>
+<text class="b" x="280.0" y="500.9" text-anchor="middle">칩 성능 x 칩 개수 x 가동 시간</text>
+<rect x="530" y="430" width="440" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="472.4" text-anchor="middle">칩 성능은 칩 업계의 몫</text>
+<text class="b" x="750.0" y="500.9" text-anchor="middle">기다리면 너무 오래 걸린다</text>
+<rect x="1000" y="430" width="440" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1220.0" y="472.4" text-anchor="middle">결론: 칩을 훨씬 많이</text>
+<text class="b" x="1220.0" y="500.9" text-anchor="middle">확보해야 한다 (자금 문제)</text>
+</svg>

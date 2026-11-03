@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="800" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">7장: 확률적 앵무새 논문과 구글의 대응</text>
+  <text class="h" x="135" y="105" text-anchor="middle">2020.6</text>
+  <rect x="30" y="120" width="210" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="135.0" y="164.72" text-anchor="middle">GPT-3 API 공개</text>
+  <text class="b" x="135.0" y="190.72" text-anchor="middle">구글 내부 메일링</text>
+  <text class="b" x="135.0" y="216.72" text-anchor="middle">리스트가 들뜬다</text>
+  <line x1="240" y1="185" x2="270" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="375" y="105" text-anchor="middle">2020.9</text>
+  <rect x="270" y="120" width="210" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="375.0" y="164.72" text-anchor="middle">게브루가</text>
+  <text class="b" x="375.0" y="190.72" text-anchor="middle">벤더 교수에게</text>
+  <text class="b" x="375.0" y="216.72" text-anchor="middle">공동 집필 제안</text>
+  <line x1="480" y1="185" x2="510" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="615" y="105" text-anchor="middle">2020.11</text>
+  <rect x="510" y="120" width="210" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="615.0" y="164.72" text-anchor="middle">구글 내부 승인</text>
+  <text class="b" x="615.0" y="190.72" text-anchor="middle">절차를 밟고</text>
+  <text class="b" x="615.0" y="216.72" text-anchor="middle">학회 제출</text>
+  <line x1="720" y1="185" x2="750" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="855" y="105" text-anchor="middle">2020.11 말</text>
+  <rect x="750" y="120" width="210" height="130" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="855.0" y="164.72" text-anchor="middle">논문 철회 요구</text>
+  <text class="b" x="855.0" y="190.72" text-anchor="middle">게브루 항의</text>
+  <text class="b" x="855.0" y="216.72" text-anchor="middle">회사가 사직 처리</text>
+  <line x1="960" y1="185" x2="990" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="1095" y="105" text-anchor="middle">2020.12.2</text>
+  <rect x="990" y="120" width="210" height="130" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1095.0" y="164.72" text-anchor="middle">게브루가 해고</text>
+  <text class="b" x="1095.0" y="190.72" text-anchor="middle">사실을 트위터에</text>
+  <text class="b" x="1095.0" y="216.72" text-anchor="middle">공개</text>
+  <line x1="1200" y1="185" x2="1230" y2="185" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="h" x="1335" y="105" text-anchor="middle">2020.12.9</text>
+  <rect x="1230" y="120" width="210" height="130" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1335.0" y="164.72" text-anchor="middle">피차이 CEO</text>
+  <text class="b" x="1335.0" y="190.72" text-anchor="middle">사과 메시지</text>
+  <text class="b" x="1335.0" y="216.72" text-anchor="middle">발표</text>
+  <text class="h" x="750" y="300" text-anchor="middle">논문이 던진 네 가지 경고</text>
+  <rect x="40" y="330" width="330" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="205.0" y="391.98" text-anchor="middle">1. 환경 부담</text>
+  <text class="b" x="205.0" y="420.94" text-anchor="middle">모델이 커질수록 에너지와</text>
+  <text class="b" x="205.0" y="447.94" text-anchor="middle">탄소 발자국이 커지고</text>
+  <text class="b" x="205.0" y="474.94" text-anchor="middle">부담은 글로벌 사우스가 더 진다</text>
+  <rect x="400" y="330" width="330" height="190" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="565.0" y="391.98" text-anchor="middle">2. 오염된 데이터</text>
+  <text class="b" x="565.0" y="420.94" text-anchor="middle">인터넷을 긁어 모으며</text>
+  <text class="b" x="565.0" y="447.94" text-anchor="middle">혐오와 편견 표현이 섞이고</text>
+  <text class="b" x="565.0" y="474.94" text-anchor="middle">취약 집단이 피해를 본다</text>
+  <rect x="760" y="330" width="330" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="925.0" y="391.98" text-anchor="middle">3. 검증의 어려움</text>
+  <text class="b" x="925.0" y="420.94" text-anchor="middle">데이터가 너무 방대해</text>
+  <text class="b" x="925.0" y="447.94" text-anchor="middle">무엇이 들었는지 확인이</text>
+  <text class="b" x="925.0" y="474.94" text-anchor="middle">어려워 독성 제거도 힘들다</text>
+  <rect x="1120" y="330" width="330" height="190" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1285.0" y="391.98" text-anchor="middle">4. 의미를 착각</text>
+  <text class="b" x="1285.0" y="420.94" text-anchor="middle">출력이 너무 그럴듯해</text>
+  <text class="b" x="1285.0" y="447.94" text-anchor="middle">사람이 의미와 의도가</text>
+  <text class="b" x="1285.0" y="474.94" text-anchor="middle">있다고 믿고 의존한다</text>
+  <rect x="40" y="560" width="1420" height="190" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="750.0" y="620.48" text-anchor="middle">이 사건이 남긴 흐름</text>
+  <text class="b" x="750.0" y="650.16" text-anchor="middle">구글은 이 논문을 사업에 불리한 요소로 보았고, 저자에 따르면 철회를 요구했다</text>
+  <text class="b" x="750.0" y="678.16" text-anchor="middle">책은 이 일을 '공개 연구 후퇴'를 가속한 상징적 사건으로 서술한다</text>
+  <text class="b" x="750.0" y="706.16" text-anchor="middle">이후 OpenAI를 비롯한 업계는 모델의 핵심 기술 정보를 점점 공개하지 않게 된다</text>
+</svg>

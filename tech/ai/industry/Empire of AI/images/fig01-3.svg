@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">오픈AI 구조의 변천 (2015~2019)</text>
+<text class="h" x="128" y="140" text-anchor="middle">2015.12</text>
+<rect x="40" y="165" width="176" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="128.0" y="222.4" text-anchor="middle">비영리 출범</text>
+<text class="b" x="128.0" y="250.9" text-anchor="middle">10억 달러 약속</text>
+<line x1="218" y1="230" x2="236" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="328" y="140" text-anchor="middle">2016</text>
+<rect x="240" y="165" width="176" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="328.0" y="222.4" text-anchor="middle">돈이 새기 시작</text>
+<text class="b" x="328.0" y="250.9" text-anchor="middle">인건비 위주 지출</text>
+<line x1="418" y1="230" x2="436" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="528" y="140" text-anchor="middle">2017.3</text>
+<rect x="440" y="165" width="176" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="528.0" y="222.4" text-anchor="middle">컴퓨트 로드맵</text>
+<text class="b" x="528.0" y="250.9" text-anchor="middle">막대한 칩 필요</text>
+<line x1="618" y1="230" x2="636" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="728" y="140" text-anchor="middle">2017.9</text>
+<rect x="640" y="165" width="176" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="728.0" y="222.4" text-anchor="middle">영리 전환 협상</text>
+<text class="b" x="728.0" y="250.9" text-anchor="middle">결렬, 최후통첩</text>
+<line x1="818" y1="230" x2="836" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="928" y="140" text-anchor="middle">2018 초</text>
+<rect x="840" y="165" width="176" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="928.0" y="222.4" text-anchor="middle">머스크 퇴장</text>
+<text class="b" x="928.0" y="250.9" text-anchor="middle">공동의장 사임</text>
+<line x1="1018" y1="230" x2="1036" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1128" y="140" text-anchor="middle">2019.3</text>
+<rect x="1040" y="165" width="176" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1128.0" y="222.4" text-anchor="middle">OpenAI LP</text>
+<text class="b" x="1128.0" y="250.9" text-anchor="middle">수익 상한 100배</text>
+<line x1="1218" y1="230" x2="1236" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1328" y="140" text-anchor="middle">2019.7</text>
+<rect x="1240" y="165" width="176" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1328.0" y="222.4" text-anchor="middle">MS 10억 달러</text>
+<text class="b" x="1328.0" y="250.9" text-anchor="middle">수익 상한 20배</text>
+<rect x="60" y="350" width="1380" height="210" rx="10" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2"/>
+<text class="h" x="750.0" y="404.6" text-anchor="middle">핵심 흐름</text>
+<text class="b" x="750.0" y="433.1" text-anchor="middle">1. AGI 선두를 유지하려면 컴퓨트가 필요하고, 컴퓨트에는 수십억 달러가 든다는 계산이 나왔다.</text>
+<text class="b" x="750.0" y="461.6" text-anchor="middle">2. 비영리로는 그 돈을 구하기 어렵다고 보아 영리 자회사(LP)를 만들되 수익에 상한을 두었다.</text>
+<text class="b" x="750.0" y="490.1" text-anchor="middle">3. 약속한 10억 달러 중 실제로 받은 돈은 약 1억 3천만 달러(머스크 몫은 4,500만 달러 미만)였다.</text>
+<text class="b" x="750.0" y="518.6" text-anchor="middle">4. 공백을 올트먼의 모금력과 마이크로소프트 투자가 메웠다.</text>
+</svg>

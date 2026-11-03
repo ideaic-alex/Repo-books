@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:15px;fill:#666}
+  </style>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="56" text-anchor="middle">올트먼을 둘러싼 갈등 구조 (책이 묘사한 2023년 가을)</text>
+  <rect x="600" y="300" width="300" height="130" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="750.0" y="344" text-anchor="middle">샘 올트먼</text>
+  <text class="b" x="750.0" y="370" text-anchor="middle">CEO</text>
+  <text class="b" x="750.0" y="396" text-anchor="middle">사람마다 다른 말을 한다</text>
+  <rect x="60" y="110" width="320" height="100" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="220.0" y="152" text-anchor="middle">미라 무라티</text>
+  <text class="b" x="220.0" y="178" text-anchor="middle">CTO, 갈등을 수습하는 역할</text>
+  <rect x="590" y="110" width="320" height="100" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="750.0" y="152" text-anchor="middle">일리야 수츠케버</text>
+  <text class="b" x="750.0" y="178" text-anchor="middle">수석 과학자</text>
+  <rect x="1120" y="110" width="320" height="100" rx="8" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1280.0" y="152" text-anchor="middle">야쿠프 파코츠키</text>
+  <text class="b" x="1280.0" y="178" text-anchor="middle">AI 과학자 프로젝트 리더</text>
+  <rect x="60" y="520" width="320" height="100" rx="8" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="220.0" y="562" text-anchor="middle">그레그 브록먼</text>
+  <text class="b" x="220.0" y="588" text-anchor="middle">공동창업자 겸 이사</text>
+  <rect x="590" y="560" width="320" height="100" rx="8" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="750.0" y="602" text-anchor="middle">마이크로소프트</text>
+  <text class="b" x="750.0" y="628" text-anchor="middle">최대 파트너 기업</text>
+  <rect x="1120" y="500" width="320" height="140" rx="8" fill="#F9E6E4" stroke="#B5483E" stroke-width="2"/>
+  <text class="h" x="1280.0" y="562" text-anchor="middle">독립 이사 3인</text>
+  <text class="b" x="1280.0" y="588" text-anchor="middle">토너 · 맥콜리 · 디안젤로</text>
+  <line x1="380" y1="190" x2="600" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="750" y1="210" x2="750" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="1120" y1="190" x2="900" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="380" y1="540" x2="600" y2="420" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="750" y1="560" x2="750" y2="430" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="900" y1="420" x2="1120" y2="520" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="s" x="240" y="275" text-anchor="middle">실수 뒷수습·대신 거절</text>
+  <text class="s" x="850" y="255" text-anchor="start">자리를 몰래 바꿔 줌</text>
+  <text class="s" x="1230" y="275" text-anchor="middle">승진 요청이 브록먼 경유</text>
+  <text class="s" x="250" y="500" text-anchor="middle">프로젝트에 끼어듦</text>
+  <text class="s" x="850" y="520" text-anchor="start">실행 불가한 약속</text>
+  <text class="s" x="1150" y="440" text-anchor="middle">신뢰가 낮아진다</text>
+  <text class="s" x="750" y="725" text-anchor="middle">무라티와 수츠케버는 각자 독립 이사 토너에게 접촉했고, 이것이 해임 논의의 출발점이 된다</text>
+</svg>

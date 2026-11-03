@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="780" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">9장: 데이터 노동의 공급망과 OpenAI의 케냐 프로젝트</text>
+  <rect x="40" y="130" width="300" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="190.0" y="185.48" text-anchor="middle">OpenAI</text>
+  <text class="b" x="190.0" y="214.44" text-anchor="middle">콘텐츠 필터를</text>
+  <text class="b" x="190.0" y="241.44" text-anchor="middle">만들려는 회사</text>
+  <rect x="430" y="130" width="300" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="580.0" y="186.48" text-anchor="middle">Sama</text>
+  <text class="b" x="580.0" y="214.72" text-anchor="middle">중개업체</text>
+  <text class="b" x="580.0" y="240.72" text-anchor="middle">(계약 4건, 23만 달러)</text>
+  <rect x="820" y="130" width="300" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="970.0" y="186.48" text-anchor="middle">수십 명의 노동자</text>
+  <text class="b" x="970.0" y="214.72" text-anchor="middle">케냐 나이로비의 노동자</text>
+  <text class="b" x="970.0" y="240.72" text-anchor="middle">(시간당 1.46~3.74달러)</text>
+  <rect x="1210" y="130" width="250" height="150" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="h" x="1335.0" y="185.48" text-anchor="middle">결과물</text>
+  <text class="b" x="1335.0" y="214.44" text-anchor="middle">필터가 달린 모델</text>
+  <text class="b" x="1335.0" y="241.44" text-anchor="middle">→ 챗봇 제품</text>
+  <line x1="340" y1="205" x2="428" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="730" y1="205" x2="818" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="1120" y1="205" x2="1208" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text class="s" x="385" y="318" text-anchor="middle">지시서와 발주</text>
+  <text class="s" x="775" y="318" text-anchor="middle">분류 작업</text>
+  <text class="s" x="1165" y="318" text-anchor="middle">납품</text>
+  <text class="h" x="750" y="380" text-anchor="middle">작업의 구조</text>
+  <rect x="40" y="410" width="440" height="260" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="260.0" y="495.48" text-anchor="middle">무슨 일을 했나</text>
+  <text class="b" x="260.0" y="523.72" text-anchor="middle">성적 콘텐츠, 폭력, 혐오, 자해 문서를</text>
+  <text class="b" x="260.0" y="549.72" text-anchor="middle">수십만 건 읽고 심각도별로 분류</text>
+  <text class="b" x="260.0" y="575.72" text-anchor="middle">품질 분석가는 월 1만 5천 건 검토</text>
+  <text class="b" x="260.0" y="601.72" text-anchor="middle">일부 글은 AI가 만든 가상 사례</text>
+  <rect x="530" y="410" width="440" height="260" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="h" x="750.0" y="495.48" text-anchor="middle">무슨 일이 벌어졌나</text>
+  <text class="b" x="750.0" y="523.72" text-anchor="middle">하청 계약이라 누구를 위한 일인지</text>
+  <text class="b" x="750.0" y="549.72" text-anchor="middle">모른 채 비밀유지 조건으로 일함</text>
+  <text class="b" x="750.0" y="575.72" text-anchor="middle">집단 상담은 부족하다고 느꼈고</text>
+  <text class="b" x="750.0" y="601.72" text-anchor="middle">일부 노동자는 심각한 후유증</text>
+  <rect x="1020" y="410" width="440" height="260" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1240.0" y="508.48" text-anchor="middle">책임의 문제</text>
+  <text class="b" x="1240.0" y="536.72" text-anchor="middle">OpenAI는 Sama의 절차 부실이라 했다</text>
+  <text class="b" x="1240.0" y="562.72" text-anchor="middle">변호사는 노동자가 두 번 쥐어짜인다고</text>
+  <text class="b" x="1240.0" y="588.72" text-anchor="middle">말한다(중개업체 몫, AI 기업 몫)</text>
+  <rect x="40" y="700" width="1420" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="750.0" y="735.94" text-anchor="middle">2022년 3월 Sama는 OpenAI 계약을 종료했다 (이유는 노동자 측과 회사 측 설명이 다르다)</text>
+</svg>

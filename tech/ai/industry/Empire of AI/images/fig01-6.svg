@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">AI 두 진영의 경쟁과 기업 자금</text>
+<rect x="60" y="110" width="660" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="390.0" y="148.9" text-anchor="middle">상징주의 (symbolists)</text>
+<text class="b" x="390.0" y="177.4" text-anchor="middle">지능은 "아는 것"에서 나온다</text>
+<text class="b" x="390.0" y="205.9" text-anchor="middle">지식을 규칙으로 직접 입력하는 전문가 시스템</text>
+<text class="b" x="390.0" y="234.4" text-anchor="middle">대표: 민스키, ELIZA, IBM 왓슨</text>
+<rect x="780" y="110" width="660" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1110.0" y="148.9" text-anchor="middle">연결주의 (connectionists)</text>
+<text class="b" x="1110.0" y="177.4" text-anchor="middle">지능은 "배우는 것"에서 나온다</text>
+<text class="b" x="1110.0" y="205.9" text-anchor="middle">뇌를 본뜬 신경망이 데이터에서 규칙을 학습</text>
+<text class="b" x="1110.0" y="234.4" text-anchor="middle">대표: 로젠블랫의 퍼셉트론, 힌턴</text>
+<text class="h" x="180" y="330" text-anchor="middle">1956</text>
+<rect x="60" y="350" width="240" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="180.0" y="397.4" text-anchor="middle">다트머스 모임</text>
+<text class="b" x="180.0" y="425.9" text-anchor="middle">"인공지능" 명명</text>
+<line x1="302" y1="405" x2="340" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="465" y="330" text-anchor="middle">1969</text>
+<rect x="345" y="350" width="240" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="465.0" y="397.4" text-anchor="middle">민스키의 책</text>
+<text class="b" x="465.0" y="425.9" text-anchor="middle">연결주의 자금 고갈</text>
+<line x1="587" y1="405" x2="625" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="750" y="330" text-anchor="middle">1980년대</text>
+<rect x="630" y="350" width="240" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="397.4" text-anchor="middle">역전파</text>
+<text class="b" x="750.0" y="425.9" text-anchor="middle">다층 신경망 개선</text>
+<line x1="872" y1="405" x2="910" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1035" y="330" text-anchor="middle">2012</text>
+<rect x="915" y="350" width="240" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1035.0" y="397.4" text-anchor="middle">ImageNet</text>
+<text class="b" x="1035.0" y="425.9" text-anchor="middle">구글의 DNN 인수</text>
+<line x1="1157" y1="405" x2="1195" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1320" y="330" text-anchor="middle">2013~2022</text>
+<rect x="1200" y="350" width="240" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1320.0" y="397.4" text-anchor="middle">기업 투자 급증</text>
+<text class="b" x="1320.0" y="425.9" text-anchor="middle">연구 방향을 기업이 주도</text>
+<rect x="60" y="510" width="1380" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="563.1" text-anchor="middle">저자의 관점</text>
+<text class="b" x="750.0" y="591.6" text-anchor="middle">연결주의가 이긴 데는 과학적 장점뿐 아니라, 상용화가 빠르고 예측 가능해 기업의 이해에 맞았다는 이유도 있다.</text>
+<text class="b" x="750.0" y="620.1" text-anchor="middle">그 결과 자금과 인재가 신경망으로 쏠려 다른 접근을 탐색할 환경이 약해졌다고 책은 본다.</text>
+</svg>

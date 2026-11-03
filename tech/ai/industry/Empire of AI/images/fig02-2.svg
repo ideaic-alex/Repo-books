@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="620" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">6장 연표: 올트먼의 OpenAI 전임에서 Anthropic 창업까지</text>
+  <line x1="40" y1="250" x2="1460" y2="250" stroke="#9AA1AB" stroke-width="4"/>
+  <rect x="25" y="290" width="190" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="120.0" y="344.72" text-anchor="middle">올트먼이</text>
+  <text class="b" x="120.0" y="370.72" text-anchor="middle">OpenAI 전임</text>
+  <text class="b" x="120.0" y="396.72" text-anchor="middle">YC를 떠난다</text>
+  <circle cx="120" cy="250" r="9" fill="#3B6EA8"/>
+  <text class="h" x="120" y="215" text-anchor="middle">2019.3</text>
+  <line x1="120" y1="259" x2="120" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="235" y="290" width="190" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="330.0" y="344.72" text-anchor="middle">'1등이 되자'</text>
+  <text class="b" x="330.0" y="370.72" text-anchor="middle">비전 문서</text>
+  <text class="b" x="330.0" y="396.72" text-anchor="middle">공개 축소 방침</text>
+  <circle cx="330" cy="250" r="9" fill="#3B6EA8"/>
+  <text class="h" x="330" y="215" text-anchor="middle">2019 말</text>
+  <line x1="330" y1="259" x2="330" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="445" y="290" width="190" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="540.0" y="344.72" text-anchor="middle">브록먼이</text>
+  <text class="b" x="540.0" y="370.72" text-anchor="middle">GPT-3 API</text>
+  <text class="b" x="540.0" y="396.72" text-anchor="middle">코드를 쓰기 시작</text>
+  <circle cx="540" cy="250" r="9" fill="#3B6EA8"/>
+  <text class="h" x="540" y="215" text-anchor="middle">2020.1</text>
+  <line x1="540" y1="259" x2="540" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="655" y="290" width="190" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="750.0" y="344.72" text-anchor="middle">GPT-3 API</text>
+  <text class="b" x="750.0" y="370.72" text-anchor="middle">공개</text>
+  <text class="b" x="750.0" y="396.72" text-anchor="middle">신청 접수</text>
+  <circle cx="750" cy="250" r="9" fill="#3B6EA8"/>
+  <text class="h" x="750" y="215" text-anchor="middle">2020.6</text>
+  <line x1="750" y1="259" x2="750" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="865" y="290" width="190" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="960.0" y="344.72" text-anchor="middle">MS가 GPT-3</text>
+  <text class="b" x="960.0" y="370.72" text-anchor="middle">독점 라이선스</text>
+  <text class="b" x="960.0" y="396.72" text-anchor="middle">가중치까지 접근</text>
+  <circle cx="960" cy="250" r="9" fill="#3B6EA8"/>
+  <text class="h" x="960" y="215" text-anchor="middle">2020.9</text>
+  <line x1="960" y1="259" x2="960" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1075" y="290" width="190" height="150" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1170.0" y="344.72" text-anchor="middle">아모데이 등</text>
+  <text class="b" x="1170.0" y="370.72" text-anchor="middle">집단 퇴사</text>
+  <text class="b" x="1170.0" y="396.72" text-anchor="middle">'이혼'이라 불림</text>
+  <circle cx="1170" cy="250" r="9" fill="#B5473A"/>
+  <text class="h" x="1170" y="215" text-anchor="middle">2020 말</text>
+  <line x1="1170" y1="259" x2="1170" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1285" y="290" width="190" height="150" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1380.0" y="344.72" text-anchor="middle">Anthropic</text>
+  <text class="b" x="1380.0" y="370.72" text-anchor="middle">공익법인</text>
+  <text class="b" x="1380.0" y="396.72" text-anchor="middle">설립 발표</text>
+  <circle cx="1380" cy="250" r="9" fill="#B5473A"/>
+  <text class="h" x="1380" y="215" text-anchor="middle">2021.5</text>
+  <line x1="1380" y1="259" x2="1380" y2="290" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="60" y="490" width="1380" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="750.0" y="528.98" text-anchor="middle">같은 시기의 굵직한 변화</text>
+  <text class="b" x="750.0" y="557.94" text-anchor="middle">Applied 부서 신설(2020.1부터), 로보틱스 팀 해체(2020 늦여름), MS 추가 투자 협상(이익 상한 6배)이 겹쳤다</text>
+</svg>

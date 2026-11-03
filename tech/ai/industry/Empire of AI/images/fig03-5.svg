@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="680" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">올트먼의 슈퍼컴퓨터 5단계 계획</text>
+
+  <text class="h" x="130" y="118" text-anchor="middle">단계</text>
+  <text class="h" x="330" y="118" text-anchor="middle">장소</text>
+  <text class="h" x="680" y="118" text-anchor="middle">칩</text>
+  <text class="h" x="1090" y="118" text-anchor="middle">용도와 규모</text>
+  <line x1="40" y1="132" x2="1460" y2="132" stroke="#9AA1AB" stroke-width="2"/>
+
+  <rect x="40" y="148" width="1420" height="90" fill="#ECEEF1" stroke="#6B7280" stroke-width="1.5"/>
+  <text class="h" x="130" y="200" text-anchor="middle">1단계</text>
+  <text class="b" x="330" y="200" text-anchor="middle">미국 아이오와</text>
+  <text class="b" x="680" y="200" text-anchor="middle">V100 1만 개</text>
+  <text class="b" x="1090" y="200" text-anchor="middle">GPT-3 학습에 사용</text>
+
+  <rect x="40" y="248" width="1420" height="90" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="h" x="130" y="300" text-anchor="middle">2단계</text>
+  <text class="b" x="330" y="300" text-anchor="middle">미국 아이오와</text>
+  <text class="b" x="680" y="300" text-anchor="middle">A100 1.8만에서 약 2.5만 개</text>
+  <text class="b" x="1090" y="300" text-anchor="middle">GPT-4 학습에 사용</text>
+
+  <rect x="40" y="348" width="1420" height="90" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="h" x="130" y="400" text-anchor="middle">3단계</text>
+  <text class="b" x="330" y="400" text-anchor="middle">미국 애리조나</text>
+  <text class="b" x="680" y="400" text-anchor="middle">H100 수십만 개 계획</text>
+  <text class="b" x="1090" y="400" text-anchor="middle">건설비 수십억 달러, 칩 부족으로 지연</text>
+
+  <rect x="40" y="448" width="1420" height="90" fill="#FBF0DC" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="h" x="130" y="500" text-anchor="middle">4단계</text>
+  <text class="b" x="330" y="500" text-anchor="middle">미국 위스콘신(계획)</text>
+  <text class="b" x="680" y="500" text-anchor="middle">B100 사용 예상</text>
+  <text class="b" x="1090" y="500" text-anchor="middle">비용 약 100억 달러 예상</text>
+
+  <rect x="40" y="548" width="1420" height="90" fill="#F9E3E0" stroke="#B5483C" stroke-width="1.5"/>
+  <text class="h" x="130" y="600" text-anchor="middle">5단계</text>
+  <text class="b" x="330" y="600" text-anchor="middle">미정(여러 캠퍼스 분산?)</text>
+  <text class="b" x="680" y="600" text-anchor="middle">기술적 가능 여부 불명</text>
+  <text class="b" x="1090" y="600" text-anchor="middle">약 1,000억 달러, 전력 최대 5,000MW</text>
+
+  <text class="s" x="750" y="664" text-anchor="middle">※ 1,000억 달러급 슈퍼컴퓨터 구상은 OpenAI에서 Stargate, 마이크로소프트에서 Mercury로 불렸다</text>
+</svg>

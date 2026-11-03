@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker>
+  </defs>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">제국을 지탱하는 권력의 세 축과 재분배 방법</text>
+  <rect x="60" y="110" width="400" height="250" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="260" y="150" text-anchor="middle">지식</text>
+  <text class="b" x="260" y="195" text-anchor="middle">인재 집중, 공개 과학 약화</text>
+  <text class="b" x="260" y="225" text-anchor="middle">모델을 외부 검증에서 차단</text>
+  <rect x="80" y="260" width="360" height="80" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="260" y="293" text-anchor="middle">독립 연구 지원, 데이터와</text>
+  <text class="b" x="260" y="321" text-anchor="middle">사양 공개 의무화</text>
+  <rect x="550" y="110" width="400" height="250" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="750" y="150" text-anchor="middle">자원</text>
+  <text class="b" x="750" y="195" text-anchor="middle">자금, 데이터, 노동, 컴퓨팅</text>
+  <text class="b" x="750" y="225" text-anchor="middle">에너지, 땅을 독점</text>
+  <rect x="570" y="260" width="360" height="80" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="293" text-anchor="middle">공급망 가시성, 노동 보호</text>
+  <text class="b" x="750" y="321" text-anchor="middle">노조의 역할</text>
+  <rect x="1040" y="110" width="400" height="250" fill="#E6F3EA" stroke="#3E8E5B" stroke-width="2"/>
+  <text class="h" x="1240" y="150" text-anchor="middle">영향력</text>
+  <text class="b" x="1240" y="195" text-anchor="middle">이념과 화려한 시연으로</text>
+  <text class="b" x="1240" y="225" text-anchor="middle">대중의 상상을 사로잡음</text>
+  <rect x="1060" y="260" width="360" height="80" fill="#FFFFFF" stroke="#3E8E5B" stroke-width="1.5"/>
+  <text class="b" x="1240" y="293" text-anchor="middle">AI의 작동 방식과 한계를</text>
+  <text class="b" x="1240" y="321" text-anchor="middle">가르치는 대중 교육</text>
+  <line x1="460" y1="170" x2="548" y2="170" stroke="#4A5260" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="950" y1="170" x2="1038" y2="170" stroke="#4A5260" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M1240 362 V420 H260 V364" fill="none" stroke="#4A5260" stroke-width="2" marker-end="url(#a)"/>
+  <text class="b" x="750" y="470" text-anchor="middle">지식을 통제하면 영향력이 커지고, 영향력은 자원을 모으며, 자원은 지식 생산을 확보한다</text>
+  <text class="h" x="750" y="530" text-anchor="middle">세 축이 서로를 강화하므로 재분배도 세 축 모두에서 필요하다</text>
+  <text class="s" x="750" y="590" text-anchor="middle">출처: 『Empire of AI』 에필로그를 바탕으로 정리</text>
+</svg>

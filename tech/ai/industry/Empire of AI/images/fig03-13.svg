@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="470" viewBox="0 0 1550 470">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:32px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1550" height="470" fill="#FFFFFF"/>
+  <text class="t" x="775" y="62" text-anchor="middle">3부 한눈에 보기: 정점에서 균열까지</text>
+  <rect x="50" y="130" width="270" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="185" y="178" text-anchor="middle">10장 신과 악마</text>
+  <text class="b" x="185" y="225" text-anchor="middle">EA와 비관론 계보</text>
+  <text class="b" x="185" y="261" text-anchor="middle">DALL-E 2와 GPT-4</text>
+  <text class="b" x="185" y="297" text-anchor="middle">안전파 대 응용 부서</text>
+  <line x1="323" y1="230" x2="342" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="345" y="130" width="270" height="200" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="480" y="178" text-anchor="middle">11장 정점</text>
+  <text class="b" x="480" y="225" text-anchor="middle">ChatGPT 출시</text>
+  <text class="b" x="480" y="261" text-anchor="middle">폭발적 성장과 혼란</text>
+  <text class="b" x="480" y="297" text-anchor="middle">MS와의 긴장, 컴퓨팅</text>
+  <line x1="618" y1="230" x2="637" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="640" y="130" width="270" height="200" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="775" y="178" text-anchor="middle">12장 약탈당한 지구</text>
+  <text class="b" x="775" y="225" text-anchor="middle">칠레와 우루과이</text>
+  <text class="b" x="775" y="261" text-anchor="middle">데이터센터의 물과 땅</text>
+  <text class="b" x="775" y="297" text-anchor="middle">주민의 저항과 상상</text>
+  <line x1="913" y1="230" x2="932" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="935" y="130" width="270" height="200" rx="10" fill="#F6E6E6" stroke="#B04A4A" stroke-width="2"/>
+  <text class="h" x="1070" y="178" text-anchor="middle">13장 두 예언자</text>
+  <text class="b" x="1070" y="225" text-anchor="middle">상원 청문회와 규제</text>
+  <text class="b" x="1070" y="261" text-anchor="middle">계산량 기준 10의 26제곱</text>
+  <text class="b" x="1070" y="297" text-anchor="middle">내부 양극화, 이사회 불신</text>
+  <line x1="1208" y1="230" x2="1227" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="1230" y="130" width="270" height="200" rx="10" fill="#EDE8F5" stroke="#6A56A5" stroke-width="2"/>
+  <text class="h" x="1365" y="178" text-anchor="middle">14장 구원</text>
+  <text class="b" x="1365" y="225" text-anchor="middle">애니 올트먼의 이야기</text>
+  <text class="b" x="1365" y="261" text-anchor="middle">두 얼굴의 샘</text>
+  <text class="b" x="1365" y="297" text-anchor="middle">이사회 위기의 문턱</text>
+  <path d="M50 365 H1500" stroke="#B8BEC8" stroke-width="2"/>
+  <text class="b" x="775" y="405" text-anchor="middle">회사 안: 속도파와 안전파의 대립이 커지고 이사회가 흔들린다</text>
+  <text class="b" x="775" y="438" text-anchor="middle">회사 밖: 성공의 물질적 비용과 정책 영향력, 그리고 사람의 이야기가 드러난다</text>
+</svg>

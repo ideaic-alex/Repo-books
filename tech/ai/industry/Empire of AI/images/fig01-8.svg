@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">학습 데이터의 변화: 품질에서 양으로</text>
+<rect x="60" y="130" width="420" height="230" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="270.0" y="208.9" text-anchor="middle">GPT-2</text>
+<text class="b" x="270.0" y="237.4" text-anchor="middle">WebText (약 800만 문서)</text>
+<text class="b" x="270.0" y="265.9" text-anchor="middle">레딧에서 추천 3개 이상 받은</text>
+<text class="b" x="270.0" y="294.4" text-anchor="middle">링크의 글만 선별</text>
+<line x1="482" y1="245" x2="518" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="540" y="130" width="420" height="230" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="208.9" text-anchor="middle">GPT-3</text>
+<text class="b" x="750.0" y="237.4" text-anchor="middle">선별 범위를 넓힘</text>
+<text class="b" x="750.0" y="265.9" text-anchor="middle">더 넓은 레딧 링크, 위키백과, Books2</text>
+<text class="b" x="750.0" y="294.4" text-anchor="middle">필터링한 Common Crawl (가중치 최저)</text>
+<line x1="962" y1="245" x2="998" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1020" y="130" width="420" height="230" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1230.0" y="208.9" text-anchor="middle">GPT-4</text>
+<text class="b" x="1230.0" y="237.4" text-anchor="middle">양을 우선</text>
+<text class="b" x="1230.0" y="265.9" text-anchor="middle">Common Crawl 필터 제거, GitHub 전체</text>
+<text class="b" x="1230.0" y="294.4" text-anchor="middle">트위터 링크, YouTube 전사 등</text>
+<text class="h" x="60" y="410" text-anchor="start">품질 우선</text>
+<text class="h" x="1440" y="410" text-anchor="end">양 우선</text>
+<line x1="190" y1="400" x2="1280" y2="400" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="450" width="1380" height="120" rx="10" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2"/>
+<text class="h" x="750.0" y="488.1" text-anchor="middle">저자가 짚는 여파</text>
+<text class="b" x="750.0" y="516.6" text-anchor="middle">경계가 사라지자 유해한 내용이 섞였고, 이를 걸러 내는 콘텐츠 검수 노동이 늘었다.</text>
+<text class="b" x="750.0" y="545.1" text-anchor="middle">OpenAI는 케냐 노동자를 시간당 평균 2달러 미만에 고용해 필터를 만들었다고 책은 전한다.</text>
+</svg>

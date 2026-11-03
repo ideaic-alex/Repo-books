@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">머스크가 AI 위험에 몰두하게 된 길 (2012~2015)</text>
+<text class="h" x="165" y="150" text-anchor="middle">2012</text>
+<rect x="60" y="175" width="210" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="165.0" y="228.2" text-anchor="middle">하사비스 방문</text>
+<text class="b" x="165.0" y="256.6" text-anchor="middle">SpaceX 공장에서</text>
+<text class="b" x="165.0" y="285.1" text-anchor="middle">초지능 위험 경고</text>
+<line x1="272" y1="250" x2="292" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="399" y="150" text-anchor="middle">2013</text>
+<rect x="294" y="175" width="210" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="399.0" y="228.2" text-anchor="middle">페이지와 논쟁</text>
+<text class="b" x="399.0" y="256.6" text-anchor="middle">생일 파티에서</text>
+<text class="b" x="399.0" y="285.1" text-anchor="middle">"종 차별" 공방</text>
+<line x1="506" y1="250" x2="526" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="633" y="150" text-anchor="middle">2013~14</text>
+<rect x="528" y="175" width="210" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="633.0" y="228.2" text-anchor="middle">구글의 인수</text>
+<text class="b" x="633.0" y="256.6" text-anchor="middle">DeepMind 인수</text>
+<text class="b" x="633.0" y="285.1" text-anchor="middle">2014년 1월 확정</text>
+<line x1="740" y1="250" x2="760" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="867" y="150" text-anchor="middle">2015 초</text>
+<rect x="762" y="175" width="210" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="867.0" y="228.2" text-anchor="middle">윤리위원회</text>
+<text class="b" x="867.0" y="256.6" text-anchor="middle">첫 회의 후</text>
+<text class="b" x="867.0" y="285.1" text-anchor="middle">"사기"라 확신</text>
+<line x1="974" y1="250" x2="994" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1101" y="150" text-anchor="middle">2015 5~6월</text>
+<rect x="996" y="175" width="210" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1101.0" y="228.2" text-anchor="middle">올트먼의 제안</text>
+<text class="b" x="1101.0" y="256.6" text-anchor="middle">"AI판 맨해튼</text>
+<text class="b" x="1101.0" y="285.1" text-anchor="middle">프로젝트" 이메일</text>
+<line x1="1208" y1="250" x2="1228" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1335" y="150" text-anchor="middle">2015 여름</text>
+<rect x="1230" y="175" width="210" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1335.0" y="228.2" text-anchor="middle">Rosewood 만찬</text>
+<text class="b" x="1335.0" y="256.6" text-anchor="middle">오픈AI의</text>
+<text class="b" x="1335.0" y="285.1" text-anchor="middle">씨앗이 된 모임</text>
+<rect x="60" y="380" width="1380" height="130" rx="10" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2"/>
+<text class="h" x="750.0" y="423.1" text-anchor="middle">이 흐름의 요지 (책의 서술)</text>
+<text class="b" x="750.0" y="451.6" text-anchor="middle">머스크는 구글이 AI를 독점할까 두려워했고, 올트먼은 "구글이 아닌 누군가가 먼저 만드는 편이 낫다"는 논리로 접근했다.</text>
+<text class="b" x="750.0" y="480.1" text-anchor="middle">두 사람의 이메일 교환이 2015년 여름 만찬으로 이어졌고, 이 모임이 오픈AI 설립의 출발점이 된다.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:18px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="560" fill="#FFFFFF"/>
+  <text class="t" x="750" y="62" text-anchor="middle">DALL-E 2에서 GPT-4 시연까지 (2022년)</text>
+
+  <line x1="60" y1="150" x2="1440" y2="150" stroke="#9AA1AB" stroke-width="3"/>
+
+  <rect x="20" y="180" width="260" height="190" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="150" y="218" text-anchor="middle">3월</text>
+  <text class="b" x="150" y="256" text-anchor="middle">DALL-E 2 공개</text>
+  <text class="b" x="150" y="286" text-anchor="middle">'저강도 연구 프리뷰'로</text>
+  <text class="b" x="150" y="316" text-anchor="middle">안전과 상용화를 절충</text>
+
+  <rect x="320" y="180" width="260" height="190" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="450" y="218" text-anchor="middle">6월</text>
+  <text class="b" x="450" y="256" text-anchor="middle">게이츠가 GPT-4 시연에</text>
+  <text class="b" x="450" y="286" text-anchor="middle">실망하고 'AP 생물학</text>
+  <text class="b" x="450" y="316" text-anchor="middle">5점'을 조건으로 건다</text>
+
+  <rect x="620" y="180" width="260" height="190" rx="12" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="750" y="218" text-anchor="middle">8~9월</text>
+  <text class="b" x="750" y="256" text-anchor="middle">게이츠 자택 만찬에서</text>
+  <text class="b" x="750" y="286" text-anchor="middle">객관식 60문항 중 59개</text>
+  <text class="b" x="750" y="316" text-anchor="middle">정답, 외부 채점 5점</text>
+
+  <rect x="920" y="180" width="260" height="190" rx="12" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1050" y="218" text-anchor="middle">9월</text>
+  <text class="b" x="1050" y="256" text-anchor="middle">기술진 오프사이트,</text>
+  <text class="b" x="1050" y="286" text-anchor="middle">수츠케버가 '위험한 AGI'</text>
+  <text class="b" x="1050" y="316" text-anchor="middle">목상을 불태운다</text>
+
+  <rect x="1220" y="180" width="260" height="190" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1350" y="218" text-anchor="middle">이후</text>
+  <text class="b" x="1350" y="256" text-anchor="middle">배포안전위원회(DSB)</text>
+  <text class="b" x="1350" y="286" text-anchor="middle">가 조건부 승인, 출시는</text>
+  <text class="b" x="1350" y="316" text-anchor="middle">2023년 초로 연기</text>
+
+  <circle cx="150" cy="150" r="9" fill="#3B6EA8"/>
+  <circle cx="450" cy="150" r="9" fill="#B8862B"/>
+  <circle cx="750" cy="150" r="9" fill="#3E8A5A"/>
+  <circle cx="1050" cy="150" r="9" fill="#6B7280"/>
+  <circle cx="1350" cy="150" r="9" fill="#B8862B"/>
+
+  <rect x="20" y="420" width="1460" height="100" rx="12" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="b" x="750" y="458" text-anchor="middle">같은 시기 내내 응용(Applied) 부서는 출시를 서두르고 안전 진영은 더 많은 검증을 요구했다</text>
+  <text class="s" x="750" y="492" text-anchor="middle">※ 책에 DSB 승인의 정확한 날짜가 없어 '이후'로만 표시했다</text>
+</svg>

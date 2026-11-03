@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">스케일링 법칙: 세 가지 입력과 성능의 관계</text>
+<rect x="60" y="130" width="340" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="230.0" y="171.7" text-anchor="middle">학습 데이터의 양</text>
+<rect x="60" y="230" width="340" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="230.0" y="271.6" text-anchor="middle">투입한 컴퓨트</text>
+<rect x="60" y="330" width="340" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="230.0" y="371.6" text-anchor="middle">매개변수(파라미터) 수</text>
+<line x1="402" y1="165" x2="548" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="402" y1="265" x2="548" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="402" y1="365" x2="548" y2="280" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="550" y="200" width="400" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="243.2" text-anchor="middle">다음 단어 예측 같은</text>
+<text class="b" x="750.0" y="271.6" text-anchor="middle">측정 가능한 과제의 성능</text>
+<text class="b" x="750.0" y="300.1" text-anchor="middle">매끄러운 곡선을 그린다</text>
+<line x1="952" y1="265" x2="1058" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1060" y="200" width="380" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1250.0" y="243.2" text-anchor="middle">입력을 늘렸을 때의</text>
+<text class="b" x="1250.0" y="271.6" text-anchor="middle">성능을 미리 어림할 수 있다</text>
+<text class="b" x="1250.0" y="300.1" text-anchor="middle">(아모데이 팀의 관찰)</text>
+<text class="h" x="280" y="455" text-anchor="middle">2018</text>
+<rect x="60" y="470" width="420" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="270.0" y="512.4" text-anchor="middle">GPT-1</text>
+<text class="b" x="270.0" y="540.9" text-anchor="middle">거의 주목받지 못함</text>
+<line x1="482" y1="520" x2="528" y2="520" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="760" y="455" text-anchor="middle">2019 초</text>
+<rect x="540" y="470" width="420" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="512.4" text-anchor="middle">GPT-2</text>
+<text class="b" x="750.0" y="540.9" text-anchor="middle">15억 매개변수</text>
+<line x1="962" y1="520" x2="1008" y2="520" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1240" y="455" text-anchor="middle">2019 가을부터</text>
+<rect x="1020" y="470" width="420" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1230.0" y="512.4" text-anchor="middle">GPT-3</text>
+<text class="b" x="1230.0" y="540.9" text-anchor="middle">V100 1만 개를 한꺼번에</text>
+</svg>

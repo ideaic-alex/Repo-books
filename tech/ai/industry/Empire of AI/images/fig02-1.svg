@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:22px;font-weight:700}
+    .b{font-size:19px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5260"/></marker></defs>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text class="t" x="750.0" y="62" text-anchor="middle">OpenAI 안의 세 부족과 GPT-3 공개 논쟁</text>
+  <text class="s" x="750" y="100" text-anchor="middle">올트먼의 2019년 말 비전 문서는 내부를 '세 부족'으로 묘사했다</text>
+  <rect x="60" y="125" width="430" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="275.0" y="169.48" text-anchor="middle">탐구 연구 부족</text>
+  <text class="b" x="275.0" y="199.16" text-anchor="middle">새 아이디어는 실패해도 계속 판다</text>
+  <text class="b" x="275.0" y="227.16" text-anchor="middle">대표 얼굴: 수츠케버</text>
+  <rect x="535" y="125" width="430" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="750.0" y="169.48" text-anchor="middle">안전 부족</text>
+  <text class="b" x="750.0" y="199.16" text-anchor="middle">올바른 일에 대한 흔들림 없는 약속</text>
+  <text class="b" x="750.0" y="227.16" text-anchor="middle">대표 얼굴: 아모데이 일행</text>
+  <rect x="1010" y="125" width="430" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="1225.0" y="169.48" text-anchor="middle">스타트업 부족</text>
+  <text class="b" x="1225.0" y="199.16" text-anchor="middle">어떻게든 되게 만든다</text>
+  <text class="b" x="1225.0" y="227.16" text-anchor="middle">대표 얼굴: 브록먼</text>
+  <rect x="60" y="300" width="1380" height="80" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="b" x="750.0" y="346.38" text-anchor="middle">2020년 초 회사가 둘로 갈린다: 무라티가 이끄는 Applied(응용, API·상용화)와 나머지 Research(연구)</text>
+  <line x1="1225" y1="255" x2="1225" y2="298" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="750" y1="255" x2="750" y2="298" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="275" y1="255" x2="275" y2="298" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="60" y="430" width="670" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="395.0" y="485.48" text-anchor="middle">응용 쪽 주장</text>
+  <text class="b" x="395.0" y="514.44" text-anchor="middle">API는 공개 범위를 고를 수 있는 통제된 방식</text>
+  <text class="b" x="395.0" y="541.44" text-anchor="middle">사용 데이터를 모을 수 있고, 수익은 안전 연구로 이어진다</text>
+  <rect x="770" y="430" width="670" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="1105.0" y="485.48" text-anchor="middle">안전 쪽 주장</text>
+  <text class="b" x="1105.0" y="514.44" text-anchor="middle">서둘러 내놓으면 안전을 다듬을 시간이 줄어든다</text>
+  <text class="b" x="1105.0" y="541.44" text-anchor="middle">코드 생성 능력이 AI의 자기 개선을 앞당길까 걱정했다</text>
+  <text class="s" x="750" y="622" text-anchor="middle">올트먼은 전체 회의에서 양쪽 모두에게 이득이 될 것이라고 말했다</text>
+  <rect x="60" y="650" width="270" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="195.0" y="687.44" text-anchor="middle">2020.6</text>
+  <text class="b" x="195.0" y="714.44" text-anchor="middle">API 공개</text>
+  <line x1="330" y1="695" x2="430" y2="695" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="430" y="650" width="270" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="b" x="565.0" y="673.94" text-anchor="middle">2020.9</text>
+  <text class="b" x="565.0" y="700.94" text-anchor="middle">MS가 GPT-3</text>
+  <text class="b" x="565.0" y="727.94" text-anchor="middle">독점 라이선스</text>
+  <line x1="700" y1="695" x2="800" y2="695" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="800" y="650" width="270" height="90" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="935.0" y="673.94" text-anchor="middle">2020 말</text>
+  <text class="b" x="935.0" y="700.94" text-anchor="middle">아모데이 일행</text>
+  <text class="b" x="935.0" y="727.94" text-anchor="middle">퇴사 발표</text>
+  <line x1="1070" y1="695" x2="1170" y2="695" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+  <rect x="1170" y="650" width="270" height="90" rx="10" fill="#F8E6E3" stroke="#B5473A" stroke-width="2"/>
+  <text class="b" x="1305.0" y="673.94" text-anchor="middle">2021.5</text>
+  <text class="b" x="1305.0" y="700.94" text-anchor="middle">Anthropic</text>
+  <text class="b" x="1305.0" y="727.94" text-anchor="middle">설립 발표</text>
+</svg>
