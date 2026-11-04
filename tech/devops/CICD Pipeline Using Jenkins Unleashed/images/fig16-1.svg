@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">화면 스크립트와 Jenkinsfile 방식의 차이</text>
+<rect x="90" y="120" width="540" height="330" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="360" y="168" text-anchor="middle">Jenkins 화면의 편집기</text>
+<text class="b" x="360" y="226" text-anchor="middle">스크립트가 Jenkins 안에만 있다</text>
+<text class="b" x="360" y="276" text-anchor="middle">변경 이력과 코드 리뷰가 어렵다</text>
+<text class="b" x="360" y="326" text-anchor="middle">소스 변경과 따로 관리된다</text>
+<text class="b" x="360" y="376" text-anchor="middle">트리거는 주로 폴링이나 수동</text>
+<rect x="870" y="120" width="540" height="330" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1140" y="168" text-anchor="middle">저장소의 Jenkinsfile</text>
+<text class="b" x="1140" y="226" text-anchor="middle">스크립트가 소스와 함께 커밋된다</text>
+<text class="b" x="1140" y="276" text-anchor="middle">코드 리뷰와 변경 이력이 따라온다</text>
+<text class="b" x="1140" y="326" text-anchor="middle">여러 개발자가 한 원본을 공유한다</text>
+<text class="b" x="1140" y="376" text-anchor="middle">웹훅 푸시 이벤트로 시작할 수 있다</text>
+<line x1="632" y1="285" x2="868" y2="285" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="262" text-anchor="middle">옮기기</text>
+<text class="s" x="750" y="318" text-anchor="middle">Jenkinsfile 작성</text>
+<rect x="470" y="490" width="560" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="527" text-anchor="middle">잡 설정: Pipeline script from SCM + Script Path</text>
+</svg>

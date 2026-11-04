@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62.0" text-anchor="middle">공유 라이브러리가 파이프라인에 연결되는 과정</text>
+<rect x="50" y="180" width="330" height="140" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="215.0" y="228.5" text-anchor="middle">1. 라이브러리 작성</text>
+<text class="b" x="215.0" y="257.5" text-anchor="middle">vars 폴더의 groovy 파일</text>
+<text class="b" x="215.0" y="286.5" text-anchor="middle">call 함수 안에 공통 단계</text>
+<rect x="400" y="180" width="330" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="228.5" text-anchor="middle">2. Git 저장소에 푸시</text>
+<text class="b" x="565.0" y="257.5" text-anchor="middle">JenkinsSharedLibrary</text>
+<text class="b" x="565.0" y="286.5" text-anchor="middle">책은 GitLab 비공개 저장소</text>
+<rect x="750" y="180" width="330" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="915.0" y="228.5" text-anchor="middle">3. Jenkins에 등록</text>
+<text class="b" x="915.0" y="257.5" text-anchor="middle">Global Pipeline Libraries</text>
+<text class="b" x="915.0" y="286.5" text-anchor="middle">이름과 기본 버전 지정</text>
+<rect x="1100" y="180" width="330" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1265.0" y="228.5" text-anchor="middle">4. job에서 호출</text>
+<text class="b" x="1265.0" y="257.5" text-anchor="middle">@Library 로 가져오기</text>
+<text class="b" x="1265.0" y="286.5" text-anchor="middle">저장소 주소 등 인자 전달</text>
+<line x1="382" y1="250" x2="398" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="732" y1="250" x2="748" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1082" y1="250" x2="1098" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="400" y="400" width="700" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="443.0" text-anchor="middle">실행 시 Jenkins가 라이브러리를 체크아웃하고</text>
+<text class="b" x="750.0" y="472.0" text-anchor="middle">call 함수를 인자와 함께 실행한다</text>
+<line x1="1265" y1="322" x2="1100" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750.0" y="560.0" text-anchor="middle">프로젝트마다 다른 값(Git 주소, 브랜치, 자격 증명 ID)은 인자로 넘기고 나머지 단계는 한 곳에서 관리한다.</text>
+</svg>

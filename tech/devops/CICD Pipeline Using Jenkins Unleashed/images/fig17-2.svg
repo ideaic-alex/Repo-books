@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62.0" text-anchor="middle">에이전트 연결 방향 비교: SSH와 JNLP</text>
+<text class="h" x="750.0" y="120.0" text-anchor="middle">1. 컨트롤러가 에이전트로 접속 (SSH)</text>
+<rect x="90" y="150" width="420" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="300.0" y="198.0" text-anchor="middle">Jenkins 컨트롤러</text>
+<text class="b" x="300.0" y="227.0" text-anchor="middle">Launch agents via SSH</text>
+<rect x="990" y="150" width="420" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1200.0" y="198.0" text-anchor="middle">에이전트 머신</text>
+<text class="b" x="1200.0" y="227.0" text-anchor="middle">JDK와 sshd만 필요</text>
+<line x1="512" y1="205" x2="988" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="599.0" y="192.0" width="302.1" height="26" rx="5" fill="#FFFFFF" stroke="#D0D4DA"/>
+<text class="s" x="750.0" y="211.0" text-anchor="middle">SSH 접속 후 remoting.jar 복사·실행</text>
+<text class="h" x="750.0" y="340.0" text-anchor="middle">2. 에이전트가 컨트롤러로 접속 (JNLP)</text>
+<rect x="90" y="370" width="420" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="300.0" y="418.0" text-anchor="middle">Jenkins 컨트롤러</text>
+<text class="b" x="300.0" y="447.0" text-anchor="middle">Inbound 에이전트 포트 7070</text>
+<rect x="990" y="370" width="420" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1200.0" y="418.0" text-anchor="middle">에이전트 머신</text>
+<text class="b" x="1200.0" y="447.0" text-anchor="middle">agent.jar 명령 실행</text>
+<line x1="988" y1="425" x2="512" y2="425" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="647.9" y="412.0" width="204.2" height="26" rx="5" fill="#FFFFFF" stroke="#D0D4DA"/>
+<text class="s" x="750.0" y="431.0" text-anchor="middle">에이전트가 TCP 연결 요청</text>
+<text class="s" x="750.0" y="560.0" text-anchor="middle">컨트롤러가 에이전트 쪽으로 접근할 수 없을 때(예: 방화벽 바깥)는 JNLP 방식을 쓴다.</text>
+</svg>

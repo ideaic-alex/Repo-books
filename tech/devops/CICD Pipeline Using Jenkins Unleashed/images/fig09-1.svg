@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Role-Based 전략: 전역 역할과 아이템 역할의 결합</text>
+<rect x="60" y="120" width="500" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="310" y="166" text-anchor="middle">Global Roles (예: View)</text>
+<text class="b" x="310" y="202" text-anchor="middle">Overall 같은 전역 권한을 체크</text>
+<text class="b" x="310" y="232" text-anchor="middle">없으면 대시보드에서 아무것도 못 본다</text>
+<rect x="60" y="330" width="500" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="310" y="376" text-anchor="middle">Item Roles (예: TestingOnlyRole)</text>
+<text class="b" x="310" y="412" text-anchor="middle">Pattern 칸에 .*Testing 입력</text>
+<text class="b" x="310" y="442" text-anchor="middle">이름이 패턴에 맞는 작업에만 적용</text>
+<rect x="660" y="225" width="280" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="800" y="285" text-anchor="middle">사용자</text>
+<text class="b" x="800" y="320" text-anchor="middle">Assign Roles에서</text>
+<text class="b" x="800" y="348" text-anchor="middle">두 역할을 모두 배정</text>
+<rect x="1040" y="225" width="400" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1240" y="275" text-anchor="middle">보이는 화면</text>
+<text class="b" x="1240" y="310" text-anchor="middle">Testing으로 끝나는 작업만</text>
+<text class="b" x="1240" y="340" text-anchor="middle">(UnitTesting, E-E Testing)</text>
+<line x1="562" y1="195" x2="658" y2="285" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="562" y1="405" x2="658" y2="315" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="942" y1="300" x2="1038" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="550" text-anchor="middle">역할을 먼저 만들고(Manage Roles), 그다음 사용자에게 배정한다(Assign Roles).</text>
+</svg>

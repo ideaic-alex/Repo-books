@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Maven·JDK를 Jenkins에 등록하는 두 갈래</text>
+<rect x="560" y="100" width="380" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="154.0" text-anchor="middle">잡을 돌릴 머신에 도구가 있는가?</text>
+<rect x="90" y="290" width="560" height="190" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="370.0" y="338.0" text-anchor="middle">있다: 설치 자동화 끔</text>
+<text class="b" x="370.0" y="368.0" text-anchor="middle">Install automatically 체크 해제</text>
+<text class="b" x="370.0" y="398.0" text-anchor="middle">Name 입력(숫자·공백·특수문자 피하기)</text>
+<text class="b" x="370.0" y="428.0" text-anchor="middle">MAVEN_HOME 또는 JAVA_HOME에 설치 경로 입력</text>
+<text class="b" x="370.0" y="458.0" text-anchor="middle">Save</text>
+<rect x="850" y="290" width="560" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1130.0" y="338.0" text-anchor="middle">없다: Jenkins가 대신 설치</text>
+<text class="b" x="1130.0" y="368.0" text-anchor="middle">Install automatically 체크</text>
+<text class="b" x="1130.0" y="398.0" text-anchor="middle">Add Installer &gt; Extract *.zip/*.tar.gz</text>
+<text class="b" x="1130.0" y="428.0" text-anchor="middle">Download URL for Binary Archive 입력</text>
+<text class="b" x="1130.0" y="458.0" text-anchor="middle">Subdirectory of Extracted Archive에 폴더명 입력</text>
+<line x1="640" y1="192" x2="400" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="860" y1="192" x2="1100" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="540" text-anchor="middle">자동 설치는 해당 머신에서 처음 그 도구가 필요한 잡을 실행할 때 한 번 일어난다. 도구가 없고 설치 설정도 없으면 잡은 실패한다.</text>
+</svg>

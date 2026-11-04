@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">나중에 한꺼번에 병합할 때와 자주 병합할 때</text>
+<rect x="90" y="120" width="560" height="150" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="370.0" y="162.0" text-anchor="middle">하루 끝/스프린트 끝에 한꺼번에 병합</text>
+<text class="b" x="370.0" y="192.0" text-anchor="middle">변경이 많이 쌓인 채로 합친다</text>
+<text class="b" x="370.0" y="222.0" text-anchor="middle">회귀·통합 결함, 충돌 원인 찾기에</text>
+<text class="b" x="370.0" y="252.0" text-anchor="middle">몇 시간이 걸릴 수 있다</text>
+<rect x="850" y="120" width="560" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1130.0" y="162.0" text-anchor="middle">자주, 조금씩 병합 (CI)</text>
+<text class="b" x="1130.0" y="192.0" text-anchor="middle">변경이 적어 충돌을 일찍 해결한다</text>
+<text class="b" x="1130.0" y="222.0" text-anchor="middle">문제가 생기면 최근 변경만 의심하면 된다</text>
+<text class="b" x="1130.0" y="252.0" text-anchor="middle">빌드·테스트 반복이 부담이 아니다</text>
+<line x1="652" y1="195" x2="848" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="185" text-anchor="middle">전환</text>
+<rect x="450" y="340" width="600" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="376.0" text-anchor="middle">CD(지속적 전달/배포)</text>
+<text class="b" x="750.0" y="406.0" text-anchor="middle">테스트를 통과한 변경을 운영과 같은 환경에</text>
+<text class="b" x="750.0" y="436.0" text-anchor="middle">자주 올려 환경 불일치 문제를 일찍 찾는다</text>
+<text class="s" x="750" y="500" text-anchor="middle">책의 설명을 단순화한 비교도이며, 소요 시간은 책이 든 예시 수준이다.</text>
+</svg>

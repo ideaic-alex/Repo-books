@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">푸시 이벤트가 웹훅을 거쳐 파이프라인을 실행하는 흐름</text>
+<rect x="25" y="130" width="250" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="150" y="182" text-anchor="middle">1. 개발자</text>
+<text class="b" x="150" y="212" text-anchor="middle">git push</text>
+<rect x="325" y="130" width="250" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="450" y="182" text-anchor="middle">2. 저장소</text>
+<text class="b" x="450" y="212" text-anchor="middle">GitHub / GitLab</text>
+<rect x="625" y="130" width="250" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="182" text-anchor="middle">3. 웹훅</text>
+<text class="b" x="750" y="212" text-anchor="middle">POST 요청 전송</text>
+<rect x="925" y="130" width="250" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1050" y="182" text-anchor="middle">4. Jenkins</text>
+<text class="b" x="1050" y="212" text-anchor="middle">Jenkinsfile 읽음</text>
+<rect x="1225" y="130" width="250" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1350" y="182" text-anchor="middle">5. 빌드 실행</text>
+<text class="b" x="1350" y="212" text-anchor="middle">post 후처리</text>
+<line x1="277" y1="190" x2="323" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="577" y1="190" x2="623" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="877" y1="190" x2="923" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1177" y1="190" x2="1223" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="350" y="320" width="800" height="140" rx="10" fill="#F4F5F7" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750" y="364" text-anchor="middle">웹훅이 Jenkins에 닿기 위한 조건</text>
+<text class="b" x="750" y="400" text-anchor="middle">Jenkins가 내부망에 있으면 공인 IP와 포트 포워딩이 필요하다</text>
+<text class="b" x="750" y="430" text-anchor="middle">GitHub URL 형식: http://공인IP:포트/github-webhook/</text>
+<line x1="750" y1="252" x2="750" y2="318" stroke="#4A5260" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="510" text-anchor="middle">폴링은 Jenkins가 저장소를 확인하고, 웹훅은 저장소가 먼저 Jenkins를 부른다.</text>
+</svg>

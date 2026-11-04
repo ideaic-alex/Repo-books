@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Snippet Generator로 step 코드 만들기</text>
+<rect x="45" y="130" width="300" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195" y="182" text-anchor="middle">1. Sample Step 선택</text>
+<text class="b" x="195" y="212" text-anchor="middle">git, bat 등 고르기</text>
+<rect x="415" y="130" width="300" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="565" y="182" text-anchor="middle">2. 값 입력</text>
+<text class="b" x="565" y="212" text-anchor="middle">URL, 브랜치, 자격 증명</text>
+<rect x="785" y="130" width="300" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="935" y="182" text-anchor="middle">3. 코드 줄 생성</text>
+<text class="b" x="935" y="212" text-anchor="middle">Generate Pipeline Script</text>
+<rect x="1155" y="130" width="300" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1305" y="182" text-anchor="middle">4. 편집기에 붙여넣기</text>
+<text class="b" x="1305" y="212" text-anchor="middle">stage 블록 안에 배치</text>
+<line x1="347" y1="190" x2="413" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="717" y1="190" x2="783" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1087" y1="190" x2="1153" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="300" y="320" width="900" height="130" rx="10" fill="#F4F5F7" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750" y="366" text-anchor="middle">이 장에서 만든 두 스테이지</text>
+<text class="b" x="750" y="400" text-anchor="middle">Checkout: git 단계로 소스 받기 (branch, credentialsId, url)</text>
+<text class="b" x="750" y="428" text-anchor="middle">Deploy: bat 단계로 Maven deploy 실행</text>
+<line x1="1305" y1="252" x2="1305" y2="285" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="1305" y1="285" x2="750" y2="285" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="750" y1="285" x2="750" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="510" text-anchor="middle">Snippet Generator는 Pipeline Syntax 링크에서 열며, 문법을 외우지 않아도 되게 돕는다.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Domain의 Hostname 조건이 목록을 걸러 내는 방식</text>
+<rect x="520" y="110" width="460" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750" y="156" text-anchor="middle">Domain: GitLab Credentials</text>
+<text class="b" x="750" y="190" text-anchor="middle">Specification = Hostname</text>
+<text class="b" x="750" y="220" text-anchor="middle">Include = gitlab.com</text>
+<rect x="60" y="360" width="520" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="320" y="410" text-anchor="middle">작업의 Repository URL</text>
+<text class="b" x="320" y="444" text-anchor="middle">gitlab.com 주소를 입력</text>
+<rect x="920" y="360" width="520" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1180" y="410" text-anchor="middle">작업의 Repository URL</text>
+<text class="b" x="1180" y="444" text-anchor="middle">github.com 주소를 입력</text>
+<rect x="60" y="520" width="520" height="56" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="320" y="555" text-anchor="middle">Credentials 드롭다운에 항목이 표시된다</text>
+<rect x="920" y="520" width="520" height="56" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="1180" y="555" text-anchor="middle">같은 항목이 목록에 나타나지 않는다</text>
+<line x1="640" y1="262" x2="360" y2="358" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="860" y1="262" x2="1140" y2="358" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="320" y1="492" x2="320" y2="518" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1180" y1="492" x2="1180" y2="518" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="320" text-anchor="middle">도메인이 접속 대상 호스트와 맞을 때만 후보에 오른다</text>
+</svg>

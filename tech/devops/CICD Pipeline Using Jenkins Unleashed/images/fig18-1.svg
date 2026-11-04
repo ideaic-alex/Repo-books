@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="680" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62.0" text-anchor="middle">Jenkins에서 AWS EC2로 배포하고 테스트하는 흐름</text>
+<rect x="60" y="130" width="380" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="250.0" y="183.0" text-anchor="middle">Git 저장소</text>
+<text class="b" x="250.0" y="212.0" text-anchor="middle">CalculatorWebApplication</text>
+<rect x="560" y="130" width="380" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="183.0" text-anchor="middle">배포 job (프리스타일)</text>
+<text class="b" x="750.0" y="212.0" text-anchor="middle">Windows 배치 명령 scp</text>
+<rect x="1060" y="130" width="380" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1250.0" y="183.0" text-anchor="middle">후속 job</text>
+<text class="b" x="1250.0" y="212.0" text-anchor="middle">TestCalculatorWebApplication</text>
+<line x1="442" y1="190" x2="558" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="942" y1="190" x2="1058" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="500.0" y="120.0" text-anchor="middle">소스 가져옴</text>
+<text class="s" x="1000.0" y="120.0" text-anchor="middle">다운스트림 트리거</text>
+<rect x="520" y="440" width="460" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="488.5" text-anchor="middle">AWS EC2 인스턴스 (Windows)</text>
+<text class="b" x="750.0" y="517.5" text-anchor="middle">IIS 가상 디렉터리 CalculatorWebApp</text>
+<text class="b" x="750.0" y="546.5" text-anchor="middle">C:\DeployedCalculatorApp</text>
+<line x1="750" y1="252" x2="750" y2="438" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="587.8" y="332.0" width="324.5" height="26" rx="5" fill="#FFFFFF" stroke="#D0D4DA"/>
+<text class="s" x="750.0" y="351.0" text-anchor="middle">scp로 Calculator.html 복사 (SSH 22)</text>
+<line x1="1250" y1="252" x2="985" y2="450" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1014.8" y="338.0" width="205.4" height="26" rx="5" fill="#FFFFFF" stroke="#D0D4DA"/>
+<text class="s" x="1117.5" y="357.0" text-anchor="middle">Selenium이 HTTP로 접속</text>
+<rect x="60" y="440" width="380" height="140" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="250.0" y="488.5" text-anchor="middle">보안 그룹 인바운드 규칙</text>
+<text class="b" x="250.0" y="517.5" text-anchor="middle">SSH 22, HTTP 80 허용</text>
+<text class="b" x="250.0" y="546.5" text-anchor="middle">(책은 소스 0.0.0.0/0 사용)</text>
+<line x1="442" y1="510" x2="518" y2="510" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750.0" y="640.0" text-anchor="middle">Selenium 프레임워크의 ApplicationURL을 EC2의 Calculator.html 주소로 바꿔 두어야 테스트가 배포본을 본다.</text>
+</svg>

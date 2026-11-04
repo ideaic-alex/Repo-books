@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">9장의 세 가지 Authorization 방식 비교</text>
+<rect x="60" y="105" width="400" height="60" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260" y="143" text-anchor="middle">방식</text>
+<rect x="470" y="105" width="450" height="60" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="695" y="143" text-anchor="middle">설정 위치</text>
+<rect x="930" y="105" width="510" height="60" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1185" y="143" text-anchor="middle">권한을 주는 방식</text>
+<rect x="60" y="180" width="400" height="100" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="260" y="238" text-anchor="middle">Role-Based Strategy</text>
+<rect x="470" y="180" width="450" height="100" rx="8" fill="#FFF9EE" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="695" y="224" text-anchor="middle">플러그인 설치 후 Authorization에서 선택,</text>
+<text class="b" x="695" y="254" text-anchor="middle">Manage and Assign Roles에서 운영</text>
+<rect x="930" y="180" width="510" height="100" rx="8" fill="#FFF9EE" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1185" y="224" text-anchor="middle">역할에 권한을 묶고</text>
+<text class="b" x="1185" y="254" text-anchor="middle">사용자에게 역할을 배정</text>
+<rect x="60" y="295" width="400" height="100" rx="8" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="260" y="353" text-anchor="middle">Matrix-based security</text>
+<rect x="470" y="295" width="450" height="100" rx="8" fill="#F3FAF5" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="695" y="353" text-anchor="middle">Configure Global Security 화면</text>
+<rect x="930" y="295" width="510" height="100" rx="8" fill="#F3FAF5" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="1185" y="339" text-anchor="middle">Add User or Group으로 사용자를 추가하고</text>
+<text class="b" x="1185" y="369" text-anchor="middle">권한 체크박스를 직접 선택</text>
+<rect x="60" y="410" width="400" height="100" rx="8" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="260" y="455" text-anchor="middle">Project-based Matrix</text>
+<text class="b" x="260" y="483" text-anchor="middle">Authorization Strategy</text>
+<rect x="470" y="410" width="450" height="100" rx="8" fill="#F6F7F9" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="695" y="454" text-anchor="middle">전역 화면과 각 작업의 Configure,</text>
+<text class="b" x="695" y="484" text-anchor="middle">Enable project-based security</text>
+<rect x="930" y="410" width="510" height="100" rx="8" fill="#F6F7F9" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="1185" y="454" text-anchor="middle">전역 매트릭스에 더해</text>
+<text class="b" x="1185" y="484" text-anchor="middle">작업마다 별도 매트릭스를 정의</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">플러그인 설치 오류 두 가지와 해결책</text>
+<rect x="60" y="110" width="640" height="110" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="380.0" y="160.0" text-anchor="middle">오류 1: 다운로드 파일 SHA-1 불일치</text>
+<text class="b" x="380.0" y="190.0" text-anchor="middle">원인: Update Center 동기화 문제, 또는 프록시 뒤에서 실행</text>
+<rect x="60" y="280" width="300" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="210.0" y="312.0" text-anchor="middle">해결 A</text>
+<text class="b" x="210.0" y="342.0" text-anchor="middle">Advanced 탭에서</text>
+<text class="b" x="210.0" y="372.0" text-anchor="middle">Check Now 후</text>
+<text class="b" x="210.0" y="402.0" text-anchor="middle">서버 재시작</text>
+<rect x="400" y="280" width="300" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="550.0" y="312.0" text-anchor="middle">해결 B</text>
+<text class="b" x="550.0" y="342.0" text-anchor="middle">프록시 정보 입력,</text>
+<text class="b" x="550.0" y="372.0" text-anchor="middle">Validate Proxy,</text>
+<text class="b" x="550.0" y="402.0" text-anchor="middle">Submit</text>
+<line x1="300" y1="222" x2="210" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="460" y1="222" x2="550" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="800" y="110" width="640" height="110" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1120.0" y="160.0" text-anchor="middle">오류 2: PKIX path building failed</text>
+<text class="b" x="1120.0" y="190.0" text-anchor="middle">원인: JDK의 cacerts에 업데이트 센터를 믿을 인증서가 없음</text>
+<rect x="780" y="280" width="210" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="885.0" y="336.0" text-anchor="middle">해결 1</text>
+<text class="b" x="885.0" y="366.0" text-anchor="middle">Update Site URL을</text>
+<text class="b" x="885.0" y="396.0" text-anchor="middle">https에서 http로</text>
+<rect x="1010" y="280" width="210" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1115.0" y="336.0" text-anchor="middle">해결 2</text>
+<text class="b" x="1115.0" y="366.0" text-anchor="middle">Java를 최신으로</text>
+<text class="b" x="1115.0" y="396.0" text-anchor="middle">올리고 PATH 수정</text>
+<rect x="1240" y="280" width="210" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1345.0" y="322.0" text-anchor="middle">해결 3</text>
+<text class="b" x="1345.0" y="352.0" text-anchor="middle">최신 JDK의</text>
+<text class="b" x="1345.0" y="382.0" text-anchor="middle">lib\security에서</text>
+<text class="b" x="1345.0" y="412.0" text-anchor="middle">WAR 실행</text>
+<line x1="1000" y1="222" x2="885" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1120" y1="222" x2="1115" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1240" y1="222" x2="1345" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="520" text-anchor="middle">오류 2를 위해 지원되지 않는 Java로 띄웠다면, 설치가 끝난 뒤 JDK 8 또는 11로 돌려놓아야 파이프라인 잡이 안정적이다(책의 주의).</text>
+</svg>

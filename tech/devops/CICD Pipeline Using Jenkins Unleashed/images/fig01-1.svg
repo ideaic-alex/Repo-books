@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">CI/CD 작업 흐름: 코드 한 조각이 배포까지 가는 길</text>
+<rect x="30" y="110" width="300" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="180.0" y="151.0" text-anchor="middle">1. 최신 코드 받기</text>
+<text class="b" x="180.0" y="181.0" text-anchor="middle">중앙 저장소에서</text>
+<text class="b" x="180.0" y="211.0" text-anchor="middle">내 복사본으로</text>
+<line x1="332" y1="170" x2="408" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="410" y="110" width="300" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="560.0" y="151.0" text-anchor="middle">2. 테스트 먼저 작성</text>
+<text class="b" x="560.0" y="181.0" text-anchor="middle">TDD: 처음엔</text>
+<text class="b" x="560.0" y="211.0" text-anchor="middle">실패하는 것이 정상</text>
+<line x1="712" y1="170" x2="788" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="790" y="110" width="300" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="940.0" y="151.0" text-anchor="middle">3. 구현 후 재실행</text>
+<text class="b" x="940.0" y="181.0" text-anchor="middle">로컬 단위 테스트가</text>
+<text class="b" x="940.0" y="211.0" text-anchor="middle">모두 통과할 때까지</text>
+<line x1="1092" y1="170" x2="1168" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1170" y="110" width="300" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1320.0" y="151.0" text-anchor="middle">4. 푸시와 병합</text>
+<text class="b" x="1320.0" y="181.0" text-anchor="middle">중앙 저장소의</text>
+<text class="b" x="1320.0" y="211.0" text-anchor="middle">main 브랜치로</text>
+<rect x="1170" y="330" width="300" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1320.0" y="371.0" text-anchor="middle">5. 병합 후 컴파일</text>
+<text class="b" x="1320.0" y="401.0" text-anchor="middle">합쳐진 코드에서</text>
+<text class="b" x="1320.0" y="431.0" text-anchor="middle">컴파일 오류 확인</text>
+<line x1="1168" y1="390" x2="1092" y2="390" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="790" y="330" width="300" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="940.0" y="371.0" text-anchor="middle">6. 병합 코드 테스트</text>
+<text class="b" x="940.0" y="401.0" text-anchor="middle">단위·통합 테스트,</text>
+<text class="b" x="940.0" y="431.0" text-anchor="middle">정적 분석</text>
+<line x1="788" y1="390" x2="712" y2="390" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="410" y="330" width="300" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="560.0" y="371.0" text-anchor="middle">7. 아티팩트 배포</text>
+<text class="b" x="560.0" y="401.0" text-anchor="middle">.WAR/.JAR 패키징 후</text>
+<text class="b" x="560.0" y="431.0" text-anchor="middle">서버에 올리기</text>
+<line x1="408" y1="390" x2="332" y2="390" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="330" width="300" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="180.0" y="371.0" text-anchor="middle">8. E2E 테스트</text>
+<text class="b" x="180.0" y="401.0" text-anchor="middle">배포된 앱의</text>
+<text class="b" x="180.0" y="431.0" text-anchor="middle">전체 흐름 확인</text>
+<line x1="1320" y1="232" x2="1320" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="500" text-anchor="middle">노란색은 개발자 로컬, 파란색은 병합 직후 검증, 초록색은 배포와 최종 확인이다. 실패하면 뒤 단계로 가지 않는다.</text>
+</svg>

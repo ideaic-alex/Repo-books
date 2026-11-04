@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Jenkins 시작 방법과 접속 주소 정하기</text>
+<rect x="40" y="110" width="440" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="260.0" y="152.0" text-anchor="middle">WAR 파일</text>
+<text class="b" x="260.0" y="182.0" text-anchor="middle">java -jar 로 실행</text>
+<text class="b" x="260.0" y="212.0" text-anchor="middle">--httpPort 와</text>
+<text class="b" x="260.0" y="242.0" text-anchor="middle">--httpListenAddress 지정</text>
+<rect x="530" y="110" width="440" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="152.0" text-anchor="middle">Windows 서비스</text>
+<text class="b" x="750.0" y="182.0" text-anchor="middle">jenkins.xml의 arguments 태그에</text>
+<text class="b" x="750.0" y="212.0" text-anchor="middle">같은 옵션을 넣고</text>
+<text class="b" x="750.0" y="242.0" text-anchor="middle">서비스를 Restart</text>
+<rect x="1020" y="110" width="440" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1240.0" y="152.0" text-anchor="middle">Docker 컨테이너</text>
+<text class="b" x="1240.0" y="182.0" text-anchor="middle">docker run -p 8080:8080</text>
+<text class="b" x="1240.0" y="212.0" text-anchor="middle">포트 포워딩 설정</text>
+<text class="b" x="1240.0" y="242.0" text-anchor="middle">(접속 포트는 책의 예 참고)</text>
+<text class="s" x="750" y="330" text-anchor="middle">Linux 서비스는 systemctl start jenkins 로 시작하고, 8080이 사용 중이면 /etc/default/jenkins의 HTTP_PORT를 바꾼다.</text>
+<rect x="400" y="370" width="700" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="396.0" text-anchor="middle">접속 주소</text>
+<text class="b" x="750.0" y="426.0" text-anchor="middle">서비스 기본값은 localhost:8080</text>
+<text class="b" x="750.0" y="456.0" text-anchor="middle">다른 PC에서 접속하려면 IP와 포트를 바꾸고 Jenkins URL도 맞춘다</text>
+</svg>

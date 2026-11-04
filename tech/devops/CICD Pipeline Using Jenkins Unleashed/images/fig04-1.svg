@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">계정 정보를 잊었을 때 복구 절차 (책의 Windows 기준)</text>
+<rect x="30" y="110" width="320" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190.0" y="151.0" text-anchor="middle">1. 서버 중지</text>
+<text class="b" x="190.0" y="181.0" text-anchor="middle">WAR면 창을 닫고</text>
+<text class="b" x="190.0" y="211.0" text-anchor="middle">서비스면 Stop</text>
+<line x1="352" y1="170" x2="393" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="395" y="110" width="320" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="555.0" y="151.0" text-anchor="middle">2. config.xml 수정</text>
+<text class="b" x="555.0" y="181.0" text-anchor="middle">useSecurity 값을</text>
+<text class="b" x="555.0" y="211.0" text-anchor="middle">true에서 false로</text>
+<line x1="717" y1="170" x2="758" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="760" y="110" width="320" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="920.0" y="151.0" text-anchor="middle">3. 서버 재시작</text>
+<text class="b" x="920.0" y="181.0" text-anchor="middle">WAR 실행 또는</text>
+<text class="b" x="920.0" y="211.0" text-anchor="middle">서비스 시작</text>
+<line x1="1082" y1="170" x2="1123" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1125" y="110" width="320" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1285.0" y="151.0" text-anchor="middle">4. 로그인 없이 접속</text>
+<text class="b" x="1285.0" y="181.0" text-anchor="middle">대시보드로</text>
+<text class="b" x="1285.0" y="211.0" text-anchor="middle">바로 들어간다</text>
+<rect x="1115" y="360" width="320" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1275.0" y="401.0" text-anchor="middle">5. 보안 설정 열기</text>
+<text class="b" x="1275.0" y="431.0" text-anchor="middle">Manage Jenkins &gt;</text>
+<text class="b" x="1275.0" y="461.0" text-anchor="middle">Configure Global Security</text>
+<line x1="1113" y1="420" x2="1072" y2="420" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="750" y="360" width="320" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="910.0" y="401.0" text-anchor="middle">6. 권한 임시 완화</text>
+<text class="b" x="910.0" y="431.0" text-anchor="middle">Anyone can do</text>
+<text class="b" x="910.0" y="461.0" text-anchor="middle">anything 선택 후 Save</text>
+<line x1="748" y1="420" x2="707" y2="420" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="385" y="360" width="320" height="120" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="545.0" y="401.0" text-anchor="middle">7. 기존 사용자 삭제</text>
+<text class="b" x="545.0" y="431.0" text-anchor="middle">People &gt; 사용자 &gt;</text>
+<text class="b" x="545.0" y="461.0" text-anchor="middle">Delete &gt; Yes</text>
+<line x1="383" y1="420" x2="342" y2="420" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="20" y="360" width="320" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="180.0" y="401.0" text-anchor="middle">8. 새 관리자 만들기</text>
+<text class="b" x="180.0" y="431.0" text-anchor="middle">Jenkins' own user database,</text>
+<text class="b" x="180.0" y="461.0" text-anchor="middle">Create First Admin User</text>
+<line x1="1275" y1="232" x2="1275" y2="358" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="450" y="560" width="600" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.0" y="586.0" text-anchor="middle">마무리</text>
+<text class="b" x="750.0" y="616.0" text-anchor="middle">권한을 Logged-in users can do anything으로 되돌리고</text>
+<text class="b" x="750.0" y="646.0" text-anchor="middle">익명 읽기를 해제한다</text>
+</svg>

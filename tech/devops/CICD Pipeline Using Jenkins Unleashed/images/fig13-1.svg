@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">SSH 인증과 자동 트리거의 전체 흐름</text>
+<rect x="60" y="150" width="300" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="210.0" y="203.5" text-anchor="middle">개발자 PC</text>
+<text class="b" x="210.0" y="232.5" text-anchor="middle">개인 키 보관</text>
+<text class="s" x="210.0" y="261.5" text-anchor="middle">ssh-keygen 으로 키 쌍 생성</text>
+<rect x="600" y="150" width="300" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="203.5" text-anchor="middle">GitLab</text>
+<text class="b" x="750.0" y="232.5" text-anchor="middle">공개 키 등록</text>
+<text class="s" x="750.0" y="261.5" text-anchor="middle">master 브랜치</text>
+<rect x="1140" y="150" width="300" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1290.0" y="203.5" text-anchor="middle">Jenkins</text>
+<text class="b" x="1290.0" y="232.5" text-anchor="middle">SSH 자격 증명</text>
+<text class="s" x="1290.0" y="261.5" text-anchor="middle">Poll SCM 5분 간격</text>
+<line x1="362" y1="215" x2="598" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="480" y="195" text-anchor="middle">push (SSH URL)</text>
+<line x1="1138" y1="265" x2="902" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1020" y="295" text-anchor="middle">변경 확인</text>
+<text class="s" x="1020" y="215" text-anchor="middle">개인 키로 접속</text>
+<line x1="1138" y1="225" x2="902" y2="225" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1140" y="390" width="300" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1290.0" y="443.0" text-anchor="middle">Maven deploy</text>
+<text class="s" x="1290.0" y="472.0" text-anchor="middle">master를 체크아웃하여 실행</text>
+<line x1="1290" y1="302" x2="1290" y2="388" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="390" width="300" height="120" rx="10" fill="#FBE9E7" stroke="#B5483A" stroke-width="2"/>
+<text class="h" x="750.0" y="443.0" text-anchor="middle">Nexus</text>
+<text class="s" x="750.0" y="472.0" text-anchor="middle">CalculatorAPI 3.0 JAR</text>
+<line x1="1138" y1="450" x2="902" y2="450" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1140" y="570" width="300" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1290.0" y="613.0" text-anchor="middle">이메일 알림</text>
+<text class="s" x="1290.0" y="642.0" text-anchor="middle">불안정 또는 실패 빌드</text>
+<line x1="1290" y1="512" x2="1290" y2="568" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="570" text-anchor="middle">병합이 곧 방아쇠: 개발자가 merge 하면 Jenkins가 다음 폴링 때 변경을 감지한다.</text>
+<text class="s" x="750" y="600" text-anchor="middle">공개 키는 GitLab에 등록하고, 개인 키는 개발자 PC와 Jenkins 자격 증명에만 넣는다.</text>
+</svg>

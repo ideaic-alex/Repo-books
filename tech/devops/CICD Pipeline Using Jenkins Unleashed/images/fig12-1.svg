@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">Git, Jenkins, Maven, Nexus의 연결</text>
+<rect x="40" y="170" width="260" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="170.0" y="223.5" text-anchor="middle">개발자</text>
+<text class="b" x="170.0" y="252.5" text-anchor="middle">로컬 Git 저장소</text>
+<text class="s" x="170.0" y="281.5" text-anchor="middle">commit</text>
+<rect x="330" y="170" width="260" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="460.0" y="223.5" text-anchor="middle">GitLab</text>
+<text class="b" x="460.0" y="252.5" text-anchor="middle">중앙 저장소 (Master)</text>
+<text class="s" x="460.0" y="281.5" text-anchor="middle">merge request</text>
+<rect x="620" y="170" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="223.5" text-anchor="middle">Jenkins 잡</text>
+<text class="b" x="750.0" y="252.5" text-anchor="middle">코드를 내려받아 실행</text>
+<text class="s" x="750.0" y="281.5" text-anchor="middle">Freestyle</text>
+<rect x="910" y="170" width="260" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1040.0" y="223.5" text-anchor="middle">Maven</text>
+<text class="b" x="1040.0" y="252.5" text-anchor="middle">mvn deploy</text>
+<text class="s" x="1040.0" y="281.5" text-anchor="middle">pom.xml settings.xml</text>
+<rect x="1200" y="170" width="260" height="150" rx="10" fill="#FBE9E7" stroke="#B5483A" stroke-width="2"/>
+<text class="h" x="1330.0" y="223.5" text-anchor="middle">Nexus</text>
+<text class="b" x="1330.0" y="252.5" text-anchor="middle">호스티드 저장소</text>
+<text class="s" x="1330.0" y="281.5" text-anchor="middle">CalculatorAPI JAR</text>
+<line x1="302" y1="245" x2="328" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="316" y="150" text-anchor="middle">push</text>
+<line x1="592" y1="245" x2="618" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="606" y="150" text-anchor="middle">checkout</text>
+<line x1="882" y1="245" x2="908" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="896" y="150" text-anchor="middle">실행</text>
+<line x1="1172" y1="245" x2="1198" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1186" y="150" text-anchor="middle">deploy</text>
+<rect x="330" y="400" width="800" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="730.0" y="448.0" text-anchor="middle">소스는 Git 쪽에, 완성된 JAR는 Nexus 쪽에 버전별로 보관</text>
+<text class="s" x="730.0" y="477.0" text-anchor="middle">Maven은 pom.xml의 URL과 settings.xml의 계정으로 Nexus에 접속</text>
+</svg>

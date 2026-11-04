@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">선언형과 스크립트형 파이프라인의 구조</text>
+<rect x="90" y="110" width="600" height="410" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="390" y="148" text-anchor="middle">선언형 (Declarative)</text>
+<rect x="130" y="170" width="520" height="70" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="390" y="212" text-anchor="middle">pipeline 블록 (최상위)</text>
+<rect x="150" y="260" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="390" y="296" text-anchor="middle">agent any : 실행 위치</text>
+<rect x="150" y="340" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="390" y="376" text-anchor="middle">stages 안에 stage 여러 개</text>
+<rect x="150" y="420" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="390" y="456" text-anchor="middle">stage마다 steps 안에 작업</text>
+<rect x="810" y="110" width="600" height="410" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1110" y="148" text-anchor="middle">스크립트형 (Scripted)</text>
+<rect x="850" y="170" width="520" height="70" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110" y="212" text-anchor="middle">node 블록 (최상위)</text>
+<rect x="870" y="260" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110" y="296" text-anchor="middle">대기열 등록 + 워크스페이스 생성</text>
+<rect x="870" y="340" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110" y="376" text-anchor="middle">stage는 선택 (UI 구분용)</text>
+<rect x="870" y="420" width="480" height="60" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110" y="456" text-anchor="middle">stage 안에 작업을 바로 작성</text>
+<line x1="692" y1="315" x2="808" y2="315" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="808" y1="355" x2="692" y2="355" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="580" text-anchor="middle">두 문법 모두 stage와 step이라는 같은 개념 위에 서 있고, 최상위 블록과 틀의 엄격함이 다르다.</text>
+</svg>

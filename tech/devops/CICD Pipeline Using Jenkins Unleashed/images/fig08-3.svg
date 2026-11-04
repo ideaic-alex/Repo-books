@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">두 가지 Credentials Provider 비교</text>
+<rect x="60" y="110" width="640" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="380" y="156" text-anchor="middle">Jenkins Credentials Provider</text>
+<text class="b" x="380" y="192" text-anchor="middle">Jenkins 루트에 저장, Global과 System 선택</text>
+<text class="b" x="380" y="222" text-anchor="middle">Manage Credentials에서 관리</text>
+<rect x="800" y="110" width="640" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1120" y="156" text-anchor="middle">User Credentials Provider</text>
+<text class="b" x="1120" y="192" text-anchor="middle">사용자 개인 영역에 저장</text>
+<text class="b" x="1120" y="222" text-anchor="middle">사용자 메뉴의 Credentials에서 관리</text>
+<line x1="380" y1="262" x2="380" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1120" y1="262" x2="1120" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="330" width="640" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="380" y="380" text-anchor="middle">모든 사용자의 작업에서 사용 가능</text>
+<text class="b" x="380" y="414" text-anchor="middle">Global 항목 기준</text>
+<rect x="800" y="330" width="640" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1120" y="380" text-anchor="middle">만든 사용자의 작업에서만 사용 가능</text>
+<text class="b" x="1120" y="414" text-anchor="middle">다른 사용자로 로그인하면 보이지 않는다</text>
+<text class="s" x="750" y="515" text-anchor="middle">Types 설정은 별개로 Kind 드롭다운에 보일 자격 증명 종류를 줄인다.</text>
+</svg>

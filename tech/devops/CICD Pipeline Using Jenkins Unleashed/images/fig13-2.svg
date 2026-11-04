@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">폴링 기반 자동 빌드의 두 가지 결과</text>
+<rect x="60" y="200" width="260" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="190.0" y="248.0" text-anchor="middle">Poll SCM</text>
+<text class="s" x="190.0" y="277.0" text-anchor="middle">5분마다 master 확인</text>
+<rect x="400" y="200" width="260" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="530.0" y="248.0" text-anchor="middle">변경 감지</text>
+<text class="s" x="530.0" y="277.0" text-anchor="middle">병합된 커밋 발견</text>
+<rect x="740" y="200" width="260" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="870.0" y="248.0" text-anchor="middle">mvn deploy</text>
+<text class="s" x="870.0" y="277.0" text-anchor="middle">컴파일 테스트 패키징</text>
+<line x1="322" y1="255" x2="398" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="662" y1="255" x2="738" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1100" y="130" width="340" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1270.0" y="178.0" text-anchor="middle">테스트 통과</text>
+<text class="s" x="1270.0" y="207.0" text-anchor="middle">JAR가 Nexus에 배포됨</text>
+<rect x="1100" y="290" width="340" height="110" rx="10" fill="#FBE9E7" stroke="#B5483A" stroke-width="2"/>
+<text class="h" x="1270.0" y="338.0" text-anchor="middle">테스트 실패 (예: 빌드 #6)</text>
+<text class="s" x="1270.0" y="367.0" text-anchor="middle">배포 안 됨, 이메일 알림</text>
+<line x1="1002" y1="235" x2="1098" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1002" y1="275" x2="1098" y2="345" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="450" width="1380" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="750.0" y="503.0" text-anchor="middle">변경이 없으면 빌드하지 않는다. 변경이 있을 때만 빌드가 큐에 들어간다.</text>
+<text class="s" x="750.0" y="532.0" text-anchor="middle">콘솔 로그 맨 위에 SCM 변경으로 시작되었다는 문구가 남는다.</text>
+</svg>

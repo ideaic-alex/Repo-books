@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Scope가 정하는 자격 증명의 사용 범위</text>
+<rect x="60" y="220" width="300" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="210" y="270" text-anchor="middle">자격 증명 항목</text>
+<text class="b" x="210" y="302" text-anchor="middle">Scope 필드를 선택</text>
+<rect x="520" y="110" width="400" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="720" y="160" text-anchor="middle">Global</text>
+<text class="b" x="720" y="192" text-anchor="middle">Jenkins, nodes, items 등 전체</text>
+<rect x="520" y="340" width="400" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="720" y="390" text-anchor="middle">System</text>
+<text class="b" x="720" y="422" text-anchor="middle">Jenkins와 nodes만</text>
+<rect x="1040" y="110" width="400" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1240" y="160" text-anchor="middle">작업 설정에 표시됨</text>
+<text class="b" x="1240" y="192" text-anchor="middle">Jenkins 작업이 가져다 쓴다</text>
+<rect x="1040" y="340" width="400" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1240" y="390" text-anchor="middle">작업 설정에 안 보임</text>
+<text class="b" x="1240" y="422" text-anchor="middle">메일 인증, 에이전트 연결 등</text>
+<line x1="362" y1="260" x2="518" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="362" y1="300" x2="518" y2="400" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="922" y1="175" x2="1038" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="922" y1="405" x2="1038" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="535" text-anchor="middle">Global 항목을 System으로 바꾸면 작업 설정의 Credentials 드롭다운에서 사라진다.</text>
+</svg>

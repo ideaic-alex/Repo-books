@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">JENKINS_HOME 폴더 구성</text>
+<rect x="560" y="100" width="380" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="135.0" text-anchor="middle">JENKINS_HOME</text>
+<text class="b" x="750.0" y="165.0" text-anchor="middle">기본값: 사용자 폴더의 .jenkins</text>
+<rect x="30" y="260" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="197.5" y="300.0" text-anchor="middle">config.xml</text>
+<text class="b" x="197.5" y="330.0" text-anchor="middle">Jenkins 루트 설정</text>
+<rect x="395" y="260" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="562.5" y="300.0" text-anchor="middle">plugins</text>
+<text class="b" x="562.5" y="330.0" text-anchor="middle">설치된 플러그인</text>
+<rect x="760" y="260" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="927.5" y="300.0" text-anchor="middle">nodes</text>
+<text class="b" x="927.5" y="330.0" text-anchor="middle">에이전트(슬레이브) 설정</text>
+<rect x="1125" y="260" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1292.5" y="300.0" text-anchor="middle">secrets</text>
+<text class="b" x="1292.5" y="330.0" text-anchor="middle">자격 증명 이전용 비밀</text>
+<rect x="30" y="370" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="197.5" y="410.0" text-anchor="middle">fingerprints</text>
+<text class="b" x="197.5" y="440.0" text-anchor="middle">핑거프린트 기록</text>
+<rect x="395" y="370" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="562.5" y="410.0" text-anchor="middle">userContent</text>
+<text class="b" x="562.5" y="440.0" text-anchor="middle">서버 경로로 제공할 파일</text>
+<rect x="760" y="370" width="335" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="927.5" y="410.0" text-anchor="middle">workspace</text>
+<text class="b" x="927.5" y="440.0" text-anchor="middle">잡별 작업 폴더</text>
+<rect x="1125" y="370" width="335" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1292.5" y="410.0" text-anchor="middle">jobs</text>
+<text class="b" x="1292.5" y="440.0" text-anchor="middle">잡별 설정과 빌드 이력</text>
+<line x1="750" y1="182" x2="750" y2="225" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="197" y1="225" x2="1303" y2="225" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="197" y1="225" x2="197" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="562" y1="225" x2="562" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="927" y1="225" x2="927" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1292" y1="225" x2="1292" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="505" text-anchor="middle">jobs/[잡이름]/ 아래: config.xml(잡 설정), latest(마지막 성공 빌드 링크), builds/[빌드번호]/ 의 build.xml, log, changelog.xml</text>
+<text class="s" x="750" y="545" text-anchor="middle">MSI로 설치했다면 설치 때 고른 폴더에 만들어진다. 위 줄은 jobs 폴더 안의 구조다.</text>
+</svg>

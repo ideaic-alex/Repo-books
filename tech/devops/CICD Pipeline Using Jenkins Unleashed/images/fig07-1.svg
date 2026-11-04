@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Jenkins 보안의 두 단계: 인증과 인가</text>
+<rect x="60" y="110" width="270" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="195" y="160" text-anchor="middle">사용자 요청</text>
+<text class="b" x="195" y="192" text-anchor="middle">로그인 또는 익명 접속</text>
+<rect x="440" y="110" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="575" y="160" text-anchor="middle">인증 (Security Realm)</text>
+<text class="b" x="575" y="192" text-anchor="middle">누구인지 확인한다</text>
+<rect x="820" y="110" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="955" y="160" text-anchor="middle">인가 (Authorization)</text>
+<text class="b" x="955" y="192" text-anchor="middle">무엇을 할 수 있는지 정한다</text>
+<rect x="1200" y="110" width="270" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1335" y="160" text-anchor="middle">Jenkins 기능</text>
+<text class="b" x="1335" y="192" text-anchor="middle">조회, 빌드, 설정 변경</text>
+<line x1="332" y1="165" x2="438" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="712" y1="165" x2="818" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1092" y1="165" x2="1198" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="575" y1="222" x2="575" y2="298" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="955" y1="222" x2="955" y2="298" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="300" y="300" width="550" height="230" rx="10" fill="#F4F8FC" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="575" y="338" text-anchor="middle">Security Realm 선택지</text>
+<text class="b" x="330" y="378">• Delegate to servlet container</text>
+<text class="b" x="330" y="412">• Jenkins' own user database</text>
+<text class="b" x="330" y="446">• LDAP (플러그인 설치 후 표시)</text>
+<text class="b" x="330" y="480">• None (인증 없음, 모두 익명)</text>
+<text class="s" x="330" y="512">가입 허용 체크박스는 own database 아래에 있다</text>
+<rect x="900" y="300" width="560" height="230" rx="10" fill="#FFF9EE" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1180" y="338" text-anchor="middle">Authorization 선택지</text>
+<text class="b" x="930" y="378">• Anyone can do anything</text>
+<text class="b" x="930" y="412">• Legacy mode</text>
+<text class="b" x="930" y="446">• Logged in users can do anything</text>
+<text class="b" x="930" y="480">• Matrix 계열, Role-Based (9장)</text>
+<text class="s" x="930" y="512">플러그인을 설치하면 선택지가 늘어난다</text>
+<text class="s" x="750" y="575" text-anchor="middle">인증은 "들어올 수 있는가", 인가는 "들어와서 무엇을 할 수 있는가"를 정한다.</text>
+</svg>

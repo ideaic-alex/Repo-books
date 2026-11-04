@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Maven settings.xml 두 종류와 우선순위</text>
+<rect x="90" y="120" width="560" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="370.0" y="176.0" text-anchor="middle">전역 설정(Global settings)</text>
+<text class="b" x="370.0" y="206.0" text-anchor="middle">위치: Maven 설치 폴더의 conf/settings.xml</text>
+<text class="b" x="370.0" y="236.0" text-anchor="middle">모든 사용자가 공유하는 공통 설정</text>
+<rect x="850" y="120" width="560" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1130.0" y="176.0" text-anchor="middle">사용자 설정(User settings)</text>
+<text class="b" x="1130.0" y="206.0" text-anchor="middle">위치: 사용자 폴더의 .m2/settings.xml</text>
+<text class="b" x="1130.0" y="236.0" text-anchor="middle">있으면 이쪽 값이 우선한다</text>
+<line x1="850" y1="195" x2="652" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="185" text-anchor="middle">우선</text>
+<rect x="300" y="340" width="900" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="371.0" text-anchor="middle">Jenkins 쪽 설정</text>
+<text class="b" x="750.0" y="401.0" text-anchor="middle">기본 위치면 Use default Maven settings 계열 옵션을 유지하고,</text>
+<text class="b" x="750.0" y="431.0" text-anchor="middle">다르면 Settings file in filesystem 등을 골라 경로를 직접 적는다</text>
+</svg>

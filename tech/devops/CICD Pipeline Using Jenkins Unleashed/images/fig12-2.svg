@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">프리스타일 잡으로 2.0 릴리스하기</text>
+<rect x="30" y="170" width="205" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="132.5" y="223.5" text-anchor="middle">1. Maven 등록</text>
+<text class="s" x="132.5" y="252.5" text-anchor="middle">Global Tool</text>
+<text class="s" x="132.5" y="281.5" text-anchor="middle">Configuration</text>
+<rect x="265" y="170" width="205" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="367.5" y="223.5" text-anchor="middle">2. 잡 생성</text>
+<text class="s" x="367.5" y="252.5" text-anchor="middle">Git 주소 자격 증명</text>
+<text class="s" x="367.5" y="281.5" text-anchor="middle">Master 브랜치</text>
+<rect x="500" y="170" width="205" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="602.5" y="223.5" text-anchor="middle">3. 빌드 단계</text>
+<text class="s" x="602.5" y="252.5" text-anchor="middle">Invoke top-level</text>
+<text class="s" x="602.5" y="281.5" text-anchor="middle">Maven goal: deploy</text>
+<rect x="735" y="170" width="205" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="837.5" y="223.5" text-anchor="middle">4. 코드 변경</text>
+<text class="s" x="837.5" y="252.5" text-anchor="middle">뺄셈 함수 테스트</text>
+<text class="s" x="837.5" y="281.5" text-anchor="middle">pom 버전 2.0</text>
+<rect x="970" y="170" width="205" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1072.5" y="223.5" text-anchor="middle">5. 병합</text>
+<text class="s" x="1072.5" y="252.5" text-anchor="middle">브랜치 푸시 후</text>
+<text class="s" x="1072.5" y="281.5" text-anchor="middle">Master에 merge</text>
+<rect x="1205" y="170" width="205" height="150" rx="10" fill="#FBE9E7" stroke="#B5483A" stroke-width="2"/>
+<text class="h" x="1307.5" y="223.5" text-anchor="middle">6. 실행 확인</text>
+<text class="s" x="1307.5" y="252.5" text-anchor="middle">잡 실행 후</text>
+<text class="s" x="1307.5" y="281.5" text-anchor="middle">Nexus에서 2.0 확인</text>
+<line x1="237" y1="245" x2="263" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="472" y1="245" x2="498" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="707" y1="245" x2="733" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="942" y1="245" x2="968" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1177" y1="245" x2="1203" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="390" text-anchor="middle">1부터 3까지는 Jenkins 쪽 준비, 4와 5는 개발자 작업, 6은 릴리스 확인이다.</text>
+<rect x="300" y="430" width="900" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="750.0" y="478.0" text-anchor="middle">이 잡은 수동 실행이다: 대시보드의 시계 아이콘으로 시작</text>
+<text class="s" x="750.0" y="507.0" text-anchor="middle">자동으로 시작하려면 13장의 Poll SCM 트리거를 추가한다</text>
+</svg>

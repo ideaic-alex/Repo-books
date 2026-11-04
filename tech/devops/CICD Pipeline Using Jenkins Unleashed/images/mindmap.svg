@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:21px;font-weight:700}
+    .b{font-size:17px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="620" fill="#FFFFFF"/>
+  <text class="t" x="750" y="58" text-anchor="middle">Jenkins CI/CD 학습 노트 한눈에 보기</text>
+  <rect x="520" y="90" width="460" height="64" rx="12" fill="#2B2F36"/>
+  <text class="h" x="750" y="130" text-anchor="middle" style="fill:#FFFFFF">CI/CD Pipeline Using Jenkins Unleashed</text>
+  <path d="M750 154 V180 H166 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="30" y="204" width="272" height="48" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="166" y="236" text-anchor="middle">1부 기초와 설정</text>
+  <rect x="30" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="299" text-anchor="middle">1장 CI·CD 이해</text>
+  <rect x="30" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="351" text-anchor="middle">2장 Jenkins 소개</text>
+  <rect x="30" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="403" text-anchor="middle">3장 Jenkins 설치</text>
+  <rect x="30" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="455" text-anchor="middle">4장 Jenkins 설정</text>
+  <rect x="30" y="480" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="507" text-anchor="middle">5장 플러그인 관리</text>
+  <rect x="30" y="532" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="559" text-anchor="middle">6장 전역 도구 설정</text>
+  <path d="M750 154 V180 H458 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="322" y="204" width="272" height="48" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="458" y="236" text-anchor="middle">2부 보안과 사용자</text>
+  <rect x="322" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="299" text-anchor="middle">7장 보안 관리</text>
+  <rect x="322" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="351" text-anchor="middle">8장 자격 증명 관리</text>
+  <rect x="322" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="403" text-anchor="middle">9장 사용자 관리</text>
+  <path d="M750 154 V180 H750 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="614" y="204" width="272" height="48" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="750" y="236" text-anchor="middle">3부 잡과 Java 릴리스</text>
+  <rect x="614" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="299" text-anchor="middle">10장 잡 이해</text>
+  <rect x="614" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="351" text-anchor="middle">11장 Maven 프로젝트 준비</text>
+  <rect x="614" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="403" text-anchor="middle">12장 Nexus 연동 릴리스</text>
+  <rect x="614" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="455" text-anchor="middle">13장 자동 트리거 잡</text>
+  <path d="M750 154 V180 H1042 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="906" y="204" width="272" height="48" rx="10" fill="#F3E8F7" stroke="#8A5AA8" stroke-width="2"/>
+  <text class="h" x="1042" y="236" text-anchor="middle">4부 파이프라인</text>
+  <rect x="906" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="299" text-anchor="middle">14장 파이프라인 이해</text>
+  <rect x="906" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="351" text-anchor="middle">15장 웹 앱 프로젝트 잡</text>
+  <rect x="906" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="403" text-anchor="middle">16장 Pipeline as Code</text>
+  <path d="M750 154 V180 H1334 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1198" y="204" width="272" height="48" rx="10" fill="#FBE8E8" stroke="#B85A5A" stroke-width="2"/>
+  <text class="h" x="1334" y="236" text-anchor="middle">5부 확장과 기타</text>
+  <rect x="1198" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="299" text-anchor="middle">17장 분산 빌드</text>
+  <rect x="1198" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="351" text-anchor="middle">18장 AWS 연동</text>
+  <rect x="1198" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="403" text-anchor="middle">19장 기타 1 Jenkins CLI</text>
+  <rect x="1198" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="455" text-anchor="middle">20장 기타 2 REST API</text>
+  <text class="s" x="750" y="592" text-anchor="middle">※ 장 제목은 원서 목차를 우리말로 옮긴 것이다. 각 장은 이 노트가 내용을 풀어 정리한 문서로 연결된다.</text>
+</svg>
