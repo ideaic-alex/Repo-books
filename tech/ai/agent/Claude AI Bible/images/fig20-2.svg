@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">자동화 하나를 끝까지 출시하는 청사진</text>
+<rect x="30" y="110" width="324" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="192.0" y="147.0" text-anchor="middle">1. 정의</text>
+<text class="b" x="192.0" y="177.0" text-anchor="middle">과제와 성공 기준</text>
+<text class="b" x="192.0" y="207.0" text-anchor="middle">절대 안 되는 일</text>
+<line x1="356" y1="175" x2="400" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="402" y="110" width="324" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="564.0" y="147.0" text-anchor="middle">2. 평가 세트</text>
+<text class="b" x="564.0" y="177.0" text-anchor="middle">실제 입출력 20쌍</text>
+<text class="b" x="564.0" y="207.0" text-anchor="middle">정답을 손으로</text>
+<line x1="728" y1="175" x2="772" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="774" y="110" width="324" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="936.0" y="147.0" text-anchor="middle">3. 단순 패턴</text>
+<text class="b" x="936.0" y="177.0" text-anchor="middle">라우터+단일 호출</text>
+<text class="b" x="936.0" y="207.0" text-anchor="middle">+사람 개입</text>
+<line x1="1100" y1="175" x2="1144" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1146" y="110" width="324" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1308.0" y="147.0" text-anchor="middle">4. 구현</text>
+<text class="b" x="1308.0" y="177.0" text-anchor="middle">검증과 폴백</text>
+<text class="b" x="1308.0" y="207.0" text-anchor="middle">발송은 승인 후</text>
+<polyline points="1320,242 1320,272 105,272 105,300" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="305" width="324" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="192.0" y="342.0" text-anchor="middle">5. 강화</text>
+<text class="b" x="192.0" y="372.0" text-anchor="middle">재시도, 멱등성</text>
+<text class="b" x="192.0" y="402.0" text-anchor="middle">비용 로그</text>
+<line x1="356" y1="370" x2="400" y2="370" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="402" y="305" width="324" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="564.0" y="342.0" text-anchor="middle">6. 좁게 배포</text>
+<text class="b" x="564.0" y="372.0" text-anchor="middle">인박스 하나</text>
+<text class="b" x="564.0" y="402.0" text-anchor="middle">알림 설정</text>
+<line x1="728" y1="370" x2="772" y2="370" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="774" y="305" width="324" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="936.0" y="342.0" text-anchor="middle">7. 관찰</text>
+<text class="b" x="936.0" y="372.0" text-anchor="middle">사람 게이트로</text>
+<text class="b" x="936.0" y="402.0" text-anchor="middle">일주일 이상</text>
+<line x1="1100" y1="370" x2="1144" y2="370" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1146" y="305" width="324" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1308.0" y="342.0" text-anchor="middle">8. 확장</text>
+<text class="b" x="1308.0" y="372.0" text-anchor="middle">안정적일 때만</text>
+<text class="b" x="1308.0" y="402.0" text-anchor="middle">한 범주씩</text>
+<text class="b" x="750" y="480" text-anchor="middle">각 단계를 통과해야 다음으로 간다: 정의, 평가, 단순, 강화, 좁은 배포, 관찰, 확장</text>
+<rect x="30" y="530" width="1440" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="567.0" text-anchor="middle">원칙</text>
+<text class="b" x="750.0" y="597.0" text-anchor="middle">피해 범위를 줄인 뒤에만 풀어 준다</text>
+<text class="b" x="750.0" y="627.0" text-anchor="middle">모니터링이 따라가는 속도보다 빨리 넓히지 않는다</text>
+</svg>

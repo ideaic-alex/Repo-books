@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">하나의 모델과 네 개의 입구</text>
+<rect x="400" y="100" width="700" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="142.0" text-anchor="middle">공유되는 Claude 모델</text>
+<text class="b" x="750.0" y="172.0" text-anchor="middle">책의 라인업: 강력형, 균형형, 빠른형 (시점 기준)</text>
+<rect x="30" y="290" width="345" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="202.5" y="337.0" text-anchor="middle">웹 (claude.ai)</text>
+<text class="b" x="202.5" y="367.0" text-anchor="middle">새 기능이 가장 먼저</text>
+<text class="b" x="202.5" y="397.0" text-anchor="middle">프로젝트, 기록 검색</text>
+<text class="b" x="202.5" y="427.0" text-anchor="middle">계정과 데이터 설정</text>
+<line x1="202" y1="205" x2="202" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="395" y="290" width="345" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="567.5" y="337.0" text-anchor="middle">데스크톱 앱</text>
+<text class="b" x="567.5" y="367.0" text-anchor="middle">전역 단축키</text>
+<text class="b" x="567.5" y="397.0" text-anchor="middle">파일 선택기</text>
+<text class="b" x="567.5" y="427.0" text-anchor="middle">연결 도구와 어울림</text>
+<line x1="567" y1="205" x2="567" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="760" y="290" width="345" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="932.5" y="337.0" text-anchor="middle">모바일 앱</text>
+<text class="b" x="932.5" y="367.0" text-anchor="middle">카메라와 휴대성</text>
+<text class="b" x="932.5" y="397.0" text-anchor="middle">알림</text>
+<text class="b" x="932.5" y="427.0" text-anchor="middle">새 기능은 늦게</text>
+<line x1="932" y1="205" x2="932" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1125" y="290" width="345" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1297.5" y="337.0" text-anchor="middle">음성 모드</text>
+<text class="b" x="1297.5" y="367.0" text-anchor="middle">손과 눈이 바쁠 때</text>
+<text class="b" x="1297.5" y="397.0" text-anchor="middle">생각 정리용</text>
+<text class="b" x="1297.5" y="427.0" text-anchor="middle">정밀 작업엔 부적합</text>
+<line x1="1297" y1="205" x2="1297" y2="288" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="500" text-anchor="middle">모델은 능력, 앱은 접근. 대화와 계정은 동기화되고 기기 고유 설정은 따라가지 않는다.</text>
+</svg>

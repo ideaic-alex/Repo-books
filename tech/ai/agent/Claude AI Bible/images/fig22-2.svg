@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">한계에서 완화책까지 (책의 설명 기준)</text>
+<text class="h" x="230" y="112" text-anchor="middle">한계</text>
+<text class="h" x="750" y="112" text-anchor="middle">위험</text>
+<text class="h" x="1270" y="112" text-anchor="middle">책이 권하는 대응</text>
+
+<rect x="30" y="135" width="400" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="230" y="172" text-anchor="middle">실시간 지식 없음</text>
+<text class="b" x="230" y="202" text-anchor="middle">대화 간 기억 없음</text>
+<line x1="432" y1="180" x2="548" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="550" y="135" width="400" height="90" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="b" x="750" y="172" text-anchor="middle">낡은 정보, 맥락 누락</text>
+<text class="b" x="750" y="202" text-anchor="middle">엉뚱한 답</text>
+<line x1="952" y1="180" x2="1068" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1070" y="135" width="400" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="1270" y="172" text-anchor="middle">도구 제공, Projects와</text>
+<text class="b" x="1270" y="202" text-anchor="middle">메모리로 맥락 공급</text>
+
+<rect x="30" y="250" width="400" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="230" y="287" text-anchor="middle">사실 보장 없음</text>
+<text class="b" x="230" y="317" text-anchor="middle">결과 이해 없음</text>
+<line x1="432" y1="295" x2="548" y2="295" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="550" y="250" width="400" height="90" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="b" x="750" y="287" text-anchor="middle">환각, 확신에 찬 오답</text>
+<text class="b" x="750" y="317" text-anchor="middle">평판과 결정의 손상</text>
+<line x1="952" y1="295" x2="1068" y2="295" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1070" y="250" width="400" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="1270" y="287" text-anchor="middle">자료 근거, 핵심 사실 검증</text>
+<text class="b" x="1270" y="317" text-anchor="middle">출처와 불확실성 요구</text>
+
+<rect x="30" y="365" width="400" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="230" y="402" text-anchor="middle">되돌림 판단 없음</text>
+<text class="b" x="230" y="432" text-anchor="middle">결정론적 일관성 없음</text>
+<line x1="432" y1="410" x2="548" y2="410" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="550" y="365" width="400" height="90" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="b" x="750" y="402" text-anchor="middle">대량 발송, 삭제 사고</text>
+<text class="b" x="750" y="432" text-anchor="middle">결과가 매번 다름</text>
+<line x1="952" y1="410" x2="1068" y2="410" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1070" y="365" width="400" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="1270" y="402" text-anchor="middle">확인 단계, 권한 제한</text>
+<text class="b" x="1270" y="432" text-anchor="middle">재현성은 코드로 보강</text>
+
+<rect x="30" y="480" width="400" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="230" y="517" text-anchor="middle">데이터 노출</text>
+<text class="b" x="230" y="547" text-anchor="middle">지식재산, 공개 문제</text>
+<line x1="432" y1="525" x2="548" y2="525" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="550" y="480" width="400" height="90" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="b" x="750" y="517" text-anchor="middle">민감 정보 유출</text>
+<text class="b" x="750" y="547" text-anchor="middle">신뢰 상실</text>
+<line x1="952" y1="525" x2="1068" y2="525" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1070" y="480" width="400" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="1270" y="517" text-anchor="middle">데이터 최소화, 규칙 확인</text>
+<text class="b" x="1270" y="547" text-anchor="middle">검토와 맥락에 맞는 공개</text>
+
+<rect x="250" y="605" width="1000" height="60" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="750" y="642" text-anchor="middle">과잉 자동화 방지: 최악의 오류 비용으로 사람 검토를 판단한다</text>
+</svg>

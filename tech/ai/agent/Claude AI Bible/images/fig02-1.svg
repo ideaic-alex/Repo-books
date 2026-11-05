@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">모델 선택 판단 흐름</text>
+<rect x="450" y="110" width="600" height="110" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750" y="154" text-anchor="middle">먼저 작업을 본다</text>
+<text class="b" x="750" y="190" text-anchor="middle">난이도, 틀렸을 때의 결과, 누가 기다리는가</text>
+<line x1="600" y1="222" x2="270" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="222" x2="750" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="900" y1="222" x2="1230" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="320" width="400" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="260" y="360" text-anchor="middle">단순하고 대량, 속도 중요</text>
+<text class="b" x="260" y="395" text-anchor="middle">Haiku 4.5</text>
+<text class="b" x="260" y="425" text-anchor="middle">분류, 추출, 라우팅</text>
+<rect x="550" y="320" width="400" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750" y="360" text-anchor="middle">대부분의 일반 업무</text>
+<text class="b" x="750" y="395" text-anchor="middle">Sonnet 4.6 (기본 출발점)</text>
+<text class="b" x="750" y="425" text-anchor="middle">글쓰기, 요약, 일반 코딩</text>
+<rect x="1040" y="320" width="400" height="140" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1240" y="360" text-anchor="middle">어렵고 위험이 큼</text>
+<text class="b" x="1240" y="395" text-anchor="middle">Opus 4.8 + 확장 사고</text>
+<text class="b" x="1240" y="425" text-anchor="middle">복합 디버깅, 설계, 긴 에이전트</text>
+<rect x="300" y="510" width="900" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="545" text-anchor="middle">Sonnet이 특정 유형에서 계속 실패하면 그 유형만 위로, 과하면 아래로</text>
+<text class="b" x="750" y="573" text-anchor="middle">감이 아니라 관찰한 증거로 옮긴다</text>
+</svg>

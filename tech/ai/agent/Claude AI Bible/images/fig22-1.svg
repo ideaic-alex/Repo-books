@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">환각은 왜 생기고 어떻게 막나 (책의 설명 기준)</text>
+<rect x="40" y="130" width="300" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="190" y="175" text-anchor="middle">질문</text>
+<text class="b" x="190" y="208" text-anchor="middle">모델은 멈추지 않고</text>
+<text class="b" x="190" y="232" text-anchor="middle">이어쓸 문장을 만든다</text>
+<line x1="342" y1="190" x2="418" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="420" y="130" width="340" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="590" y="175" text-anchor="middle">가장 그럴듯한 이어쓰기</text>
+<text class="b" x="590" y="208" text-anchor="middle">진실이 아니라</text>
+<text class="b" x="590" y="232" text-anchor="middle">그럴듯함을 최적화</text>
+<line x1="762" y1="165" x2="898" y2="145" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="762" y1="215" x2="898" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="900" y="100" width="560" height="80" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1180" y="135" text-anchor="middle">흔한 내용이면 대체로 정답</text>
+<text class="b" x="1180" y="162" text-anchor="middle">그럴듯함과 진실이 겹친다</text>
+<rect x="900" y="200" width="560" height="80" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1180" y="235" text-anchor="middle">인용, 수치, 이름, 최근 사건</text>
+<text class="b" x="1180" y="262" text-anchor="middle">지어낸 내용이 같은 어조로 나온다</text>
+<text class="h" x="750" y="340" text-anchor="middle">책이 권하는 다섯 가지 방어</text>
+<rect x="30" y="370" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="165" y="410" text-anchor="middle">자료 근거</text>
+<text class="b" x="165" y="445" text-anchor="middle">기억 대신</text>
+<text class="b" x="165" y="470" text-anchor="middle">제공 자료를 읽게</text>
+<rect x="320" y="370" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="455" y="410" text-anchor="middle">핵심 사실 검증</text>
+<text class="b" x="455" y="445" text-anchor="middle">문장이 아니라</text>
+<text class="b" x="455" y="470" text-anchor="middle">인용과 숫자 확인</text>
+<rect x="610" y="370" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="745" y="410" text-anchor="middle">근거와 불확실성</text>
+<text class="b" x="745" y="445" text-anchor="middle">출처를 달고</text>
+<text class="b" x="745" y="470" text-anchor="middle">추측은 표시하게</text>
+<rect x="900" y="370" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1035" y="410" text-anchor="middle">모른다고 말하기</text>
+<text class="b" x="1035" y="445" text-anchor="middle">답하지 않아도</text>
+<text class="b" x="1035" y="470" text-anchor="middle">되는 허락</text>
+<rect x="1190" y="370" width="280" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1330" y="410" text-anchor="middle">위험에 맞춘 신뢰</text>
+<text class="b" x="1330" y="445" text-anchor="middle">틀렸을 때의 비용에</text>
+<text class="b" x="1330" y="470" text-anchor="middle">따라 확인 강도 결정</text>
+<rect x="250" y="540" width="1000" height="50" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="b" x="750" y="572" text-anchor="middle">매끄러운 문장이 아니라 핵심 사실을 확인한다</text>
+</svg>

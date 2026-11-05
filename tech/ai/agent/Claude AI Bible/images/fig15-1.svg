@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">15장 Skill, 플러그인, 마켓플레이스의 관계</text>
+<rect x="20" y="110" width="340" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190.0" y="142.0" text-anchor="middle">Skill</text>
+<text class="b" x="190.0" y="172.0" text-anchor="middle">작업 지침 폴더</text>
+<rect x="20" y="210" width="340" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190.0" y="242.0" text-anchor="middle">MCP 서버</text>
+<text class="b" x="190.0" y="272.0" text-anchor="middle">외부 연결 설정</text>
+<rect x="20" y="310" width="340" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190.0" y="342.0" text-anchor="middle">슬래시 명령</text>
+<text class="b" x="190.0" y="372.0" text-anchor="middle">저장된 시작 명령</text>
+<rect x="20" y="410" width="340" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190.0" y="442.0" text-anchor="middle">에이전트</text>
+<text class="b" x="190.0" y="472.0" text-anchor="middle">검수 같은 보조 일꾼</text>
+<rect x="500" y="110" width="360" height="380" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="680.0" y="247.0" text-anchor="middle">플러그인</text>
+<text class="b" x="680.0" y="277.0" text-anchor="middle">매니페스트(이름·버전·</text>
+<text class="b" x="680.0" y="307.0" text-anchor="middle">설명·구성요소 위치)</text>
+<text class="b" x="680.0" y="337.0" text-anchor="middle">+ 조각들을 한 묶음으로</text>
+<text class="b" x="680.0" y="367.0" text-anchor="middle">함께 버전 관리·갱신</text>
+<rect x="1000" y="110" width="480" height="160" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1240.0" y="167.0" text-anchor="middle">마켓플레이스</text>
+<text class="b" x="1240.0" y="197.0" text-anchor="middle">플러그인 카탈로그(출처를 추가)</text>
+<text class="b" x="1240.0" y="227.0" text-anchor="middle">공개, 사내 비공개, 벤더 공식</text>
+<rect x="1000" y="330" width="480" height="160" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1240.0" y="387.0" text-anchor="middle">설치 전 점검</text>
+<text class="b" x="1240.0" y="417.0" text-anchor="middle">출처, 내용, 요청 권한 확인</text>
+<text class="b" x="1240.0" y="447.0" text-anchor="middle">최소 권한, 소유자 지정</text>
+<line x1="362" y1="150" x2="498" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="362" y1="250" x2="498" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="362" y1="350" x2="498" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="362" y1="450" x2="498" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="862" y1="190" x2="998" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1240" y1="272" x2="1240" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="500" y="540" width="980" height="70" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="990.0" y="582.0" text-anchor="middle">진열대(마켓플레이스)는 하나로, 열쇠(자격 증명)는 필요한 만큼만</text>
+</svg>

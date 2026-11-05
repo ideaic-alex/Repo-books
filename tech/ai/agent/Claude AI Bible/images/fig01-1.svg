@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Claude의 성격이 만들어지는 층 (개념도)</text>
+<rect x="30" y="110" width="320" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190" y="154" text-anchor="middle">1. 사전 훈련</text>
+<text class="b" x="190" y="188" text-anchor="middle">방대한 텍스트로</text>
+<text class="b" x="190" y="218" text-anchor="middle">다음 토큰을 예측</text>
+<line x1="352" y1="180" x2="393" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="395" y="110" width="320" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="555" y="154" text-anchor="middle">2. fine-tuning</text>
+<text class="b" x="555" y="188" text-anchor="middle">대화 예시와 원칙 기반</text>
+<text class="b" x="555" y="218" text-anchor="middle">훈련으로 행동 다듬기</text>
+<line x1="717" y1="180" x2="758" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="760" y="110" width="320" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="920" y="154" text-anchor="middle">3. 제품 계층</text>
+<text class="b" x="920" y="188" text-anchor="middle">시스템 프롬프트, 도구</text>
+<text class="b" x="920" y="218" text-anchor="middle">안전 필터, 대화 기억</text>
+<line x1="1082" y1="180" x2="1123" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1125" y="110" width="345" height="140" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1297" y="154" text-anchor="middle">4. 사용자가 보는 모습</text>
+<text class="b" x="1297" y="188" text-anchor="middle">설교 없는 가치관, 아첨 거부</text>
+<text class="b" x="1297" y="218" text-anchor="middle">불확실성에 정직함</text>
+<rect x="250" y="330" width="1000" height="120" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="750" y="376" text-anchor="middle">기억할 점</text>
+<text class="b" x="750" y="410" text-anchor="middle">"Claude가 X를 못 한다"는 말은 모델의 한계가 아니라</text>
+<text class="b" x="750" y="438" text-anchor="middle">내가 연 제품에 X가 연결되지 않았다는 뜻일 수 있다</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">Cowork가 닿는 범위와 안전 장치</text>
+<rect x="40" y="100" width="760" height="300" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="420.0" y="136" text-anchor="middle">연결 폴더 안 (울타리)</text>
+<rect x="70" y="150" width="330" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="235.0" y="192.0" text-anchor="middle">파일 읽기와 쓰기</text>
+<text class="b" x="235.0" y="222.0" text-anchor="middle">연결한 폴더에서만</text>
+<rect x="440" y="150" width="330" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="605.0" y="192.0" text-anchor="middle">샌드박스 셸</text>
+<text class="b" x="605.0" y="222.0" text-anchor="middle">코드 실행, 데이터 처리</text>
+<rect x="70" y="270" width="330" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="235.0" y="312.0" text-anchor="middle">Skills</text>
+<text class="b" x="235.0" y="342.0" text-anchor="middle">반복 절차를 담은 노하우</text>
+<rect x="440" y="270" width="330" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="605.0" y="312.0" text-anchor="middle">예약 작업</text>
+<text class="b" x="605.0" y="342.0" text-anchor="middle">시간에 맞춰 자동 실행</text>
+<rect x="900" y="100" width="560" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1180.0" y="147.0" text-anchor="middle">MCP 커넥터</text>
+<text class="b" x="1180.0" y="177.0" text-anchor="middle">외부 서비스로 가는 통로</text>
+<text class="b" x="1180.0" y="207.0" text-anchor="middle">필요한 것만 연결</text>
+<rect x="900" y="270" width="560" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1180.0" y="312.0" text-anchor="middle">컴퓨터 사용</text>
+<text class="b" x="1180.0" y="342.0" text-anchor="middle">읽기, 클릭, 입력 세 단계</text>
+<text class="b" x="1180.0" y="372.0" text-anchor="middle">피해 범위에 맞춰 선택</text>
+<line x1="802" y1="170" x2="898" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="450" width="1420" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="502.0" text-anchor="middle">확인 경계 (ask-before-acting)</text>
+<text class="b" x="750.0" y="532.0" text-anchor="middle">삭제, 변경, 외부 전송 같은 행동 전에 보여 주고 승인을 기다림</text>
+<text class="b" x="750.0" y="562.0" text-anchor="middle">확인창은 읽고 승인하고, 지시문에 한계를 먼저 적는다</text>
+</svg>

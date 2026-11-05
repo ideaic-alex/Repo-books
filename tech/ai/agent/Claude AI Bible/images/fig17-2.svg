@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">호출 실패 시 대응: 재시도할 것과 고칠 것</text>
+<rect x="560" y="100" width="380" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="132.0" text-anchor="middle">API 호출 실패</text>
+<text class="b" x="750.0" y="162.0" text-anchor="middle">상태 코드를 확인한다</text>
+<line x1="640" y1="192" x2="330" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="860" y1="192" x2="1170" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="260" width="600" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="330.0" y="297.0" text-anchor="middle">429, 500, 529</text>
+<text class="b" x="330.0" y="327.0" text-anchor="middle">속도 제한 / 서버 오류 / 과부하</text>
+<text class="b" x="330.0" y="357.0" text-anchor="middle">= 일시적, 기다리면 풀릴 수 있음</text>
+<rect x="870" y="260" width="600" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1170.0" y="297.0" text-anchor="middle">400, 401, 403</text>
+<text class="b" x="1170.0" y="327.0" text-anchor="middle">요청 형식 / 키 / 권한 문제</text>
+<text class="b" x="1170.0" y="357.0" text-anchor="middle">= 내 쪽 문제, 같은 요청은 또 실패</text>
+<line x1="330" y1="392" x2="330" y2="438" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1170" y1="392" x2="1170" y2="438" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="440" width="600" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="330.0" y="477.0" text-anchor="middle">지수 백오프로 재시도</text>
+<text class="b" x="330.0" y="507.0" text-anchor="middle">점점 길게 기다리고 약간의 무작위성을 둔다</text>
+<text class="b" x="330.0" y="537.0" text-anchor="middle">SDK가 기본으로 처리, 그래도 실패하면 대기열·알림</text>
+<rect x="870" y="440" width="600" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1170.0" y="477.0" text-anchor="middle">재시도하지 말고 수정</text>
+<text class="b" x="1170.0" y="507.0" text-anchor="middle">요청, 키, 권한을 고친다</text>
+<text class="b" x="1170.0" y="537.0" text-anchor="middle">실패는 삼키지 말고 크게 기록한다</text>
+<text class="b" x="750" y="610" text-anchor="middle">성공했다고 가정하지 말고 확인하며, 출력이 없으면 울리는 알림을 둔다</text>
+</svg>

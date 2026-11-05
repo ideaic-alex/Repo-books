@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">16장 MCP의 구성과 요청 흐름</text>
+<rect x="20" y="110" width="330" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="185.0" y="157.0" text-anchor="middle">호스트</text>
+<text class="b" x="185.0" y="187.0" text-anchor="middle">사용자가 쓰는 AI 앱</text>
+<text class="b" x="185.0" y="217.0" text-anchor="middle">(Claude Code, 데스크톱</text>
+<text class="b" x="185.0" y="247.0" text-anchor="middle">앱, Cowork 등)</text>
+<rect x="410" y="110" width="300" height="170" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="560.0" y="172.0" text-anchor="middle">클라이언트</text>
+<text class="b" x="560.0" y="202.0" text-anchor="middle">호스트 안의 연결 담당</text>
+<text class="b" x="560.0" y="232.0" text-anchor="middle">서버 하나당 하나</text>
+<rect x="770" y="110" width="300" height="170" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="920.0" y="157.0" text-anchor="middle">MCP 서버</text>
+<text class="b" x="920.0" y="187.0" text-anchor="middle">외부 대상을 표준</text>
+<text class="b" x="920.0" y="217.0" text-anchor="middle">형태로 노출하고</text>
+<text class="b" x="920.0" y="247.0" text-anchor="middle">실제 작업 수행</text>
+<rect x="1130" y="110" width="350" height="170" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1305.0" y="172.0" text-anchor="middle">외부 시스템</text>
+<text class="b" x="1305.0" y="202.0" text-anchor="middle">파일, DB, 채팅,</text>
+<text class="b" x="1305.0" y="232.0" text-anchor="middle">캘린더, 이슈 트래커 등</text>
+<line x1="352" y1="195" x2="408" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="712" y1="195" x2="768" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1072" y1="195" x2="1128" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="20" y="340" width="450" height="140" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="245.0" y="387.0" text-anchor="middle">도구(tools)</text>
+<text class="b" x="245.0" y="417.0" text-anchor="middle">모델이 취하는 행동</text>
+<text class="b" x="245.0" y="447.0" text-anchor="middle">쿼리 실행, 메시지 전송</text>
+<rect x="525" y="340" width="450" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="387.0" text-anchor="middle">리소스(resources)</text>
+<text class="b" x="750.0" y="417.0" text-anchor="middle">모델이 읽는 데이터</text>
+<text class="b" x="750.0" y="447.0" text-anchor="middle">문서, 레코드, 파일</text>
+<rect x="1030" y="340" width="450" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1255.0" y="387.0" text-anchor="middle">프롬프트(prompts)</text>
+<text class="b" x="1255.0" y="417.0" text-anchor="middle">서버가 주는 재사용 템플릿</text>
+<text class="b" x="1255.0" y="447.0" text-anchor="middle">흔한 작업의 기성 틀</text>
+<line x1="920" y1="282" x2="920" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="20" y="540" width="1460" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.0" y="592.0" text-anchor="middle">보안 원칙</text>
+<text class="b" x="750.0" y="622.0" text-anchor="middle">출력 불신(프롬프트 인젝션) · 최소 권한 · 비밀은 환경으로 · 중대한 행동은 사람 승인 · 출처 확인</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">내 업무로 직접 비교하는 15분 평가</text>
+<rect x="30" y="110" width="270" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="165" y="154" text-anchor="middle">1. 과제 3개</text>
+<text class="b" x="165" y="188" text-anchor="middle">실제 업무를 대표</text>
+<text class="b" x="165" y="218" text-anchor="middle">장난감 프롬프트 금지</text>
+<line x1="302" y1="180" x2="321" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="325" y="110" width="270" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="460" y="154" text-anchor="middle">2. 기준 적기</text>
+<text class="b" x="460" y="188" text-anchor="middle">좋은 답의 모습을</text>
+<text class="b" x="460" y="218" text-anchor="middle">실행 전에 먼저</text>
+<line x1="597" y1="180" x2="616" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="620" y="110" width="270" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="755" y="154" text-anchor="middle">3. 같은 프롬프트</text>
+<text class="b" x="755" y="188" text-anchor="middle">후보 모델마다</text>
+<text class="b" x="755" y="218" text-anchor="middle">모든 과제 실행</text>
+<line x1="892" y1="180" x2="911" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="915" y="110" width="270" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1050" y="154" text-anchor="middle">4. 점수 매기기</text>
+<text class="b" x="1050" y="188" text-anchor="middle">정확성, 가독성,</text>
+<text class="b" x="1050" y="218" text-anchor="middle">손볼 분량</text>
+<line x1="1187" y1="180" x2="1206" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1210" y="110" width="260" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1340" y="154" text-anchor="middle">5. 품질 밖 요소</text>
+<text class="b" x="1340" y="188" text-anchor="middle">비용, 속도,</text>
+<text class="b" x="1340" y="218" text-anchor="middle">데이터 정책</text>
+<rect x="250" y="320" width="1000" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750" y="366" text-anchor="middle">결론</text>
+<text class="b" x="750" y="402" text-anchor="middle">영원한 승자를 고르는 것이 아니라</text>
+<text class="b" x="750" y="430" text-anchor="middle">지금 내 업무와 조건에 맞는 선택을 증거로 한다</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">도구 사용 루프와 컴퓨터 사용 루프 비교</text>
+<text class="b" x="30" y="110" text-anchor="start">도구 사용: 구조화된 인터페이스</text>
+<rect x="30" y="130" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="193.5" y="182.0" text-anchor="middle">요청</text>
+<text class="b" x="193.5" y="212.0" text-anchor="middle">질문 + 도구 정의</text>
+<line x1="359" y1="195" x2="399" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="401" y="130" width="327" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="564.5" y="182.0" text-anchor="middle">도구 요청</text>
+<text class="b" x="564.5" y="212.0" text-anchor="middle">이름, 인자, id</text>
+<line x1="730" y1="195" x2="770" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="772" y="130" width="327" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="935.5" y="182.0" text-anchor="middle">내 코드 실행</text>
+<text class="b" x="935.5" y="212.0" text-anchor="middle">실제 함수 호출</text>
+<line x1="1101" y1="195" x2="1141" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1143" y="130" width="327" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1306.5" y="182.0" text-anchor="middle">결과 반환</text>
+<text class="b" x="1306.5" y="212.0" text-anchor="middle">같은 id로 전달</text>
+<text class="b" x="30" y="330" text-anchor="start">컴퓨터 사용: 화면이 인터페이스</text>
+<rect x="30" y="350" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="193.5" y="402.0" text-anchor="middle">스크린샷</text>
+<text class="b" x="193.5" y="432.0" text-anchor="middle">현재 화면을 이미지로</text>
+<line x1="359" y1="415" x2="399" y2="415" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="401" y="350" width="327" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="564.5" y="402.0" text-anchor="middle">동작 결정</text>
+<text class="b" x="564.5" y="432.0" text-anchor="middle">좌표 클릭, 입력</text>
+<line x1="730" y1="415" x2="770" y2="415" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="772" y="350" width="327" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="935.5" y="402.0" text-anchor="middle">런타임 실행</text>
+<text class="b" x="935.5" y="432.0" text-anchor="middle">실제 클릭·입력</text>
+<line x1="1101" y1="415" x2="1141" y2="415" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1143" y="350" width="327" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1306.5" y="402.0" text-anchor="middle">새 스크린샷</text>
+<text class="b" x="1306.5" y="432.0" text-anchor="middle">결과 확인, 반복</text>
+<rect x="30" y="530" width="1440" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="567.0" text-anchor="middle">비교와 수칙</text>
+<text class="b" x="750.0" y="597.0" text-anchor="middle">컴퓨터 사용은 더 느리고 비싸고 오류가 쉬우므로 샌드박스, 사람 확인, 인젝션 경계를 지키고 API가 없을 때만 쓴다</text>
+</svg>

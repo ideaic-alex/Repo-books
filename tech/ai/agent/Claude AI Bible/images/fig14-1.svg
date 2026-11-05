@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">14장 Skill의 구조와 단계적 로드</text>
+<rect x="20" y="110" width="430" height="500" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="235.0" y="247.0" text-anchor="middle">Skill 폴더</text>
+<text class="b" x="235.0" y="277.0" text-anchor="middle">SKILL.md</text>
+<text class="b" x="235.0" y="307.0" text-anchor="middle">(이름 + 설명 + 본문 지침)</text>
+<text class="b" x="235.0" y="337.0" text-anchor="middle"> </text>
+<text class="b" x="235.0" y="367.0" text-anchor="middle">scripts/</text>
+<text class="b" x="235.0" y="397.0" text-anchor="middle">(정확해야 하는 계산)</text>
+<text class="b" x="235.0" y="427.0" text-anchor="middle"> </text>
+<text class="b" x="235.0" y="457.0" text-anchor="middle">resources/</text>
+<text class="b" x="235.0" y="487.0" text-anchor="middle">(템플릿, 예시, 체크리스트)</text>
+<rect x="560" y="110" width="920" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1020.0" y="157.0" text-anchor="middle">1단계 설명(description)</text>
+<text class="b" x="1020.0" y="187.0" text-anchor="middle">항상 보임. 한두 문장으로 가볍다</text>
+<text class="b" x="1020.0" y="217.0" text-anchor="middle">이 Skill을 쓸지 판단하는 기준 = 트리거</text>
+<rect x="560" y="270" width="920" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1020.0" y="317.0" text-anchor="middle">2단계 본문 지침</text>
+<text class="b" x="1020.0" y="347.0" text-anchor="middle">트리거될 때 로드된다</text>
+<text class="b" x="1020.0" y="377.0" text-anchor="middle">규칙, 형식, 순서, 입력이 없을 때 묻기</text>
+<rect x="560" y="430" width="920" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1020.0" y="477.0" text-anchor="middle">3단계 스크립트·리소스</text>
+<text class="b" x="1020.0" y="507.0" text-anchor="middle">본문이 가리킬 때만 쓰인다</text>
+<text class="b" x="1020.0" y="537.0" text-anchor="middle">스크립트 실행, 예시 파일 참조</text>
+<line x1="1020" y1="252" x2="1020" y2="268" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="412" x2="1020" y2="428" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="560" y="590" width="920" height="50" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1020.0" y="622.0" text-anchor="middle">요청과 설명이 맞으면 Claude가 스스로 로드한다 (이름으로 호출하지 않는다)</text>
+</svg>

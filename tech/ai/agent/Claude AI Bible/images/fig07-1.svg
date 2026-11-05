@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">세 겹의 맥락은 함께 작동한다</text>
+<rect x="30" y="110" width="430" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="245.0" y="146" text-anchor="middle">custom instructions</text>
+<text class="b" x="245.0" y="176" text-anchor="middle">모든 대화에 적용</text>
+<text class="b" x="245.0" y="206" text-anchor="middle">호칭, 어조 같은 전반적 선호</text>
+<rect x="30" y="245" width="430" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="245.0" y="281" text-anchor="middle">Memory</text>
+<text class="b" x="245.0" y="311" text-anchor="middle">대화들 사이에서 쌓인 사실</text>
+<text class="b" x="245.0" y="341" text-anchor="middle">보고, 고치고, 지우고, 끌 수 있음</text>
+<rect x="30" y="380" width="430" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="245.0" y="416" text-anchor="middle">Project</text>
+<text class="b" x="245.0" y="446" text-anchor="middle">그 Project 안에서만 적용</text>
+<text class="b" x="245.0" y="476" text-anchor="middle">전용 지침과 지식 베이스</text>
+<line x1="462" y1="165" x2="560" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="300" x2="560" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="435" x2="560" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="565" y="220" width="400" height="160" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="765.0" y="256" text-anchor="middle">한 대화</text>
+<text class="b" x="765.0" y="286" text-anchor="middle">세 겹이 동시에 영향을 준다</text>
+<text class="b" x="765.0" y="316" text-anchor="middle">낡은 기억이나 문서는</text>
+<text class="b" x="765.0" y="346" text-anchor="middle">틀린 맥락이 되므로 점검</text>
+<rect x="1010" y="110" width="460" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1240.0" y="146" text-anchor="middle">지식 베이스 관리</text>
+<text class="b" x="1240.0" y="176" text-anchor="middle">안정적이고 관련 있는 자료만</text>
+<text class="b" x="1240.0" y="206" text-anchor="middle">바뀌면 옛 버전을 지운다</text>
+<rect x="1010" y="270" width="460" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1240.0" y="306" text-anchor="middle">컨텍스트 예산</text>
+<text class="b" x="1240.0" y="336" text-anchor="middle">지식 파일도 같은 창을 쓴다</text>
+<text class="b" x="1240.0" y="366" text-anchor="middle">소수의 알짜 문서가 낫다</text>
+<rect x="1010" y="430" width="460" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1240.0" y="466" text-anchor="middle">공유 링크 주의</text>
+<text class="b" x="1240.0" y="496" text-anchor="middle">대화에 드러난 지식도 보일 수 있다</text>
+<text class="b" x="1240.0" y="526" text-anchor="middle">공유 전에 내용을 확인한다</text>
+<text class="b" x="250" y="560" text-anchor="middle">범위가 좁을수록 규칙이 다른 일에 번지지 않는다.</text>
+</svg>

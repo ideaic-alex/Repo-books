@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">13장 Claude Code의 작업 루프와 안전장치</text>
+<rect x="20" y="110" width="260" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="150.0" y="152.0" text-anchor="middle">1. 탐색</text>
+<text class="b" x="150.0" y="182.0" text-anchor="middle">관련 파일을 읽고</text>
+<text class="b" x="150.0" y="212.0" text-anchor="middle">구조를 파악</text>
+<rect x="310" y="110" width="260" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="440.0" y="152.0" text-anchor="middle">2. 계획</text>
+<text class="b" x="440.0" y="182.0" text-anchor="middle">바꿀 파일과 순서를</text>
+<text class="b" x="440.0" y="212.0" text-anchor="middle">먼저 제시</text>
+<rect x="600" y="110" width="260" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="730.0" y="152.0" text-anchor="middle">3. 편집</text>
+<text class="b" x="730.0" y="182.0" text-anchor="middle">변경을 diff로</text>
+<text class="b" x="730.0" y="212.0" text-anchor="middle">보여 주며 수정</text>
+<rect x="890" y="110" width="260" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1020.0" y="152.0" text-anchor="middle">4. 실행</text>
+<text class="b" x="1020.0" y="182.0" text-anchor="middle">테스트·린터를</text>
+<text class="b" x="1020.0" y="212.0" text-anchor="middle">돌리고 출력 확인</text>
+<rect x="1180" y="110" width="260" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1310.0" y="152.0" text-anchor="middle">5. 반복</text>
+<text class="b" x="1310.0" y="182.0" text-anchor="middle">실패 원인을 고쳐</text>
+<text class="b" x="1310.0" y="212.0" text-anchor="middle">다시 실행</text>
+<line x1="282" y1="175" x2="308" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="572" y1="175" x2="598" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="862" y1="175" x2="888" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1152" y1="175" x2="1178" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="300" y="280" width="900" height="70" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="307.0" text-anchor="middle">사람의 통제 지점</text>
+<text class="b" x="750.0" y="337.0" text-anchor="middle">큰 작업은 2단계 계획을 승인한 뒤 진행한다</text>
+<line x1="730" y1="242" x2="730" y2="278" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="20" y="400" width="450" height="190" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="245.0" y="457.0" text-anchor="middle">실행 전: 되돌릴 길</text>
+<text class="b" x="245.0" y="487.0" text-anchor="middle">작업 전 git 상태를 깨끗하게</text>
+<text class="b" x="245.0" y="517.0" text-anchor="middle">한 작업마다 커밋</text>
+<text class="b" x="245.0" y="547.0" text-anchor="middle">실험은 브랜치에서</text>
+<rect x="525" y="400" width="450" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="457.0" text-anchor="middle">자동 규칙</text>
+<text class="b" x="750.0" y="487.0" text-anchor="middle">훅: 편집 뒤 포맷·검사 실행</text>
+<text class="b" x="750.0" y="517.0" text-anchor="middle">위험 명령은 실행 전에 차단</text>
+<text class="b" x="750.0" y="547.0" text-anchor="middle">권한 allow·deny 목록</text>
+<rect x="1030" y="400" width="450" height="190" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1255.0" y="457.0" text-anchor="middle">커밋 전: 사람의 검토</text>
+<text class="b" x="1255.0" y="487.0" text-anchor="middle">git diff 전체를 직접 읽는다</text>
+<text class="b" x="1255.0" y="517.0" text-anchor="middle">요청하지 않은 변경 확인</text>
+<text class="b" x="1255.0" y="547.0" text-anchor="middle">익숙해져도 검토를 멈추지 않음</text>
+</svg>

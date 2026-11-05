@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">Claude in Excel의 분업 구도</text>
+<rect x="40" y="110" width="600" height="300" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="340.0" y="192.0" text-anchor="middle">에이전트가 맡는 기계적 노동</text>
+<text class="b" x="340.0" y="222.0" text-anchor="middle">수식 작성과 설명</text>
+<text class="b" x="340.0" y="252.0" text-anchor="middle">날짜, 이름, 열 정리</text>
+<text class="b" x="340.0" y="282.0" text-anchor="middle">중복 후보 표시</text>
+<text class="b" x="340.0" y="312.0" text-anchor="middle">모델 틀과 수식 연결</text>
+<text class="b" x="340.0" y="342.0" text-anchor="middle">불일치 수식 점검</text>
+<rect x="860" y="110" width="600" height="300" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1160.0" y="192.0" text-anchor="middle">사람이 맡는 판단과 검증</text>
+<text class="b" x="1160.0" y="222.0" text-anchor="middle">가정과 중복 기준 판단</text>
+<text class="b" x="1160.0" y="252.0" text-anchor="middle">삭제 같은 되돌릴 수 없는 결정</text>
+<text class="b" x="1160.0" y="282.0" text-anchor="middle">규모 점검과 수식 추적</text>
+<text class="b" x="1160.0" y="312.0" text-anchor="middle">소계 대사</text>
+<text class="b" x="1160.0" y="342.0" text-anchor="middle">의사결정 책임</text>
+<line x1="642" y1="260" x2="858" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="245" text-anchor="middle">결과물</text>
+<rect x="300" y="450" width="900" height="80" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="497.0" text-anchor="middle">스프레드시트는 틀려도 오류를 내지 않는다</text>
+</svg>

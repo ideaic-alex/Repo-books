@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="590" viewBox="0 0 1500 590">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="590" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">MCP 서버 여섯 가지와 안전 원칙</text>
+<rect x="520" y="95" width="460" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750" y="126" text-anchor="middle">Claude (MCP 클라이언트)</text>
+<text class="b" x="750" y="154" text-anchor="middle">서버가 연 기능을 골라 호출한다</text>
+<line x1="750" y1="172" x2="140" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="260" width="220" height="140" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="140" y="300" text-anchor="middle">파일 시스템</text>
+<text class="b" x="140" y="340" text-anchor="middle">지정 폴더만</text>
+<text class="b" x="140" y="372" text-anchor="middle">읽기 전용 권장</text>
+<line x1="750" y1="172" x2="384" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="274" y="260" width="220" height="140" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="384" y="300" text-anchor="middle">GitHub</text>
+<text class="b" x="384" y="340" text-anchor="middle">토큰 범위 최소</text>
+<text class="b" x="384" y="372" text-anchor="middle">환경변수 보관</text>
+<line x1="750" y1="172" x2="628" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="518" y="260" width="220" height="140" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="628" y="300" text-anchor="middle">데이터베이스</text>
+<text class="b" x="628" y="340" text-anchor="middle">읽기 전용 계정</text>
+<text class="b" x="628" y="372" text-anchor="middle">복제본 우선</text>
+<line x1="750" y1="172" x2="872" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="762" y="260" width="220" height="140" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="872" y="300" text-anchor="middle">Slack</text>
+<text class="b" x="872" y="340" text-anchor="middle">필요 채널만</text>
+<text class="b" x="872" y="372" text-anchor="middle">게시 전 확인</text>
+<line x1="750" y1="172" x2="1116" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1006" y="260" width="220" height="140" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1116" y="300" text-anchor="middle">Google·메일</text>
+<text class="b" x="1116" y="340" text-anchor="middle">좁은 권한</text>
+<text class="b" x="1116" y="372" text-anchor="middle">전송 전 확인</text>
+<line x1="750" y1="172" x2="1360" y2="258" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1250" y="260" width="220" height="140" rx="10" fill="#F1E8F7" stroke="#7B4FA0" stroke-width="2"/>
+<text class="h" x="1360" y="300" text-anchor="middle">웹 검색</text>
+<text class="b" x="1360" y="340" text-anchor="middle">결과는 비신뢰</text>
+<text class="b" x="1360" y="372" text-anchor="middle">API 키 관리</text>
+<rect x="250" y="450" width="1000" height="95" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750" y="488" text-anchor="middle">공통 원칙</text>
+<text class="b" x="750" y="522" text-anchor="middle">필요한 최소 접근만 주고, 바꾸거나 지우거나 보내는 일은 사람이 확인한다</text>
+</svg>

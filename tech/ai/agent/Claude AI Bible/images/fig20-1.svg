@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">단순한 것부터 고르는 순서와 여섯 가지 패턴</text>
+<rect x="30" y="110" width="440" height="110" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="250.0" y="152.0" text-anchor="middle">1. 호출 하나로 되나?</text>
+<text class="b" x="250.0" y="182.0" text-anchor="middle">되면 단일 호출로 끝</text>
+<line x1="472" y1="165" x2="528" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="530" y="110" width="440" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="152.0" text-anchor="middle">2. 고정 순서로 되나?</text>
+<text class="b" x="750.0" y="182.0" text-anchor="middle">되면 체인 등 워크플로</text>
+<line x1="972" y1="165" x2="1028" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1030" y="110" width="440" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1250.0" y="152.0" text-anchor="middle">3. 순서를 모른다</text>
+<text class="b" x="1250.0" y="182.0" text-anchor="middle">이때만 진짜 에이전트</text>
+<text class="b" x="750" y="265" text-anchor="middle">여섯 가지 패턴은 단순한 것에서 복잡한 것 순</text>
+<rect x="30" y="300" width="451" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="255.5" y="347.0" text-anchor="middle">단일 호출</text>
+<text class="b" x="255.5" y="377.0" text-anchor="middle">입력 하나, 출력 하나</text>
+<line x1="483" y1="360" x2="523" y2="360" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="525" y="300" width="451" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.5" y="347.0" text-anchor="middle">체인</text>
+<text class="b" x="750.5" y="377.0" text-anchor="middle">고정 순서로 이어짐</text>
+<line x1="977" y1="360" x2="1017" y2="360" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1019" y="300" width="451" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1244.5" y="347.0" text-anchor="middle">라우터</text>
+<text class="b" x="1244.5" y="377.0" text-anchor="middle">분류 후 경로 분기</text>
+<rect x="30" y="470" width="451" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="255.5" y="517.0" text-anchor="middle">오케스트레이터-워커</text>
+<text class="b" x="255.5" y="547.0" text-anchor="middle">조율자가 쪼개 맡김</text>
+<line x1="483" y1="530" x2="523" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="525" y="470" width="451" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.5" y="517.0" text-anchor="middle">평가자-최적화</text>
+<text class="b" x="750.5" y="547.0" text-anchor="middle">비평으로 개선 반복</text>
+<line x1="977" y1="530" x2="1017" y2="530" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1019" y="470" width="451" height="120" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1244.5" y="517.0" text-anchor="middle">사람 개입</text>
+<text class="b" x="1244.5" y="547.0" text-anchor="middle">다른 패턴에 넣는 승인</text>
+<text class="b" x="750" y="650" text-anchor="middle">대부분의 운영 시스템은 하나가 아니라 작은 조합이다</text>
+</svg>

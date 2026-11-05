@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">어떤 서피스를 고를까</text>
+<rect x="500" y="95" width="500" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="142.0" text-anchor="middle">하려는 일은?</text>
+<rect x="30" y="240" width="345" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="202.5" y="277.0" text-anchor="middle">커넥터나 API가 있다</text>
+<text class="b" x="202.5" y="307.0" text-anchor="middle">구조화된 통로가</text>
+<text class="b" x="202.5" y="337.0" text-anchor="middle">더 믿을 만하다</text>
+<line x1="750" y1="177" x2="202" y2="238" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="202" y1="362" x2="202" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="400" width="345" height="90" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="202.5" y="452.0" text-anchor="middle">커넥터 사용</text>
+<rect x="395" y="240" width="345" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="567.5" y="292.0" text-anchor="middle">웹 화면에만 있다</text>
+<text class="b" x="567.5" y="322.0" text-anchor="middle">다른 접근 방법이 없다</text>
+<line x1="750" y1="177" x2="567" y2="238" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="567" y1="362" x2="567" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="395" y="400" width="345" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="567.5" y="452.0" text-anchor="middle">에이전틱 모드</text>
+<rect x="760" y="240" width="345" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="932.5" y="292.0" text-anchor="middle">이해가 목적이다</text>
+<text class="b" x="932.5" y="322.0" text-anchor="middle">요약, 설명, 추출</text>
+<line x1="750" y1="177" x2="932" y2="238" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="932" y1="362" x2="932" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="760" y="400" width="345" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="932.5" y="452.0" text-anchor="middle">사이드바 모드</text>
+<rect x="1125" y="240" width="345" height="120" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1297.5" y="292.0" text-anchor="middle">같은 작업을 반복한다</text>
+<text class="b" x="1297.5" y="322.0" text-anchor="middle">매주 같은 보고서 등</text>
+<line x1="750" y1="177" x2="1297" y2="238" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1297" y1="362" x2="1297" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1125" y="400" width="345" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1297.5" y="452.0" text-anchor="middle">Cowork 예약 작업</text>
+<text class="s" x="750" y="535" text-anchor="middle">에이전틱 모드는 지켜보면서, 돈과 발신과 되돌릴 수 없는 일은 직접 한다.</text>
+</svg>

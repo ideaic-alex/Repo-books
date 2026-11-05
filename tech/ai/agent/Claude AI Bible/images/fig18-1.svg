@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">에이전트 루프와 이를 감싸는 안전장치</text>
+<rect x="60" y="130" width="330" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="225.0" y="162.0" text-anchor="middle">1. 모델이 결정</text>
+<text class="b" x="225.0" y="192.0" text-anchor="middle">도구 요청 또는</text>
+<text class="b" x="225.0" y="222.0" text-anchor="middle">최종 답</text>
+<rect x="585" y="130" width="330" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="162.0" text-anchor="middle">2. 도구 실행</text>
+<text class="b" x="750.0" y="192.0" text-anchor="middle">SDK가 실제 동작</text>
+<text class="b" x="750.0" y="222.0" text-anchor="middle">(파일, 명령, 조회)</text>
+<rect x="1110" y="130" width="330" height="120" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1275.0" y="162.0" text-anchor="middle">3. 모델이 관찰</text>
+<text class="b" x="1275.0" y="192.0" text-anchor="middle">결과(성공·오류)가</text>
+<text class="b" x="1275.0" y="222.0" text-anchor="middle">새 정보로 돌아옴</text>
+<line x1="392" y1="190" x2="583" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="917" y1="190" x2="1108" y2="190" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="585" y="330" width="330" height="100" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="750.0" y="367.0" text-anchor="middle">4. 반복</text>
+<text class="b" x="750.0" y="397.0" text-anchor="middle">다시 결정 / 종료</text>
+<line x1="1200" y1="252" x2="917" y2="345" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="583" y1="380" x2="330" y2="252" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="750" y="285" text-anchor="middle">최종 답이 나오거나 중단 조건에 닿을 때까지 돈다</text>
+<rect x="60" y="500" width="330" height="160" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="225.0" y="537.0" text-anchor="middle">도구 범위</text>
+<text class="b" x="225.0" y="567.0" text-anchor="middle">없는 도구로는</text>
+<text class="b" x="225.0" y="597.0" text-anchor="middle">행동할 수 없음</text>
+<text class="b" x="225.0" y="627.0" text-anchor="middle">(가장 절대적)</text>
+<rect x="425" y="500" width="330" height="160" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="590.0" y="537.0" text-anchor="middle">승인</text>
+<text class="b" x="590.0" y="567.0" text-anchor="middle">위험한 도구는</text>
+<text class="b" x="590.0" y="597.0" text-anchor="middle">실행 전 사람이</text>
+<text class="b" x="590.0" y="627.0" text-anchor="middle">확인</text>
+<rect x="790" y="500" width="330" height="160" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="955.0" y="537.0" text-anchor="middle">샌드박스</text>
+<text class="b" x="955.0" y="567.0" text-anchor="middle">가장 좁은 환경</text>
+<text class="b" x="955.0" y="597.0" text-anchor="middle">네트워크·폴더</text>
+<text class="b" x="955.0" y="627.0" text-anchor="middle">제한</text>
+<rect x="1155" y="500" width="300" height="160" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1305.0" y="552.0" text-anchor="middle">하드 한도</text>
+<text class="b" x="1305.0" y="582.0" text-anchor="middle">반복 횟수 상한</text>
+<text class="b" x="1305.0" y="612.0" text-anchor="middle">예산 상한</text>
+<text class="b" x="750" y="482" text-anchor="middle">루프 전체를 네 겹의 안전장치가 감싼다</text>
+</svg>

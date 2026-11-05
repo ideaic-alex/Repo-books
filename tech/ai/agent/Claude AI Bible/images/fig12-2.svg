@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750.0" y="62" text-anchor="middle">데이터 유입에서 정기 보고까지의 흐름</text>
+<rect x="10" y="130" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="140.0" y="182.0" text-anchor="middle">커넥터</text>
+<text class="b" x="140.0" y="212.0" text-anchor="middle">데이터를</text>
+<text class="b" x="140.0" y="242.0" text-anchor="middle">자동으로 유입</text>
+<line x1="272" y1="205" x2="313" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="315" y="130" width="260" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="445.0" y="182.0" text-anchor="middle">Excel 작업</text>
+<text class="b" x="445.0" y="212.0" text-anchor="middle">정리, 모델, 감사</text>
+<text class="b" x="445.0" y="242.0" text-anchor="middle">Claude와 함께</text>
+<line x1="577" y1="205" x2="618" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="620" y="130" width="260" height="150" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="750.0" y="182.0" text-anchor="middle">사람 확인</text>
+<text class="b" x="750.0" y="212.0" text-anchor="middle">규모 점검</text>
+<text class="b" x="750.0" y="242.0" text-anchor="middle">소계 대사</text>
+<line x1="882" y1="205" x2="923" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="925" y="130" width="260" height="150" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1055.0" y="182.0" text-anchor="middle">예약 작업</text>
+<text class="b" x="1055.0" y="212.0" text-anchor="middle">Cowork가 정기</text>
+<text class="b" x="1055.0" y="242.0" text-anchor="middle">갱신과 보고</text>
+<line x1="1187" y1="205" x2="1228" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1230" y="130" width="260" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1360.0" y="182.0" text-anchor="middle">요약 도착</text>
+<text class="b" x="1360.0" y="212.0" text-anchor="middle">보고서나</text>
+<text class="b" x="1360.0" y="242.0" text-anchor="middle">브리핑으로 수신</text>
+<text class="s" x="750" y="350" text-anchor="middle">각 단계 사이에서 사람의 확인이 빠지지 않아야 한다 (노트 작성자 정리).</text>
+</svg>

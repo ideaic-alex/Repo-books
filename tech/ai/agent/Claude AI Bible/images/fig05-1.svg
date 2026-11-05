@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">좋은 프롬프트의 다섯 재료와 피할 함정</text>
+<rect x="25" y="110" width="270" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="160.0" y="146" text-anchor="middle">1. 역할·맥락</text>
+<text class="b" x="160.0" y="176" text-anchor="middle">누구 입장에서,</text>
+<text class="b" x="160.0" y="206" text-anchor="middle">어떤 상황인지</text>
+<line x1="297" y1="175" x2="318" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="320" y="110" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="455.0" y="146" text-anchor="middle">2. 과제</text>
+<text class="b" x="455.0" y="176" text-anchor="middle">막연한 분위기 말고</text>
+<text class="b" x="455.0" y="206" text-anchor="middle">동사로 적기</text>
+<line x1="592" y1="175" x2="613" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="615" y="110" width="270" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="750.0" y="146" text-anchor="middle">3. 제약</text>
+<text class="b" x="750.0" y="176" text-anchor="middle">틀리게 만드는</text>
+<text class="b" x="750.0" y="206" text-anchor="middle">경계와 금지</text>
+<line x1="887" y1="175" x2="908" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="910" y="110" width="270" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1045.0" y="146" text-anchor="middle">4. 형식</text>
+<text class="b" x="1045.0" y="176" text-anchor="middle">답의 모양, 길이,</text>
+<text class="b" x="1045.0" y="206" text-anchor="middle">표의 열 이름</text>
+<line x1="1182" y1="175" x2="1203" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1205" y="110" width="270" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1340.0" y="146" text-anchor="middle">5. 예시</text>
+<text class="b" x="1340.0" y="176" text-anchor="middle">잘 쓴 견본</text>
+<text class="b" x="1340.0" y="206" text-anchor="middle">한두 개</text>
+<text class="b" x="750" y="285" text-anchor="middle">빠진 재료가 하나라도 있으면 Claude가 추측해야 한다. 문장마다 추측 하나를 없앤다.</text>
+<text class="h" x="750" y="345" text-anchor="middle">시간을 낭비하는 안티패턴 네 가지</text>
+<rect x="25" y="380" width="350" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="200.0" y="416" text-anchor="middle">막연한 "알려 줘"</text>
+<text class="b" x="200.0" y="446" text-anchor="middle">목적과 받는 사람을</text>
+<text class="b" x="200.0" y="476" text-anchor="middle">붙인다</text>
+<rect x="395" y="380" width="350" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="570.0" y="416" text-anchor="middle">과다한 설명</text>
+<text class="b" x="570.0" y="446" text-anchor="middle">결과를 안 바꾸는</text>
+<text class="b" x="570.0" y="476" text-anchor="middle">문장은 뺀다</text>
+<rect x="765" y="380" width="350" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="940.0" y="416" text-anchor="middle">부딪히는 제약</text>
+<text class="b" x="940.0" y="446" text-anchor="middle">무엇이 이기는지</text>
+<text class="b" x="940.0" y="476" text-anchor="middle">정해 준다</text>
+<rect x="1135" y="380" width="350" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1310.0" y="416" text-anchor="middle">게으른 프롬프트로 단정</text>
+<text class="b" x="1310.0" y="446" text-anchor="middle">공정한 지시를 준 뒤</text>
+<text class="b" x="1310.0" y="476" text-anchor="middle">능력을 판단한다</text>
+<text class="b" x="750" y="570" text-anchor="middle">부정 지시("~하지 마")는 원하는 모습(긍정 지시)과 짝을 지어 쓴다.</text>
+</svg>

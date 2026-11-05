@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Messages API 요청과 응답, 그리고 기록 관리</text>
+<rect x="30" y="110" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="193.5" y="147.0" text-anchor="middle">model</text>
+<text class="b" x="193.5" y="177.0" text-anchor="middle">어느 Claude가</text>
+<text class="b" x="193.5" y="207.0" text-anchor="middle">답할지 선택</text>
+<line x1="359" y1="175" x2="399" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="401" y="110" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="564.5" y="147.0" text-anchor="middle">system</text>
+<text class="b" x="564.5" y="177.0" text-anchor="middle">역할·규칙·맥락</text>
+<text class="b" x="564.5" y="207.0" text-anchor="middle">(messages와 별도)</text>
+<line x1="730" y1="175" x2="770" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="772" y="110" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="935.5" y="147.0" text-anchor="middle">messages</text>
+<text class="b" x="935.5" y="177.0" text-anchor="middle">user, assistant</text>
+<text class="b" x="935.5" y="207.0" text-anchor="middle">턴의 목록</text>
+<line x1="1101" y1="175" x2="1141" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1143" y="110" width="327" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1306.5" y="147.0" text-anchor="middle">max_tokens</text>
+<text class="b" x="1306.5" y="177.0" text-anchor="middle">답변 길이 상한</text>
+<text class="b" x="1306.5" y="207.0" text-anchor="middle">(필수)</text>
+<text class="b" x="750" y="285" text-anchor="middle">네 가지 핵심 필드를 담아 한 번에 요청한다</text>
+<line x1="750" y1="305" x2="750" y2="350" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="500" y="355" width="500" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="377.0" text-anchor="middle">Messages API</text>
+<text class="b" x="750.0" y="407.0" text-anchor="middle">요청을 처리하고</text>
+<text class="b" x="750.0" y="437.0" text-anchor="middle">Claude의 다음 메시지를 반환</text>
+<line x1="750" y1="457" x2="750" y2="500" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="500" y="505" width="500" height="100" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.0" y="527.0" text-anchor="middle">응답 (content)</text>
+<text class="b" x="750.0" y="557.0" text-anchor="middle">답변 + 토큰 사용량</text>
+<text class="b" x="750.0" y="587.0" text-anchor="middle">재시도·오류는 상태 코드로 구분</text>
+<rect x="30" y="380" width="400" height="150" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="230.0" y="412.0" text-anchor="middle">상태 없음</text>
+<text class="b" x="230.0" y="442.0" text-anchor="middle">호출 사이에 기억이 없다</text>
+<text class="b" x="230.0" y="472.0" text-anchor="middle">이전 턴을 직접 다시 보낸다</text>
+<text class="b" x="230.0" y="502.0" text-anchor="middle">길수록 입력 비용 증가</text>
+<line x1="432" y1="455" x2="498" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1070" y="380" width="400" height="150" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1270.0" y="412.0" text-anchor="middle">내가 쥐는 기록</text>
+<text class="b" x="1270.0" y="442.0" text-anchor="middle">오래된 턴 요약·삭제</text>
+<text class="b" x="1270.0" y="472.0" text-anchor="middle">DB에 저장해 이어 가기</text>
+<text class="b" x="1270.0" y="502.0" text-anchor="middle">user/assistant 번갈아 유지</text>
+<line x1="1068" y1="405" x2="1002" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+</svg>

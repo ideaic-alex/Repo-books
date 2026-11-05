@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">긴 글을 아티팩트에서 단계로 쓰기</text>
+<rect x="25" y="110" width="270" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="160.0" y="146" text-anchor="middle">1. 개요</text>
+<text class="b" x="160.0" y="176" text-anchor="middle">절 제목과 한 줄 설명</text>
+<text class="b" x="160.0" y="206" text-anchor="middle">구조를 먼저 확정</text>
+<line x1="297" y1="175" x2="318" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="320" y="110" width="270" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="455.0" y="146" text-anchor="middle">2. 한 절 작성</text>
+<text class="b" x="455.0" y="176" text-anchor="middle">분량과 어조를 정해</text>
+<text class="b" x="455.0" y="206" text-anchor="middle">한 절씩 채움</text>
+<line x1="592" y1="175" x2="613" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="615" y="110" width="270" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="750.0" y="146" text-anchor="middle">3. 절 수정</text>
+<text class="b" x="750.0" y="176" text-anchor="middle">바꿀 곳과 그대로 둘</text>
+<text class="b" x="750.0" y="206" text-anchor="middle">곳을 함께 지정</text>
+<line x1="887" y1="175" x2="908" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="910" y="110" width="270" height="130" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="1045.0" y="146" text-anchor="middle">4. 퇴고 패스</text>
+<text class="b" x="1045.0" y="176" text-anchor="middle">줄이기, 어조 통일,</text>
+<text class="b" x="1045.0" y="206" text-anchor="middle">근거 점검을 따로</text>
+<line x1="1182" y1="175" x2="1203" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1205" y="110" width="270" height="130" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="1340.0" y="146" text-anchor="middle">5. 내보내기</text>
+<text class="b" x="1340.0" y="176" text-anchor="middle">복사나 내려받기로</text>
+<text class="b" x="1340.0" y="206" text-anchor="middle">내 도구에 옮김</text>
+<rect x="25" y="300" width="700" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="375.0" y="336" text-anchor="middle">지켜야 할 습관</text>
+<text class="b" x="375.0" y="366" text-anchor="middle">처음부터 아티팩트로 요청하기</text>
+<text class="b" x="375.0" y="396" text-anchor="middle">큰 변경 전에 잘된 버전을 직접 사본으로 저장</text>
+<rect x="775" y="300" width="700" height="130" rx="10" fill="#FBE6E6" stroke="#B04A4A" stroke-width="2"/>
+<text class="h" x="1125.0" y="336" text-anchor="middle">알아 둘 한계(책 시점 기준)</text>
+<text class="b" x="1125.0" y="366" text-anchor="middle">크기 상한, 브라우저 저장소 불가, 지원 라이브러리,</text>
+<text class="b" x="1125.0" y="396" text-anchor="middle">외부 접속 격리. 배포 앱이 아니라 작업실</text>
+<text class="b" x="750" y="490" text-anchor="middle">한 번에 길게 요청하면 중간이 처지기 쉽지만, 절마다 쓰면 고르게 쓰인다고 책은 설명한다.</text>
+</svg>

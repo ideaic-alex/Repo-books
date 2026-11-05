@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">난이도에 맞추는 조절 장치</text>
+<rect x="340" y="100" width="330" height="56" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+<text class="h" x="505" y="136" text-anchor="middle">정답이 하나인 쉬운 일</text>
+<rect x="685" y="100" width="330" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="850" y="136" text-anchor="middle">일상 업무</text>
+<rect x="1030" y="100" width="330" height="56" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1195" y="136" text-anchor="middle">어렵고 틀리면 비싼 일</text>
+<rect x="25" y="180" width="290" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="170.0" y="216" text-anchor="middle">사고 깊이</text>
+<rect x="340" y="180" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="505" y="233" text-anchor="middle">확장 사고 없이 빠르게</text>
+<rect x="685" y="180" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="850" y="233" text-anchor="middle">필요할 때만</text>
+<rect x="1030" y="180" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1195" y="233" text-anchor="middle">과정을 요구해 깊게</text>
+<rect x="25" y="285" width="290" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="170.0" y="321" text-anchor="middle">모델 등급</text>
+<rect x="340" y="285" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="505" y="338" text-anchor="middle">Haiku 4.5 (대량 단순)</text>
+<rect x="685" y="285" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="850" y="338" text-anchor="middle">Sonnet 4.6 (주력)</text>
+<rect x="1030" y="285" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1195" y="338" text-anchor="middle">Opus 4.8 (최상위)</text>
+<rect x="25" y="390" width="290" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="170.0" y="426" text-anchor="middle">입력 구성</text>
+<rect x="340" y="390" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="505" y="443" text-anchor="middle">핵심만 넣고 지시는 끝에</text>
+<rect x="685" y="390" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="850" y="443" text-anchor="middle">알짜 자료와 명확한 지시</text>
+<rect x="1030" y="390" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1195" y="443" text-anchor="middle">단계로 쪼개 체이닝</text>
+<rect x="25" y="495" width="290" height="90" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+<text class="h" x="170.0" y="531" text-anchor="middle">점검 방법</text>
+<rect x="340" y="495" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="2"/>
+<text class="b" x="505" y="548" text-anchor="middle">형식과 허용값 고정</text>
+<rect x="685" y="495" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="850" y="548" text-anchor="middle">후속 지시로 조정</text>
+<rect x="1030" y="495" width="330" height="90" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1195" y="548" text-anchor="middle">기준을 준 자기 비평</text>
+<text class="b" x="750" y="630" text-anchor="middle">모든 일에 최대치를 쓰는 것도, 어려운 일에 최소치를 쓰는 것도 같은 종류의 오류다.</text>
+</svg>
