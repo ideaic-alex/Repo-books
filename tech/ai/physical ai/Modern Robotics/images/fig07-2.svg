@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">폐연쇄의 세 가지 특이점</text>
+<rect x="40" y="95" width="440" height="360" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260" y="140" text-anchor="middle">구성 공간 특이점</text>
+<text class="b" x="260" y="195" text-anchor="middle">구속 조건의 자코비안이</text>
+<text class="b" x="260" y="225" text-anchor="middle">랭크를 잃는 자세</text>
+<text class="b" x="260" y="275" text-anchor="middle">구성 공간이 매끈하지 않고</text>
+<text class="b" x="260" y="305" text-anchor="middle">가지가 갈라지거나 교차한다</text>
+<text class="s" x="260" y="420" text-anchor="middle">운동 방향이 갑자기 늘어나는 곳</text>
+<rect x="530" y="95" width="440" height="360" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="140" text-anchor="middle">액추에이터 특이점</text>
+<text class="b" x="750" y="195" text-anchor="middle">능동 관절을 모두 잠가도</text>
+<text class="b" x="750" y="225" text-anchor="middle">말단이 움직일 수 있는 자세</text>
+<text class="b" x="750" y="275" text-anchor="middle">그 방향 힘을 액추에이터가</text>
+<text class="b" x="750" y="305" text-anchor="middle">제어하지 못한다</text>
+<text class="s" x="750" y="420" text-anchor="middle">병렬 메커니즘에서 두드러진다</text>
+<rect x="1020" y="95" width="440" height="360" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240" y="140" text-anchor="middle">말단 특이점</text>
+<text class="b" x="1240" y="195" text-anchor="middle">능동 관절을 어떻게 움직여도</text>
+<text class="b" x="1240" y="225" text-anchor="middle">말단이 못 가는 방향이 생김</text>
+<text class="b" x="1240" y="275" text-anchor="middle">개연쇄의 특이점과</text>
+<text class="b" x="1240" y="305" text-anchor="middle">같은 종류</text>
+<text class="s" x="1240" y="420" text-anchor="middle">자유도가 줄어든 것처럼 보임</text>
+<text class="s" x="750" y="495" text-anchor="middle">개연쇄에서는 한 종류로 보이던 현상이 폐연쇄에서는 이처럼 갈라진다.</text>
+</svg>

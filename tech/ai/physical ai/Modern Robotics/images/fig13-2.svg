@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">리 브래킷과 최단 경로</text>
+
+<rect x="30" y="90" width="700" height="440" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="380" y="130" text-anchor="middle">리 브래킷 = 평행 주차 방향 (위에서 본 외바퀴)</text>
+<rect x="320" y="300" width="120" height="70" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text class="b" x="380" y="342" text-anchor="middle">로봇</text>
+<line x1="320" y1="335" x2="215" y2="335" stroke="#3B6EA8" stroke-width="4" marker-end="url(#ar)"/>
+<text class="b" x="260" y="318" text-anchor="middle">g1 전진·후진</text>
+<path d="M 380 290 A 60 60 0 0 1 440 290" fill="none" stroke="#3C8D5A" stroke-width="4" marker-end="url(#ar)"/>
+<text class="b" x="380" y="250" text-anchor="middle">g2 제자리 회전</text>
+<line x1="380" y1="385" x2="380" y2="455" stroke="#B5524A" stroke-width="4" marker-end="url(#ar)"/>
+<text class="b" x="400" y="440">[g1, g2] 옆 방향</text>
+<text class="s" x="380" y="500" text-anchor="middle">g1, g2, −g1, −g2 를 차례로 따르면 ε² 크기의 옆 이동</text>
+
+<rect x="770" y="90" width="700" height="440" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1120" y="130" text-anchor="middle">두빈스 경로: 호, 직선, 호 (CSC)</text>
+<circle cx="880" cy="400" r="70" fill="none" stroke="#3B6EA8" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="1360" cy="250" r="70" fill="none" stroke="#3B6EA8" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M 810 400 A 70 70 0 0 1 859 333" fill="none" stroke="#B5524A" stroke-width="5"/>
+<line x1="859" y1="333" x2="1339" y2="183" stroke="#B5524A" stroke-width="5"/>
+<path d="M 1339 183 A 70 70 0 0 1 1430 250" fill="none" stroke="#B5524A" stroke-width="5"/>
+<circle cx="810" cy="400" r="8" fill="#3C8D5A"/>
+<circle cx="1430" cy="250" r="8" fill="#3C8D5A"/>
+<text class="b" x="810" y="440" text-anchor="middle">출발</text>
+<text class="b" x="1430" y="295" text-anchor="middle">목표</text>
+<text class="b" x="880" y="500" text-anchor="middle">C 최소 회전 반경 호</text>
+<text class="b" x="1115" y="290" text-anchor="middle">S 직선</text>
+<text class="s" x="1120" y="522" text-anchor="middle">점선 원은 출발과 목표의 최소 회전 원</text>
+</svg>

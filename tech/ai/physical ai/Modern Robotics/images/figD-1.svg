@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+<marker id="ar3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#3C8D5A"/></marker>
+</defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">등식 제약 아래의 최소화</text>
+<text class="s" x="750" y="88" text-anchor="middle">예: x² + y² 를 직선 x + y = 1 위에서 최소화 (해: x = y = 1/2)</text>
+
+<!-- axes -->
+<line x1="80" y1="460" x2="720" y2="460" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="200" y1="560" x2="200" y2="120" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="b" x="735" y="466">x</text>
+<text class="b" x="190" y="112">y</text>
+<!-- contours centered at origin (200,460) -->
+<clipPath id="cp"><rect x="40" y="110" width="700" height="470"/></clipPath>
+<g clip-path="url(#cp)">
+<circle cx="200" cy="460" r="60" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="200" cy="460" r="120" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="200" cy="460" r="177" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="200" cy="460" r="240" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+</g>
+<!-- constraint line x+y=1 : points (1,0)->(380?) scale 250 per unit: (1,0)=(450,460); (0,1)=(200,210) -->
+<line x1="560" y1="570" x2="90" y2="100" stroke="#B5524A" stroke-width="4"/>
+<!-- optimum (0.5,0.5) = (325,335) -->
+<circle cx="325" cy="335" r="9" fill="#3C8D5A"/>
+<!-- gradient of f at optimum: direction (1,1) away from origin -->
+<line x1="325" y1="335" x2="395" y2="265" stroke="#3C8D5A" stroke-width="4" marker-end="url(#ar3)"/>
+<!-- constraint gradient: same direction, lambda scaled -->
+<line x1="325" y1="335" x2="285" y2="375" stroke="#B5524A" stroke-width="4" marker-end="url(#ar2)"/>
+<text class="b" x="405" y="262" style="fill:#3C8D5A">∇f</text>
+<text class="b" x="240" y="400" style="fill:#B5524A">λ ∇g</text>
+<text class="b" x="450" y="395" style="fill:#B5524A">제약 g(x) = 0</text>
+<text class="b" x="520" y="520" style="fill:#3B6EA8">f 의 등고선</text>
+
+<rect x="800" y="130" width="680" height="400" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1140" y="170" text-anchor="middle">읽는 법</text>
+<text class="b" x="830" y="220">1. 푸른 원은 f 의 값이 같은 곳(등고선)이다.</text>
+<text class="b" x="830" y="260">2. 붉은 직선은 지킬 제약이고 그 위에서만 움직인다.</text>
+<text class="b" x="830" y="300">3. 직선과 등고선이 접하는 점(초록 점)이 최소점이다.</text>
+<text class="b" x="830" y="340">4. 접점에서 f 의 기울기는 제약 곡면에 수직이다.</text>
+<text class="b" x="830" y="380">5. 두 기울기는 같은 직선 위에 놓인다.</text>
+<text class="b" x="830" y="420" >   그 비례 상수가 라그랑주 승수 λ 이다.</text>
+<text class="h" x="830" y="475">조건:  ∇f + λ ∇g = 0,  g = 0</text>
+<text class="s" x="830" y="505">이 예에서 2x + λ = 0, 2y + λ = 0 이므로 λ = -1</text>
+
+<text class="s" x="750" y="595" text-anchor="middle">개념도이며 눈금은 실제 비례와 다를 수 있다.</text>
+</svg>

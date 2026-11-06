@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="60" text-anchor="middle" >구성 공간 장애물: 로봇은 점이 되고 장애물은 부풀려진다</text>
+<rect x="40" y="100" width="640" height="400" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="820" y="100" width="640" height="400" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="360" y="140" text-anchor="middle" >작업 공간 (workspace)</text>
+<text class="h" x="1140" y="140" text-anchor="middle" >구성 공간 (C-space)</text>
+<polygon points="330,380 540,380 420,230" fill="#F9E8E8" stroke="#B5524A" stroke-width="3"/>
+<text class="b" x="430" y="350" text-anchor="middle" >장애물</text>
+<circle cx="150" cy="330" r="40" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="3"/>
+<circle cx="150" cy="330" r="5" fill="#3B6EA8"/>
+<text class="b" x="150" y="410" text-anchor="middle" >원형 로봇 (반지름 r)</text>
+<line x1="150" y1="330" x2="190" y2="330" stroke="#3B6EA8" stroke-width="2"/>
+<text class="s" x="172" y="320" text-anchor="middle" >r</text>
+<polygon points="1110,380 1320,380 1200,230" fill="#F9E8E8" stroke="#F9E8E8" stroke-width="80" stroke-linejoin="round"/>
+<polygon points="1110,380 1320,380 1200,230" fill="none" stroke="#B5524A" stroke-width="2" stroke-dasharray="8 6" transform="translate(0,0)"/>
+<polygon points="1110,380 1320,380 1200,230" fill="#E7C4C0" stroke="#B5524A" stroke-width="3"/>
+<text class="s" x="1210" y="350" text-anchor="middle" >원래 장애물</text>
+<text class="h" x="1200" y="280" text-anchor="middle" style="fill:#B5524A">C-장애물</text>
+<text class="b" x="1200" y="310" text-anchor="middle" >(r만큼 부풀림)</text>
+<circle cx="930" cy="330" r="7" fill="#3B6EA8"/>
+<text class="b" x="930" y="372" text-anchor="middle" >로봇 = 점 q</text>
+<text class="b" x="1140" y="470" text-anchor="middle" >점이 C-장애물 밖이면 충돌 없음 (C_free)</text>
+<line x1="690" y1="300" x2="810" y2="300" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="s" x="750" y="285" text-anchor="middle" >변환</text>
+<text class="s" x="750" y="550" text-anchor="middle" >C = C_free ∪ C_obs. 경로 계획은 점 q가 C_obs를 피해 시작에서 목표까지 가는 문제로 줄어든다.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">회전을 나타내는 네 가지 방법</text>
+<text class="s" x="750" y="88" text-anchor="middle">같은 SO(3)의 원소를 다른 좌표로 쓴 것</text>
+
+<rect x="25" y="115" width="340" height="300" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195" y="155" text-anchor="middle">오일러 각 (ZYX)</text>
+<text class="b" x="195" y="205" text-anchor="middle">변수 3개 (α, β, γ)</text>
+<text class="b" x="195" y="245" text-anchor="middle">몸체 축 기준 z, y, x 순서</text>
+<text class="b" x="195" y="285" text-anchor="middle">특이점: β = ±90°</text>
+<text class="b" x="195" y="325" text-anchor="middle">(짐벌락)</text>
+<text class="b" x="195" y="375" text-anchor="middle">손목 기구와 대응</text>
+
+<rect x="395" y="115" width="340" height="300" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565" y="155" text-anchor="middle">롤-피치-요</text>
+<text class="b" x="565" y="205" text-anchor="middle">변수 3개 (α, β, γ)</text>
+<text class="b" x="565" y="245" text-anchor="middle">고정 축 기준 x, y, z 순서</text>
+<text class="b" x="565" y="285" text-anchor="middle">특이점: 오일러 각과 동일</text>
+<text class="b" x="565" y="325" text-anchor="middle">같은 행렬 곱을</text>
+<text class="b" x="565" y="375" text-anchor="middle">순서만 뒤집어 읽은 것</text>
+
+<rect x="765" y="115" width="340" height="300" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935" y="155" text-anchor="middle">단위 쿼터니언</text>
+<text class="b" x="935" y="205" text-anchor="middle">변수 4개, 노름 = 1</text>
+<text class="b" x="935" y="245" text-anchor="middle">(cos(θ/2), ω sin(θ/2))</text>
+<text class="b" x="935" y="285" text-anchor="middle">특이점: 없음</text>
+<text class="b" x="935" y="325" text-anchor="middle">q 와 -q 가 같은 회전</text>
+<text class="b" x="935" y="375" text-anchor="middle">합성은 쿼터니언 곱</text>
+
+<rect x="1135" y="115" width="340" height="300" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1305" y="155" text-anchor="middle">케일리-로드리게스</text>
+<text class="b" x="1305" y="205" text-anchor="middle">변수 3개 r</text>
+<text class="b" x="1305" y="245" text-anchor="middle">r = ω tan(θ/2)</text>
+<text class="b" x="1305" y="285" text-anchor="middle">특이점: θ = 180°</text>
+<text class="b" x="1305" y="325" text-anchor="middle">(r 이 무한대로 발산)</text>
+<text class="b" x="1305" y="375" text-anchor="middle">합성식이 간단</text>
+
+<rect x="25" y="450" width="1450" height="100" rx="10" fill="#FFFFFF" stroke="#4A5260" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="750" y="493" text-anchor="middle">핵심: 세 변수만으로는 회전 전체를 특이점 없이 나타낼 수 없다</text>
+<text class="b" x="750" y="528" text-anchor="middle">특이점이 없는 표현이 필요하면 변수를 하나 늘린 쿼터니언을 쓴다</text>
+</svg>

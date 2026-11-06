@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">접촉 라벨과 마찰 원뿔</text>
+
+<text class="h" x="380" y="120" text-anchor="middle">접촉 라벨 R, S, B</text>
+<line x1="70" y1="330" x2="690" y2="330" stroke="#4A5260" stroke-width="3"/>
+<rect x="250" y="190" width="260" height="140" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="380" y="270" text-anchor="middle">물체 A</text>
+<text class="b" x="380" y="360" text-anchor="middle">고정된 물체 B (바닥)</text>
+<circle cx="380" cy="330" r="7" fill="#B5524A"/>
+<line x1="380" y1="326" x2="380" y2="215" stroke="#B5524A" stroke-width="3" marker-end="url(#ar)"/>
+<text class="s" x="395" y="228">법선 n (A 안쪽)</text>
+<rect x="60" y="400" width="200" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="160" y="440" text-anchor="middle">R 구름·붙음</text>
+<text class="b" x="160" y="472" text-anchor="middle">상대 운동 없음</text>
+<text class="s" x="160" y="496" text-anchor="middle">제약 활성</text>
+<rect x="280" y="400" width="200" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="380" y="440" text-anchor="middle">S 미끄러짐</text>
+<text class="b" x="380" y="472" text-anchor="middle">접촉점 속도 다름</text>
+<text class="s" x="380" y="496" text-anchor="middle">제약 활성</text>
+<rect x="500" y="400" width="200" height="110" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="600" y="440" text-anchor="middle">B 떨어짐</text>
+<text class="b" x="600" y="472" text-anchor="middle">법선 속도 양수</text>
+<text class="s" x="600" y="496" text-anchor="middle">제약 비활성</text>
+
+<line x1="750" y1="100" x2="750" y2="520" stroke="#CCCCCC" stroke-width="2" stroke-dasharray="8 6"/>
+
+<text class="h" x="1120" y="120" text-anchor="middle">마찰 원뿔 (측면도)</text>
+<line x1="800" y1="440" x2="1440" y2="440" stroke="#4A5260" stroke-width="3"/>
+<polygon points="1120,440 970,200 1270,200" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<line x1="1120" y1="440" x2="1120" y2="190" stroke="#4A5260" stroke-width="2" stroke-dasharray="7 5"/>
+<text class="s" x="1130" y="182">법선 방향 f_n</text>
+<line x1="1120" y1="440" x2="1190" y2="250" stroke="#B5524A" stroke-width="4" marker-end="url(#ar)"/>
+<text class="b" x="1205" y="262">접촉력 f</text>
+<path d="M 1120 380 A 60 60 0 0 1 1155 391" fill="none" stroke="#B8862B" stroke-width="2.5"/>
+<text class="b" x="1170" y="392">마찰각 α</text>
+<text class="b" x="1000" y="468" text-anchor="middle">마찰 원뿔 바깥 힘은 전달 불가</text>
+<text class="b" x="1120" y="500" text-anchor="middle">f_t ≤ μ f_n, α = arctan μ</text>
+<text class="s" x="750" y="560" text-anchor="middle">미끄러지면 접촉력은 원뿔 모서리 위에 놓이고, 붙어 있으면 원뿔 안 어디든 가능하다.</text>
+</svg>

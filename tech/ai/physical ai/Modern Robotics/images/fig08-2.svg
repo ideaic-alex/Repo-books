@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="60" text-anchor="middle">역동역학과 순동역학</text>
+<rect x="60" y="120" width="360" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="240" y="165" text-anchor="middle">원하는 움직임</text>
+<text class="b" x="240" y="200" text-anchor="middle">θ, θ̇, θ̈</text>
+<text class="b" x="240" y="230" text-anchor="middle">(궤적에서 얻음)</text>
+<rect x="570" y="105" width="360" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="150" text-anchor="middle">운동 방정식</text>
+<text class="b" x="750" y="188" text-anchor="middle">τ = M(θ)θ̈ + c(θ, θ̇) + g(θ)</text>
+<text class="b" x="750" y="222" text-anchor="middle">+ Jᵀ F(tip)</text>
+<rect x="1080" y="120" width="360" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1260" y="165" text-anchor="middle">관절 토크 τ</text>
+<text class="b" x="1260" y="200" text-anchor="middle">(제어기가 낼 값)</text>
+<line x1="425" y1="165" x2="565" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="935" y1="165" x2="1075" y2="165" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="750" y="300" text-anchor="middle">역동역학: 왼쪽에서 오른쪽으로 계산 (뉴턴-오일러 알고리즘)</text>
+<rect x="60" y="340" width="360" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="240" y="385" text-anchor="middle">관절 토크 τ</text>
+<text class="b" x="240" y="420" text-anchor="middle">+ 현재 θ, θ̇</text>
+<rect x="570" y="325" width="360" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="370" text-anchor="middle">M(θ)θ̈ = τ − h − Jᵀ F</text>
+<text class="b" x="750" y="408" text-anchor="middle">선형 방정식을 풀어 θ̈ 구함</text>
+<text class="b" x="750" y="442" text-anchor="middle">(h는 θ̈=0으로 역동역학 호출)</text>
+<rect x="1080" y="340" width="360" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1260" y="385" text-anchor="middle">가속도 θ̈</text>
+<text class="b" x="1260" y="420" text-anchor="middle">적분하면 θ(t)</text>
+<line x1="425" y1="385" x2="565" y2="385" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="935" y1="385" x2="1075" y2="385" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="525" text-anchor="middle">순동역학: 시뮬레이션에 사용. 같은 식을 반대 방향으로 푼다.</text>
+</svg>

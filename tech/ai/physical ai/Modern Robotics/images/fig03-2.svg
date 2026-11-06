@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">3장 개념의 흐름: 회전에서 렌치까지</text>
+
+<rect x="40" y="100" width="640" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="360" y="140" text-anchor="middle">회전 쪽 (각도만)</text>
+<text class="b" x="360" y="190" text-anchor="middle">R ∈ SO(3)</text>
+<text class="s" x="360" y="216" text-anchor="middle">직교 3×3, 행렬식 1</text>
+<text class="b" x="360" y="262" text-anchor="middle">지수 좌표 ω̂θ</text>
+<text class="s" x="360" y="288" text-anchor="middle">R = exp([ω̂]θ)  (로드리게스 공식)</text>
+<text class="b" x="360" y="330" text-anchor="middle">각속도 ω</text>
+
+<rect x="820" y="100" width="640" height="250" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1140" y="140" text-anchor="middle">강체 운동 쪽 (회전 + 이동)</text>
+<text class="b" x="1140" y="190" text-anchor="middle">T ∈ SE(3)</text>
+<text class="s" x="1140" y="216" text-anchor="middle">4×4 동차변환</text>
+<text class="b" x="1140" y="262" text-anchor="middle">스크류 축 S와 지수 좌표 Sθ</text>
+<text class="s" x="1140" y="288" text-anchor="middle">T = exp([S]θ)</text>
+<text class="b" x="1140" y="330" text-anchor="middle">트위스트 V = (ω, v)</text>
+
+<line x1="680" y1="225" x2="818" y2="225" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="s" x="750" y="212" text-anchor="middle">확장</text>
+
+<rect x="40" y="395" width="640" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="360" y="435" text-anchor="middle">프레임 바꾸기: 어저전트 [Ad_T]</text>
+<text class="b" x="360" y="470" text-anchor="middle">V_a = [Ad_Tab] V_b   (트위스트)</text>
+<text class="b" x="360" y="500" text-anchor="middle">S_a = [Ad_Tab] S_b   (스크류 축)</text>
+
+<rect x="820" y="395" width="640" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1140" y="435" text-anchor="middle">렌치 F = (m, f)</text>
+<text class="b" x="1140" y="470" text-anchor="middle">힘과 모멘트를 한 벡터로</text>
+<text class="b" x="1140" y="500" text-anchor="middle">F_a = [Ad_Tba]ᵀ F_b</text>
+
+<line x1="1140" y1="352" x2="1140" y2="393" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="680" y1="460" x2="818" y2="460" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="s" x="750" y="446" text-anchor="middle">같은 행렬의 전치</text>
+<line x1="360" y1="352" x2="360" y2="393" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+
+<text class="b" x="750" y="575" text-anchor="middle">트위스트와 렌치는 짝이다: 파워 = 트위스트와 렌치의 내적 (프레임을 바꿔도 같다)</text>
+<text class="s" x="750" y="615" text-anchor="middle">노트 작성자가 직접 그린 개념도이며 원서의 그림을 옮기지 않았다.</text>
+</svg>

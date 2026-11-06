@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">타원체로 보는 속도, 힘, 특이점</text>
+<rect x="40" y="90" width="440" height="380" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="260" y="130" text-anchor="middle">속도 타원체 (A = JJᵀ)</text>
+<ellipse cx="260" cy="270" rx="150" ry="55" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="3"/>
+<text class="b" x="260" y="355" text-anchor="middle">가로로 길다: 가로 속도에 유리</text>
+<text class="s" x="260" y="440" text-anchor="middle">반축 길이 = √고윳값</text>
+<rect x="530" y="90" width="440" height="380" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="130" text-anchor="middle">힘 타원체 (A⁻¹ = (JJᵀ)⁻¹)</text>
+<ellipse cx="750" cy="270" rx="55" ry="150" fill="#FFFFFF" stroke="#B5524A" stroke-width="3"/>
+<text class="b" x="750" y="450" text-anchor="middle">세로로 길다: 세로 힘에 유리</text>
+<text class="s" x="750" y="475" text-anchor="middle">속도 타원체와 축 방향은 같고 길이는 반대</text>
+<rect x="1020" y="90" width="440" height="380" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240" y="130" text-anchor="middle">특이점에서는</text>
+<line x1="1100" y1="270" x2="1380" y2="270" stroke="#B8862B" stroke-width="8" stroke-linecap="round"/>
+<text class="b" x="1240" y="335" text-anchor="middle">타원체가 선분으로 납작해진다</text>
+<text class="b" x="1240" y="375" text-anchor="middle">한 방향 속도 불가, 그 방향 힘은</text>
+<text class="b" x="1240" y="405" text-anchor="middle">관절 토크 없이 구조가 버틴다</text>
+<text class="s" x="1240" y="445" text-anchor="middle">rank J &lt; 최대 → det(JJᵀ) = 0</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">같은 로봇을 적는 세 가지 방법</text>
+<rect x="40" y="95" width="440" height="330" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260" y="140" text-anchor="middle">DH 매개변수</text>
+<text class="b" x="260" y="185" text-anchor="middle">링크마다 프레임을 규칙대로 부착</text>
+<text class="b" x="260" y="225" text-anchor="middle">링크당 숫자 4개 (3개는 구조,</text>
+<text class="b" x="260" y="255" text-anchor="middle">1개는 관절 변수)</text>
+<text class="b" x="260" y="305" text-anchor="middle">T₀ₙ = T₀₁T₁₂···Tₙ₋₁,ₙ</text>
+<text class="s" x="260" y="395" text-anchor="middle">전통적인 방식 (부록 C에서 PoE와 연결)</text>
+<rect x="530" y="95" width="440" height="330" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="140" text-anchor="middle">지수 곱 공식 (PoE)</text>
+<text class="b" x="750" y="185" text-anchor="middle">M(영 자세의 말단)과</text>
+<text class="b" x="750" y="215" text-anchor="middle">스크류 축 S₁ … Sₙ 만 필요</text>
+<text class="b" x="750" y="265" text-anchor="middle">T(θ) = e^[S₁]θ₁ ··· e^[Sₙ]θₙ M</text>
+<text class="b" x="750" y="305" text-anchor="middle">물체 형식: T = M e^[B₁]θ₁ ···</text>
+<text class="s" x="750" y="395" text-anchor="middle">이 책이 중심으로 쓰는 방식</text>
+<rect x="1020" y="95" width="440" height="330" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240" y="140" text-anchor="middle">URDF 파일</text>
+<text class="b" x="1240" y="185" text-anchor="middle">로봇을 트리로 기록하는 XML</text>
+<text class="b" x="1240" y="225" text-anchor="middle">노드 = 링크 (질량, 관성)</text>
+<text class="b" x="1240" y="255" text-anchor="middle">간선 = 관절 (부모, 자식, 축)</text>
+<text class="b" x="1240" y="305" text-anchor="middle">ROS 등 소프트웨어가 읽는다</text>
+<text class="s" x="1240" y="395" text-anchor="middle">개연쇄뿐 아니라 가지 달린 구조도 표현</text>
+<line x1="482" y1="260" x2="528" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="972" y1="260" x2="1018" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="490" text-anchor="middle">세 방식은 같은 순기구학 정보를 담는다. 손 계산은 PoE, 시뮬레이터 입력은 URDF가 흔하다.</text>
+</svg>

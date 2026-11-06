@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">같은 차원이라도 모양이 다른 구성 공간</text>
+
+<rect x="30" y="100" width="340" height="400" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="200" y="136" text-anchor="middle">직선 E¹ (= R)</text>
+<line x1="70" y1="230" x2="330" y2="230" stroke="#3B6EA8" stroke-width="4"/>
+<circle cx="220" cy="230" r="9" fill="#B5524A"/>
+<text class="b" x="200" y="300" text-anchor="middle">끝이 없이 이어진다</text>
+<text class="b" x="200" y="350" text-anchor="middle">예: 직동 관절 하나</text>
+<text class="s" x="200" y="400" text-anchor="middle">관절 한계가 있으면 닫힌 구간</text>
+
+<rect x="390" y="100" width="340" height="400" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="560" y="136" text-anchor="middle">원 S¹</text>
+<circle cx="560" cy="225" r="65" fill="none" stroke="#B8862B" stroke-width="4"/>
+<circle cx="625" cy="225" r="9" fill="#B5524A"/>
+<text class="b" x="560" y="330" text-anchor="middle">한 바퀴 돌면 제자리</text>
+<text class="b" x="560" y="370" text-anchor="middle">예: 회전 관절 하나</text>
+<text class="s" x="560" y="420" text-anchor="middle">각도 0과 2π는 같은 점</text>
+
+<rect x="750" y="100" width="340" height="400" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="920" y="136" text-anchor="middle">구면 S²</text>
+<circle cx="920" cy="225" r="70" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="4"/>
+<ellipse cx="920" cy="225" rx="70" ry="22" fill="none" stroke="#3C8D5A" stroke-width="2"/>
+<ellipse cx="920" cy="225" rx="24" ry="70" fill="none" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="920" y="330" text-anchor="middle">2차원이지만 평면이 아니다</text>
+<text class="b" x="920" y="370" text-anchor="middle">예: 구 관절의 방향</text>
+<text class="s" x="920" y="420" text-anchor="middle">모양은 크기가 아니라 감기는 방식</text>
+
+<rect x="1110" y="100" width="360" height="400" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1290" y="136" text-anchor="middle">토러스 T² = S¹ × S¹</text>
+<ellipse cx="1290" cy="225" rx="95" ry="58" fill="none" stroke="#B5524A" stroke-width="4"/>
+<ellipse cx="1290" cy="225" rx="38" ry="18" fill="none" stroke="#B5524A" stroke-width="3"/>
+<text class="b" x="1290" y="330" text-anchor="middle">두 방향으로 모두 한 바퀴</text>
+<text class="b" x="1290" y="370" text-anchor="middle">예: 2R 팔의 두 관절 각도</text>
+<text class="s" x="1290" y="420" text-anchor="middle">n개 회전 관절이면 Tⁿ</text>
+
+<text class="b" x="750" y="545" text-anchor="middle">강체의 구성 공간은 이런 조각을 곱한 것이다. 평면 강체는 R² × S¹, 공간 강체는 R³ × (회전의 공간)</text>
+<text class="s" x="750" y="580" text-anchor="middle">노트 작성자가 직접 그린 개념도이며 원서의 그림을 옮기지 않았다.</text>
+</svg>

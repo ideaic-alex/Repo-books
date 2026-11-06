@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">자유도를 세는 법: 강체에서 로봇까지</text>
+
+<rect x="40" y="90" width="680" height="270" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="380" y="126" text-anchor="middle">평면 강체: 3 자유도</text>
+<line x1="90" y1="320" x2="210" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="90" y1="320" x2="90" y2="200" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="218" y="326">x</text>
+<text class="b" x="84" y="190">y</text>
+<polygon points="300,250 410,220 440,320 330,350" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<line x1="300" y1="250" x2="360" y2="234" stroke="#B5524A" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="282" y="244" text-anchor="end">몸체 기준 프레임</text>
+<text class="b" x="500" y="205">위치 2개: x, y</text>
+<text class="b" x="500" y="245">방향 1개: θ</text>
+<text class="b" x="500" y="300">3개 값이 있으면</text>
+<text class="b" x="500" y="330">모든 점의 위치가 정해진다</text>
+
+<rect x="780" y="90" width="680" height="270" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1120" y="126" text-anchor="middle">공간 강체: 6 자유도</text>
+<line x1="830" y1="320" x2="950" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="830" y1="320" x2="830" y2="200" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="830" y1="320" x2="890" y2="365" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="958" y="326">x</text>
+<text class="b" x="824" y="190">z</text>
+<text class="b" x="896" y="378">y</text>
+<polygon points="1040,240 1130,220 1160,300 1070,320" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<polygon points="1130,220 1170,240 1200,320 1160,300" fill="#F3E3BE" stroke="#B8862B" stroke-width="2"/>
+<polygon points="1070,320 1160,300 1200,320 1110,340" fill="#F3E3BE" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1230" y="205">위치 3개: x, y, z</text>
+<text class="b" x="1230" y="245">방향 3개</text>
+<text class="b" x="1230" y="300">회전은 축이 세 개이므로</text>
+<text class="b" x="1230" y="330">방향도 세 값이 필요하다</text>
+
+<rect x="40" y="385" width="1420" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="428" text-anchor="middle">Grübler 공식: dof = m(N − 1 − J) + Σ f_i   (m=3 평면, m=6 공간)</text>
+
+<text class="b" x="750" y="490" text-anchor="middle">N = 링크 수(바닥 포함), J = 관절 수, f_i = i번째 관절이 허용하는 자유도</text>
+
+<rect x="40" y="515" width="215" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="147" y="548" text-anchor="middle">회전 관절 R</text>
+<text class="b" x="147" y="578" text-anchor="middle">f = 1</text>
+<rect x="272" y="515" width="215" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="380" y="548" text-anchor="middle">직동 관절 P</text>
+<text class="b" x="380" y="578" text-anchor="middle">f = 1</text>
+<rect x="504" y="515" width="215" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="611" y="548" text-anchor="middle">나사 관절 H</text>
+<text class="b" x="611" y="578" text-anchor="middle">f = 1</text>
+<rect x="736" y="515" width="215" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="843" y="548" text-anchor="middle">원통 관절 C</text>
+<text class="b" x="843" y="578" text-anchor="middle">f = 2</text>
+<rect x="968" y="515" width="215" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1075" y="548" text-anchor="middle">유니버설 관절 U</text>
+<text class="b" x="1075" y="578" text-anchor="middle">f = 2</text>
+<rect x="1200" y="515" width="260" height="80" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1330" y="548" text-anchor="middle">구 관절 S</text>
+<text class="b" x="1330" y="578" text-anchor="middle">f = 3</text>
+
+<text class="s" x="750" y="625" text-anchor="middle">노트 작성자가 직접 그린 개념도이며 원서의 그림을 옮기지 않았다.</text>
+</svg>

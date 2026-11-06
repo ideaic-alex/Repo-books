@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+</defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">두 프레임으로 강체의 자세를 적는다: T = (R, p)</text>
+
+<rect x="40" y="100" width="900" height="460" rx="10" fill="#F7F9FC" stroke="#3B6EA8" stroke-width="2"/>
+
+<line x1="150" y1="480" x2="310" y2="480" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="150" y1="480" x2="150" y2="320" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="b" x="318" y="488">x_s</text>
+<text class="b" x="136" y="308">y_s</text>
+<text class="h" x="70" y="515">{s} 고정 프레임</text>
+
+<line x1="150" y1="480" x2="610" y2="330" stroke="#B5524A" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#ar2)"/>
+<text class="b" x="330" y="388" fill="#B5524A" style="fill:#B5524A">p</text>
+
+<polygon points="560,300 700,220 770,330 630,410" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<line x1="610" y1="330" x2="740" y2="255" stroke="#3C8D5A" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="610" y1="330" x2="535" y2="200" stroke="#3C8D5A" stroke-width="3" marker-end="url(#ar)"/>
+<text class="b" x="748" y="252">x_b</text>
+<text class="b" x="512" y="196">y_b</text>
+<text class="h" x="660" y="450">{b} 몸체 프레임</text>
+
+<path d="M 700 330 A 90 90 0 0 0 690 290" fill="none" stroke="#3B6EA8" stroke-width="2.5"/>
+<text class="s" x="790" y="345">회전 R</text>
+
+<rect x="980" y="100" width="480" height="460" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1220" y="140" text-anchor="middle">동차변환 행렬의 구성</text>
+<text class="b" x="1220" y="190" text-anchor="middle">T_sb = [ R  p ; 0  1 ]  (4 × 4)</text>
+<text class="b" x="1010" y="250">R: 3 × 3 회전행렬 (SO(3))</text>
+<text class="s" x="1010" y="278">{b}의 세 축 방향을 {s} 좌표로 적은 열</text>
+<text class="b" x="1010" y="330">p: {b} 원점의 위치 벡터</text>
+<text class="s" x="1010" y="358">{s} 좌표로 적은 3차원 벡터</text>
+<text class="b" x="1010" y="410">T_sb · T_bc = T_sc</text>
+<text class="s" x="1010" y="438">변환은 이어 붙이면 곱이 된다</text>
+<text class="b" x="1010" y="490">T_sb 는 점의 표현을 바꾸고</text>
+<text class="b" x="1010" y="520">프레임을 이동시키는 연산자이다</text>
+
+<text class="s" x="750" y="600" text-anchor="middle">노트 작성자가 직접 그린 개념도이며 원서의 그림을 옮기지 않았다.</text>
+</svg>

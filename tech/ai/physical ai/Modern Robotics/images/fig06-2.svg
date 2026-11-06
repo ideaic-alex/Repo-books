@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">수치 역기구학: 뉴턴-랩슨 반복</text>
+<rect x="40" y="130" width="300" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="190" y="175" text-anchor="middle">초기 추정 θ⁰</text>
+<text class="b" x="190" y="215" text-anchor="middle">목표 자세 T_sd 지정</text>
+<rect x="400" y="130" width="300" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="550" y="170" text-anchor="middle">오차 계산</text>
+<text class="b" x="550" y="205" text-anchor="middle">순기구학으로 T(θ)를 구하고</text>
+<text class="b" x="550" y="235" text-anchor="middle">V_b = log(T⁻¹ T_sd)</text>
+<rect x="760" y="130" width="300" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="910" y="175" text-anchor="middle">수렴 판정</text>
+<text class="b" x="910" y="215" text-anchor="middle">‖ω_b‖ &lt; ε_ω, ‖v_b‖ &lt; ε_v ?</text>
+<rect x="1120" y="130" width="340" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1290" y="175" text-anchor="middle">해 θ 출력</text>
+<text class="b" x="1290" y="215" text-anchor="middle">종료 (또는 반복 한계 초과)</text>
+<rect x="760" y="340" width="300" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="910" y="385" text-anchor="middle">관절각 갱신</text>
+<text class="b" x="910" y="425" text-anchor="middle">θ ← θ + J_b†(θ) V_b</text>
+<line x1="340" y1="195" x2="398" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="700" y1="195" x2="758" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1060" y1="195" x2="1118" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="1090" y="180" text-anchor="middle">예</text>
+<line x1="910" y1="262" x2="910" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="940" y="305">아니오</text>
+<path d="M758 405 L550 405 L550 262" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="400" y="440">갱신된 θ로 다시 오차 계산</text>
+<text class="s" x="750" y="510" text-anchor="middle">J†는 자코비안의 유사역행렬이다. 시작값이 해 근처일수록 빠르게 수렴한다.</text>
+</svg>

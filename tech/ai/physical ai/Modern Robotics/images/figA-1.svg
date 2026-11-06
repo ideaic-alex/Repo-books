@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">장별 핵심 공식 지도</text>
+<text class="s" x="750" y="88" text-anchor="middle">앞 장의 도구가 뒤 장의 식에서 다시 쓰인다 (부록 A의 구성)</text>
+
+<rect x="20" y="115" width="260" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="150" y="150" text-anchor="middle">2장 구성 공간</text>
+<text class="b" x="150" y="190" text-anchor="middle">그뤼블러 공식</text>
+<text class="b" x="150" y="220" text-anchor="middle">dof = m(N-1-J) + Σf</text>
+<text class="b" x="150" y="250" text-anchor="middle">푸파피안 속도 구속</text>
+<text class="b" x="150" y="280" text-anchor="middle">A(θ) dθ/dt = 0</text>
+
+<rect x="320" y="115" width="260" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="450" y="150" text-anchor="middle">3장 강체 운동</text>
+<text class="b" x="450" y="190" text-anchor="middle">R 의 전치 × R = I</text>
+<text class="b" x="450" y="220" text-anchor="middle">T = [R p; 0 1]</text>
+<text class="b" x="450" y="250" text-anchor="middle">로드리게스 공식</text>
+<text class="b" x="450" y="280" text-anchor="middle">회전의 지수 좌표</text>
+
+<rect x="620" y="115" width="260" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750" y="150" text-anchor="middle">4장 순기구학</text>
+<text class="b" x="750" y="190" text-anchor="middle">트위스트, 스크류 축</text>
+<text class="b" x="750" y="220" text-anchor="middle">어저전트 Ad(T)</text>
+<text class="b" x="750" y="250" text-anchor="middle">PoE 공식</text>
+<text class="b" x="750" y="280" text-anchor="middle">T = e^[S]θ ... M</text>
+
+<rect x="920" y="115" width="260" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1050" y="150" text-anchor="middle">5장 속도 기구학</text>
+<text class="b" x="1050" y="190" text-anchor="middle">V = J(θ) dθ/dt</text>
+<text class="b" x="1050" y="220" text-anchor="middle">τ = J 의 전치 × F</text>
+<text class="b" x="1050" y="250" text-anchor="middle">조작도 타원체</text>
+<text class="b" x="1050" y="280" text-anchor="middle">힘 타원체</text>
+
+<rect x="1220" y="115" width="260" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1350" y="150" text-anchor="middle">6장 역기구학</text>
+<text class="b" x="1350" y="190" text-anchor="middle">코사인 법칙</text>
+<text class="b" x="1350" y="220" text-anchor="middle">뉴턴-랩슨 반복</text>
+<text class="b" x="1350" y="250" text-anchor="middle">의사역행렬 J†</text>
+<text class="b" x="1350" y="280" text-anchor="middle">log(T 역 × T_sd)</text>
+
+<line x1="282" y1="210" x2="318" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="582" y1="210" x2="618" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="882" y1="210" x2="918" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1182" y1="210" x2="1218" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<rect x="20" y="370" width="260" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="150" y="405" text-anchor="middle">8장 동역학</text>
+<text class="b" x="150" y="445" text-anchor="middle">라그랑지안 L = K - P</text>
+<text class="b" x="150" y="475" text-anchor="middle">τ = M(θ) θ'' + h</text>
+<text class="b" x="150" y="505" text-anchor="middle">공간 관성 G, 평행축 정리</text>
+<text class="b" x="150" y="535" text-anchor="middle">뉴턴-오일러 알고리즘</text>
+
+<rect x="320" y="370" width="260" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="450" y="405" text-anchor="middle">9장 궤적 생성</text>
+<text class="b" x="450" y="445" text-anchor="middle">관절 공간 직선 경로</text>
+<text class="b" x="450" y="475" text-anchor="middle">θ(s) = θ0 + s(θ1 - θ0)</text>
+<text class="b" x="450" y="505" text-anchor="middle">일정 스크류 운동</text>
+<text class="b" x="450" y="535" text-anchor="middle">X(s) = X0 exp(.. s)</text>
+
+<rect x="620" y="370" width="260" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="405" text-anchor="middle">13장 이동 로봇</text>
+<text class="b" x="750" y="445" text-anchor="middle">벡터장의 리 괄호</text>
+<text class="b" x="750" y="475" text-anchor="middle">[g1, g2]</text>
+<text class="b" x="750" y="505" text-anchor="middle">비홀로노믹 구속</text>
+<text class="b" x="750" y="535" text-anchor="middle">가제어성 판정</text>
+
+<rect x="940" y="370" width="540" height="190" rx="10" fill="#FFFFFF" stroke="#4A5260" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="1210" y="405" text-anchor="middle">읽는 법</text>
+<text class="b" x="1210" y="445" text-anchor="middle">위 줄: 기구학 도구가 차례로 쌓인다</text>
+<text class="b" x="1210" y="475" text-anchor="middle">아래 줄: 동역학, 궤적, 구속 이동 로봇</text>
+<text class="b" x="1210" y="505" text-anchor="middle">8장의 구속 동역학 승수는 부록 D로 연결</text>
+<text class="b" x="1210" y="535" text-anchor="middle">공식은 지도일 뿐, 유도는 각 장에서</text>
+
+<line x1="1350" y1="308" x2="1350" y2="338" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="1350" y1="338" x2="150" y2="338" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="150" y1="338" x2="150" y2="368" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="282" y1="465" x2="318" y2="465" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<text class="s" x="750" y="610" text-anchor="middle">수식은 표준 표기를 단순화한 것이다. 정확한 식은 부록 A 본문 표를 본다.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">D-H 곱에서 PoE 로</text>
+
+<rect x="25" y="110" width="430" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="240" y="148" text-anchor="middle">1. 링크마다 쪼개기</text>
+<text class="b" x="240" y="190" text-anchor="middle">T(i-1,i) = M_i × e^([A_i] θ_i)</text>
+<text class="b" x="240" y="225" text-anchor="middle">M_i = Rot(x,α) Trans(x,a) Trans(z,d)</text>
+<text class="b" x="240" y="260" text-anchor="middle">A_i : z축 둘레 회전의 스크류 축</text>
+
+<rect x="535" y="110" width="430" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750" y="148" text-anchor="middle">2. D-H 순기구학 곱</text>
+<text class="b" x="750" y="190" text-anchor="middle">T = M1 e^(A1 θ1) M2 e^(A2 θ2)</text>
+<text class="b" x="750" y="225" text-anchor="middle">... Mn e^(An θn)</text>
+<text class="b" x="750" y="260" text-anchor="middle">상수 행렬이 사이사이에 섞여 있다</text>
+
+<rect x="1045" y="110" width="430" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1260" y="148" text-anchor="middle">3. 항등식 반복 적용</text>
+<text class="b" x="1260" y="190" text-anchor="middle">M e^P M 의 역 = e^(M P M 의 역)</text>
+<text class="b" x="1260" y="225" text-anchor="middle">상수 행렬이 오른쪽 끝으로 모인다</text>
+<text class="b" x="1260" y="260" text-anchor="middle">M = M1 M2 ... Mn</text>
+
+<line x1="457" y1="205" x2="533" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="967" y1="205" x2="1043" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<rect x="300" y="350" width="900" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="392" text-anchor="middle">결과: PoE 공식  T = e^([S1] θ1) ... e^([Sn] θn) M</text>
+<text class="b" x="750" y="430" text-anchor="middle">S_i = Ad(M1 ... M(i-1)) (A_i) : 고정 좌표계에서 본 관절 i 의 스크류 축</text>
+<text class="b" x="750" y="462" text-anchor="middle">A_i 는 링크 좌표계 {i} 에서 본 같은 축 (어저전트로 서로 변환)</text>
+
+<line x1="1260" y1="303" x2="1260" y2="326" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="1260" y1="326" x2="750" y2="326" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="750" y1="326" x2="750" y2="348" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="520" text-anchor="middle">식에서 e^(..) 는 행렬 지수, [ ] 는 6차원 스크류 축을 4x4 행렬로 바꾼 표기이다.</text>
+</svg>

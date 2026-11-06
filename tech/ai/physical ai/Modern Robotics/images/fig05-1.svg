@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#3C8D5A"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">자코비안의 열은 관절 하나가 만드는 말단 속도</text>
+<rect x="40" y="90" width="700" height="420" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="390" y="128" text-anchor="middle">평면 2R 팔</text>
+<line x1="130" y1="430" x2="320" y2="330" stroke="#3B6EA8" stroke-width="12" stroke-linecap="round"/>
+<line x1="320" y1="330" x2="470" y2="410" stroke="#3B6EA8" stroke-width="12" stroke-linecap="round"/>
+<circle cx="130" cy="430" r="16" fill="#FBF0DC" stroke="#B8862B" stroke-width="3"/>
+<circle cx="320" cy="330" r="16" fill="#FBF0DC" stroke="#B8862B" stroke-width="3"/>
+<circle cx="470" cy="410" r="9" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+<line x1="470" y1="410" x2="395" y2="265" stroke="#3C8D5A" stroke-width="3" marker-end="url(#ag)"/>
+<line x1="470" y1="410" x2="515" y2="240" stroke="#B5524A" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="470" y1="410" x2="440" y2="190" stroke="#4A5260" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+<text class="b" x="345" y="262" text-anchor="end" style="fill:#3C8D5A">J₁ θ̇₁</text>
+<text class="b" x="535" y="250" style="fill:#B5524A">J₂ θ̇₂</text>
+<text class="b" x="430" y="180" text-anchor="middle">v(말단) = 합</text>
+<text class="b" x="130" y="475" text-anchor="middle">관절 1</text>
+<text class="b" x="320" y="370" text-anchor="middle">관절 2</text>
+<text class="s" x="390" y="495" text-anchor="middle">각 열은 팔 끝에서 그 관절을 도는 접선 방향이다.</text>
+<rect x="780" y="90" width="680" height="420" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1120" y="128" text-anchor="middle">관절 속도 공간에서 말단 속도 공간으로</text>
+<circle cx="920" cy="300" r="75" fill="#FFFFFF" stroke="#B8862B" stroke-width="3"/>
+<line x1="830" y1="300" x2="1010" y2="300" stroke="#4A5260" stroke-width="1.5"/>
+<line x1="920" y1="390" x2="920" y2="210" stroke="#4A5260" stroke-width="1.5"/>
+<text class="b" x="920" y="410" text-anchor="middle">‖θ̇‖ = 1 (원)</text>
+<line x1="1020" y1="300" x2="1130" y2="300" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="b" x="1075" y="285" text-anchor="middle">J</text>
+<ellipse cx="1280" cy="300" rx="135" ry="45" transform="rotate(-30 1280 300)" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="3"/>
+<circle cx="1280" cy="300" r="4" fill="#3C8D5A"/>
+<text class="b" x="1280" y="410" text-anchor="middle">조작도 타원체</text>
+<text class="s" x="1120" y="470" text-anchor="middle">긴 축 방향으로는 빠르게, 짧은 축 방향으로는 느리게 움직인다.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">같은 손끝, 두 가지 자세 (평면 2R 역기구학)</text>
+<rect x="40" y="90" width="720" height="420" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="600" cy="230" r="12" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+<line x1="250" y1="430" x2="498" y2="458" stroke="#3B6EA8" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round"/>
+<line x1="498" y1="458" x2="600" y2="230" stroke="#3B6EA8" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round"/>
+<circle cx="498" cy="458" r="12" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="3"/>
+<line x1="250" y1="430" x2="352" y2="202" stroke="#B5524A" stroke-width="12" stroke-linecap="round"/>
+<line x1="352" y1="202" x2="600" y2="230" stroke="#B5524A" stroke-width="12" stroke-linecap="round"/>
+<circle cx="352" cy="202" r="14" fill="#F9E8E8" stroke="#B5524A" stroke-width="3"/>
+<circle cx="250" cy="430" r="16" fill="#FBF0DC" stroke="#B8862B" stroke-width="3"/>
+<text class="b" x="250" y="475" text-anchor="middle">어깨</text>
+<text class="b" x="640" y="235">목표점 p</text>
+<text class="b" x="310" y="190" text-anchor="end">팔꿈치 위</text>
+<text class="b" x="520" y="495" text-anchor="middle">팔꿈치 아래 (점선)</text>
+<text class="s" x="400" y="118" text-anchor="middle">두 해는 어깨와 목표점을 잇는 선에 대칭이다.</text>
+<rect x="800" y="90" width="660" height="420" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1130" y="130" text-anchor="middle">해의 개수는 거리 r로 결정된다</text>
+<text class="b" x="840" y="185">cos θ₂ = (r² − L₁² − L₂²) / (2 L₁ L₂)</text>
+<text class="b" x="840" y="235">θ₂ = ± arccos(·)   (위·아래 두 해)</text>
+<text class="b" x="840" y="285">θ₁ = atan2(y, x) − atan2(L₂ sin θ₂, L₁ + L₂ cos θ₂)</text>
+<text class="b" x="840" y="345">r &gt; L₁ + L₂ 또는 r &lt; |L₁ − L₂| : 해 없음</text>
+<text class="b" x="840" y="385">r = L₁ + L₂ 또는 |L₁ − L₂| : 해 1개 (특이 자세)</text>
+<text class="b" x="840" y="425">그 사이 : 해 2개</text>
+<text class="s" x="840" y="470">r = 목표점까지 거리 √(x²+y²), 관절 각도는 위 식으로 계산</text>
+</svg>

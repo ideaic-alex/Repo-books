@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="60" text-anchor="middle">위상 평면에서 본 최단시간 시간 스케일링</text>
+<rect x="100" y="100" width="820" height="440" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<path d="M140 500 L140 330 C 240 180, 420 150, 520 190 C 640 235, 700 140, 880 330 L880 500 Z" fill="#F5FAF6" stroke="none"/>
+<path d="M140 330 C 240 180, 420 150, 520 190 C 640 235, 700 140, 880 330" fill="none" stroke="#B5524A" stroke-width="3" stroke-dasharray="10 6"/>
+<text class="b" x="400" y="130" text-anchor="middle" style="fill:#B5524A">속도 한계 곡선 (점선 위쪽은 금지 영역)</text>
+<line x1="140" y1="500" x2="900" y2="500" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="140" y1="500" x2="140" y2="115" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="b" x="905" y="530" text-anchor="end">s</text>
+<text class="b" x="160" y="135" text-anchor="start">ṡ</text>
+<path d="M140 500 C 200 400, 300 330, 360 290 L 460 235 C 540 215, 520 280, 600 330 C 700 370, 800 420, 880 500" fill="none" stroke="#3B6EA8" stroke-width="5"/>
+<circle cx="140" cy="500" r="8" fill="#3B6EA8"/>
+<circle cx="880" cy="500" r="8" fill="#3B6EA8"/>
+<text class="b" x="140" y="530" text-anchor="middle">(0, 0)</text>
+<text class="b" x="880" y="530" text-anchor="middle">(1, 0)</text>
+<text class="b" x="250" y="420" text-anchor="middle" style="fill:#3B6EA8">s̈ = U</text>
+<text class="b" x="740" y="410" text-anchor="middle" style="fill:#3B6EA8">s̈ = L</text>
+<rect x="960" y="100" width="500" height="440" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1210" y="145" text-anchor="middle">읽는 법</text>
+<text class="b" x="1210" y="195" text-anchor="middle">파랑 곡선: 최단시간 궤적</text>
+<text class="b" x="1210" y="235" text-anchor="middle">처음: 최대 가속 U로 상승</text>
+<text class="b" x="1210" y="275" text-anchor="middle">한계 곡선에 닿으면 따라 이동</text>
+<text class="b" x="1210" y="315" text-anchor="middle">마지막: 최대 감속 L로 하강</text>
+<text class="b" x="1210" y="355" text-anchor="middle">L(s, ṡ) ≤ s̈ ≤ U(s, ṡ)</text>
+<text class="b" x="1210" y="395" text-anchor="middle">최대 가속과 최대 감속만 사용</text>
+<text class="b" x="1210" y="435" text-anchor="middle">(뱅뱅 해)</text>
+<text class="s" x="750" y="590" text-anchor="middle">개념도이며 곡선의 모양은 경로와 로봇에 따라 달라진다.</text>
+</svg>
