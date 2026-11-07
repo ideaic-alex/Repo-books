@@ -1,10 +1,6 @@
 # Claude Code 에이전틱 아키텍처 및 하네스(Harness) 실행 가이드
 
-> **출처 안내**
-> - 이 문서는 『Claude Code: The Definitive Guide to Agentic Development』를 소스로 등록한 NotebookLM에 "Claude Code의 하네스(harness)가 무엇인가"를 질문해 받은 답변이다.
-> - 따라서 원문 그대로가 아니라 NotebookLM이 책 내용을 요약·재구성한 결과이며, 수치와 표현이 원서와 다를 수 있다. 주요 수치(약 350줄, 컨텍스트 80%와 95%, 내장 서브에이전트 6종, CLAUDE.md 500줄, 완전 위임 0~20%)는 같은 저장소의 같은 책 정리 노트와 대조했을 때 일치했다. 다만 이 대조는 책 원문이 아니라 정리 노트와 한 것이다.
-> - 책이 쓰인 시점의 Claude Code 기준이므로 현재 제품 동작과 다를 수 있다.
-> - 대조 시점: 2026-11-07
+> 출처: 『Claude Code: The Definitive Guide to Agentic Development』
 
 Claude Code는 단순한 단발성 코드 생성 챗봇이 아니라, 코드베이스 읽기, 계획 수립, 도구 실행, 결과 검증을 자율적으로 순환하는 에이전틱 루프(Agentic Loop) 기반의 개발 시스템입니다. 본 가이드는 Claude Code를 구동하는 하네스(Harness) 아키텍처의 내부 메커니즘부터 효율적인 4단계 워크플로우, 서브에이전트 조율, 그리고 결정적 제약 자원인 컨텍스트 윈도우를 최적화하는 컨텍스트 엔지니어링 체계까지 심도 있게 다룹니다.
 
