@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">우연히 생긴 구조, 설계한 구조, 너무 일찍 설계한 구조</text>
+<rect x="40" y="100" width="420" height="470" rx="14" fill="none" stroke="#B5524A" stroke-width="2"/>
+<rect x="540" y="100" width="420" height="470" rx="14" fill="none" stroke="#3C8D5A" stroke-width="2"/>
+<rect x="1040" y="100" width="420" height="470" rx="14" fill="none" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="250" y="140" text-anchor="middle">우연히 생김</text>
+<rect x="100" y="160" width="300" height="44" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="250.0" y="188.65" text-anchor="middle">프롬프트 하나</text>
+<rect x="100" y="222" width="300" height="44" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="250.0" y="250.65" text-anchor="middle">+ 도구 하나</text>
+<rect x="100" y="284" width="300" height="44" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="250.0" y="312.65" text-anchor="middle">+ 재시도</text>
+<rect x="100" y="346" width="300" height="44" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="250.0" y="374.65" text-anchor="middle">+ 두 번째 에이전트</text>
+<rect x="100" y="408" width="300" height="44" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="250.0" y="436.65" text-anchor="middle">+ 메모리와 리뷰어</text>
+<line x1="250" y1="204" x2="250" y2="222" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="250" y1="266" x2="250" y2="284" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="250" y1="328" x2="250" y2="346" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="250" y1="390" x2="250" y2="408" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="250" y="500" text-anchor="middle">그림도 상태 객체도 권한표도 없다</text>
+<text class="b" x="250" y="532" text-anchor="middle">데모에선 되고 운영에서 무너진다</text>
+<text class="h" x="750" y="140" text-anchor="middle">설계함</text>
+<rect x="675" y="160" width="150" height="44" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="750.0" y="188.65" text-anchor="middle">분류</text>
+<rect x="560" y="240" width="160" height="44" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="640.0" y="268.65" text-anchor="middle">전문가 A</text>
+<rect x="780" y="240" width="160" height="44" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="860.0" y="268.65" text-anchor="middle">전문가 B</text>
+<rect x="660" y="320" width="180" height="44" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="750.0" y="348.65" text-anchor="middle">리뷰어(읽기 전용)</text>
+<rect x="640" y="400" width="220" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750.0" y="428.65" text-anchor="middle">사람 게이트 → 환불</text>
+<line x1="730" y1="204" x2="650" y2="240" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="770" y1="204" x2="850" y2="240" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="650" y1="284" x2="710" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="850" y1="284" x2="790" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="364" x2="750" y2="400" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="750" y="500" text-anchor="middle">노드, 엣지, 상태, 게이트를 선언한다</text>
+<text class="b" x="750" y="532" text-anchor="middle">냅킨에 다시 그릴 수 있다</text>
+<text class="h" x="1250" y="140" text-anchor="middle">너무 일찍 설계함</text>
+<rect x="1100" y="160" width="300" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1250.0" y="188.65" text-anchor="middle">PDF 가져오기</text>
+<rect x="1100" y="222" width="300" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1250.0" y="250.65" text-anchor="middle">쪼개기</text>
+<rect x="1100" y="284" width="300" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1250.0" y="312.65" text-anchor="middle">요약</text>
+<rect x="1100" y="346" width="300" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1250.0" y="374.65" text-anchor="middle">검토</text>
+<rect x="1100" y="408" width="300" height="44" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1250.0" y="436.65" text-anchor="middle">서식 맞추기</text>
+<line x1="1250" y1="204" x2="1250" y2="222" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1250" y1="266" x2="1250" y2="284" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1250" y1="328" x2="1250" y2="346" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1250" y1="390" x2="1250" y2="408" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="1250" y="500" text-anchor="middle">PDF 한 건에 노드 다섯 개</text>
+<text class="b" x="1250" y="532" text-anchor="middle">더 느리고 디버깅이 어렵고 비싸다</text>
+<rect x="40" y="605" width="1420" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750.0" y="641.65" text-anchor="middle">질문은 어느 진영이냐가 아니라 이 구조를 내가 설계했는가이다.</text>
+</svg>

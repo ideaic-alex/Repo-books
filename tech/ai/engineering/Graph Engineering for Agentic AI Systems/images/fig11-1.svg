@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+<marker id="ar3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B8862B"/></marker>
+</defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">실행 그래프의 공격 표면: 없는 엣지가 통제다</text>
+
+<text class="h" x="260" y="130" text-anchor="middle">프롬프트 인젝션</text>
+<line x1="260" y1="142" x2="260" y2="218" stroke="#B5524A" stroke-width="2.5" marker-end="url(#ar2)"/>
+
+<rect x="80" y="225" width="360" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="260" y="275" text-anchor="middle">판단 노드</text>
+<text class="b" x="260" y="310" text-anchor="middle">고객 메일을 읽음, 도구 없음</text>
+
+<rect x="570" y="225" width="360" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="275" text-anchor="middle">휴먼 승인 노드</text>
+<text class="b" x="750" y="310" text-anchor="middle">묶인 매개변수를 확인</text>
+
+<rect x="1060" y="225" width="360" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240" y="275" text-anchor="middle">부작용 노드(환불)</text>
+<text class="b" x="1240" y="310" text-anchor="middle">코드가 실행, 모델은 없음</text>
+
+<line x1="442" y1="290" x2="568" y2="290" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="932" y1="290" x2="1058" y2="290" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<path d="M260 222 C260 130 1240 130 1240 222" fill="none" stroke="#B5524A" stroke-width="2.5" stroke-dasharray="10 8"/>
+<text class="b" x="750" y="150" text-anchor="middle" style="fill:#B5524A">엣지 없음: 인젝션이 가도 갈 길이 없다 ✕</text>
+
+<path d="M260 358 C260 450 1240 450 1240 358" fill="none" stroke="#B8862B" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#ar3)"/>
+<text class="h" x="750" y="440" text-anchor="middle" style="fill:#8A6420">그림자 엣지 (통제를 되돌려 주는 통로)</text>
+
+<rect x="140" y="500" width="1220" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="528" text-anchor="middle">예: 노드에 몰래 넣은 도구, 정적 엣지와 이동 명령의 혼용,</text>
+<text class="b" x="750" y="554" text-anchor="middle">다른 주체로 재개하는 디버그 통로, 허용 목록 밖의 런타임 로딩 서버</text>
+</svg>

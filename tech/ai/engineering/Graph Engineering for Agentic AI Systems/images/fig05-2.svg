@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">베이크오프: 팬아웃이 없는 일에서 루프 대 3노드 직선</text>
+<rect x="40" y="100" width="640" height="280" rx="14" fill="none" stroke="#3B6EA8" stroke-width="2" stroke-dasharray="3 0"/>
+<rect x="820" y="100" width="640" height="280" rx="14" fill="none" stroke="#B8862B" stroke-width="2" stroke-dasharray="3 0"/>
+<text class="h" x="360" y="142" text-anchor="middle">루프(단일 노드, 호출 2회)</text>
+<text class="h" x="1140" y="142" text-anchor="middle">3노드 직선(호출 3회)</text>
+<rect x="80" y="200" width="250" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="205.0" y="236" text-anchor="middle">초안</text>
+<text class="b" x="205.0" y="268" text-anchor="middle">인시던트가 창에</text>
+<text class="b" x="205.0" y="296" text-anchor="middle">남아 있음</text>
+<rect x="410" y="200" width="230" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="525.0" y="236" text-anchor="middle">같은 창에서 점검</text>
+<text class="b" x="525.0" y="268" text-anchor="middle">루브릭 확인</text>
+<line x1="330" y1="255" x2="408" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="845" y="200" width="170" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="930.0" y="236" text-anchor="middle">추출</text>
+<text class="b" x="930.0" y="268" text-anchor="middle">필드 목록만</text>
+<rect x="1065" y="200" width="170" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1150.0" y="236" text-anchor="middle">초안</text>
+<text class="b" x="1150.0" y="268" text-anchor="middle">원문은 못 봄</text>
+<rect x="1285" y="200" width="170" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1370.0" y="236" text-anchor="middle">검토</text>
+<text class="b" x="1370.0" y="268" text-anchor="middle">쓰기 없음</text>
+<line x1="1015" y1="255" x2="1063" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1235" y1="255" x2="1283" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="420" width="640" height="140" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="360.0" y="456" text-anchor="middle">상태 복사 0단어</text>
+<text class="b" x="360.0" y="488" text-anchor="middle">시스템 프롬프트 1개</text>
+<text class="b" x="360.0" y="516" text-anchor="middle">토큰 추정 약 311(책의 모의 실험)</text>
+<rect x="820" y="420" width="640" height="140" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1140.0" y="456" text-anchor="middle">상태 복사 54단어</text>
+<text class="b" x="1140.0" y="488" text-anchor="middle">시스템 프롬프트 3개, 월클락 약 1.5배</text>
+<text class="b" x="1140.0" y="516" text-anchor="middle">토큰 추정 약 293, 같은 문단 같은 PASS</text>
+<text class="s" x="750" y="620" text-anchor="middle">작성자가 같은 결정적 모의 모델이므로 품질은 비교하지 않는다. 수치는 그 실험 파일 한정의 추정이다.</text>
+<text class="s" x="750" y="646" text-anchor="middle">독립 조각이 없는 일에서 추가 노드는 호출과 복사만 늘렸다. 결론은 삭제 지시다.</text>
+</svg>

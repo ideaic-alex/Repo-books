@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:20px;font-weight:700}
+    .b{font-size:16px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="560" fill="#FFFFFF"/>
+  <text class="t" x="750" y="58" text-anchor="middle">Graph Engineering for Agentic AI Systems 한눈에 보기</text>
+  <rect x="520" y="90" width="460" height="64" rx="12" fill="#2B2F36"/>
+  <text class="h" x="750" y="130" text-anchor="middle" style="fill:#FFFFFF">에이전트 그래프 엔지니어링</text>
+  <path d="M750 154 V180 H135 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="19" y="204" width="232" height="48" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="135" y="235" text-anchor="middle" style="font-size:18px">1부 기초</text>
+  <rect x="19" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="135" y="299" text-anchor="middle">머리말</text>
+  <rect x="19" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="135" y="351" text-anchor="middle">1장 소유하는 토폴로지</text>
+  <rect x="19" y="376" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="135" y="403" text-anchor="middle">2장 실행·메모리 그래프</text>
+  <rect x="19" y="428" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="135" y="455" text-anchor="middle">3장 하네스 아래</text>
+  <path d="M750 154 V180 H381 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="265" y="204" width="232" height="48" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="381" y="235" text-anchor="middle" style="font-size:18px">2부 설계</text>
+  <rect x="265" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="381" y="299" text-anchor="middle">4장 에이전트 그래프 해부</text>
+  <rect x="265" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="381" y="351" text-anchor="middle">5장 만들지 말아야 할 때</text>
+  <rect x="265" y="376" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="381" y="403" text-anchor="middle">6장 노드를 얻는 패턴</text>
+  <path d="M750 154 V180 H627 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="511" y="204" width="232" height="48" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="627" y="235" text-anchor="middle" style="font-size:18px">3부 구현과 지식</text>
+  <rect x="511" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="627" y="299" text-anchor="middle">7장 프레임워크</text>
+  <rect x="511" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="627" y="351" text-anchor="middle">8장 지식 그래프 메모리</text>
+  <path d="M750 154 V180 H873 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="757" y="204" width="232" height="48" rx="10" fill="#F3E8F7" stroke="#8A5AA8" stroke-width="2"/>
+  <text class="h" x="873" y="235" text-anchor="middle" style="font-size:18px">4부 운영과 이론</text>
+  <rect x="757" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="873" y="299" text-anchor="middle">9장 프로덕션 운영</text>
+  <rect x="757" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="873" y="351" text-anchor="middle">10장 그래프의 컴퓨터 과학</text>
+  <path d="M750 154 V180 H1119 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1003" y="204" width="232" height="48" rx="10" fill="#FBE8E8" stroke="#B85A5A" stroke-width="2"/>
+  <text class="h" x="1119" y="235" text-anchor="middle" style="font-size:18px">5부 보안과 경계</text>
+  <rect x="1003" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1119" y="299" text-anchor="middle">11장 보안과 거버넌스</text>
+  <rect x="1003" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1119" y="351" text-anchor="middle">12장 그래프 인텔리전스</text>
+  <path d="M750 154 V180 H1365 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1249" y="204" width="232" height="48" rx="10" fill="#ECEEF1" stroke="#6B7280" stroke-width="2"/>
+  <text class="h" x="1365" y="235" text-anchor="middle" style="font-size:18px">6부 검증과 결론</text>
+  <rect x="1249" y="272" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text class="b" x="1365" y="299" text-anchor="middle">13장 테스트·평가·검증</text>
+  <rect x="1249" y="324" width="232" height="42" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+  <text class="b" x="1365" y="351" text-anchor="middle">14장 이름이 잊혀도</text>
+  <text class="s" x="750" y="520" text-anchor="middle">※ 부 구분은 노트 작성자가 정한 것이다(원서는 14개 장). 각 장은 이 노트가 풀어 정리한 문서로 연결된다.</text>
+</svg>

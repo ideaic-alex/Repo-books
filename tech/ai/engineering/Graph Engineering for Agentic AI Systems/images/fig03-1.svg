@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="690" viewBox="0 0 1500 690">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="690" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">하네스 아래의 형제 다섯: 사다리가 아니라 우산</text>
+<rect x="40" y="100" width="620" height="540" rx="14" fill="none" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="350" y="140" text-anchor="middle">콘텐츠 팜의 그림: 교체 사다리</text>
+<rect x="70" y="500" width="150" height="56" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="145.0" y="534.65" text-anchor="middle">프롬프트</text>
+<line x1="195" y1="500" x2="195" y2="476" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="170" y="420" width="150" height="56" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="245.0" y="454.65" text-anchor="middle">컨텍스트</text>
+<line x1="295" y1="420" x2="295" y2="396" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="270" y="340" width="150" height="56" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="345.0" y="374.65" text-anchor="middle">하네스</text>
+<line x1="395" y1="340" x2="395" y2="316" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="370" y="260" width="150" height="56" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="445.0" y="294.65" text-anchor="middle">루프</text>
+<line x1="495" y1="260" x2="495" y2="236" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="470" y="180" width="150" height="56" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="545.0" y="214.65" text-anchor="middle">그래프</text>
+<text class="b" x="350" y="590" text-anchor="middle">각 이름이 앞 이름을 은퇴시킨다는 이야기</text>
+<text class="b" x="350" y="620" text-anchor="middle">책은 이를 아키텍처가 아닌 공유 소재로 본다</text>
+<rect x="700" y="100" width="760" height="540" rx="14" fill="none" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1080" y="140" text-anchor="middle">책이 쓰는 그림: 하네스라는 우산</text>
+<rect x="720" y="160" width="720" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1080.0" y="191.65" text-anchor="middle">하네스 엔지니어링 (패러다임)</text>
+<text class="b" x="1080.0" y="221.65" text-anchor="middle">에이전트 = 모델 + 하네스: 실행 중에 제약하고 검증하고 조향한다</text>
+<rect x="720" y="260" width="225" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="832.5" y="296" text-anchor="middle">프롬프트</text>
+<text class="b" x="832.5" y="332" text-anchor="middle">호출 한 번의 지시</text>
+<text class="b" x="832.5" y="360" text-anchor="middle">노드마다 따로 존재</text>
+<rect x="965" y="260" width="225" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1077.5" y="296" text-anchor="middle">컨텍스트</text>
+<text class="b" x="1077.5" y="332" text-anchor="middle">창에 들어갈 토큰</text>
+<text class="b" x="1077.5" y="360" text-anchor="middle">엣지마다 창이 갈림</text>
+<rect x="1210" y="260" width="225" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1322.5" y="296" text-anchor="middle">루프</text>
+<text class="b" x="1322.5" y="332" text-anchor="middle">한 에이전트의 반복</text>
+<text class="b" x="1322.5" y="360" text-anchor="middle">관찰, 행동, 검증, 정지</text>
+<rect x="845" y="400" width="225" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="957.5" y="436" text-anchor="middle">그래프</text>
+<text class="b" x="957.5" y="472" text-anchor="middle">노드, 엣지, 공유 상태</text>
+<text class="b" x="957.5" y="500" text-anchor="middle">팬아웃, 조인, 게이트</text>
+<rect x="1090" y="400" width="225" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1202.5" y="436" text-anchor="middle">메모리</text>
+<text class="b" x="1202.5" y="472" text-anchor="middle">실행을 넘어 남는 것</text>
+<text class="b" x="1202.5" y="500" text-anchor="middle">체크포인터와 저장소</text>
+<rect x="720" y="540" width="720" height="80" rx="10" fill="#FFFFFF" stroke="#4A5260" stroke-width="2"/>
+<text class="b" x="1080.0" y="571.65" text-anchor="middle">이 책의 주제는 그래프(토폴로지)다.</text>
+<text class="b" x="1080.0" y="601.65" text-anchor="middle">다른 형제는 노드, 엣지, 공유 상태를 제약할 때만 다룬다.</text>
+</svg>

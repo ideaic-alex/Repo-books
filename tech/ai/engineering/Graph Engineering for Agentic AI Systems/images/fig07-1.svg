@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">같은 일, 다섯 가지 토폴로지</text>
+
+<rect x="30" y="85" width="272" height="440" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="166" y="125" text-anchor="middle">컴파일된 그래프</text>
+<circle cx="90" cy="195" r="17" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="166" cy="165" r="17" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="166" cy="225" r="17" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<circle cx="242" cy="195" r="17" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<line x1="106" y1="189" x2="148" y2="171" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="106" y1="201" x2="148" y2="219" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="183" y1="170" x2="225" y2="188" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="183" y1="220" x2="225" y2="202" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M242 213 Q166 285 98 210" fill="none" stroke="#B5524A" stroke-width="2" marker-end="url(#ar)"/>
+<text class="s" x="166" y="290" text-anchor="middle">합류와 되돌림 간선</text>
+<text class="s" x="166" y="335" text-anchor="middle">다음 노드 결정</text>
+<text class="b" x="166" y="360" text-anchor="middle">컴파일된 간선</text>
+<text class="s" x="166" y="400" text-anchor="middle">수정(되돌아가기)</text>
+<text class="b" x="166" y="425" text-anchor="middle">한도 있는 뒤 간선</text>
+<text class="s" x="166" y="465" text-anchor="middle">상태</text>
+<text class="b" x="166" y="490" text-anchor="middle">스키마와 리듀서</text>
+
+<rect x="322" y="85" width="272" height="440" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="458" y="125" text-anchor="middle">크루(경로·별)</text>
+<circle cx="458" cy="190" r="17" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<circle cx="385" cy="250" r="14" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<circle cx="458" cy="262" r="14" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<circle cx="531" cy="250" r="14" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<line x1="450" y1="206" x2="392" y2="238" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="458" y1="207" x2="458" y2="246" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="466" y1="206" x2="524" y2="238" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="s" x="458" y="290" text-anchor="middle">허브 매니저와 작업자</text>
+<text class="s" x="458" y="335" text-anchor="middle">다음 노드 결정</text>
+<text class="b" x="458" y="360" text-anchor="middle">순서 또는 매니저</text>
+<text class="s" x="458" y="400" text-anchor="middle">수정(되돌아가기)</text>
+<text class="b" x="458" y="425" text-anchor="middle">간선 없음, 말로 요청</text>
+<text class="s" x="458" y="465" text-anchor="middle">상태</text>
+<text class="b" x="458" y="490" text-anchor="middle">대화 기록</text>
+
+<rect x="614" y="85" width="272" height="440" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="125" text-anchor="middle">ADK 워크플로</text>
+<rect x="640" y="170" width="70" height="40" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<rect x="715" y="150" width="70" height="30" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<rect x="715" y="205" width="70" height="30" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<rect x="800" y="170" width="70" height="40" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<line x1="710" y1="182" x2="713" y2="170" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="710" y1="200" x2="713" y2="212" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="785" y1="168" x2="798" y2="180" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="785" y1="220" x2="798" y2="203" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="s" x="750" y="270" text-anchor="middle">노드 그래프 위의 래퍼들</text>
+<text class="s" x="750" y="335" text-anchor="middle">다음 노드 결정</text>
+<text class="b" x="750" y="360" text-anchor="middle">라우팅 노드와 간선</text>
+<text class="s" x="750" y="400" text-anchor="middle">수정(되돌아가기)</text>
+<text class="b" x="750" y="425" text-anchor="middle">루프 래퍼 또는 간선</text>
+<text class="s" x="750" y="465" text-anchor="middle">상태</text>
+<text class="b" x="750" y="490" text-anchor="middle">세션과 이벤트</text>
+
+<rect x="906" y="85" width="272" height="440" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1042" y="125" text-anchor="middle">손으로 짠 DAG</text>
+<circle cx="965" cy="195" r="17" fill="#FFFFFF" stroke="#B5524A" stroke-width="2"/>
+<circle cx="1042" cy="165" r="17" fill="#FFFFFF" stroke="#B5524A" stroke-width="2"/>
+<circle cx="1042" cy="225" r="17" fill="#FFFFFF" stroke="#B5524A" stroke-width="2"/>
+<circle cx="1119" cy="195" r="17" fill="#FFFFFF" stroke="#B5524A" stroke-width="2"/>
+<line x1="981" y1="189" x2="1024" y2="171" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="981" y1="201" x2="1024" y2="219" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="1059" y1="170" x2="1102" y2="188" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="1059" y1="220" x2="1102" y2="202" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="s" x="1042" y="290" text-anchor="middle">합류는 있고 뒤 간선은 없다</text>
+<text class="s" x="1042" y="335" text-anchor="middle">다음 노드 결정</text>
+<text class="b" x="1042" y="360" text-anchor="middle">위상 정렬 순서</text>
+<text class="s" x="1042" y="400" text-anchor="middle">수정(되돌아가기)</text>
+<text class="b" x="1042" y="425" text-anchor="middle">불가, 새 실행</text>
+<text class="s" x="1042" y="465" text-anchor="middle">상태</text>
+<text class="b" x="1042" y="490" text-anchor="middle">작업 산출물</text>
+
+<rect x="1198" y="85" width="272" height="440" rx="10" fill="#F1ECF7" stroke="#7A5BA6" stroke-width="2"/>
+<text class="h" x="1334" y="125" text-anchor="middle">컴파일된 루프</text>
+<circle cx="1280" cy="200" r="17" fill="#FFFFFF" stroke="#7A5BA6" stroke-width="2"/>
+<circle cx="1388" cy="200" r="17" fill="#FFFFFF" stroke="#7A5BA6" stroke-width="2"/>
+<path d="M1297 192 Q1334 168 1371 192" fill="none" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M1371 209 Q1334 236 1297 209" fill="none" stroke="#4A5260" stroke-width="2" marker-end="url(#ar)"/>
+<text class="s" x="1334" y="290" text-anchor="middle">두 노드와 순환 하나</text>
+<text class="s" x="1334" y="335" text-anchor="middle">다음 노드 결정</text>
+<text class="b" x="1334" y="360" text-anchor="middle">모델이 멈출 때까지</text>
+<text class="s" x="1334" y="400" text-anchor="middle">수정(되돌아가기)</text>
+<text class="b" x="1334" y="425" text-anchor="middle">순환 자체가 수정</text>
+<text class="s" x="1334" y="465" text-anchor="middle">상태</text>
+<text class="b" x="1334" y="490" text-anchor="middle">메시지 목록</text>
+
+<text class="s" x="750" y="565" text-anchor="middle">비교이지 순위가 아니다. 컴파일된 간선은 제약이고, 매니저 프롬프트는 매 턴의 표본이며, 없는 뒤 간선은 정책이다.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">두 개의 방, 하나의 문</text>
+
+<rect x="30" y="85" width="560" height="430" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="310" y="122" text-anchor="middle">실행 그래프 (G_A)</text>
+<text class="s" x="310" y="146" text-anchor="middle">노드가 행동하고 제어가 흐른다</text>
+<rect x="60" y="180" width="150" height="60" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="135" y="217" text-anchor="middle">분류기</text>
+<rect x="240" y="180" width="170" height="60" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="3"/>
+<text class="b" x="325" y="217" text-anchor="middle">기억 질의 노드</text>
+<rect x="440" y="180" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="505" y="217" text-anchor="middle">검토자</text>
+<line x1="210" y1="210" x2="238" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="410" y1="210" x2="438" y2="210" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="330" width="200" height="60" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="160" y="367" text-anchor="middle">전문가 에이전트</text>
+<rect x="300" y="420" width="270" height="70" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="435" y="450" text-anchor="middle">기억 쓰기 노드(유일)</text>
+<text class="s" x="435" y="474" text-anchor="middle">제안, 형태 검사, 커밋</text>
+<line x1="160" y1="330" x2="160" y2="260" stroke="#4A5260" stroke-width="2" stroke-dasharray="6 5"/>
+<text class="s" x="170" y="300">사실은 제안만</text>
+<line x1="260" y1="375" x2="298" y2="445" stroke="#B5524A" stroke-width="2" stroke-dasharray="6 5"/>
+<text class="s" x="215" y="410" fill="#B5524A">직접 간선 없음</text>
+
+<rect x="910" y="85" width="560" height="430" rx="12" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1190" y="122" text-anchor="middle">지식 그래프 (G_K)</text>
+<text class="s" x="1190" y="146" text-anchor="middle">사실이 쌓이고 아무것도 실행하지 않는다</text>
+<ellipse cx="1000" cy="215" rx="75" ry="32" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1000" y="221" text-anchor="middle">설계 B</text>
+<ellipse cx="1190" cy="215" rx="75" ry="32" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1190" y="221" text-anchor="middle">설계 A</text>
+<ellipse cx="1380" cy="215" rx="75" ry="32" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1380" y="221" text-anchor="middle">결정 기록</text>
+<line x1="1076" y1="215" x2="1113" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1095" y="203" text-anchor="middle">대체함</text>
+<line x1="1380" y1="247" x2="1380" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1392" y="290">결정한 사람</text>
+<ellipse cx="1380" cy="350" rx="75" ry="32" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1380" y="356" text-anchor="middle">담당자</text>
+<line x1="1000" y1="247" x2="1000" y2="318" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1012" y="290">원인</text>
+<ellipse cx="1000" cy="350" rx="75" ry="32" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1000" y="356" text-anchor="middle">장애 사건</text>
+<rect x="1060" y="410" width="360" height="75" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1240" y="440" text-anchor="middle">모든 엣지에 유효 기간과 출처</text>
+<text class="s" x="1240" y="468" text-anchor="middle">타입 검사를 통과한 관계만 존재한다</text>
+
+<line x1="590" y1="210" x2="908" y2="210" stroke="#B8862B" stroke-width="3" stroke-dasharray="2 0"/>
+<rect x="640" y="150" width="220" height="40" rx="6" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+<text class="s" x="750" y="176" text-anchor="middle">질의(유형, 기준 시각)</text>
+<line x1="908" y1="262" x2="592" y2="262" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="615" y="272" width="270" height="68" rx="6" fill="#FFFFFF" stroke="#4A5260" stroke-width="1.5"/>
+<text class="s" x="750" y="298" text-anchor="middle">사실, 유효 기간, 출처,</text>
+<text class="s" x="750" y="322" text-anchor="middle">신원 확신도를 돌려준다</text>
+<line x1="570" y1="455" x2="908" y2="455" stroke="#B5524A" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="740" y="445" text-anchor="middle">검증을 통과한 쓰기만</text>
+
+<text class="s" x="750" y="565" text-anchor="middle">G_K는 G_A에 먹이를 줄 뿐이고, G_A가 G_K가 되지는 않는다. 제어 흐름은 기억 그래프 안으로 들어가지 않는다.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">두 개의 시계: 사실이 참이던 때와 시스템이 안 때</text>
+
+<text class="h" x="40" y="115">세상의 시간 (유효 시간)</text>
+<line x1="150" y1="200" x2="1440" y2="200" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="150" y1="194" x2="150" y2="206" stroke="#4A5260" stroke-width="2"/>
+<line x1="450" y1="194" x2="450" y2="206" stroke="#4A5260" stroke-width="2"/>
+<line x1="750" y1="194" x2="750" y2="206" stroke="#4A5260" stroke-width="2"/>
+<line x1="1100" y1="194" x2="1100" y2="206" stroke="#4A5260" stroke-width="2"/>
+<text class="s" x="150" y="228" text-anchor="middle">2022</text>
+<text class="s" x="450" y="228" text-anchor="middle">2023</text>
+<text class="s" x="750" y="228" text-anchor="middle">2024-06</text>
+<text class="s" x="1100" y="228" text-anchor="middle">2025</text>
+<rect x="150" y="140" width="600" height="44" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="450" y="169" text-anchor="middle">앨리스는 A사 소속 (valid_to가 닫힘)</text>
+<rect x="750" y="140" width="670" height="44" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1085" y="169" text-anchor="middle">앨리스는 B사 소속 (아직 열림)</text>
+
+<text class="h" x="40" y="320">시스템의 시간 (기록 시간)</text>
+<line x1="150" y1="410" x2="1440" y2="410" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="450" y1="404" x2="450" y2="416" stroke="#4A5260" stroke-width="2"/>
+<line x1="850" y1="404" x2="850" y2="416" stroke="#4A5260" stroke-width="2"/>
+<text class="s" x="450" y="438" text-anchor="middle">2023-03 학습</text>
+<text class="s" x="850" y="438" text-anchor="middle">2024-07 학습</text>
+<rect x="450" y="350" width="400" height="44" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="650" y="379" text-anchor="middle">A사 소속 간선이 유효로 기록된 기간</text>
+<rect x="850" y="350" width="570" height="44" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1135" y="379" text-anchor="middle">B사 소속 간선이 기록된 시점부터</text>
+
+<line x1="750" y1="188" x2="850" y2="346" stroke="#B8862B" stroke-width="2" stroke-dasharray="6 5"/>
+<text class="s" x="860" y="290" fill="#B8862B">직장을 옮긴 뒤 한 달 늦게 알았다</text>
+
+<rect x="300" y="500" width="900" height="80" rx="10" fill="#F2F2F2" stroke="#8A8F98" stroke-width="2"/>
+<text class="h" x="750" y="535" text-anchor="middle">세 번째 시계: 실행 그래프의 체크포인트</text>
+<text class="b" x="750" y="565" text-anchor="middle">에이전트 실행이 일어난 때이며, 위 두 시계의 대용품이 될 수 없다</text>
+</svg>

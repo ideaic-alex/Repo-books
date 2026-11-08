@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+</defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">세 개의 방과 두 개의 문</text>
+
+<rect x="40" y="110" width="400" height="260" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="240" y="155" text-anchor="middle">실행 그래프 G_A</text>
+<text class="b" x="240" y="200" text-anchor="middle">정점은 행동한다</text>
+<text class="b" x="240" y="232" text-anchor="middle">엣지는 허용 목록</text>
+<text class="b" x="240" y="264" text-anchor="middle">런타임과 허용 목록의 방</text>
+<text class="b" x="240" y="320" text-anchor="middle">체크포인트, 재개 있음</text>
+
+<rect x="550" y="110" width="400" height="260" rx="12" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="155" text-anchor="middle">학습된 그래프 G_L</text>
+<text class="b" x="750" y="200" text-anchor="middle">정점은 잠재 벡터</text>
+<text class="b" x="750" y="232" text-anchor="middle">손실로 가중치를 학습</text>
+<text class="b" x="750" y="264" text-anchor="middle">점수와 순위만 낸다</text>
+<text class="b" x="750" y="320" text-anchor="middle">런타임이 아님</text>
+
+<rect x="1060" y="110" width="400" height="260" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1260" y="155" text-anchor="middle">지식 그래프 G_K</text>
+<text class="b" x="1260" y="200" text-anchor="middle">정점은 사실과 엔티티</text>
+<text class="b" x="1260" y="232" text-anchor="middle">타입, 시간, 출처 π</text>
+<text class="b" x="1260" y="264" text-anchor="middle">주장을 저장하는 방</text>
+<text class="b" x="1260" y="320" text-anchor="middle">SHACL로 쓰기 검증</text>
+
+<line x1="548" y1="200" x2="442" y2="200" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="b" x="495" y="180" text-anchor="middle">문 1</text>
+<text class="s" x="495" y="228" text-anchor="middle">실행 점수</text>
+<line x1="952" y1="200" x2="1058" y2="200" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="b" x="1005" y="180" text-anchor="middle">문 2</text>
+<text class="s" x="1005" y="228" text-anchor="middle">검색 순위</text>
+
+<path d="M240 372 C240 470 1260 470 1260 372" fill="none" stroke="#B5524A" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#ar2)"/>
+<text class="b" x="750" y="455" text-anchor="middle" style="fill:#B5524A">세 번째 화살표는 없다 ✕ (G_L이 E_A나 π를 고쳐 쓰지 않음)</text>
+
+<text class="s" x="750" y="525" text-anchor="middle">G_L은 G_A의 실행을 채점하거나 G_K의 이웃을 정렬할 뿐, 세 객체가 하나가 되지 않는다.</text>
+</svg>

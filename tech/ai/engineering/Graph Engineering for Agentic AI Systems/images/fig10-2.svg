@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680" style="font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2B2F36"/></marker>
+    <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B5524A"/></marker>
+  </defs>
+  <rect width="1500" height="680" fill="#FFFFFF"/>
+  <text x="750" y="48" text-anchor="middle" font-size="34" font-weight="bold" fill="#2B2F36">같은 작업을 세 가지 기계로 그리면</text>
+  <text x="750" y="82" text-anchor="middle" font-size="19" fill="#2B2F36">접수, 두 갈래 조사, 합류, 초안, 검토, 발행</text>
+
+  <text x="40" y="132" font-size="22" font-weight="bold" fill="#2B2F36">1) DAG</text>
+  <rect x="40" y="160" width="130" height="56" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="105" y="195" text-anchor="middle" font-size="19" fill="#2B2F36">접수</text>
+  <rect x="260" y="130" width="150" height="50" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="335" y="162" text-anchor="middle" font-size="16" fill="#2B2F36">조사 A</text>
+  <rect x="260" y="200" width="150" height="50" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="335" y="232" text-anchor="middle" font-size="16" fill="#2B2F36">조사 B</text>
+  <rect x="500" y="160" width="130" height="56" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="565" y="195" text-anchor="middle" font-size="19" fill="#2B2F36">합류</text>
+  <rect x="720" y="160" width="130" height="56" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="785" y="195" text-anchor="middle" font-size="19" fill="#2B2F36">초안</text>
+  <rect x="940" y="160" width="130" height="56" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="1005" y="195" text-anchor="middle" font-size="19" fill="#2B2F36">검토</text>
+  <rect x="1160" y="160" width="130" height="56" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="1225" y="195" text-anchor="middle" font-size="19" fill="#2B2F36">발행</text>
+  <line x1="170" y1="180" x2="256" y2="160" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="170" y1="198" x2="256" y2="220" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="410" y1="158" x2="496" y2="180" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="410" y1="224" x2="496" y2="200" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="630" y1="188" x2="716" y2="188" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="850" y1="188" x2="936" y2="188" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1070" y1="188" x2="1156" y2="188" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <text x="1320" y="180" font-size="16" fill="#B5524A">되돌아가는 선이 없다</text>
+  <text x="1320" y="206" font-size="16" fill="#B5524A">수정은 펼쳐서 처리</text>
+
+  <text x="40" y="312" font-size="22" font-weight="bold" fill="#2B2F36">2) 유한 상태 기계</text>
+  <rect x="40" y="340" width="130" height="56" rx="28" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="105" y="375" text-anchor="middle" font-size="19" fill="#2B2F36">접수</text>
+  <rect x="260" y="340" width="150" height="56" rx="28" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="335" y="375" text-anchor="middle" font-size="19" fill="#2B2F36">조사 중</text>
+  <rect x="500" y="340" width="130" height="56" rx="28" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="565" y="375" text-anchor="middle" font-size="19" fill="#2B2F36">초안 중</text>
+  <rect x="720" y="340" width="150" height="56" rx="28" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="795" y="375" text-anchor="middle" font-size="19" fill="#2B2F36">검토 중</text>
+  <rect x="960" y="340" width="130" height="56" rx="28" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="1025" y="375" text-anchor="middle" font-size="19" fill="#2B2F36">발행</text>
+  <line x1="170" y1="368" x2="256" y2="368" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="410" y1="368" x2="496" y2="368" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="630" y1="368" x2="716" y2="368" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="870" y1="368" x2="956" y2="368" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M770,340 C740,290 620,290 590,336" fill="none" stroke="#B5524A" stroke-width="2.5" marker-end="url(#r)"/>
+  <text x="680" y="282" text-anchor="middle" font-size="16" fill="#B5524A">되돌아감: 횟수 &lt; k일 때만</text>
+  <text x="1120" y="368" font-size="16" fill="#B5524A">두 갈래 조사가 상태 하나에 숨음</text>
+
+  <text x="40" y="472" font-size="22" font-weight="bold" fill="#2B2F36">3) 에이전트 그래프</text>
+  <rect x="40" y="500" width="110" height="56" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="95" y="535" text-anchor="middle" font-size="19" fill="#2B2F36">접수</text>
+  <rect x="220" y="490" width="130" height="44" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="285" y="518" text-anchor="middle" font-size="16" fill="#2B2F36">조사 A</text>
+  <rect x="220" y="548" width="130" height="44" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="285" y="576" text-anchor="middle" font-size="16" fill="#2B2F36">조사 B</text>
+  <rect x="420" y="500" width="110" height="56" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="475" y="535" text-anchor="middle" font-size="19" fill="#2B2F36">합류</text>
+  <rect x="600" y="500" width="110" height="56" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="655" y="535" text-anchor="middle" font-size="19" fill="#2B2F36">초안</text>
+  <rect x="780" y="500" width="110" height="56" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="835" y="535" text-anchor="middle" font-size="19" fill="#2B2F36">검토</text>
+  <rect x="1020" y="470" width="130" height="44" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="1085" y="498" text-anchor="middle" font-size="16" fill="#2B2F36">발행</text>
+  <rect x="1020" y="528" width="130" height="44" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+  <text x="1085" y="556" text-anchor="middle" font-size="16" fill="#2B2F36">실패 종료</text>
+  <line x1="150" y1="520" x2="216" y2="512" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="150" y1="538" x2="216" y2="568" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="350" y1="512" x2="416" y2="524" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="350" y1="568" x2="416" y2="540" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="530" y1="528" x2="596" y2="528" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="710" y1="528" x2="776" y2="528" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="890" y1="518" x2="1016" y2="496" stroke="#B5524A" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#r)"/>
+  <line x1="890" y1="538" x2="1016" y2="552" stroke="#B5524A" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#r)"/>
+  <path d="M810,500 C790,450 680,450 660,496" fill="none" stroke="#B5524A" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#r)"/>
+  <text x="735" y="440" text-anchor="middle" font-size="16" fill="#B5524A">점선은 모델이 고른 선택, 허용 목록 안에서만 유효</text>
+  <text x="1180" y="498" font-size="16" fill="#2B2F36">허용 밖 이름은</text>
+  <text x="1180" y="522" font-size="16" fill="#2B2F36">새 노드가 아니라</text>
+  <text x="1180" y="546" font-size="16" fill="#2B2F36">무효 이벤트로 거절</text>
+</svg>

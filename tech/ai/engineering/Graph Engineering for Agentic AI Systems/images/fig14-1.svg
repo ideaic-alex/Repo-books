@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">하네스 엔지니어링의 형제들: 대체 사다리가 아니다</text>
+
+<rect x="420" y="100" width="660" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="145" text-anchor="middle">하네스 엔지니어링 (우산)</text>
+<text class="b" x="750" y="180" text-anchor="middle">결정적 IT에서 비결정적 에이전트 시스템으로, 실행 중에 제약·검증·조향</text>
+
+<rect x="30" y="340" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="385" text-anchor="middle">프롬프트</text>
+<text class="b" x="160" y="420" text-anchor="middle">모델 호출 한 번의</text>
+<text class="b" x="160" y="448" text-anchor="middle">지시를 설계</text>
+<rect x="320" y="340" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="450" y="385" text-anchor="middle">컨텍스트</text>
+<text class="b" x="450" y="420" text-anchor="middle">유한한 창에 들어갈</text>
+<text class="b" x="450" y="448" text-anchor="middle">토큰을 설계</text>
+<rect x="610" y="340" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="740" y="385" text-anchor="middle">루프</text>
+<text class="b" x="740" y="420" text-anchor="middle">관찰-행동-검증-중단</text>
+<text class="b" x="740" y="448" text-anchor="middle">한 에이전트의 순환</text>
+<rect x="900" y="340" width="260" height="150" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+<text class="h" x="1030" y="385" text-anchor="middle">그래프 (이 책)</text>
+<text class="b" x="1030" y="420" text-anchor="middle">노드, 간선, 상태,</text>
+<text class="b" x="1030" y="448" text-anchor="middle">팬아웃과 게이트</text>
+<rect x="1190" y="340" width="280" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1330" y="385" text-anchor="middle">메모리</text>
+<text class="b" x="1330" y="420" text-anchor="middle">실행 사이에 기억할</text>
+<text class="b" x="1330" y="448" text-anchor="middle">개체, 사실, 출처</text>
+
+<line x1="600" y1="212" x2="170" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="680" y1="212" x2="450" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="740" y1="212" x2="740" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="800" y1="212" x2="1010" y2="338" stroke="#3C8D5A" stroke-width="3.5" stroke-dasharray="10 8" marker-end="url(#ar)"/>
+<line x1="900" y1="212" x2="1320" y2="338" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<text class="s" x="750" y="560" text-anchor="middle">우산에서 뻗는 선은 순서가 아니다. 점선은 이 책의 범위를 가리킨다. 루프는 그래프 노드의 안쪽에 들어간다.</text>
+</svg>

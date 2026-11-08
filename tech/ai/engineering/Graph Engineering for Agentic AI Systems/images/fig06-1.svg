@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">다이아몬드: 독립 분할, 산출물, 소유된 합류, 새 컨텍스트 검증</text>
+<rect x="30" y="245" width="190" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="125.0" y="281" text-anchor="middle">분할(코드)</text>
+<text class="b" x="125.0" y="313" text-anchor="middle">이름을 아는</text>
+<text class="b" x="125.0" y="341" text-anchor="middle">5개 소스</text>
+<rect x="300" y="120" width="230" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="415.0" y="156" text-anchor="middle">워커 1</text>
+<text class="b" x="415.0" y="188" text-anchor="middle">소스별 JSON</text>
+<text class="b" x="415.0" y="216" text-anchor="middle">주장 + URL</text>
+<rect x="300" y="250" width="230" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="415.0" y="286" text-anchor="middle">워커 2</text>
+<text class="b" x="415.0" y="318" text-anchor="middle">소스별 JSON</text>
+<text class="b" x="415.0" y="346" text-anchor="middle">주장 + URL</text>
+<rect x="300" y="380" width="230" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="415.0" y="416" text-anchor="middle">워커 N</text>
+<text class="b" x="415.0" y="448" text-anchor="middle">소스별 JSON</text>
+<text class="b" x="415.0" y="476" text-anchor="middle">주장 + URL</text>
+<rect x="620" y="235" width="220" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="730.0" y="271" text-anchor="middle">합성자</text>
+<text class="b" x="730.0" y="303" text-anchor="middle">단독 작성자</text>
+<text class="b" x="730.0" y="331" text-anchor="middle">직접 가져오기 금지</text>
+<rect x="930" y="235" width="230" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1045.0" y="271" text-anchor="middle">검증자</text>
+<text class="b" x="1045.0" y="303" text-anchor="middle">다른 모델, 새 창</text>
+<text class="b" x="1045.0" y="331" text-anchor="middle">쓰기 도구 없음</text>
+<rect x="1250" y="245" width="210" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1355.0" y="281" text-anchor="middle">통과 후 출력</text>
+<text class="b" x="1355.0" y="313" text-anchor="middle">루브릭을 만족</text>
+<line x1="220" y1="290" x2="298" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="220" y1="300" x2="298" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="220" y1="310" x2="298" y2="430" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="530" y1="170" x2="618" y2="280" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="530" y1="300" x2="618" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="530" y1="430" x2="618" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="840" y1="300" x2="928" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1160" y1="300" x2="1248" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<polyline points="1045,365 1045,520 730,520 730,367" fill="none" stroke="#4A5260" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+<text class="b" x="890" y="552" text-anchor="middle">실패 목록 → 이름 있는 소유자(합성자, 또는 빈 소스의 워커)</text>
+<text class="s" x="1205" y="285" text-anchor="middle">통과</text>
+<text class="s" x="750" y="596" text-anchor="middle">작성자는 한 명, 검사자는 쓰기 잠금이 없다. 되돌림 엣지는 힘내라는 말이 아니라 목록을 운반한다.</text>
+</svg>

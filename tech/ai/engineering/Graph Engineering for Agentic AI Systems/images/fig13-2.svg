@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">평가 하네스: 픽스처 → 스텁 그래프 → 걸음 → 게이트</text>
+
+<rect x="30" y="130" width="300" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="180" y="170" text-anchor="middle">픽스처</text>
+<text class="b" x="180" y="205" text-anchor="middle">시작 상태</text>
+<text class="b" x="180" y="235" text-anchor="middle">심어 둔 실패</text>
+<text class="b" x="180" y="265" text-anchor="middle">재개 값</text>
+<text class="b" x="180" y="295" text-anchor="middle">기대 경로 서명</text>
+
+<rect x="400" y="130" width="330" height="200" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565" y="170" text-anchor="middle">스텁으로 감싼 그래프</text>
+<text class="b" x="565" y="205" text-anchor="middle">같은 토폴로지, 모델 없음</text>
+<text class="b" x="565" y="235" text-anchor="middle">부수 효과는 스텁이 기록</text>
+<text class="b" x="565" y="265" text-anchor="middle">모든 홉을 간선 이벤트로 남김</text>
+<text class="b" x="565" y="295" text-anchor="middle">트레이스에 eval=true 표시</text>
+
+<rect x="800" y="130" width="300" height="200" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="950" y="170" text-anchor="middle">걸음(walk)</text>
+<text class="b" x="950" y="205" text-anchor="middle">노드 순서</text>
+<text class="b" x="950" y="235" text-anchor="middle">라벨 붙은 간선</text>
+<text class="b" x="950" y="265" text-anchor="middle">노드별 계약 점수</text>
+<text class="b" x="950" y="295" text-anchor="middle">중단 사유, 호출 횟수</text>
+
+<rect x="1170" y="130" width="300" height="200" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1320" y="170" text-anchor="middle">게이트 (평균 없음)</text>
+<text class="b" x="1320" y="205" text-anchor="middle">경로 커버리지</text>
+<text class="b" x="1320" y="235" text-anchor="middle">노드 계약, 중단 조건</text>
+<text class="b" x="1320" y="265" text-anchor="middle">골든 리플레이</text>
+<text class="b" x="1320" y="295" text-anchor="middle">검증자 합의, 금지 행동</text>
+
+<line x1="332" y1="230" x2="398" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="732" y1="230" x2="798" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1102" y1="230" x2="1168" y2="230" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<rect x="30" y="400" width="620" height="150" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="340" y="440" text-anchor="middle">안쪽 루프: 결정적이고 빠르다</text>
+<text class="b" x="340" y="475" text-anchor="middle">토폴로지, 상한, 리듀서, 인터럽트가 바뀔 때마다 CI에서 실행</text>
+<text class="b" x="340" y="505" text-anchor="middle">프롬프트가 바뀌어도 건너뛸 수 없다</text>
+<rect x="850" y="400" width="620" height="150" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="1160" y="440" text-anchor="middle">바깥 루프: 통계적이다</text>
+<text class="b" x="1160" y="475" text-anchor="middle">야간·릴리스 때 실제 모델로 정밀도와 재현율, 노드별 비용 측정</text>
+<text class="b" x="1160" y="505" text-anchor="middle">흔들려도 토폴로지 검사를 대신 건너뛰는 허가가 되지 않는다</text>
+<text class="s" x="750" y="600" text-anchor="middle">실제 모델은 이 그림 안에 없다. 모델은 자기만의 벤치를 따로 가진다.</text>
+</svg>

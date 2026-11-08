@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">누가 오케스트레이터인가: 감독자, 네트워크, 핸드오프</text>
+<rect x="40" y="100" width="450" height="420" rx="14" fill="none" stroke="#3B6EA8" stroke-width="2" stroke-dasharray="3 0"/>
+<text class="h" x="265" y="142" text-anchor="middle">감독자(supervisor)</text>
+<rect x="525" y="100" width="450" height="420" rx="14" fill="none" stroke="#B8862B" stroke-width="2" stroke-dasharray="3 0"/>
+<text class="h" x="750" y="142" text-anchor="middle">네트워크(network)</text>
+<rect x="1010" y="100" width="450" height="420" rx="14" fill="none" stroke="#3C8D5A" stroke-width="2" stroke-dasharray="3 0"/>
+<text class="h" x="1235" y="142" text-anchor="middle">핸드오프(handoff)</text>
+<rect x="190" y="180" width="150" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="265.0" y="216" text-anchor="middle">관리자</text>
+<rect x="70" y="330" width="110" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="125.0" y="366" text-anchor="middle">전문가</text>
+<line x1="265" y1="240" x2="125" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="210" y="330" width="110" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="265.0" y="366" text-anchor="middle">전문가</text>
+<line x1="265" y1="240" x2="265" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="350" y="330" width="110" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="405.0" y="366" text-anchor="middle">전문가</text>
+<line x1="265" y1="240" x2="405" y2="328" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="265" y="440" text-anchor="middle">관리자가 최종 답을 소유한다</text>
+<text class="s" x="265" y="472" text-anchor="middle">기본값: 전문가를 도구처럼 호출</text>
+<line x1="635" y1="220" x2="865" y2="220" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="635" y1="220" x2="635" y2="390" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="635" y1="220" x2="865" y2="390" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="865" y1="220" x2="635" y2="390" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="865" y1="220" x2="865" y2="390" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="635" y1="390" x2="865" y2="390" stroke="#4A5260" stroke-width="2.5"/>
+<circle cx="635" cy="220" r="36" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="635" y="228" text-anchor="middle">A</text>
+<circle cx="865" cy="220" r="36" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="865" y="228" text-anchor="middle">B</text>
+<circle cx="635" cy="390" r="36" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="635" y="398" text-anchor="middle">C</text>
+<circle cx="865" cy="390" r="36" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="865" y="398" text-anchor="middle">D</text>
+<text class="b" x="750" y="460" text-anchor="middle">동료끼리 대화하고 소유권은 소문이다</text>
+<text class="s" x="750" y="492" text-anchor="middle">좁은 경우에만 이득, 나머지는 오류 증폭</text>
+<rect x="1040" y="260" width="130" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1105.0" y="296" text-anchor="middle">트리아지</text>
+<rect x="1300" y="190" width="130" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1365.0" y="226" text-anchor="middle">전문가 A</text>
+<rect x="1300" y="340" width="130" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1365.0" y="376" text-anchor="middle">전문가 B</text>
+<line x1="1170" y1="285" x2="1298" y2="228" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1170" y1="310" x2="1298" y2="372" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="1235" y="440" text-anchor="middle">제어가 이동하고 수신자가 소유한다</text>
+<text class="s" x="1235" y="472" text-anchor="middle">복귀 경로가 없으면 분실된 티켓</text>
+<text class="s" x="750" y="580" text-anchor="middle">다음 메시지를 누가 소유하는지 답할 수 없다면 그것은 토폴로지가 아니라 단체 채팅이다.</text>
+</svg>

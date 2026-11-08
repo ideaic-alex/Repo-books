@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">다이아몬드 예제: 스카우트에서 사람 승인까지</text>
+<rect x="30" y="200" width="190" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="125.0" y="236" text-anchor="middle">스카우트</text>
+<text class="b" x="125.0" y="268" text-anchor="middle">파일 목록 작성</text>
+<text class="b" x="125.0" y="296" text-anchor="middle">상한 20개</text>
+<rect x="270" y="200" width="190" height="120" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="365.0" y="236" text-anchor="middle">디스패치</text>
+<text class="b" x="365.0" y="268" text-anchor="middle">재시도 착지점</text>
+<text class="b" x="365.0" y="296" text-anchor="middle">재스카우트 방지</text>
+<rect x="510" y="200" width="190" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="605.0" y="236" text-anchor="middle">워커 ×N</text>
+<text class="b" x="605.0" y="268" text-anchor="middle">파일마다 격리</text>
+<text class="b" x="605.0" y="296" text-anchor="middle">패치만 작성</text>
+<rect x="770" y="200" width="190" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="865.0" y="236" text-anchor="middle">리뷰(평가자)</text>
+<text class="b" x="865.0" y="268" text-anchor="middle">쓰기 도구 없음</text>
+<text class="b" x="865.0" y="296" text-anchor="middle">위반 목록 반환</text>
+<rect x="1010" y="200" width="190" height="120" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1105.0" y="236" text-anchor="middle">사람 승인</text>
+<text class="b" x="1105.0" y="268" text-anchor="middle">interrupt 정지</text>
+<text class="b" x="1105.0" y="296" text-anchor="middle">승인 또는 거부</text>
+<rect x="1270" y="150" width="190" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1365.0" y="186" text-anchor="middle">적용</text>
+<text class="b" x="1365.0" y="218" text-anchor="middle">부작용은 여기</text>
+<rect x="1270" y="290" width="190" height="100" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1365.0" y="326" text-anchor="middle">거부</text>
+<text class="b" x="1365.0" y="358" text-anchor="middle">사유 기록 후 종료</text>
+<line x1="220" y1="260" x2="268" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="460" y1="260" x2="508" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="700" y1="260" x2="768" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="960" y1="260" x2="1008" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1200" y1="245" x2="1268" y2="200" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1200" y1="275" x2="1268" y2="335" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="735" y="245" text-anchor="middle"></text>
+<text class="s" x="1234" y="205" text-anchor="middle">승인</text>
+<text class="s" x="1234" y="330" text-anchor="middle">거부</text>
+<text class="s" x="984" y="245" text-anchor="middle">통과</text>
+<polyline points="865,320 865,440 365,440 365,322" fill="none" stroke="#4A5260" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+<text class="b" x="615" y="430" text-anchor="middle">실패 목록 + 시도 상한을 들고 되돌아간다</text>
+<text class="s" x="485" y="175" text-anchor="middle">Send로 N개 생성</text>
+<rect x="40" y="490" width="1420" height="90" rx="10" fill="#F2F3F5" stroke="#7A808C" stroke-width="2"/>
+<text class="h" x="750.0" y="526" text-anchor="middle">공유 상태 S</text>
+<text class="b" x="750.0" y="558" text-anchor="middle">files(스카우트가 씀)  ·  patches(append 리듀서)  ·  review(평가자가 씀)  ·  approved(사람이 씀)</text>
+</svg>

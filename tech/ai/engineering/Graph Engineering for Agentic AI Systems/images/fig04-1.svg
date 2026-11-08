@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="680" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">에이전트 그래프의 해부: 노드 4종, 엣지 3종, 상태, 시간</text>
+<text class="h" x="40" y="112" text-anchor="start">노드: 유형이 없는 상자는 장식이다</text>
+<rect x="40" y="130" width="310" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195.0" y="166" text-anchor="middle">에이전트 노드</text>
+<text class="b" x="195.0" y="198" text-anchor="middle">도구를 쓰는 루프</text>
+<text class="b" x="195.0" y="226" text-anchor="middle">모호함이 있을 때만</text>
+<text class="b" x="195.0" y="254" text-anchor="middle">환불·병합 도구 금지</text>
+<rect x="410" y="130" width="310" height="150" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="565.0" y="166" text-anchor="middle">도구 노드</text>
+<text class="b" x="565.0" y="198" text-anchor="middle">결정적 코드</text>
+<text class="b" x="565.0" y="226" text-anchor="middle">부작용은 여기에만</text>
+<text class="b" x="565.0" y="254" text-anchor="middle">멱등 키 필수</text>
+<rect x="780" y="130" width="310" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="935.0" y="166" text-anchor="middle">평가자 노드</text>
+<text class="b" x="935.0" y="198" text-anchor="middle">쓰기 잠금 없음</text>
+<text class="b" x="935.0" y="226" text-anchor="middle">새 컨텍스트에서 판정</text>
+<text class="b" x="935.0" y="254" text-anchor="middle">근거에 닻을 내린다</text>
+<rect x="1150" y="130" width="310" height="150" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1305.0" y="166" text-anchor="middle">사람 승인 노드</text>
+<text class="b" x="1305.0" y="198" text-anchor="middle">interrupt로 정지</text>
+<text class="b" x="1305.0" y="226" text-anchor="middle">되돌리기 비싼 곳에만</text>
+<text class="b" x="1305.0" y="254" text-anchor="middle">승인·거부·수정</text>
+<text class="h" x="40" y="332" text-anchor="start">엣지: 다음 칸을 누가 정하는가에 대한 주장</text>
+<rect x="40" y="350" width="450" height="120" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="265.0" y="386" text-anchor="middle">무조건 엣지</text>
+<text class="b" x="265.0" y="418" text-anchor="middle">A 다음에는 항상 B</text>
+<text class="b" x="265.0" y="446" text-anchor="middle">모델에게 맡기지 않는다</text>
+<rect x="525" y="350" width="450" height="120" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="386" text-anchor="middle">조건 엣지</text>
+<text class="b" x="750.0" y="418" text-anchor="middle">선언된 후보 중 하나로</text>
+<text class="b" x="750.0" y="446" text-anchor="middle">라우터 뒤에 모델은 가능</text>
+<rect x="1010" y="350" width="450" height="120" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1235.0" y="386" text-anchor="middle">동적 엣지(Send)</text>
+<text class="b" x="1235.0" y="418" text-anchor="middle">런타임에 N개 생성</text>
+<text class="b" x="1235.0" y="446" text-anchor="middle">개수 상한이 반드시 필요</text>
+<rect x="40" y="510" width="710" height="110" rx="10" fill="#F2F3F5" stroke="#7A808C" stroke-width="2"/>
+<text class="h" x="395.0" y="546" text-anchor="middle">상태 S: 스키마 + 리듀서</text>
+<text class="b" x="395.0" y="578" text-anchor="middle">키마다 소유자와 리듀서를 정한다</text>
+<text class="b" x="395.0" y="606" text-anchor="middle">팬인은 append, 기본값은 마지막 쓰기</text>
+<rect x="780" y="510" width="680" height="110" rx="10" fill="#F2F3F5" stroke="#7A808C" stroke-width="2"/>
+<text class="h" x="1120.0" y="546" text-anchor="middle">시간 T: 슈퍼스텝 + 체크포인트</text>
+<text class="b" x="1120.0" y="578" text-anchor="middle">thread_id로 정지와 재개</text>
+<text class="b" x="1120.0" y="606" text-anchor="middle">저장은 슈퍼스텝 경계에서만</text>
+<text class="s" x="750" y="660" text-anchor="middle">P(모델이 고르는 다음 후보)는 허용 목록 안에서만 움직인다. 허용 목록은 노드의 도구 목록과 엣지다.</text>
+</svg>

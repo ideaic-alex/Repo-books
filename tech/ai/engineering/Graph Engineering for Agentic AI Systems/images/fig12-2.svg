@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+</defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">학습한 점수기는 런타임 옆에 둔다</text>
+
+<rect x="40" y="95" width="1420" height="250" rx="12" fill="#F4FAF6" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="130" text-anchor="middle">허용: 점수기가 상태 S에 점수를 쓰고 E_A는 그대로</text>
+
+<rect x="70" y="170" width="300" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="220" y="215" text-anchor="middle">실행 그래프 G_A</text>
+<text class="b" x="220" y="250" text-anchor="middle">체크포인트와 트레이스</text>
+<text class="b" x="220" y="278" text-anchor="middle">허용 목록 유지</text>
+
+<rect x="520" y="170" width="300" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="670" y="215" text-anchor="middle">오프라인 학습</text>
+<text class="b" x="670" y="250" text-anchor="middle">시간 분할, 흐름 버전</text>
+<text class="b" x="670" y="278" text-anchor="middle">굳은 가중치 W</text>
+
+<rect x="970" y="170" width="300" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1120" y="215" text-anchor="middle">읽기 전용 위험 노드</text>
+<text class="b" x="1120" y="250" text-anchor="middle">순수 함수, 캐시됨</text>
+<text class="b" x="1120" y="278" text-anchor="middle">점수를 S에 기록</text>
+
+<line x1="372" y1="235" x2="518" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="445" y="222" text-anchor="middle">트레이스</text>
+<line x1="822" y1="235" x2="968" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="895" y="222" text-anchor="middle">W 로드</text>
+
+<rect x="40" y="375" width="1420" height="200" rx="12" fill="#FCF3F2" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="410" text-anchor="middle">금지: 점수기가 E_A를 고쳐 쓴다</text>
+<rect x="150" y="440" width="320" height="100" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="310" y="482" text-anchor="middle">GNN 점수기</text>
+<text class="b" x="310" y="512" text-anchor="middle">과거에는 대체로 괜찮았음</text>
+<rect x="1000" y="440" width="350" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1175" y="482" text-anchor="middle">허용 목록 E_A</text>
+<text class="b" x="1175" y="512" text-anchor="middle">환불 도구가 열려 버림</text>
+<line x1="472" y1="490" x2="998" y2="490" stroke="#B5524A" stroke-width="3" marker-end="url(#ar2)"/>
+<text class="b" x="735" y="478" text-anchor="middle" style="fill:#B5524A">엣지 추가 ✕</text>
+</svg>

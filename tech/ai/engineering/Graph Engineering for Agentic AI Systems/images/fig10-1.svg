@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" style="font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2B2F36"/></marker>
+  </defs>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text x="750" y="48" text-anchor="middle" font-size="34" font-weight="bold" fill="#2B2F36">에이전트 그래프 아래에 깔린 선행 이론</text>
+  <text x="750" y="82" text-anchor="middle" font-size="19" fill="#2B2F36">위상은 오래된 것이고, 새로운 것은 노드가 확률적이라는 점이다</text>
+
+  <rect x="40" y="110" width="430" height="110" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="255" y="148" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">DAG와 위상 정렬</text>
+  <text x="255" y="178" text-anchor="middle" font-size="16" fill="#2B2F36">선행 작업이 끝나면 준비 완료</text>
+  <text x="255" y="203" text-anchor="middle" font-size="16" fill="#2B2F36">팬아웃과 조인의 기본형</text>
+
+  <rect x="40" y="250" width="430" height="110" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="255" y="288" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">상태 기계와 스테이트차트</text>
+  <text x="255" y="318" text-anchor="middle" font-size="16" fill="#2B2F36">모드에 이름을 붙이고</text>
+  <text x="255" y="343" text-anchor="middle" font-size="16" fill="#2B2F36">나가는 길에 가드를 건다</text>
+
+  <rect x="40" y="390" width="430" height="110" rx="12" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text x="255" y="428" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">페트리 넷</text>
+  <text x="255" y="458" text-anchor="middle" font-size="16" fill="#2B2F36">토큰이 모여야 발화하는 조인</text>
+  <text x="255" y="483" text-anchor="middle" font-size="16" fill="#2B2F36">교착과 라이브락의 언어</text>
+
+  <rect x="1030" y="110" width="430" height="110" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="1245" y="148" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">워크플로 엔진</text>
+  <text x="1245" y="178" text-anchor="middle" font-size="16" fill="#2B2F36">트리거 규칙은 조인 정책</text>
+  <text x="1245" y="203" text-anchor="middle" font-size="16" fill="#2B2F36">비결정성은 액티비티에 가둔다</text>
+
+  <rect x="1030" y="250" width="430" height="110" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="1245" y="288" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">액터 모델</text>
+  <text x="1245" y="318" text-anchor="middle" font-size="16" fill="#2B2F36">spawn은 Send, 사서함은 백프레셔</text>
+  <text x="1245" y="343" text-anchor="middle" font-size="16" fill="#2B2F36">공유 상태는 의도적으로 포기</text>
+
+  <rect x="1030" y="390" width="430" height="110" rx="12" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text x="1245" y="428" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">Pregel과 BSP</text>
+  <text x="1245" y="458" text-anchor="middle" font-size="16" fill="#2B2F36">슈퍼 스텝과 장벽이 있어서</text>
+  <text x="1245" y="483" text-anchor="middle" font-size="16" fill="#2B2F36">조인과 체크포인트 단위가 생긴다</text>
+
+  <rect x="560" y="200" width="380" height="200" rx="14" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+  <text x="750" y="250" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">에이전트 그래프</text>
+  <text x="750" y="284" text-anchor="middle" font-size="19" fill="#2B2F36">G = (V, E, S, P, T)</text>
+  <text x="750" y="322" text-anchor="middle" font-size="16" fill="#2B2F36">노드, 허용 엣지, 상태,</text>
+  <text x="750" y="347" text-anchor="middle" font-size="16" fill="#2B2F36">표집된 선택, 시간 축</text>
+
+  <line x1="470" y1="165" x2="560" y2="250" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="470" y1="305" x2="556" y2="300" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="470" y1="445" x2="560" y2="350" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1030" y1="165" x2="940" y2="250" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1030" y1="305" x2="944" y2="300" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1030" y1="445" x2="940" y2="350" stroke="#2B2F36" stroke-width="2" marker-end="url(#a)"/>
+
+  <text x="750" y="552" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">선행 이론이 가정하지 못한 세 가지</text>
+  <rect x="40" y="575" width="450" height="140" rx="12" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+  <text x="265" y="615" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">비결정적 엣지 선택</text>
+  <text x="265" y="650" text-anchor="middle" font-size="16" fill="#2B2F36">다음 노드를 토큰 생성으로 고른다</text>
+  <text x="265" y="678" text-anchor="middle" font-size="16" fill="#2B2F36">선언된 그래프는 허용 목록일 뿐</text>
+  <rect x="525" y="575" width="450" height="140" rx="12" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+  <text x="750" y="615" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">실행 중 그래프 변형</text>
+  <text x="750" y="650" text-anchor="middle" font-size="16" fill="#2B2F36">Send와 플래너가 노드를 새로 만든다</text>
+  <text x="750" y="678" text-anchor="middle" font-size="16" fill="#2B2F36">컴파일 때 검사한 그래프와 달라진다</text>
+  <rect x="1010" y="575" width="450" height="140" rx="12" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+  <text x="1235" y="615" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B2F36">확률적 성공과 실패</text>
+  <text x="1235" y="650" text-anchor="middle" font-size="16" fill="#2B2F36">그럴듯한 오답도 성공처럼 보인다</text>
+  <text x="1235" y="678" text-anchor="middle" font-size="16" fill="#2B2F36">완료는 이진값이 아니라 판단이다</text>
+</svg>

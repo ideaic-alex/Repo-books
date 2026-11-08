@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="800" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">세 가지 그래프를 한 칠판에 섞지 않는다</text>
+<rect x="40" y="100" width="420" height="470" rx="14" fill="none" stroke="#3C8D5A" stroke-width="2"/>
+<rect x="540" y="100" width="420" height="470" rx="14" fill="none" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1040" y="100" width="420" height="470" rx="14" fill="none" stroke="#777777" stroke-width="2"/>
+<text class="h" x="250" y="140" text-anchor="middle">지식(메모리) 그래프 G_K</text>
+<text class="b" x="250" y="172" text-anchor="middle">시스템이 무엇을 기억하는가</text>
+<rect x="60" y="215" width="140" height="40" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="s" x="130.0" y="240.6" text-anchor="middle">incident_77</text>
+<rect x="300" y="215" width="140" height="40" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="s" x="370.0" y="240.6" text-anchor="middle">job_queue_v3</text>
+<rect x="300" y="305" width="140" height="40" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="s" x="370.0" y="330.6" text-anchor="middle">redis_queue</text>
+<line x1="200" y1="235" x2="298" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="250" y="226" text-anchor="middle">caused</text>
+<line x1="370" y1="255" x2="370" y2="303" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="360" y="285" text-anchor="end">supersedes</text>
+<text class="s" x="250" y="372" text-anchor="middle">시간 두 축과 출처가 엣지에 붙는다</text>
+<text class="b" x="250" y="420" text-anchor="middle">원 = 개체와 사실</text>
+<text class="b" x="250" y="452" text-anchor="middle">화살표 = 유형 있는 관계</text>
+<text class="b" x="250" y="484" text-anchor="middle">내일도 출처와 함께 질의 가능</text>
+<text class="b" x="250" y="516" text-anchor="middle">실패: 개체 해소 오류, 일회용 술어</text>
+<text class="h" x="750" y="140" text-anchor="middle">실행 그래프 G_A</text>
+<text class="b" x="750" y="172" text-anchor="middle">일이 어떻게 돌아가는가</text>
+<circle cx="610" cy="265" r="36" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="271.65" text-anchor="middle">분류</text>
+<circle cx="750" cy="265" r="36" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="271.65" text-anchor="middle">전문가</text>
+<circle cx="890" cy="265" r="36" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="890" y="271.65" text-anchor="middle">리뷰</text>
+<line x1="646" y1="265" x2="712" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="786" y1="265" x2="852" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="335" text-anchor="middle">공유 실행 상태 S가 엣지를 따라 이동</text>
+<text class="s" x="750" y="360" text-anchor="middle">(S, 확률적 선택 P, 시간 T를 가진 그래프)</text>
+<text class="b" x="750" y="420" text-anchor="middle">원 = 일을 하는 것</text>
+<text class="b" x="750" y="452" text-anchor="middle">화살표 = 실행 상태의 이동</text>
+<text class="b" x="750" y="484" text-anchor="middle">프로세스가 죽으면 체크포인트만 남음</text>
+<text class="b" x="750" y="516" text-anchor="middle">실패: 상태 드리프트, 재시도 폭주</text>
+<text class="h" x="1250" y="140" text-anchor="middle">학습된 그래프 G_L</text>
+<text class="b" x="1250" y="172" text-anchor="middle">오프라인에서 학습한 모델</text>
+<line x1="1120" y1="230" x2="1230" y2="210" stroke="#999999" stroke-width="2"/>
+<line x1="1120" y1="230" x2="1230" y2="265" stroke="#999999" stroke-width="2"/>
+<line x1="1120" y1="230" x2="1230" y2="320" stroke="#999999" stroke-width="2"/>
+<line x1="1120" y1="300" x2="1230" y2="210" stroke="#999999" stroke-width="2"/>
+<line x1="1120" y1="300" x2="1230" y2="265" stroke="#999999" stroke-width="2"/>
+<line x1="1120" y1="300" x2="1230" y2="320" stroke="#999999" stroke-width="2"/>
+<line x1="1270" y1="210" x2="1375" y2="265" stroke="#999999" stroke-width="2"/>
+<line x1="1270" y1="265" x2="1375" y2="265" stroke="#999999" stroke-width="2"/>
+<line x1="1270" y1="320" x2="1375" y2="265" stroke="#999999" stroke-width="2"/>
+<circle cx="1100" cy="230" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<circle cx="1100" cy="300" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<circle cx="1250" cy="210" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<circle cx="1250" cy="265" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<circle cx="1250" cy="320" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<circle cx="1395" cy="265" r="20" fill="#F0F0F0" stroke="#777777" stroke-width="2"/>
+<text class="s" x="1250" y="372" text-anchor="middle">가중치 W는 학습으로 정해진다</text>
+<text class="b" x="1250" y="420" text-anchor="middle">원 = 잠재 벡터와 손실 함수</text>
+<text class="b" x="1250" y="452" text-anchor="middle">화살표 = 학습된 가중치</text>
+<text class="b" x="1250" y="484" text-anchor="middle">GNN, 그래프 트랜스포머, 인과 그래프</text>
+<text class="b" x="1250" y="516" text-anchor="middle">실패: 분포 이동, 학습 누수</text>
+<line x1="538" y1="300" x2="462" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<circle cx="500" cy="262" r="16" fill="#FFFFFF" stroke="#4A5260" stroke-width="2"/>
+<text class="s" x="500" y="267.6" text-anchor="middle">1</text>
+<line x1="1038" y1="300" x2="962" y2="300" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<circle cx="1000" cy="262" r="16" fill="#FFFFFF" stroke="#4A5260" stroke-width="2"/>
+<text class="s" x="1000" y="267.6" text-anchor="middle">2</text>
+<rect x="40" y="590" width="1420" height="96" rx="10" fill="#FFFFFF" stroke="#4A5260" stroke-width="2"/>
+<text class="b" x="750.0" y="627.65" text-anchor="middle">1  G_A의 노드가 G_K에 질의하거나 사실을 기록한다 (문 = 질의 노드 + 권한 있는 쓰기 경로)</text>
+<text class="b" x="750.0" y="661.65" text-anchor="middle">2  학습된 모델은 런타임 옆에서 점수와 예측을 줄 뿐, 합법적 엣지를 마음대로 고치지 못한다</text>
+<rect x="40" y="702" width="1420" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750.0" y="728.65" text-anchor="middle">실행 트레이스: 한 번의 실행에서 실제로 일어난 일의 기록이다.</text>
+<text class="b" x="750.0" y="758.65" text-anchor="middle">버전 관리하는 선언 토폴로지도, 오래 남는 지식도 아니다.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+</defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">도달 가능성 검사: 화살표 하나가 만드는 차이</text>
+
+<rect x="30" y="90" width="710" height="400" rx="12" fill="#F4FAF6" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="385" y="130" text-anchor="middle">통과: 모든 경로가 승인을 지난다</text>
+
+<rect x="55" y="215" width="150" height="70" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="130" y="257" text-anchor="middle">START</text>
+<rect x="245" y="215" width="150" height="70" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="320" y="257" text-anchor="middle">판단</text>
+<rect x="435" y="215" width="130" height="70" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="257" text-anchor="middle">휴먼 승인</text>
+<rect x="595" y="215" width="130" height="70" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="660" y="257" text-anchor="middle">환불</text>
+<line x1="207" y1="250" x2="243" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="397" y1="250" x2="433" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="567" y1="250" x2="593" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="385" y="400" text-anchor="middle">START에서 환불로 가는 경로 1개</text>
+<text class="b" x="385" y="430" text-anchor="middle">모두 휴먼 승인을 거침 → gated</text>
+
+<rect x="760" y="90" width="710" height="400" rx="12" fill="#FCF3F2" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1115" y="130" text-anchor="middle">실패: 엣지 하나가 우회로가 된다</text>
+
+<rect x="785" y="215" width="150" height="70" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="860" y="257" text-anchor="middle">START</text>
+<rect x="975" y="215" width="150" height="70" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1050" y="257" text-anchor="middle">판단</text>
+<rect x="1165" y="215" width="130" height="70" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1230" y="257" text-anchor="middle">휴먼 승인</text>
+<rect x="1325" y="215" width="130" height="70" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1390" y="257" text-anchor="middle">환불</text>
+<line x1="937" y1="250" x2="973" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1127" y1="250" x2="1163" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1297" y1="250" x2="1323" y2="250" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M1050 287 C1050 370 1390 370 1390 287" fill="none" stroke="#B5524A" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#ar2)"/>
+<text class="b" x="1115" y="425" text-anchor="middle" style="fill:#B5524A">START → 판단 → 환불: 승인 없는 경로 → bypass</text>
+<text class="b" x="1115" y="455" text-anchor="middle">시스템 프롬프트는 같아도 CI가 실패한다</text>
+
+<text class="s" x="750" y="530" text-anchor="middle">두 그래프의 차이는 화살표 하나이며 프롬프트의 문구가 아니다.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="55" text-anchor="middle">고도 고르기: 어느 쪽에서 시작할까</text>
+
+<rect x="530" y="85" width="440" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="128" text-anchor="middle">냅킨에 그래프를 그릴 수 있는가</text>
+
+<line x1="530" y1="120" x2="400" y2="120" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="400" y1="120" x2="220" y2="120" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="220" y1="120" x2="220" y2="218" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="465" y="110" text-anchor="middle">아니오</text>
+<rect x="60" y="220" width="320" height="100" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="220" y="262" text-anchor="middle">아직 그래프가 아니다</text>
+<text class="b" x="220" y="296" text-anchor="middle">검증기와 비용 한도를 건 루프</text>
+
+<line x1="750" y1="155" x2="750" y2="218" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="772" y="190">예</text>
+<rect x="560" y="220" width="380" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750" y="262" text-anchor="middle">이름 있는 패턴인가</text>
+<text class="b" x="750" y="296" text-anchor="middle">순차, 병렬, 루프, 핸드오프</text>
+
+<line x1="650" y1="320" x2="650" y2="350" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="650" y1="350" x2="440" y2="350" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="440" y1="350" x2="440" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="545" y="342" text-anchor="middle">예</text>
+<rect x="250" y="400" width="380" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="440" y="440" text-anchor="middle">높은 고도에서 시작</text>
+<text class="b" x="440" y="474" text-anchor="middle">래퍼, 크루, 핸드오프</text>
+<text class="s" x="440" y="506" text-anchor="middle">코드와 표면적이 작다</text>
+
+<line x1="850" y1="320" x2="850" y2="350" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="850" y1="350" x2="1060" y2="350" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="1060" y1="350" x2="1060" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="955" y="342" text-anchor="middle">아니오</text>
+<rect x="870" y="400" width="380" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1060" y="440" text-anchor="middle">낮은 고도에서 시작</text>
+<text class="b" x="1060" y="474" text-anchor="middle">노드, 간선, 상태를 직접</text>
+<text class="s" x="1060" y="506" text-anchor="middle">런타임 팬아웃, 중첩, 배포를 넘는 재개</text>
+
+<rect x="1070" y="85" width="400" height="100" rx="10" fill="#F1ECF7" stroke="#7A5BA6" stroke-width="2" stroke-dasharray="8 5"/>
+<text class="h" x="1270" y="125" text-anchor="middle">경계 밖 에이전트와 연결?</text>
+<text class="b" x="1270" y="157" text-anchor="middle">그 간선만 A2A로 잇는다</text>
+
+<text class="s" x="750" y="580" text-anchor="middle">그래프 안쪽 간선은 네이티브로 둔다. 순환 하나에 체크포인터만 필요하다면 두 노드짜리 컴파일된 루프로 충분하다.</text>
+</svg>

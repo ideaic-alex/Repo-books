@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">이름이 사라져도 남기는 것: 90일 경로</text>
+
+<rect x="30" y="110" width="440" height="300" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="250" y="150" text-anchor="middle">1~30일: 검증된 루프 하나</text>
+<text class="b" x="250" y="195" text-anchor="middle">작업 하나, 중단 조건 하나</text>
+<text class="b" x="250" y="225" text-anchor="middle">만든 쪽이 아닌 검증자</text>
+<text class="b" x="250" y="255" text-anchor="middle">비용 상한, 평가 세트</text>
+<text class="b" x="250" y="285" text-anchor="middle">재시작 가능한 영속성</text>
+<text class="b" x="250" y="315" text-anchor="middle">이름·버전·트레이스(신원)</text>
+
+<rect x="530" y="110" width="440" height="300" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="150" text-anchor="middle">31~60일: 압박받은 곳만 그래프로</text>
+<text class="b" x="750" y="195" text-anchor="middle">코드보다 도식을 먼저 그린다</text>
+<text class="b" x="750" y="225" text-anchor="middle">상태 스키마와 리듀서</text>
+<text class="b" x="750" y="255" text-anchor="middle">팬아웃은 코드로 상한</text>
+<text class="b" x="750" y="285" text-anchor="middle">사람은 비싼 간선에만</text>
+<text class="b" x="750" y="315" text-anchor="middle">가짜 간선은 삭제</text>
+
+<rect x="1030" y="110" width="440" height="300" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1250" y="150" text-anchor="middle">61~90일: 메모리 그래프 또는 거절</text>
+<text class="b" x="1250" y="195" text-anchor="middle">벡터 검색으로 충분하면 멈춘다</text>
+<text class="b" x="1250" y="225" text-anchor="middle">작은 타입 간선 어휘</text>
+<text class="b" x="1250" y="255" text-anchor="middle">쓰기마다 출처, 시간성</text>
+<text class="b" x="1250" y="285" text-anchor="middle">제안자와 검증자 구성</text>
+<text class="b" x="1250" y="315" text-anchor="middle">조회 노드는 하나만</text>
+
+<line x1="472" y1="260" x2="528" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="972" y1="260" x2="1028" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+
+<rect x="30" y="460" width="1440" height="110" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="505" text-anchor="middle">90일째의 한 호흡</text>
+<text class="b" x="750" y="540" text-anchor="middle">이 일, 이 루프(또는 이 트리거로 필요해진 그래프), 이 검증자, 이 예산 책임자, 이 기억, 이 중단 조건</text>
+<text class="s" x="750" y="610" text-anchor="middle">남기는 것은 도식, 스키마, 예산, 중단 조건, 사람이 앉을 자리이며, 직함과 어휘는 버려도 된다.</text>
+</svg>

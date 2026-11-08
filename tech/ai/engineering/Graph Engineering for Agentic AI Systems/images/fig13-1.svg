@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="ar2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B5524A"/></marker>
+</defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">정찰-검토 다이아몬드의 합법 경로와 없어야 할 간선</text>
+<text class="s" x="750" y="94" text-anchor="middle">커버리지는 최종 문자열의 초록 체크가 아니라 걸음(walk)의 집합이다</text>
+
+<rect x="30" y="230" width="180" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="120" y="278" text-anchor="middle">scout</text>
+<rect x="270" y="230" width="180" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="360" y="278" text-anchor="middle">dispatch</text>
+<rect x="510" y="230" width="180" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="600" y="278" text-anchor="middle">worker × N</text>
+<rect x="750" y="230" width="180" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="840" y="278" text-anchor="middle">review</text>
+<rect x="990" y="230" width="210" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1095" y="278" text-anchor="middle">human_approval</text>
+<rect x="1270" y="230" width="180" height="80" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1360" y="278" text-anchor="middle">apply</text>
+
+<line x1="210" y1="270" x2="268" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="450" y1="270" x2="508" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="690" y1="270" x2="748" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="930" y1="270" x2="988" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1200" y1="270" x2="1268" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1002" y="256">통과</text>
+<text class="s" x="1216" y="256">승인</text>
+<text class="s" x="470" y="256">Send</text>
+<text class="s" x="710" y="256">합류</text>
+
+<path d="M840 228 C 840 140, 360 140, 360 226" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="600" y="152" text-anchor="middle">retry 간선: 시도 횟수가 상한 미만일 때만</text>
+
+<rect x="750" y="410" width="180" height="70" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="840" y="453" text-anchor="middle">reject</text>
+<line x1="840" y1="312" x2="840" y2="408" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="852" y="372">상한 소진</text>
+<line x1="1060" y1="312" x2="932" y2="425" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1010" y="392">거절·형식 오류</text>
+
+<path d="M600 312 L600 560 L1360 560 L1360 314" fill="none" stroke="#B5524A" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#ar2)"/>
+<text class="h" x="980" y="545" text-anchor="middle" fill="#B5524A" style="fill:#B5524A">✕ worker → apply (이 간선은 계속 없어야 한다)</text>
+<text class="s" x="980" y="590" text-anchor="middle">누군가 조건부 분기에 기본값을 넣어 "단순화"하면 검토를 건너뛴 문단이 출하된다</text>
+
+<text class="s" x="750" y="640" text-anchor="middle">합법 경로 예: 정상, 한 번 거절 후 재시도, 소진, 빈 작업, 사람 거절, 잘못된 재개 값</text>
+</svg>
