@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">층마다 지표가 있고, 지표마다 흔한 오독이 있다</text>
+<text class="h" x="200.0" y="112.0" text-anchor="middle">층</text>
+<text class="h" x="560.0" y="112.0" text-anchor="middle">대표 지표</text>
+<text class="h" x="1070.0" y="112.0" text-anchor="middle">흔한 오독</text>
+<rect x="60" y="130" width="280" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="200.0" y="168.0" text-anchor="middle">추출</text>
+<rect x="360" y="130" width="400" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="560.0" y="168.0" text-anchor="middle">엔티티·관계 F1</text>
+<rect x="780" y="130" width="660" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1110.0" y="168.0" text-anchor="middle">정밀도가 높아도 빠진 것을 가린다</text>
+<rect x="60" y="202" width="280" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="200.0" y="240.0" text-anchor="middle">해소</text>
+<rect x="360" y="202" width="400" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560.0" y="240.0" text-anchor="middle">쌍별 정밀도·재현율</text>
+<rect x="780" y="202" width="660" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110.0" y="240.0" text-anchor="middle">압축률만 보면 과병합이 성공처럼 보인다</text>
+<rect x="60" y="274" width="280" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="200.0" y="312.0" text-anchor="middle">그래프</text>
+<rect x="360" y="274" width="400" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="560.0" y="312.0" text-anchor="middle">구성 요소 수, 밀도</text>
+<rect x="780" y="274" width="660" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1110.0" y="312.0" text-anchor="middle">하나로 이어진 그래프는 거짓 병합 신호일 수 있다</text>
+<rect x="60" y="346" width="280" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="200.0" y="384.0" text-anchor="middle">질의</text>
+<rect x="360" y="346" width="400" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="560.0" y="384.0" text-anchor="middle">정확도, 인용 경로</text>
+<rect x="780" y="346" width="660" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1110.0" y="384.0" text-anchor="middle">인용은 있어도 주장을 뒷받침하지 않을 수 있다</text>
+<rect x="60" y="418" width="280" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="200.0" y="456.0" text-anchor="middle">워크플로</text>
+<rect x="360" y="418" width="400" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="560.0" y="456.0" text-anchor="middle">과업 성공, 비용</text>
+<rect x="780" y="418" width="660" height="62" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1110.0" y="456.0" text-anchor="middle">에이전트가 늘면 활동만 늘고 성과는 그대로다</text>
+<rect x="60" y="490" width="280" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="200.0" y="528.0" text-anchor="middle">운영</text>
+<rect x="360" y="490" width="400" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560.0" y="528.0" text-anchor="middle">복구, 정정 횟수</text>
+<rect x="780" y="490" width="660" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1110.0" y="528.0" text-anchor="middle">평균이 좋아도 꼬리의 재앙이 가려진다</text>
+<text class="s" x="750.0" y="600.0" text-anchor="middle">경보 두 가지: 고립 노드가 갑자기 늘면 해소 퇴행, 갑자기 줄면 과병합이다. 줄어드는 쪽이 더 위험하다.</text>
+</svg>

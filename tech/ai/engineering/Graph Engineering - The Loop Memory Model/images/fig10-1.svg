@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">스웜의 쓰기 프로토콜: 약속, 발행, 검증, 커밋</text>
+<rect x="40" y="110" width="190" height="190" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="135" y="182" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">작업자</text>
+<text x="135" y="224" font-size="19" text-anchor="middle" fill="#2B2F36">자기 약속만</text>
+<text x="135" y="254" font-size="19" text-anchor="middle" fill="#2B2F36">책임진다</text>
+<rect x="290" y="110" width="290" height="190" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="435" y="167" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">약속 선언</text>
+<text x="435" y="209" font-size="19" text-anchor="middle" fill="#2B2F36">읽기 범위</text>
+<text x="435" y="239" font-size="19" text-anchor="middle" fill="#2B2F36">쓰기 범위</text>
+<text x="435" y="269" font-size="19" text-anchor="middle" fill="#2B2F36">예산, 증거 계약</text>
+<rect x="640" y="110" width="290" height="190" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="785" y="182" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">후보 갱신 발행</text>
+<text x="785" y="224" font-size="19" text-anchor="middle" fill="#2B2F36">노드와 간선</text>
+<text x="785" y="254" font-size="19" text-anchor="middle" fill="#2B2F36">run, agent, promise ID</text>
+<rect x="990" y="110" width="250" height="190" rx="14" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="1115" y="167" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">검증 네 가지</text>
+<text x="1115" y="209" font-size="19" text-anchor="middle" fill="#2B2F36">스키마, 출처</text>
+<text x="1115" y="239" font-size="19" text-anchor="middle" fill="#2B2F36">약속 범위</text>
+<text x="1115" y="269" font-size="19" text-anchor="middle" fill="#2B2F36">트랜잭션</text>
+<rect x="1300" y="110" width="160" height="190" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1380" y="182" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">그래프</text>
+<text x="1380" y="224" font-size="19" text-anchor="middle" fill="#2B2F36">버전 있는</text>
+<text x="1380" y="254" font-size="19" text-anchor="middle" fill="#2B2F36">노드와 간선</text>
+<line x1="232" y1="205" x2="288" y2="205" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<line x1="582" y1="205" x2="638" y2="205" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<line x1="932" y1="205" x2="988" y2="205" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1242" y1="205" x2="1298" y2="205" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="40" y="380" width="690" height="150" rx="14" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="385" y="432" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">통과하면</text>
+<text x="385" y="474" font-size="19" text-anchor="middle" fill="#2B2F36">새 버전 노드가 이전 노드를 supersede</text>
+<text x="385" y="504" font-size="19" text-anchor="middle" fill="#2B2F36">link_run이 produced와 mints 간선 기록</text>
+<rect x="790" y="380" width="670" height="150" rx="14" fill="#F9E8E8" stroke="#B5524A" stroke-width="2.5"/>
+<text x="1125" y="432" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">실패하면</text>
+<text x="1125" y="474" font-size="19" text-anchor="middle" fill="#2B2F36">반영을 거부하고 약속 위반 평가 노드 기록</text>
+<text x="1125" y="504" font-size="19" text-anchor="middle" fill="#2B2F36">위반은 충돌이 아니라 조정할 데이터</text>
+<line x1="1115" y1="302" x2="1115" y2="378" stroke="#B5524A" stroke-width="3" marker-end="url(#r)"/>
+<line x1="1115" y1="302" x2="385" y2="378" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<text x="750" y="600" font-size="19" text-anchor="middle" fill="#2B2F36">작업자는 그래프에 직접 쓰지 않는다. 겹치는 쓰기 범위는 시작 전에 집합 교집합으로 잡아낸다</text>
+</svg>

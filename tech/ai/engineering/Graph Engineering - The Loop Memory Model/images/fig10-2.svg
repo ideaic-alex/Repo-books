@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">병렬 작업자의 상관 오류와 독립 검증 세 기법</text>
+<rect x="60" y="100" width="1380" height="80" rx="14" fill="#F9E8E8" stroke="#B5524A" stroke-width="2.5"/>
+<text x="750" y="147" font-size="22" text-anchor="middle" fill="#2B2F36">같은 프롬프트와 같은 부분그래프의 작업자 열 명은 시드만 다른 한 명이다</text>
+<rect x="60" y="240" width="420" height="170" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="270" y="302" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">1 적대적 프레임</text>
+<text x="270" y="344" font-size="19" text-anchor="middle" fill="#2B2F36">검토하지 말고 반박하라고 요구</text>
+<text x="270" y="374" font-size="19" text-anchor="middle" fill="#2B2F36">불확실하면 반박됨이 기본</text>
+<rect x="540" y="240" width="420" height="170" rx="14" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="750" y="302" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">2 관점 다양화</text>
+<text x="750" y="344" font-size="19" text-anchor="middle" fill="#2B2F36">정확성, 보안, 성능, 재현성</text>
+<text x="750" y="374" font-size="19" text-anchor="middle" fill="#2B2F36">다른 렌즈 셋이 같은 일곱을 이긴다</text>
+<rect x="1020" y="240" width="420" height="170" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1230" y="302" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">3 증거 다양화</text>
+<text x="1230" y="344" font-size="19" text-anchor="middle" fill="#2B2F36">작업자와 다른 부분그래프 제공</text>
+<text x="1230" y="374" font-size="19" text-anchor="middle" fill="#2B2F36">출처와 반대 주장을 보여 준다</text>
+<line x1="482" y1="325" x2="538" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<line x1="962" y1="325" x2="1018" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<line x1="60" y1="450" x2="1440" y2="450" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<text x="750" y="485" font-size="19" text-anchor="middle" fill="#2B2F36">비용은 오른쪽으로 갈수록 커지지만, 상관을 실제로 끊는 것은 증거 다양화다</text>
+<text x="750" y="525" font-size="19" text-anchor="middle" fill="#2B2F36">같은 맥락을 읽는 둘은 프롬프트 문구를 바꿔도 같이 틀린다</text>
+</svg>

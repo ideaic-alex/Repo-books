@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">래티스의 다섯 술어를 네 관계에 대 보기</text>
+<rect x="60" y="100" width="400" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="129.5" text-anchor="middle">defines</text>
+<text class="b" x="260.0" y="159.5" text-anchor="middle">표준 의미 부여</text>
+<rect x="60" y="195" width="400" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="224.5" text-anchor="middle">constrains</text>
+<text class="b" x="260.0" y="254.5" text-anchor="middle">한계 부여</text>
+<rect x="60" y="290" width="400" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="319.5" text-anchor="middle">implies</text>
+<text class="b" x="260.0" y="349.5" text-anchor="middle">논리적 계승</text>
+<rect x="60" y="385" width="400" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="414.5" text-anchor="middle">supersedes</text>
+<text class="b" x="260.0" y="444.5" text-anchor="middle">시간적 계승</text>
+<rect x="60" y="480" width="400" height="75" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="509.5" text-anchor="middle">honors</text>
+<text class="b" x="260.0" y="539.5" text-anchor="middle">포함으로서의 의존</text>
+<rect x="940" y="140.0" width="500" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1190.0" y="177.0" text-anchor="middle">EXPRESSES</text>
+<text class="b" x="1190.0" y="207.0" text-anchor="middle">속성 / 이것에 대해 무엇이 참인가</text>
+<rect x="940" y="330.0" width="500" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1190.0" y="367.0" text-anchor="middle">LEADS_TO</text>
+<text class="b" x="1190.0" y="397.0" text-anchor="middle">인과 / 이것에서 무엇이 따르나</text>
+<rect x="940" y="472.5" width="500" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1190.0" y="509.5" text-anchor="middle">CONTAINS</text>
+<text class="b" x="1190.0" y="539.5" text-anchor="middle">구조 / 무엇으로 이루어졌나</text>
+<line x1="462" y1="137" x2="938" y2="232" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="232" x2="938" y2="232" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="327" x2="938" y2="370" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="422" x2="938" y2="370" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="462" y1="517" x2="938" y2="517" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="940" y="615" width="500" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="1190.0" y="652.0" text-anchor="middle">NEAR</text>
+<text class="b" x="1190.0" y="682.0" text-anchor="middle">유사성 / 이것과 비슷한 것은? 대응 없음</text>
+<text class="t" x="700" y="665" text-anchor="middle">?</text>
+</svg>

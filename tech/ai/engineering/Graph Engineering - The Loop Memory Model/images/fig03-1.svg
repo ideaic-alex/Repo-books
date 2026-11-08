@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker>
+<marker id="am" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#B8862B"/></marker>
+</defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">두 개의 그래프: 작업 평면, 지식 평면, 그리고 브리지</text>
+
+<rect x="60" y="90" width="1380" height="210" rx="14" fill="#F3F7FC" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="90" y="128">작업 평면 (work plane): 무슨 일이 있었나</text>
+<text class="s" x="1410" y="126" text-anchor="end">불변 이력, 빠르고 대량, 삭제 없음</text>
+<rect x="90" y="170" width="220" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="s" x="200" y="200" text-anchor="middle">task</text>
+<text class="b" x="200" y="234" text-anchor="middle">작업 17</text>
+<rect x="430" y="170" width="220" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="s" x="540" y="200" text-anchor="middle">agent_run</text>
+<text class="b" x="540" y="234" text-anchor="middle">에이전트 실행</text>
+<rect x="770" y="170" width="220" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="s" x="880" y="200" text-anchor="middle">commit</text>
+<text class="b" x="880" y="234" text-anchor="middle">커밋</text>
+<rect x="1110" y="170" width="220" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="s" x="1220" y="200" text-anchor="middle">evaluation</text>
+<text class="b" x="1220" y="234" text-anchor="middle">평가</text>
+<line x1="430" y1="215" x2="312" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="371" y="196" text-anchor="middle">derived_from</text>
+<line x1="652" y1="215" x2="768" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="710" y="196" text-anchor="middle">produced</text>
+<line x1="992" y1="215" x2="1108" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1050" y="196" text-anchor="middle">evaluated_by</text>
+
+<line x1="540" y1="262" x2="640" y2="518" stroke="#B8862B" stroke-width="3.5" marker-end="url(#am)"/>
+<text class="h" x="565" y="400" text-anchor="end" style="fill:#B8862B">mints</text>
+<line x1="880" y1="262" x2="820" y2="518" stroke="#B8862B" stroke-width="3.5" marker-end="url(#am)"/>
+<text class="h" x="865" y="400" style="fill:#B8862B">honors</text>
+<rect x="1010" y="330" width="410" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1215" y="366" text-anchor="middle">브리지: 간선은 둘뿐</text>
+<text class="s" x="1215" y="396" text-anchor="middle">mints 탄생시킴, honors 유효함에 의존</text>
+
+<rect x="60" y="440" width="1380" height="210" rx="14" fill="#F2FAF4" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="90" y="478">지식 평면 (knowledge plane): 무엇이 참인가</text>
+<text class="s" x="1410" y="476" text-anchor="end">유효 집합, 소량 심사, 삭제 대신 대체</text>
+<rect x="90" y="520" width="300" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="s" x="240" y="550" text-anchor="middle">lat:vocab</text>
+<text class="b" x="240" y="584" text-anchor="middle">idempotency-key</text>
+<rect x="540" y="520" width="380" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+<text class="s" x="730" y="550" text-anchor="middle">lat:invariant</text>
+<text class="b" x="730" y="584" text-anchor="middle">webhook-idempotency</text>
+<rect x="1070" y="520" width="300" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="s" x="1220" y="550" text-anchor="middle">lat:pattern</text>
+<text class="b" x="1220" y="584" text-anchor="middle">outbox</text>
+<line x1="540" y1="565" x2="392" y2="565" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="466" y="546" text-anchor="middle">defines</text>
+<line x1="922" y1="565" x2="1068" y2="565" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="995" y="546" text-anchor="middle">constrains</text>
+
+<text class="s" x="750" y="690" text-anchor="middle">같은 사건(웹훅 이중 청구 수정)이 양쪽에 기록되고, 둘을 잇는 두 간선이 감사 추적이 된다.</text>
+<text class="s" x="750" y="716" text-anchor="middle">작업 노드는 영원히 참이고, 지식 노드는 주제당 하나만 현재 유효하다.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">재귀화: 엣지를 노드로 올린다</text>
+<text class="h" x="750" y="110" text-anchor="middle">전: 맨 엣지</text>
+<rect x="230" y="130" width="200" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="330.0" y="177.0" text-anchor="middle">A</text>
+<rect x="1070" y="130" width="200" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1170.0" y="177.0" text-anchor="middle">B</text>
+<line x1="432" y1="170" x2="1068" y2="170" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="750" y="160" text-anchor="middle">implies</text>
+<text class="s" x="750" y="280" text-anchor="middle">속성을 붙일 곳이 없다</text>
+<text class="h" x="750" y="330" text-anchor="middle">후: 엣지가 노드가 된다</text>
+<rect x="60" y="355" width="200" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160.0" y="402.0" text-anchor="middle">A</text>
+<rect x="1240" y="355" width="200" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1340.0" y="402.0" text-anchor="middle">B</text>
+<rect x="560" y="345" width="380" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="387.0" text-anchor="middle">assertion 0412</text>
+<text class="b" x="750.0" y="417.0" text-anchor="middle">implies 주장 객체</text>
+<line x1="262" y1="395" x2="558" y2="395" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="410" y="385" text-anchor="middle">subject</text>
+<line x1="942" y1="395" x2="1238" y2="395" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="1090" y="385" text-anchor="middle">object</text>
+<rect x="250" y="500" width="300" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="400.0" y="542.0" text-anchor="middle">asserted_by: 실행 3f2</text>
+<rect x="600" y="500" width="300" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="750.0" y="542.0" text-anchor="middle">confidence: 0.8</text>
+<rect x="950" y="500" width="300" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1100.0" y="542.0" text-anchor="middle">valid_from: 2026-03-11</text>
+<line x1="750" y1="497" x2="750" y2="447" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="400" y1="497" x2="640" y2="447" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1100" y1="497" x2="860" y2="447" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+</svg>

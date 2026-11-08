@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">근거 기반 평가자: 문장이 아니라 간선을 확인한다</text>
+<rect x="60" y="100" width="1380" height="80" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="750" y="147" font-size="22" text-anchor="middle" fill="#2B2F36">주장: 공급사 X가 사건 Y에 연루된 부품을 공급했다</text>
+<line x1="750" y1="182" x2="750" y2="232" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<circle cx="400" cy="300" r="62" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="400" y="307" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">공급사 X</text>
+<circle cx="750" cy="300" r="62" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="750" y="307" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">부품 Z</text>
+<circle cx="1100" cy="300" r="62" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="1100" y="307" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">사건 Y</text>
+<line x1="464" y1="300" x2="684" y2="300" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<text x="574" y="282" font-size="19" text-anchor="middle" fill="#2B2F36">supplied (출처 있음)</text>
+<line x1="814" y1="300" x2="1034" y2="300" stroke="#B5524A" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)"/>
+<text x="924" y="282" font-size="19" text-anchor="middle" fill="#B5524A">involved_in (간선 없음)</text>
+<text x="750" y="400" font-size="22" text-anchor="middle" fill="#B5524A" font-weight="bold">X에서 Y로 가는 근거 있는 경로가 끊겨 있다</text>
+<rect x="60" y="430" width="1380" height="140" rx="14" fill="#F9E8E8" stroke="#B5524A" stroke-width="2.5"/>
+<text x="750" y="477" font-size="22" text-anchor="middle" fill="#2B2F36" font-weight="bold">판정: 수정 요구 (revise)</text>
+<text x="750" y="519" font-size="19" text-anchor="middle" fill="#2B2F36">이유: X에서 Y로 가는 근거 있는 경로가 없음</text>
+<text x="750" y="549" font-size="19" text-anchor="middle" fill="#2B2F36">필요한 증거: supplied 관계와 involved_in 관계, 둘 다 출처가 있어야 함</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:20px;font-weight:700}
+    .b{font-size:17px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="600" fill="#FFFFFF"/>
+  <text class="t" x="750" y="58" text-anchor="middle">Graph Engineering 학습 노트 한눈에 보기</text>
+  <rect x="520" y="90" width="460" height="64" rx="12" fill="#2B2F36"/>
+  <text class="h" x="750" y="130" text-anchor="middle" style="fill:#FFFFFF">The Loop Memory Model</text>
+  <path d="M750 154 V180 H202 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="30" y="204" width="345" height="48" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="202" y="235" text-anchor="middle">1부 논증</text>
+  <rect x="30" y="272" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="202" y="299" text-anchor="middle">머리말</text>
+  <rect x="30" y="324" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="202" y="351" text-anchor="middle">1장 기억하는 루프</text>
+  <rect x="30" y="376" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="202" y="403" text-anchor="middle">2장 다섯 단 사다리</text>
+  <rect x="30" y="428" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="202" y="455" text-anchor="middle">3장 두 개의 그래프</text>
+  <path d="M750 154 V180 H567 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="395" y="204" width="345" height="48" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="567" y="235" text-anchor="middle">2부 구조</text>
+  <rect x="395" y="272" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="567" y="299" text-anchor="middle">4장 이미 가진 래티스</text>
+  <rect x="395" y="324" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="567" y="351" text-anchor="middle">5장 래티스 메타그래프</text>
+  <rect x="395" y="376" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="567" y="403" text-anchor="middle">6장 시맨틱 시공간</text>
+  <rect x="395" y="428" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="567" y="455" text-anchor="middle">7장 스키마</text>
+  <path d="M750 154 V180 H932 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="760" y="204" width="345" height="48" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="932" y="235" text-anchor="middle">3부 메커니즘</text>
+  <rect x="760" y="272" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="932" y="299" text-anchor="middle">8장 그래프 만들기</text>
+  <rect x="760" y="324" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="932" y="351" text-anchor="middle">9장 컨텍스트 조립</text>
+  <rect x="760" y="376" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="932" y="403" text-anchor="middle">10장 하나의 그래프 스웜</text>
+  <rect x="760" y="428" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="932" y="455" text-anchor="middle">11장 재배선된 파이프라인</text>
+  <path d="M750 154 V180 H1297 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1125" y="204" width="345" height="48" rx="10" fill="#F3E8F7" stroke="#8A5AA8" stroke-width="2"/>
+  <text class="h" x="1297" y="235" text-anchor="middle">4부 판단</text>
+  <rect x="1125" y="272" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1297" y="299" text-anchor="middle">12장 지표와 실패 양상</text>
+  <rect x="1125" y="324" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1297" y="351" text-anchor="middle">13장 구축 경로</text>
+  <rect x="1125" y="376" width="345" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1297" y="403" text-anchor="middle">14장 더 읽을거리</text>
+  <rect x="30" y="500" width="1440" height="48" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="b" x="750" y="530" text-anchor="middle">부록 A~C: 한 장으로 보는 요약 · 스키마 참조 · 프롬프트 6종의 용도</text>
+  <text class="s" x="750" y="580" text-anchor="middle">※ 부 구분은 원서의 구성(Part I~IV와 부록)을 따른다. 각 장은 이 노트가 풀어 정리한 문서로 연결된다.</text>
+</svg>

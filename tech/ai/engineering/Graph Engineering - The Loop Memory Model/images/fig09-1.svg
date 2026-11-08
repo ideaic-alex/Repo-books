@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">일곱 단계 컨텍스트 빌더</text>
+<rect x="60" y="100" width="620" height="70" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="370" y="141" font-size="21" text-anchor="middle" fill="#2B2F36">1 과제 속 개체를 정규 노드로 해소</text>
+<rect x="740" y="100" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1090" y="139" font-size="19" text-anchor="middle" fill="#2B2F36">별칭이 아니라 정규 노드에서 출발한다</text>
+<line x1="682" y1="135" x2="738" y2="135" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="188" width="620" height="70" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="370" y="229" font-size="21" text-anchor="middle" fill="#2B2F36">2 허용된 간선 유형으로 1~2홉 확장</text>
+<rect x="740" y="188" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1090" y="227" font-size="19" text-anchor="middle" fill="#2B2F36">세 홉부터는 이웃이 폭발해 관련성이 무너진다</text>
+<line x1="682" y1="223" x2="738" y2="223" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="276" width="620" height="70" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="370" y="317" font-size="21" text-anchor="middle" fill="#2B2F36">3 관련 개체의 현재 산출물 버전 포함</text>
+<rect x="740" y="276" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1090" y="315" font-size="19" text-anchor="middle" fill="#2B2F36">낡은 버전 대신 지금 유효한 것을 준다</text>
+<line x1="682" y1="311" x2="738" y2="311" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="364" width="620" height="70" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="370" y="405" font-size="21" text-anchor="middle" fill="#2B2F36">4 최근 검증된 주장을 우선</text>
+<rect x="740" y="364" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1090" y="403" font-size="19" text-anchor="middle" fill="#2B2F36">마지막 성공 평가 시각 기준, 생성일이 아니다</text>
+<line x1="682" y1="399" x2="738" y2="399" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="452" width="620" height="70" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="370" y="493" font-size="21" text-anchor="middle" fill="#2B2F36">5 충돌과 불확실성을 숨기지 않고 포함</text>
+<rect x="740" y="452" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1090" y="491" font-size="19" text-anchor="middle" fill="#2B2F36">일관된 척하는 뷰가 가장 위험하다</text>
+<line x1="682" y1="487" x2="738" y2="487" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="540" width="620" height="70" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="370" y="581" font-size="21" text-anchor="middle" fill="#2B2F36">6 토큰 예산 안에서 직렬화</text>
+<rect x="740" y="540" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1090" y="579" font-size="19" text-anchor="middle" fill="#2B2F36">넘치면 신뢰도 낮은 간선부터 버리고 그 사실을 밝힌다</text>
+<line x1="682" y1="575" x2="738" y2="575" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="628" width="620" height="70" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="370" y="669" font-size="21" text-anchor="middle" fill="#2B2F36">7 안정적 간선 ID 부착</text>
+<rect x="740" y="628" width="700" height="70" rx="14" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1090" y="667" font-size="19" text-anchor="middle" fill="#2B2F36">작업자가 인용하고 평가자가 검증할 수 있게 한다</text>
+<line x1="682" y1="663" x2="738" y2="663" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<text x="750" y="735" font-size="19" text-anchor="middle" fill="#2B2F36">주황색 두 단계는 대부분의 구현이 빠뜨리지만 가장 중요하다 (정책은 3층 데이터로 그래프에 저장)</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">참조 아키텍처의 다섯 평면</text>
+<rect x="40" y="120" width="270" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="175.0" y="192.0" text-anchor="middle">제어 평면</text>
+<text class="b" x="175.0" y="222.0" text-anchor="middle">목표 접수, 계획 수립</text>
+<text class="b" x="175.0" y="252.0" text-anchor="middle">예산 배정, 중단 판단</text>
+<rect x="325" y="120" width="270" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="460.0" y="192.0" text-anchor="middle">실행 평면</text>
+<text class="b" x="460.0" y="222.0" text-anchor="middle">도구, 테스트, 코드 수정</text>
+<text class="b" x="460.0" y="252.0" text-anchor="middle">하위 에이전트를 격리 실행</text>
+<rect x="610" y="120" width="270" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="745.0" y="192.0" text-anchor="middle">산출물 평면</text>
+<text class="b" x="745.0" y="222.0" text-anchor="middle">계획, 초안, 차이, 보고서</text>
+<text class="b" x="745.0" y="252.0" text-anchor="middle">불변 버전으로 저장</text>
+<rect x="895" y="120" width="270" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1030.0" y="192.0" text-anchor="middle">그래프 평면</text>
+<text class="b" x="1030.0" y="222.0" text-anchor="middle">엔티티, 주장, 관계</text>
+<text class="b" x="1030.0" y="252.0" text-anchor="middle">출처, 계보, 작업 의존</text>
+<rect x="1180" y="120" width="270" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1315.0" y="192.0" text-anchor="middle">평가 평면</text>
+<text class="b" x="1315.0" y="222.0" text-anchor="middle">결정적 검사, 모델 평가자</text>
+<text class="b" x="1315.0" y="252.0" text-anchor="middle">통계 채점, 사람 검토</text>
+<line x1="750" y1="312" x2="750" y2="354" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="200" y="356" width="1100" height="110" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="403.0" text-anchor="middle">막으려는 것: 채팅 기록 하나가</text>
+<text class="b" x="750.0" y="433.0" text-anchor="middle">데이터베이스, 워크플로 엔진, 감사 로그를 동시에 맡는 상황</text>
+<text class="s" x="750.0" y="520.0" text-anchor="middle">평면을 나누면 각 부분을 따로 검사하고 되돌리고 디버깅할 수 있다.</text>
+<text class="s" x="750.0" y="555.0" text-anchor="middle">책은 이 구성을 여섯 단계가 모두 끝난 뒤의 모습으로 소개한다.</text>
+</svg>

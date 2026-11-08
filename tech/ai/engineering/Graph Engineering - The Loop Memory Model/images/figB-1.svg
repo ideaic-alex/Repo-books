@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">스키마 한눈에: 두 평면, 두 다리, 네 층</text>
+<rect x="40" y="100" width="640" height="270" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="360.0" y="182.0" text-anchor="middle">지식 평면 (authored 술어 5개)</text>
+<text class="b" x="360.0" y="212.0" text-anchor="middle">노드: adr, vocab, invariant, pattern,</text>
+<text class="b" x="360.0" y="242.0" text-anchor="middle">principle, claim, source</text>
+<text class="b" x="360.0" y="272.0" text-anchor="middle">술어: supersedes, implies, constrains,</text>
+<text class="b" x="360.0" y="302.0" text-anchor="middle">defines, honors</text>
+<rect x="820" y="100" width="640" height="270" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1140.0" y="182.0" text-anchor="middle">작업 평면 (authored 술어 5개)</text>
+<text class="b" x="1140.0" y="212.0" text-anchor="middle">노드: change, task, agent_run,</text>
+<text class="b" x="1140.0" y="242.0" text-anchor="middle">artifact, evaluation</text>
+<text class="b" x="1140.0" y="272.0" text-anchor="middle">술어: produced, derived_from,</text>
+<text class="b" x="1140.0" y="302.0" text-anchor="middle">evaluated_by, cites, parent_of</text>
+<rect x="680" y="195" width="140" height="80" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="227.0" text-anchor="middle">honors</text>
+<text class="b" x="750.0" y="257.0" text-anchor="middle">mints</text>
+<text class="s" x="750.0" y="392.0" text-anchor="middle">다리는 두 개뿐</text>
+<rect x="40" y="420" width="440" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="260.0" y="462.0" text-anchor="middle">파생(작성 금지)</text>
+<text class="b" x="260.0" y="492.0" text-anchor="middle">near, contradicts</text>
+<text class="b" x="260.0" y="522.0" text-anchor="middle">인덱스를 만들 때 계산한다</text>
+<rect x="530" y="420" width="440" height="130" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="h" x="750.0" y="462.0" text-anchor="middle">구조(배치에서 암시)</text>
+<text class="b" x="750.0" y="492.0" text-anchor="middle">contains, expresses</text>
+<text class="b" x="750.0" y="522.0" text-anchor="middle">폴더 구조와 재화된 단언</text>
+<rect x="1020" y="420" width="440" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240.0" y="447.0" text-anchor="middle">층 0~3</text>
+<text class="b" x="1240.0" y="477.0" text-anchor="middle">0 기본 노드  1 재화된 단언</text>
+<text class="b" x="1240.0" y="507.0" text-anchor="middle">2 단언에 대한 단언</text>
+<text class="b" x="1240.0" y="537.0" text-anchor="middle">3 맥락·검색 정책</text>
+<text class="s" x="750.0" y="600.0" text-anchor="middle">마크다운이 정본이고 SQLite 인덱스는 언제든 지우고 다시 만드는 일회용이다.</text>
+<text class="s" x="750.0" y="635.0" text-anchor="middle">재화(reification)는 간선에 속성이 필요할 때만 점진적으로 쓴다.</text>
+</svg>

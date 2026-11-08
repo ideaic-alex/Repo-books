@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">한 개의 루프에서 그래프 기반 스웜까지 여섯 단계</text>
+<rect x="40" y="120" width="218" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="149.0" y="157.0" text-anchor="middle">1 반성 루프</text>
+<rect x="40" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="149.0" y="222.0" text-anchor="middle">1일차</text>
+<rect x="40" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="149.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="149.0" y="307.0" text-anchor="middle">측정 가능한</text>
+<text class="b" x="149.0" y="337.0" text-anchor="middle">품질 향상</text>
+<line x1="260" y1="150" x2="278" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="278" y="120" width="218" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="387.0" y="157.0" text-anchor="middle">2 도구 사용</text>
+<rect x="278" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="387.0" y="222.0" text-anchor="middle">2일차</text>
+<rect x="278" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="387.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="387.0" y="307.0" text-anchor="middle">알려진 오류</text>
+<text class="b" x="387.0" y="337.0" text-anchor="middle">부류가 줄어듦</text>
+<line x1="498" y1="150" x2="516" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="516" y="120" width="218" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="625.0" y="157.0" text-anchor="middle">3 계획</text>
+<rect x="516" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="625.0" y="222.0" text-anchor="middle">1주차</text>
+<rect x="516" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="625.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="625.0" y="307.0" text-anchor="middle">가변 과업이</text>
+<text class="b" x="625.0" y="337.0" text-anchor="middle">안정적으로 완료</text>
+<line x1="736" y1="150" x2="754" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="754" y="120" width="218" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="863.0" y="157.0" text-anchor="middle">4 멀티 에이전트</text>
+<rect x="754" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="863.0" y="222.0" text-anchor="middle">2주차</text>
+<rect x="754" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="863.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="863.0" y="307.0" text-anchor="middle">역할 분리가</text>
+<text class="b" x="863.0" y="337.0" text-anchor="middle">단일보다 우수</text>
+<line x1="974" y1="150" x2="992" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="992" y="120" width="218" height="60" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1101.0" y="157.0" text-anchor="middle">5 지속 그래프</text>
+<rect x="992" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="1101.0" y="222.0" text-anchor="middle">1개월차</text>
+<rect x="992" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="1101.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="1101.0" y="307.0" text-anchor="middle">세션을 넘는</text>
+<text class="b" x="1101.0" y="337.0" text-anchor="middle">질의가 동작</text>
+<line x1="1212" y1="150" x2="1230" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1230" y="120" width="218" height="60" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1339.0" y="157.0" text-anchor="middle">6 스웜</text>
+<rect x="1230" y="190" width="218" height="50" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="b" x="1339.0" y="222.0" text-anchor="middle">2개월차</text>
+<rect x="1230" y="250" width="218" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="s" x="1339.0" y="277.0" text-anchor="middle">종료 기준</text>
+<text class="b" x="1339.0" y="307.0" text-anchor="middle">시간은 줄고</text>
+<text class="b" x="1339.0" y="337.0" text-anchor="middle">품질은 유지</text>
+<rect x="40" y="390" width="1420" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="427.0" text-anchor="middle">종료 기준을 통과하지 못하면 다음 단계로 가지 않는다</text>
+<text class="b" x="750.0" y="457.0" text-anchor="middle">사다리의 칸은 건너뛸 수 없다. 이 장이 그 규칙을 강제하는 자리다.</text>
+<text class="s" x="750.0" y="530.0" text-anchor="middle">시간 척도는 책의 권장 일정이다. 복잡도는 1~2단계 낮음, 3~4단계 중간, 5~6단계 높음으로 올라간다.</text>
+<text class="s" x="750.0" y="565.0" text-anchor="middle">(복잡도 등급은 책의 표를 요약한 것)</text>
+</svg>

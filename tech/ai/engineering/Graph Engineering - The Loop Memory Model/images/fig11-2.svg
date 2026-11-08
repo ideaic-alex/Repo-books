@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">확장된 archive 명령: 열한 단계</text>
+<rect x="50" y="110" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="157" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">1 parse</text>
+<text x="157" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">Footprint 읽기</text>
+<line x1="267" y1="165" x2="285" y2="165" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="287" y="110" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="394" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">2 mint</text>
+<text x="394" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">노드 파일 작성</text>
+<line x1="504" y1="165" x2="522" y2="165" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="524" y="110" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="631" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">3 touch</text>
+<text x="631" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">결과 흔적 추가</text>
+<line x1="741" y1="165" x2="759" y2="165" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="761" y="110" width="215" height="110" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="868" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">4 link (신규)</text>
+<text x="868" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">브리지, 작업 평면 간선</text>
+<line x1="978" y1="165" x2="996" y2="165" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="998" y="110" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1105" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">5 lint</text>
+<text x="1105" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">참조가 모두 해소</text>
+<line x1="1215" y1="165" x2="1233" y2="165" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1235" y="110" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1342" y="156" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">6 index</text>
+<text x="1342" y="198" font-size="16" text-anchor="middle" fill="#2B2F36">near, 모순 재계산</text>
+<rect x="168" y="270" width="215" height="110" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="275" y="316" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">7 check (신규)</text>
+<text x="275" y="358" font-size="16" text-anchor="middle" fill="#2B2F36">그래프 불변식 5개</text>
+<line x1="385" y1="325" x2="403" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="405" y="270" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="512" y="316" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">8 validate</text>
+<text x="512" y="358" font-size="16" text-anchor="middle" fill="#2B2F36">스펙 델타 형식</text>
+<line x1="622" y1="325" x2="640" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="642" y="270" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="749" y="316" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">9 properties</text>
+<text x="749" y="358" font-size="16" text-anchor="middle" fill="#2B2F36">속성 모두 통과</text>
+<line x1="859" y1="325" x2="877" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="879" y="270" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="986" y="316" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">10 merge</text>
+<text x="986" y="358" font-size="16" text-anchor="middle" fill="#2B2F36">스펙에 병합</text>
+<line x1="1096" y1="325" x2="1114" y2="325" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1116" y="270" width="215" height="110" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="1223" y="316" font-size="21" text-anchor="middle" fill="#2B2F36" font-weight="bold">11 move</text>
+<text x="1223" y="358" font-size="16" text-anchor="middle" fill="#2B2F36">아카이브로 이동</text>
+<path d="M1420,222 L1420,246 L170,246 L170,268" fill="none" stroke="#555B66" stroke-width="3" marker-end="url(#a)"/>
+<text x="750" y="440" font-size="19" text-anchor="middle" fill="#2B2F36">validate는 관대하게, archive는 엄격하게: 진행 중에는 끊긴 참조가 허용되지만 보관 시점에는 모두 정합해야 한다</text>
+<text x="750" y="480" font-size="19" text-anchor="middle" fill="#2B2F36">주황색 두 단계(link, check)가 그래프 때문에 추가된 부분이다</text>
+</svg>

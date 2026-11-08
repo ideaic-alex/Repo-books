@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">그래프를 만들기 전에 던지는 질문</text>
+<rect x="500" y="100" width="500" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="142.0" text-anchor="middle">에이전트가 있다는 이유만으로 짓는가?</text>
+<line x1="750" y1="172" x2="750" y2="214" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="216" width="1260" height="150" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="253.0" text-anchor="middle">이 중 하나라도 해당하면 그래프는 불필요할 수 있다</text>
+<text class="b" x="750.0" y="283.0" text-anchor="middle">과업이 서로 독립이다 · 답이 문서 하나에 있다 · 관계가 고정이고 단순하다</text>
+<text class="b" x="750.0" y="313.0" text-anchor="middle">SELECT 한 줄로 모든 질의가 풀린다 · 출처를 아무도 묻지 않는다</text>
+<text class="b" x="750.0" y="343.0" text-anchor="middle">추출 오류가 순회의 이득보다 크다</text>
+<line x1="380" y1="368" x2="380" y2="424" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1120" y1="368" x2="1120" y2="424" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="426" width="520" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="380.0" y="468.0" text-anchor="middle">핵심 조건이 하나뿐이면</text>
+<text class="b" x="380.0" y="498.0" text-anchor="middle">잘 관리한 CLAUDE.md와</text>
+<text class="b" x="380.0" y="528.0" text-anchor="middle">ADR 기록으로 충분하다</text>
+<rect x="860" y="426" width="520" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1120.0" y="468.0" text-anchor="middle">연결 질의, 변하는 관계, 출처,</text>
+<text class="b" x="1120.0" y="498.0" text-anchor="middle">공유 세계 상태 중 셋 이상이면</text>
+<text class="b" x="1120.0" y="528.0" text-anchor="middle">그래프를 만든다</text>
+<text class="s" x="750.0" y="610.0" text-anchor="middle">작은 시작도 유효하다: 노드 타입 5개, 술어 5개, 마크다운 파일, CI의 린트. 노드가 100개 미만이고 작성자가 한 명이면 아직 이르다.</text>
+<text class="s" x="750.0" y="645.0" text-anchor="middle">(책의 "원조 포지" 구성 기준, 노트 작성자 요약)</text>
+</svg>

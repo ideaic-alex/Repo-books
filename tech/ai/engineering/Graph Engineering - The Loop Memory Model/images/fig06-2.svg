@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">하나의 그래프, 일곱 개의 투영</text>
+<rect x="40" y="220" width="400" height="300" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="240.0" y="332.0" text-anchor="middle">래티스 하나</text>
+<text class="b" x="240.0" y="362.0" text-anchor="middle">노드 약 400개</text>
+<text class="b" x="240.0" y="392.0" text-anchor="middle">가중치는 그래프 안의 데이터</text>
+<text class="b" x="240.0" y="422.0" text-anchor="middle">단계마다 이웃을 다르게 뽑는다</text>
+<rect x="600" y="100" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="140.0" text-anchor="middle">1 부트스트랩   |   용어 0.7, 불변식 0.2, 패턴 0.1</text>
+<line x1="442" y1="370" x2="598" y2="133" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="182" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="222.0" text-anchor="middle">2 심문   |   불변식 0.5, 원칙 0.3, 용어 0.2</text>
+<line x1="442" y1="370" x2="598" y2="215" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="264" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="304.0" text-anchor="middle">3 문서 기반 심문   |   ADR 0.6, 패턴 0.3, 불변식 0.1</text>
+<line x1="442" y1="370" x2="598" y2="297" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="346" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="386.0" text-anchor="middle">3¼ 조정   |   균등, 높은 재현율</text>
+<line x1="442" y1="370" x2="598" y2="379" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="428" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="468.0" text-anchor="middle">4½ 속성 컴파일   |   불변식 0.8, 원칙 0.2</text>
+<line x1="442" y1="370" x2="598" y2="461" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="510" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="550.0" text-anchor="middle">5 디스패치   |   불변식 0.5, ADR 0.3, 패턴 0.2</text>
+<line x1="442" y1="370" x2="598" y2="543" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="592" width="840" height="66" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1020.0" y="632.0" text-anchor="middle">6 검증   |   주장 0.6, 출처 0.4</text>
+<line x1="442" y1="370" x2="598" y2="625" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="1020" y="710" text-anchor="middle">각 단계는 서로 다른 약 3,000 토큰 이웃을 받는다.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="520" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">월요일 아침: 산출물은 남고 결정은 사라진다</text>
+<rect x="40" y="110" width="360" height="260" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="220" y="152" text-anchor="middle">금요일: 루프 가동</text>
+<text class="b" x="220" y="196" text-anchor="middle">생성, 비평, 수정</text>
+<text class="b" x="220" y="228" text-anchor="middle">도구 연결, 워크트리 셋</text>
+<text class="b" x="220" y="260" text-anchor="middle">서브에이전트와 리듀서</text>
+<text class="b" x="220" y="320" text-anchor="middle">사람은 퇴근</text>
+<line x1="405" y1="240" x2="475" y2="240" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="440" y="222" text-anchor="middle">밤새</text>
+<rect x="480" y="110" width="440" height="260" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="700" y="152" text-anchor="middle">월요일에 남은 것</text>
+<text class="b" x="700" y="196" text-anchor="middle">커밋 마흔 개</text>
+<text class="b" x="700" y="228" text-anchor="middle">초록색 테스트</text>
+<text class="b" x="700" y="260" text-anchor="middle">잘 읽히는 요약</text>
+<text class="b" x="700" y="320" text-anchor="middle">MAX_RETRIES = 3 (값만 기록)</text>
+<rect x="960" y="110" width="500" height="260" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2" stroke-dasharray="10 6"/>
+<text class="h" x="1210" y="152" text-anchor="middle">증발한 것</text>
+<text class="b" x="1210" y="196" text-anchor="middle">에이전트가 5를 먼저 시도했다</text>
+<text class="b" x="1210" y="228" text-anchor="middle">속도 제한기가 작동했다</text>
+<text class="b" x="1210" y="260" text-anchor="middle">그래서 3으로 정착했다</text>
+<text class="b" x="1210" y="320" text-anchor="middle">컨텍스트 창과 함께 사라짐</text>
+<line x1="925" y1="240" x2="955" y2="240" stroke="#4A5260" stroke-width="2.5" stroke-dasharray="6 5"/>
+<rect x="300" y="410" width="900" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="454" text-anchor="middle">왜 재시도 상한이 3인가? 아무도 모른다</text>
+<text class="s" x="750" y="505" text-anchor="middle">사람 속도의 문제가 기계 속도로, 사람 없이, 마흔 번 일어난다</text>
+</svg>

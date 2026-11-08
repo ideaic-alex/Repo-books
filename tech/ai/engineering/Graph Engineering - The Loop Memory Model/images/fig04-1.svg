@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">래티스: 노드 다섯 종류와 술어 다섯 개</text>
+<text class="h" x="750" y="110" text-anchor="middle">노드(lat.md/ 안의 파일 하나가 사실 하나)</text>
+<rect x="30" y="135" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="165.0" y="182.0" text-anchor="middle">ADR</text>
+<text class="b" x="165.0" y="212.0" text-anchor="middle">오래 갈 결정</text>
+<rect x="319" y="135" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="454.0" y="182.0" text-anchor="middle">vocab</text>
+<text class="b" x="454.0" y="212.0" text-anchor="middle">용어의 표준 정의</text>
+<rect x="608" y="135" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="743.0" y="182.0" text-anchor="middle">invariant</text>
+<text class="b" x="743.0" y="212.0" text-anchor="middle">전체에 걸친 성질</text>
+<rect x="897" y="135" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1032.0" y="182.0" text-anchor="middle">pattern</text>
+<text class="b" x="1032.0" y="212.0" text-anchor="middle">받아들인 설계 패턴</text>
+<rect x="1186" y="135" width="270" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1321.0" y="182.0" text-anchor="middle">principle</text>
+<text class="b" x="1321.0" y="212.0" text-anchor="middle">미래 결정을 묶는 규칙</text>
+<text class="h" x="750" y="300" text-anchor="middle">술어(엣지): 다섯 개로 닫혀 있다</text>
+<rect x="30" y="325" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="165.0" y="372.0" text-anchor="middle">supersedes</text>
+<text class="b" x="165.0" y="402.0" text-anchor="middle">대체하고 옛것은 얼림</text>
+<rect x="319" y="325" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="454.0" y="372.0" text-anchor="middle">implies</text>
+<text class="b" x="454.0" y="402.0" text-anchor="middle">받아들이면 따라 성립</text>
+<rect x="608" y="325" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="743.0" y="372.0" text-anchor="middle">constrains</text>
+<text class="b" x="743.0" y="402.0" text-anchor="middle">결정의 범위를 좁힘</text>
+<rect x="897" y="325" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1032.0" y="372.0" text-anchor="middle">defines</text>
+<text class="b" x="1032.0" y="402.0" text-anchor="middle">표준 의미를 제공</text>
+<rect x="1186" y="325" width="270" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1321.0" y="372.0" text-anchor="middle">honors</text>
+<text class="b" x="1321.0" y="402.0" text-anchor="middle">유효함에 의존</text>
+<rect x="30" y="475" width="1440" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="750.0" y="512.0" text-anchor="middle">참조 한 가지: lat:타입/슬러그, 원본에서 한 방향만, 앵커 없음</text>
+<text class="b" x="750.0" y="542.0" text-anchor="middle">추가만 하고 대체로 바꾼다. 본체(openspec/) 옆의 사이드카</text>
+</svg>

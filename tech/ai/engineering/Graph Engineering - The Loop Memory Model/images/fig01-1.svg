@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">루프 뒤집기: 같은 다섯 부품, 다른 목적</text>
+<text class="h" x="160" y="122" text-anchor="middle">부품</text>
+<text class="h" x="560" y="122" text-anchor="middle">기존 목적 (기억은 부산물)</text>
+<text class="h" x="1150" y="122" text-anchor="middle">뒤집은 뒤 목적 (기억이 산출물)</text>
+<rect x="40" y="145" width="240" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="189" text-anchor="middle">자동화</text>
+<rect x="330" y="145" width="460" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560" y="188" text-anchor="middle">통과할 때까지 반복</text>
+<line x1="795" y1="180" x2="855" y2="180" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="860" y="145" width="600" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1160" y="188" text-anchor="middle">평가가 붙은 결정을 생산</text>
+<rect x="40" y="245" width="240" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="289" text-anchor="middle">도구</text>
+<rect x="330" y="245" width="460" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560" y="288" text-anchor="middle">모델을 현실에 접지</text>
+<line x1="795" y1="280" x2="855" y2="280" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="860" y="245" width="600" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1160" y="288" text-anchor="middle">유창한 문장이 아닌 출처 있는 주장을 생산</text>
+<rect x="40" y="345" width="240" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="389" text-anchor="middle">워크트리</text>
+<rect x="330" y="345" width="460" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560" y="388" text-anchor="middle">파일 충돌 방지</text>
+<line x1="795" y1="380" x2="855" y2="380" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="860" y="345" width="600" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1160" y="388" text-anchor="middle">비교 가능한 독립 계보를 생산</text>
+<rect x="40" y="445" width="240" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="489" text-anchor="middle">스킬</text>
+<rect x="330" y="445" width="460" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560" y="488" text-anchor="middle">능력 패키징</text>
+<line x1="795" y1="480" x2="855" y2="480" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="860" y="445" width="600" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1160" y="488" text-anchor="middle">루프가 지킬 유효한 제약을 부호화</text>
+<rect x="40" y="545" width="240" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160" y="589" text-anchor="middle">서브에이전트</text>
+<rect x="330" y="545" width="460" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="560" y="588" text-anchor="middle">병렬 처리량</text>
+<line x1="795" y1="580" x2="855" y2="580" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="860" y="545" width="600" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1160" y="588" text-anchor="middle">대화록이 아닌 타입 있는 노드로 발견을 생산</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">네 겹의 레이어 모델</text>
+<rect x="60" y="100" width="840" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="480.0" y="142.0" text-anchor="middle">레이어 3  맥락과 정책</text>
+<text class="b" x="480.0" y="172.0" text-anchor="middle">단계별 검색과 평가의 규칙, 가중치</text>
+<rect x="1060" y="115" width="340" height="70" rx="10" fill="#FFFFFF" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1230.0" y="157.0" text-anchor="middle">읽는 쪽: 컨텍스트 조립기</text>
+<line x1="902" y1="150" x2="1058" y2="150" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="220" width="840" height="100" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="480.0" y="262.0" text-anchor="middle">레이어 2  관계에 관한 관계</text>
+<text class="b" x="480.0" y="292.0" text-anchor="middle">대체, 모순, 무효화</text>
+<rect x="1060" y="235" width="340" height="70" rx="10" fill="#FFFFFF" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1230.0" y="277.0" text-anchor="middle">읽는 쪽: 보관 관문</text>
+<line x1="902" y1="270" x2="1058" y2="270" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="340" width="840" height="100" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="480.0" y="382.0" text-anchor="middle">레이어 1  관계 메타데이터</text>
+<text class="b" x="480.0" y="412.0" text-anchor="middle">출처, 확신도, 유효 기간, 맥락</text>
+<rect x="1060" y="355" width="340" height="70" rx="10" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1230.0" y="397.0" text-anchor="middle">읽는 쪽: 보관 관문</text>
+<line x1="902" y1="390" x2="1058" y2="390" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="460" width="840" height="100" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="480.0" y="502.0" text-anchor="middle">레이어 0  기본 산출물</text>
+<text class="b" x="480.0" y="532.0" text-anchor="middle">ADR, 용어, 불변식, 패턴, 원칙, 기능</text>
+<rect x="1060" y="475" width="340" height="70" rx="10" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1230.0" y="517.0" text-anchor="middle">읽는 쪽: 사람</text>
+<line x1="902" y1="510" x2="1058" y2="510" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="480" y="600" text-anchor="middle">위층은 아래층의 객체를 주어로 삼는다. 섞지 않고 층별로 다른 소비자가 읽는다.</text>
+</svg>

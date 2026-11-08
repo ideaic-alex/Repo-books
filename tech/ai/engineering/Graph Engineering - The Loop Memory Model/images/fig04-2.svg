@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">여섯 가지 한계, 하나의 원인</text>
+<rect x="40" y="100" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="138.0" text-anchor="middle">비슷한 것을 찾지 못한다</text>
+<line x1="562" y1="131" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="180" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="218.0" text-anchor="middle">엣지에 출처를 달지 못한다</text>
+<line x1="562" y1="211" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="260" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="298.0" text-anchor="middle">토큰 예산 안에서 조회하지 못한다</text>
+<line x1="562" y1="291" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="340" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="378.0" text-anchor="middle">불확실성을 표현하지 못한다</text>
+<line x1="562" y1="371" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="420" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="458.0" text-anchor="middle">동시에 쓰지 못한다</text>
+<line x1="562" y1="451" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="500" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300.0" y="538.0" text-anchor="middle">충족 여부를 확인하지 못한다</text>
+<line x1="562" y1="531" x2="640" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="645" y="230" width="360" height="180" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="825.0" y="297.0" text-anchor="middle">공통 원인</text>
+<text class="b" x="825.0" y="327.0" text-anchor="middle">엣지가 일급이 아니라</text>
+<text class="b" x="825.0" y="357.0" text-anchor="middle">노드에 붙은 주석일 뿐</text>
+<line x1="1007" y1="320" x2="1085" y2="320" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1090" y="230" width="370" height="180" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1275.0" y="282.0" text-anchor="middle">해법의 방향</text>
+<text class="b" x="1275.0" y="312.0" text-anchor="middle">엣지가 속성을 갖고</text>
+<text class="b" x="1275.0" y="342.0" text-anchor="middle">참조되고 추론된다</text>
+<text class="b" x="1275.0" y="372.0" text-anchor="middle">곧 메타그래프</text>
+<text class="s" x="750" y="600" text-anchor="middle">유사성은 가중치, 출처는 근원, 모순은 두 유효 노드 사이의 엣지로 바뀐다.</text>
+</svg>

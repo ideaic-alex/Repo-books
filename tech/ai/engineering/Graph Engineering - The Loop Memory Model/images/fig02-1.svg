@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="820" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">사다리 5단 아키텍처: 한 칸마다 하나씩 머리 밖으로</text>
+<text class="h" x="230" y="130" text-anchor="middle">칸</text>
+<text class="h" x="610" y="130" text-anchor="middle">꺼내는 것</text>
+<text class="h" x="1160" y="130" text-anchor="middle">그 칸이 남기는 병목</text>
+<line x1="60" y1="690" x2="60" y2="170" stroke="#4A5260" stroke-width="3" marker-end="url(#ar)"/>
+<text class="s" x="60" y="720" text-anchor="middle">시작</text>
+<text class="s" x="60" y="160" text-anchor="middle">위로</text>
+
+<rect x="100" y="150" width="260" height="96" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="3"/>
+<text class="h" x="230" y="190" text-anchor="middle">5. 지식 그래프</text>
+<text class="s" x="230" y="218" text-anchor="middle">의미</text>
+<rect x="400" y="150" width="420" height="96" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="206" text-anchor="middle">공유 사실, 출처, 세션 간 기억</text>
+<rect x="860" y="150" width="600" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1160" y="190" text-anchor="middle">처음으로 산출물이 실행보다 오래 간다</text>
+<text class="s" x="1160" y="220" text-anchor="middle">단, 아래 칸을 건너뛰면 미검증 주장 더미</text>
+
+<rect x="100" y="266" width="260" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="230" y="306" text-anchor="middle">4. DAG</text>
+<text class="s" x="230" y="334" text-anchor="middle">역사</text>
+<rect x="400" y="266" width="420" height="96" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="322" text-anchor="middle">실험 계보 (커밋이 곧 노드)</text>
+<rect x="860" y="266" width="600" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1160" y="322" text-anchor="middle">무엇이 바뀌었는지만 알고 참인지는 모름</text>
+
+<rect x="100" y="382" width="260" height="96" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="230" y="422" text-anchor="middle">3. 스웜</text>
+<text class="s" x="230" y="450" text-anchor="middle">공간</text>
+<rect x="400" y="382" width="420" height="96" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="438" text-anchor="middle">병렬 탐색과 역할 분업</text>
+<rect x="860" y="382" width="600" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1160" y="438" text-anchor="middle">합의 수단이 없고 추적 안 되는 가지가 쌓임</text>
+
+<rect x="100" y="498" width="260" height="96" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="230" y="538" text-anchor="middle">2. 체인</text>
+<text class="s" x="230" y="566" text-anchor="middle">시간(순서)</text>
+<rect x="400" y="498" width="420" height="96" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="554" text-anchor="middle">작업 순서</text>
+<rect x="860" y="498" width="600" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1160" y="554" text-anchor="middle">하나의 관점을 직렬로 적용할 뿐</text>
+
+<rect x="100" y="614" width="260" height="96" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="230" y="654" text-anchor="middle">1. 루프</text>
+<text class="s" x="230" y="682" text-anchor="middle">시간(반복)</text>
+<rect x="400" y="614" width="420" height="96" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="610" y="670" text-anchor="middle">반복과 평가</text>
+<rect x="860" y="614" width="600" height="96" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1160" y="670" text-anchor="middle">현재 시도만 알고 이유는 못 꺼냄</text>
+
+<text class="s" x="780" y="765" text-anchor="middle">진행은 방향이지 의무가 아니다. 어느 칸에서든 멈출 수 있지만 건너뛸 수는 없다.</text>
+<text class="s" x="780" y="790" text-anchor="middle">시작 질문: 성공을 검증할 수 있는가? 아니라면 자율성부터 시작하지 않는다.</text>
+</svg>

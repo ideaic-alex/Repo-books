@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">사례: 웹훅 멱등성 불변식이 걸친 층</text>
+<rect x="60" y="95" width="1380" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="132.0" text-anchor="middle">레이어 0  지식 노드</text>
+<text class="b" x="750.0" y="162.0" text-anchor="middle">불변식: 웹훅 처리는 전달 ID마다 멱등, 출처 둘, 확신도 0.95</text>
+<line x1="750" y1="186" x2="750" y2="199" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="200" width="1380" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="237.0" text-anchor="middle">레이어 1  재귀화된 assertion</text>
+<text class="b" x="750.0" y="267.0" text-anchor="middle">constrains 엣지에 확신도 0.7과 결제 기능 범위, 일괄 가져오기는 미확인</text>
+<line x1="750" y1="291" x2="750" y2="304" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="305" width="1380" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="342.0" text-anchor="middle">레이어 2  관계에 관한 관계</text>
+<text class="b" x="750.0" y="372.0" text-anchor="middle">6주 뒤 대체 assertion: 범위를 전역으로, 확신도 0.95. 원본은 고치지 않음</text>
+<line x1="750" y1="396" x2="750" y2="409" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="410" width="1380" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750.0" y="447.0" text-anchor="middle">작업 평면과 브리지</text>
+<text class="b" x="750.0" y="477.0" text-anchor="middle">실행이 산출물을 만들고(produced), 지식 노드를 만든다(mints)</text>
+<line x1="750" y1="501" x2="750" y2="514" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="60" y="515" width="1380" height="90" rx="10" fill="#FFFFFF" stroke="#4A5260" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="750.0" y="552.0" text-anchor="middle">파생(색인마다 재계산)</text>
+<text class="b" x="750.0" y="582.0" text-anchor="middle">결제 재시도 안전 불변식과 0.81 가깝다: 중복 후보로 제안만 한다</text>
+</svg>

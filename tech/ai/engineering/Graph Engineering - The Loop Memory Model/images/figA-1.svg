@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">한 장으로 보는 그래프 엔지니어링</text>
+<rect x="60" y="95" width="1380" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="137.0" text-anchor="middle">주장: 기억은 루프의 여섯째 부품이 아니라 루프가 만들어 내려는 결과물이다</text>
+<rect x="60" y="185" width="1380" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750.0" y="227.0" text-anchor="middle">시험: 중요한 출력마다 목표, 계획, 산출물, 출처, 그래프 경로, 평가 결정, 실행 기록까지 추적되는가</text>
+<rect x="60" y="285" width="440" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="280.0" y="342.0" text-anchor="middle">사다리 다섯 칸</text>
+<text class="b" x="280.0" y="372.0" text-anchor="middle">루프 → 체인 → 스웜</text>
+<text class="b" x="280.0" y="402.0" text-anchor="middle">DAG → 지식 그래프</text>
+<text class="b" x="280.0" y="432.0" text-anchor="middle">칸마다 외부화하는 것이 다르다</text>
+<rect x="530" y="285" width="440" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="342.0" text-anchor="middle">두 개의 그래프</text>
+<text class="b" x="750.0" y="372.0" text-anchor="middle">작업 그래프: 무슨 일이 있었나</text>
+<text class="b" x="750.0" y="402.0" text-anchor="middle">지식 그래프: 지금 무엇이 참인가</text>
+<text class="b" x="750.0" y="432.0" text-anchor="middle">다리 술어는 honors와 mints</text>
+<rect x="1000" y="285" width="440" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1220.0" y="342.0" text-anchor="middle">다섯 가지 불변식</text>
+<text class="b" x="1220.0" y="372.0" text-anchor="middle">주장에는 출처, 산출물에는 실행과 버전</text>
+<text class="b" x="1220.0" y="402.0" text-anchor="middle">평가에는 기준, 대체된 것은 주소 유지</text>
+<text class="b" x="1220.0" y="432.0" text-anchor="middle">에이전트 노드에는 출처 블록</text>
+<rect x="60" y="505" width="680" height="180" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="400.0" y="557.0" text-anchor="middle">여섯 단계 구축 경로</text>
+<text class="b" x="400.0" y="587.0" text-anchor="middle">반성 루프 → 도구 → 계획</text>
+<text class="b" x="400.0" y="617.0" text-anchor="middle">→ 멀티 에이전트 → 지속 그래프 → 스웜</text>
+<text class="b" x="400.0" y="647.0" text-anchor="middle">종료 기준을 통과해야 다음으로</text>
+<rect x="770" y="505" width="670" height="180" rx="10" fill="#F1F2F4" stroke="#7A808C" stroke-width="2"/>
+<text class="h" x="1105.0" y="557.0" text-anchor="middle">만들지 말아야 할 때</text>
+<text class="b" x="1105.0" y="587.0" text-anchor="middle">독립 과업, 단일 문서 답, 단순 고정 관계,</text>
+<text class="b" x="1105.0" y="617.0" text-anchor="middle">표로 충분, 출처 불필요, 추출 오류가 이득보다 큼</text>
+<text class="b" x="1105.0" y="647.0" text-anchor="middle">NOTES.md와 ADR로 시험이 참이면 끝</text>
+<text class="s" x="750.0" y="730.0" text-anchor="middle">이 그림은 부록 A의 구성을 노트 작성자가 다시 배치한 것이다.</text>
+</svg>

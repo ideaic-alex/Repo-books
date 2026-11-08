@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">두 평면과 두 브리지</text>
+<rect x="40" y="95" width="960" height="230" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="520.0" y="172.0" text-anchor="middle">지식 평면 (lat.md/)</text>
+<text class="b" x="520.0" y="202.0" text-anchor="middle">노드: adr, vocab, invariant, pattern, principle, claim, source</text>
+<text class="b" x="520.0" y="232.0" text-anchor="middle">저작 술어 다섯: supersedes, implies, constrains, defines, honors</text>
+<text class="b" x="520.0" y="262.0" text-anchor="middle">오래 남고, 선별되며, 현재 유효한 노드 집합이 있다</text>
+<rect x="40" y="455" width="960" height="230" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="520.0" y="532.0" text-anchor="middle">작업 평면 (work.md/)</text>
+<text class="b" x="520.0" y="562.0" text-anchor="middle">노드: change, task, agent_run, artifact, evaluation</text>
+<text class="b" x="520.0" y="592.0" text-anchor="middle">저작 술어 다섯: produced, derived_from, evaluated_by, cites, parent_of</text>
+<text class="b" x="520.0" y="622.0" text-anchor="middle">이력이고 양이 많고 기계가 쓴다</text>
+<line x1="330" y1="453" x2="330" y2="327" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="350" y="400" text-anchor="start">honors</text>
+<line x1="670" y1="453" x2="670" y2="327" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="690" y="400" text-anchor="start">mints</text>
+<rect x="1060" y="95" width="400" height="250" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1260.0" y="197.0" text-anchor="middle">공유: assertion</text>
+<text class="b" x="1260.0" y="227.0" text-anchor="middle">재귀화된 엣지</text>
+<text class="b" x="1260.0" y="257.0" text-anchor="middle">출처, 확신도, 유효 기간</text>
+<rect x="1060" y="385" width="400" height="300" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="h" x="1260.0" y="497.0" text-anchor="middle">저작되지 않는 관계</text>
+<text class="b" x="1260.0" y="527.0" text-anchor="middle">파생: near, contradicts</text>
+<text class="b" x="1260.0" y="557.0" text-anchor="middle">구조: contains, expresses</text>
+<text class="b" x="1260.0" y="587.0" text-anchor="middle">파생 색인 .lat/graph.db</text>
+</svg>

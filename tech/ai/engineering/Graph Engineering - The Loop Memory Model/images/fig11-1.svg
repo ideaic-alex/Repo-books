@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="730" viewBox="0 0 1500 730" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555B66"/></marker><marker id="r" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#B5524A"/></marker></defs>
+<rect width="1500" height="730" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" text-anchor="middle" fill="#2B2F36" font-weight="bold">재배선된 파이프라인: 단계별 그래프 읽기와 쓰기</text>
+<rect x="60" y="90" width="380" height="50" rx="14" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="121" font-size="21" text-anchor="middle" fill="#2B2F36">단계</text>
+<rect x="460" y="90" width="500" height="50" rx="14" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="121" font-size="21" text-anchor="middle" fill="#2B2F36">그래프에서 읽는 것</text>
+<rect x="980" y="90" width="460" height="50" rx="14" fill="#FBF0DC" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="121" font-size="21" text-anchor="middle" fill="#2B2F36">그래프에 쓰는 것</text>
+<rect x="60" y="150" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="179" font-size="19" text-anchor="middle" fill="#2B2F36">1 OpenSpec 부트스트랩</text>
+<rect x="460" y="150" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="179" font-size="19" text-anchor="middle" fill="#2B2F36">어휘 이웃 (near)</text>
+<rect x="980" y="150" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="179" font-size="19" text-anchor="middle" fill="#2B2F36">change, run 노드</text>
+<rect x="60" y="206" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="235" font-size="19" text-anchor="middle" fill="#2B2F36">2 Grill-Me</text>
+<rect x="460" y="206" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="235" font-size="19" text-anchor="middle" fill="#2B2F36">제안 주변의 불변식과 원칙</text>
+<rect x="980" y="206" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="235" font-size="19" text-anchor="middle" fill="#2B2F36">주장(claim) 노드, 미승격</text>
+<rect x="60" y="262" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="291" font-size="19" text-anchor="middle" fill="#2B2F36">3 Grill-With-Docs</text>
+<rect x="460" y="262" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="291" font-size="19" text-anchor="middle" fill="#2B2F36">시행 중 집합 (as_of 현재)</text>
+<rect x="980" y="262" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="291" font-size="19" text-anchor="middle" fill="#2B2F36">contradicts 표시</text>
+<rect x="60" y="318" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="347" font-size="19" text-anchor="middle" fill="#2B2F36">3.25 래티스 조정</text>
+<rect x="460" y="318" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="347" font-size="19" text-anchor="middle" fill="#2B2F36">후보 노드마다 near 조회</text>
+<rect x="980" y="318" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="347" font-size="19" text-anchor="middle" fill="#2B2F36">Footprint 초안</text>
+<rect x="60" y="374" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="403" font-size="19" text-anchor="middle" fill="#2B2F36">3.5 ADR Grill</text>
+<rect x="460" y="374" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="403" font-size="19" text-anchor="middle" fill="#2B2F36">대체(supersede) 계보</text>
+<rect x="980" y="374" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="403" font-size="19" text-anchor="middle" fill="#2B2F36">없음</text>
+<rect x="60" y="430" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="459" font-size="19" text-anchor="middle" fill="#2B2F36">4 맞춤 산출</text>
+<rect x="460" y="430" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="459" font-size="19" text-anchor="middle" fill="#2B2F36">새로 읽는 것 없음</text>
+<rect x="980" y="430" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="459" font-size="19" text-anchor="middle" fill="#2B2F36">산출물과 produced 간선</text>
+<rect x="60" y="486" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="515" font-size="19" text-anchor="middle" fill="#2B2F36">4.5 속성 컴파일</text>
+<rect x="460" y="486" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="515" font-size="19" text-anchor="middle" fill="#2B2F36">변경이 지키기로 한 불변식</text>
+<rect x="980" y="486" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="515" font-size="19" text-anchor="middle" fill="#2B2F36">속성→불변식 contains 간선</text>
+<rect x="60" y="542" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="571" font-size="19" text-anchor="middle" fill="#2B2F36">5 Dispatch</text>
+<rect x="460" y="542" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="571" font-size="19" text-anchor="middle" fill="#2B2F36">작업별 부분그래프 (7단계)</text>
+<rect x="980" y="542" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="571" font-size="19" text-anchor="middle" fill="#2B2F36">promise, run, 산출물</text>
+<rect x="60" y="598" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="627" font-size="19" text-anchor="middle" fill="#2B2F36">6 검증 또는 상향</text>
+<rect x="460" y="598" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="627" font-size="19" text-anchor="middle" fill="#2B2F36">불변식, 속성, 평가</text>
+<rect x="980" y="598" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="627" font-size="19" text-anchor="middle" fill="#2B2F36">평가 노드, honors 간선</text>
+<rect x="60" y="654" width="380" height="50" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="2.5"/>
+<text x="250" y="683" font-size="19" text-anchor="middle" fill="#2B2F36">Archive</text>
+<rect x="460" y="654" width="500" height="50" rx="8" fill="#FFFFFF" stroke="#3C8D5A" stroke-width="2.5"/>
+<text x="710" y="683" font-size="19" text-anchor="middle" fill="#2B2F36">참조 해소 대상 전체</text>
+<rect x="980" y="654" width="460" height="50" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="2.5"/>
+<text x="1210" y="683" font-size="19" text-anchor="middle" fill="#2B2F36">LINK 단계의 간선들</text>
+<text x="750" y="718" font-size="19" text-anchor="middle" fill="#2B2F36">빠지는 단계는 없다. 모든 단계가 그래프를 읽거나 쓰거나 둘 다 한다</text>
+</svg>
