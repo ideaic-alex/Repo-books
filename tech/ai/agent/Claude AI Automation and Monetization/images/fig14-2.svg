@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">무엇이 방어력이 되는가</text>
+<text class="h" x="40" y="143" text-anchor="start">모델 접근</text>
+<rect x="400" y="110" width="64" height="48" rx="8" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="484" y="143" text-anchor="start">없음</text>
+<text class="h" x="40" y="209" text-anchor="start">프롬프트 품질</text>
+<rect x="400" y="176" width="240" height="48" rx="8" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="660" y="209" text-anchor="start">낮음~중간</text>
+<text class="h" x="40" y="275" text-anchor="start">도메인 전문성</text>
+<rect x="400" y="242" width="480" height="48" rx="8" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="900" y="275" text-anchor="start">높음</text>
+<text class="h" x="40" y="341" text-anchor="start">고객 관계</text>
+<rect x="400" y="308" width="736" height="48" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1156" y="341" text-anchor="start">매우 높음</text>
+<text class="h" x="40" y="407" text-anchor="start">평판과 사회적 증명</text>
+<rect x="400" y="374" width="736" height="48" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1156" y="407" text-anchor="start">매우 높음</text>
+<text class="h" x="40" y="473" text-anchor="start">독자적 학습 데이터</text>
+<rect x="400" y="440" width="736" height="48" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1156" y="473" text-anchor="start">매우 높음</text>
+<text class="h" x="40" y="539" text-anchor="start">브랜드와 독자층</text>
+<rect x="400" y="506" width="736" height="48" rx="8" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1156" y="539" text-anchor="start">매우 높음</text>
+<text class="s" x="750" y="600" text-anchor="middle">모델 접근은 누구나 가진 기본 조건이고, 오래 쌓이는 것일수록 따라 하기 어렵다.</text>
+</svg>

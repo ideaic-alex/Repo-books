@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">소득 파이프라인 네 가지와 서로의 관계</text>
+<rect x="30" y="110" width="330" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195.0" y="148" text-anchor="middle">고객 확보</text>
+<text class="b" x="195.0" y="178" text-anchor="middle">잠재 고객이 꾸준히 유입</text>
+<text class="b" x="195.0" y="208" text-anchor="middle">다른 셋의 연료</text>
+<text class="b" x="195.0" y="238" text-anchor="middle">매주 가볍게 운영</text>
+<rect x="400" y="110" width="330" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="148" text-anchor="middle">서비스 제공</text>
+<text class="b" x="565.0" y="178" text-anchor="middle">일정한 품질의 결과물</text>
+<text class="b" x="565.0" y="208" text-anchor="middle">의뢰 수익과 직결</text>
+<text class="b" x="565.0" y="238" text-anchor="middle">매일 품질 점검</text>
+<rect x="770" y="110" width="330" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935.0" y="148" text-anchor="middle">콘텐츠 수입</text>
+<text class="b" x="935.0" y="178" text-anchor="middle">독자 증가와 수익화</text>
+<text class="b" x="935.0" y="208" text-anchor="middle">시간이 갈수록 복리</text>
+<text class="b" x="935.0" y="238" text-anchor="middle">꾸준한 중간 강도</text>
+<rect x="1140" y="110" width="330" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1305.0" y="148" text-anchor="middle">상품 수익</text>
+<text class="b" x="1305.0" y="178" text-anchor="middle">디지털 상품 판매</text>
+<text class="b" x="1305.0" y="208" text-anchor="middle">독자 규모에 따라 확장</text>
+<text class="b" x="1305.0" y="238" text-anchor="middle">홍보만 가볍게</text>
+<line x1="362" y1="205" x2="398" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="732" y1="205" x2="768" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1102" y1="205" x2="1138" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="300" y="400" width="900" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="438" text-anchor="middle">콘텐츠 파이프라인이 양쪽에 손님을 보낸다</text>
+<text class="b" x="750.0" y="468" text-anchor="middle">전문성이 알려져 서비스 의뢰가 늘고, 독자가 상품 구매자가 된다</text>
+<line x1="935" y1="300" x2="935" y2="398" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="540" text-anchor="middle">책이 말하는 핵심: 한 번 돌고 끝나는 흐름이 아니라 계속 돌며 좋아지는 흐름을 만든다.</text>
+</svg>

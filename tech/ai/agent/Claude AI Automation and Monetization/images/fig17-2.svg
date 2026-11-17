@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">세 층의 역할 분담과 주간 시간 배분</text>
+<rect x="40" y="110" width="620" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="350.0" y="148" text-anchor="middle">운영자(나)</text>
+<text class="b" x="350.0" y="178" text-anchor="middle">고객 전략과 포지셔닝, 핵심 고객 관계</text>
+<text class="b" x="350.0" y="208" text-anchor="middle">품질 검토와 편집</text>
+<rect x="40" y="260" width="620" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="350.0" y="298" text-anchor="middle">어시스턴트</text>
+<text class="b" x="350.0" y="328" text-anchor="middle">일정, 프로젝트 추적, 고객 연락 실무</text>
+<text class="b" x="350.0" y="358" text-anchor="middle">청구와 행정</text>
+<rect x="40" y="410" width="620" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="350.0" y="448" text-anchor="middle">Claude</text>
+<text class="b" x="350.0" y="478" text-anchor="middle">결과물 첫 초안과 구조화된 대량 제작</text>
+<text class="b" x="350.0" y="508" text-anchor="middle">영업 문안의 초안</text>
+<text class="h" x="1090" y="110" text-anchor="middle">이상적인 주간 시간 배분(책의 예)</text>
+<text class="b" x="720" y="180" text-anchor="start">고객 관계 관리</text>
+<rect x="1000" y="150" width="216" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1216" y="150" width="72" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1300" y="180" text-anchor="start">6~8시간</text>
+<text class="b" x="720" y="242" text-anchor="start">품질 검토와 편집</text>
+<rect x="1000" y="212" width="144" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1144" y="212" width="72" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1228" y="242" text-anchor="start">4~6시간</text>
+<text class="b" x="720" y="304" text-anchor="start">사업 개발</text>
+<rect x="1000" y="274" width="144" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1144" y="274" width="72" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1228" y="304" text-anchor="start">4~6시간</text>
+<text class="b" x="720" y="366" text-anchor="start">시스템과 프롬프트 개선</text>
+<rect x="1000" y="336" width="72" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1072" y="336" width="36" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1120" y="366" text-anchor="start">2~3시간</text>
+<text class="b" x="720" y="428" text-anchor="start">전략 기획</text>
+<rect x="1000" y="398" width="72" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1072" y="398" width="36" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1120" y="428" text-anchor="start">2~3시간</text>
+<text class="b" x="720" y="490" text-anchor="start">행정</text>
+<rect x="1000" y="460" width="36" height="40" rx="6" fill="#3B6EA8" stroke="#3B6EA8" stroke-width="2"/>
+<rect x="1036" y="460" width="36" height="40" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1084" y="490" text-anchor="start">1~2시간</text>
+<text class="s" x="1090" y="550" text-anchor="middle">합계 19~28시간. 진한 부분은 최소치, 옅은 부분은 최대치까지의 폭이다.</text>
+</svg>

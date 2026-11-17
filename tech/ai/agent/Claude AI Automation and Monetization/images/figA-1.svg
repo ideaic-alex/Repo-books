@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="680" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">열 가지 프레임워크 지도</text>
+<rect x="50" y="100" width="335" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="140" text-anchor="middle">사고의 틀</text>
+<rect x="50" y="190" width="335" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="230" text-anchor="middle">1 레버리지 세 층</text>
+<text class="b" x="217.5" y="262" text-anchor="middle">속도, 일관성, 규모</text>
+<rect x="50" y="330" width="335" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="370" text-anchor="middle">2 3층 워크플로</text>
+<text class="b" x="217.5" y="402" text-anchor="middle">입력, 처리, 출력</text>
+<rect x="405" y="100" width="335" height="70" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="140" text-anchor="middle">프롬프트 설계</text>
+<rect x="405" y="190" width="335" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="230" text-anchor="middle">3 프롬프트 스택</text>
+<text class="b" x="572.5" y="262" text-anchor="middle">기반에서 제약 보정까지 5단</text>
+<rect x="405" y="330" width="335" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="370" text-anchor="middle">4 CRAFT</text>
+<text class="b" x="572.5" y="402" text-anchor="middle">맥락, 역할, 행동,</text>
+<text class="b" x="572.5" y="430" text-anchor="middle">형식, 어조</text>
+<rect x="405" y="470" width="335" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="510" text-anchor="middle">5 CRAFT-X</text>
+<text class="b" x="572.5" y="542" text-anchor="middle">실행 제약, 대체 형식,</text>
+<text class="b" x="572.5" y="570" text-anchor="middle">다층 역할</text>
+<rect x="760" y="100" width="335" height="70" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="140" text-anchor="middle">만들고 심사하기</text>
+<rect x="760" y="190" width="335" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="230" text-anchor="middle">6 다섯 단계 설계</text>
+<text class="b" x="927.5" y="262" text-anchor="middle">정의, 지도, 구축,</text>
+<text class="b" x="927.5" y="290" text-anchor="middle">시험, 자동화</text>
+<rect x="760" y="330" width="335" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="370" text-anchor="middle">7 PAVED</text>
+<text class="b" x="927.5" y="402" text-anchor="middle">마이크로 SaaS 아이디어 심사</text>
+<rect x="760" y="470" width="335" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="510" text-anchor="middle">8 에이전시 네 요소</text>
+<text class="b" x="927.5" y="542" text-anchor="middle">생산, 고객, 품질, 영업</text>
+<rect x="1115" y="100" width="335" height="70" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="140" text-anchor="middle">성장과 장기</text>
+<rect x="1115" y="190" width="335" height="125" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="230" text-anchor="middle">9 3단계 로드맵</text>
+<text class="b" x="1282.5" y="262" text-anchor="middle">기초, 탄력, 확장</text>
+<rect x="1115" y="330" width="335" height="125" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="370" text-anchor="middle">10 복리 자산 다섯</text>
+<text class="b" x="1282.5" y="402" text-anchor="middle">전문성, 관계, 콘텐츠,</text>
+<text class="b" x="1282.5" y="430" text-anchor="middle">평판, 시스템</text>
+<text class="s" x="750" y="650" text-anchor="middle">번호는 부록 A가 소개하는 순서이며, 각 틀은 해당 장에서 자세히 다뤘다.</text>
+</svg>

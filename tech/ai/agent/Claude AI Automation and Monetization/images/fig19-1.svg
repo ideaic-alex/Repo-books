@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">n8n 기반 API 체인과 운영 안전장치</text>
+<rect x="40" y="110" width="310" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195.0" y="144" text-anchor="middle">1. 트리거</text>
+<text class="b" x="195.0" y="174" text-anchor="middle">예약 실행, 웹훅</text>
+<text class="b" x="195.0" y="202" text-anchor="middle">새 데이터가 들어옴</text>
+<rect x="410" y="110" width="310" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="144" text-anchor="middle">2. 맥락 조회</text>
+<text class="b" x="565.0" y="174" text-anchor="middle">DB, 외부 서비스에서</text>
+<text class="b" x="565.0" y="202" text-anchor="middle">필요한 자료를 가져옴</text>
+<rect x="780" y="110" width="310" height="130" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935.0" y="144" text-anchor="middle">3. Claude 호출</text>
+<text class="b" x="935.0" y="174" text-anchor="middle">HTTP Request 노드</text>
+<text class="b" x="935.0" y="202" text-anchor="middle">프롬프트와 입력을 변수로</text>
+<rect x="1150" y="110" width="310" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1305.0" y="144" text-anchor="middle">4. 저장과 전달</text>
+<text class="b" x="1305.0" y="174" text-anchor="middle">DB 저장, 메일·메신저</text>
+<text class="b" x="1305.0" y="202" text-anchor="middle">CMS 게시</text>
+<line x1="352" y1="175" x2="408" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="722" y1="175" x2="778" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1092" y1="175" x2="1148" y2="175" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="290" text-anchor="middle">앞 노드의 출력이 다음 노드의 입력이 된다. 인계 지점마다 데이터 구조를 정해 둔다.</text>
+<text class="h" x="750" y="340" text-anchor="middle">운영 안전장치</text>
+<rect x="40" y="370" width="310" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="195.0" y="404" text-anchor="middle">큐와 속도 제한</text>
+<text class="b" x="195.0" y="434" text-anchor="middle">호출 간격을 벌려</text>
+<text class="b" x="195.0" y="462" text-anchor="middle">분당 한도 안에서 처리</text>
+<rect x="410" y="370" width="310" height="130" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="565.0" y="404" text-anchor="middle">재시도와 백오프</text>
+<text class="b" x="565.0" y="434" text-anchor="middle">실패 항목을 늘어나는</text>
+<text class="b" x="565.0" y="462" text-anchor="middle">간격으로 다시 시도</text>
+<rect x="780" y="370" width="310" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="935.0" y="404" text-anchor="middle">프롬프트 분리 보관</text>
+<text class="b" x="935.0" y="434" text-anchor="middle">DB나 설정 파일에 두고</text>
+<text class="b" x="935.0" y="462" text-anchor="middle">워크플로를 안 고침</text>
+<rect x="1150" y="370" width="310" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1305.0" y="404" text-anchor="middle">모니터링과 비용 경보</text>
+<text class="b" x="1305.0" y="434" text-anchor="middle">실패 알림, 진행 확인</text>
+<text class="b" x="1305.0" y="462" text-anchor="middle">월 비용 한도 설정</text>
+<text class="s" x="750" y="545" text-anchor="middle">운영에 올리기 전에 네 가지 안전장치와 월 API 비용 계산을 먼저 갖춘다.</text>
+</svg>

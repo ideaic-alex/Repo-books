@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">에이전시 시작 전 준비 순서</text>
+<rect x="25" y="130" width="250" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="150.0" y="168" text-anchor="middle">1 틈새 선택</text>
+<text class="b" x="150.0" y="200" text-anchor="middle">산업이나 문제</text>
+<text class="b" x="150.0" y="228" text-anchor="middle">유형을 좁힘</text>
+<text class="s" x="150.0" y="256" text-anchor="middle">포지셔닝 문장</text>
+<line x1="277" y1="225" x2="321" y2="225" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="325" y="130" width="250" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="450.0" y="168" text-anchor="middle">2 핵심 시스템</text>
+<text class="b" x="450.0" y="200" text-anchor="middle">산출물 시스템</text>
+<text class="b" x="450.0" y="228" text-anchor="middle">시험 완료</text>
+<text class="s" x="450.0" y="256" text-anchor="middle">접수, 검토, 소통</text>
+<line x1="577" y1="225" x2="621" y2="225" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="625" y="130" width="250" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="168" text-anchor="middle">3 가격 구성</text>
+<text class="b" x="750.0" y="200" text-anchor="middle">리테이너 중심</text>
+<text class="b" x="750.0" y="228" text-anchor="middle">세 단계 패키지</text>
+<text class="s" x="750.0" y="256" text-anchor="middle">프로젝트는 보조</text>
+<line x1="877" y1="225" x2="921" y2="225" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="925" y="130" width="250" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1050.0" y="168" text-anchor="middle">4 첫 고객</text>
+<text class="b" x="1050.0" y="200" text-anchor="middle">기존 인맥에서</text>
+<text class="b" x="1050.0" y="228" text-anchor="middle">시작</text>
+<text class="s" x="1050.0" y="256" text-anchor="middle">소개로 확장</text>
+<line x1="1177" y1="225" x2="1221" y2="225" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1225" y="130" width="250" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1350.0" y="168" text-anchor="middle">5 팀 확장</text>
+<text class="b" x="1350.0" y="200" text-anchor="middle">고객 담당과</text>
+<text class="b" x="1350.0" y="228" text-anchor="middle">품질 검토자</text>
+<text class="s" x="1350.0" y="256" text-anchor="middle">시스템 뒤에 채용</text>
+<rect x="300" y="380" width="900" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="418" text-anchor="middle">순서가 뒤집히면 생기는 문제</text>
+<text class="b" x="750.0" y="450" text-anchor="middle">시스템 없이 고객을 받으면 평판이 나빠지고, 시스템 없이 사람을 뽑으면 품질이 흔들린다</text>
+<text class="s" x="750" y="538" text-anchor="middle">책은 프로젝트 매출이 40퍼센트를 넘으면 구조적으로 취약하다고 본다(책의 기준).</text>
+</svg>

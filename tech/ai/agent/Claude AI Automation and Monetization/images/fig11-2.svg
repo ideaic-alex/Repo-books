@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">마이크로 SaaS 여섯 단계 로드맵</text>
+<rect x="25" y="130" width="225" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="137.5" y="168" text-anchor="middle">1 검증</text>
+<text class="b" x="137.5" y="200" text-anchor="middle">인터뷰와</text>
+<text class="b" x="137.5" y="228" text-anchor="middle">경쟁 조사</text>
+<text class="s" x="137.5" y="256" text-anchor="middle">1~2주</text>
+<text class="s" x="137.5" y="280" text-anchor="middle">10명 이상 지불 의향</text>
+<line x1="252" y1="255" x2="268" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="270" y="130" width="225" height="250" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="382.5" y="168" text-anchor="middle">2 시제품</text>
+<text class="b" x="382.5" y="200" text-anchor="middle">코드 없이</text>
+<text class="b" x="382.5" y="228" text-anchor="middle">수동 운영</text>
+<text class="s" x="382.5" y="256" text-anchor="middle">1~2주</text>
+<text class="s" x="382.5" y="280" text-anchor="middle">첫 유료 고객</text>
+<line x1="497" y1="255" x2="513" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="515" y="130" width="225" height="250" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="627.5" y="168" text-anchor="middle">3 MVP</text>
+<text class="b" x="627.5" y="200" text-anchor="middle">최소 화면과</text>
+<text class="b" x="627.5" y="228" text-anchor="middle">API, 결제</text>
+<text class="s" x="627.5" y="256" text-anchor="middle">2~4주</text>
+<text class="s" x="627.5" y="280" text-anchor="middle">URL에서 결제</text>
+<line x1="742" y1="255" x2="758" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="760" y="130" width="225" height="250" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="872.5" y="168" text-anchor="middle">4 출시</text>
+<text class="b" x="872.5" y="200" text-anchor="middle">베타 사용자</text>
+<text class="b" x="872.5" y="228" text-anchor="middle">모집</text>
+<text class="s" x="872.5" y="256" text-anchor="middle">2~4주</text>
+<text class="s" x="872.5" y="280" text-anchor="middle">30일 유지율 확인</text>
+<line x1="987" y1="255" x2="1003" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1005" y="130" width="225" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1117.5" y="168" text-anchor="middle">5 개선</text>
+<text class="b" x="1117.5" y="200" text-anchor="middle">행동과 피드백</text>
+<text class="b" x="1117.5" y="228" text-anchor="middle">반영</text>
+<text class="s" x="1117.5" y="256" text-anchor="middle">지속</text>
+<text class="s" x="1117.5" y="280" text-anchor="middle">추천 의향 개선</text>
+<line x1="1232" y1="255" x2="1248" y2="255" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1250" y="130" width="225" height="250" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1362.5" y="168" text-anchor="middle">6 확장</text>
+<text class="b" x="1362.5" y="200" text-anchor="middle">콘텐츠, 제휴</text>
+<text class="b" x="1362.5" y="228" text-anchor="middle">유료 유입</text>
+<text class="s" x="1362.5" y="256" text-anchor="middle">3개월째부터</text>
+<text class="s" x="1362.5" y="280" text-anchor="middle">월 매출 증가</text>
+<rect x="250" y="430" width="1000" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="468" text-anchor="middle">핵심 방어선</text>
+<text class="b" x="750.0" y="500" text-anchor="middle">2단계 수동 시제품에서 돈을 내는 사람이 나온 뒤에 만든다</text>
+<text class="s" x="750" y="578" text-anchor="middle">기간과 기준은 책의 예이며 제품과 시장에 따라 달라진다.</text>
+</svg>

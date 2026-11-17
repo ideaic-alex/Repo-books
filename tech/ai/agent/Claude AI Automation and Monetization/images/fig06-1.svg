@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">프리미엄 포지셔닝을 받치는 네 기둥</text>
+<polygon points="40,150 750,90 1460,150" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="140" text-anchor="middle">가격이 아니라 범주가 다르다</text>
+<rect x="40" y="175" width="322" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="201" y="215" text-anchor="middle">구체성</text>
+<text class="s" x="201" y="242" text-anchor="middle">Specificity</text>
+<text class="b" x="201" y="285" text-anchor="middle">아주 구체적인 고객</text>
+<text class="b" x="201" y="321" text-anchor="middle">아주 구체적인 문제</text>
+<text class="b" x="201" y="357" text-anchor="middle">누구를 위한지 한 줄로</text>
+<rect x="406" y="175" width="322" height="250" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="567" y="215" text-anchor="middle">증거</text>
+<text class="s" x="567" y="242" text-anchor="middle">Evidence</text>
+<text class="b" x="567" y="285" text-anchor="middle">잘 푼다는 기록</text>
+<text class="b" x="567" y="321" text-anchor="middle">측정 가능한 사례</text>
+<text class="b" x="567" y="357" text-anchor="middle">샘플보다 결과 중심</text>
+<rect x="772" y="175" width="322" height="250" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="933" y="215" text-anchor="middle">체계</text>
+<text class="s" x="933" y="242" text-anchor="middle">System</text>
+<text class="b" x="933" y="285" text-anchor="middle">정해진 전문 절차</text>
+<text class="b" x="933" y="321" text-anchor="middle">매번 같은 품질</text>
+<text class="b" x="933" y="357" text-anchor="middle">Claude 시스템이 기반</text>
+<rect x="1138" y="175" width="322" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1299" y="215" text-anchor="middle">속도</text>
+<text class="s" x="1299" y="242" text-anchor="middle">Speed</text>
+<text class="b" x="1299" y="285" text-anchor="middle">AI 없는 경쟁자보다 빠름</text>
+<text class="b" x="1299" y="321" text-anchor="middle">빨라진 만큼 내 이익</text>
+<text class="b" x="1299" y="357" text-anchor="middle">시간이 아닌 가치로 가격</text>
+<rect x="40" y="440" width="1420" height="8" rx="2" fill="#F9E8E8" stroke="#B5524A" stroke-width="1"/>
+<rect x="40" y="470" width="560" height="110" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="320" y="510" text-anchor="middle">일반 프리랜서</text>
+<text class="b" x="320" y="545" text-anchor="middle">시간이나 단어 수로 과금, 문의를 기다림</text>
+<line x1="620" y1="525" x2="880" y2="525" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="505" text-anchor="middle">패키지화와 능동 접근</text>
+<rect x="900" y="470" width="560" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1180" y="510" text-anchor="middle">프리미엄 AI 프리랜서</text>
+<text class="b" x="1180" y="545" text-anchor="middle">패키지·정기 계약으로 과금, 이상 고객에 접근</text>
+<text class="s" x="750" y="640" text-anchor="middle">세 단계 패키지(입문, 중간, 상위)로 설계하고, 결과물 검수와 고객과의 관계는 사람이 맡는다.</text>
+</svg>

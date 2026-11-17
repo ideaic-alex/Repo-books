@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">복리 자산과 기술 위험의 지도</text>
+<text class="h" x="300" y="118" text-anchor="middle">사업 요소</text>
+<text class="h" x="750" y="118" text-anchor="middle">기술 위험(책의 평가)</text>
+<text class="h" x="1200" y="118" text-anchor="middle">대비 방향</text>
+<rect x="40" y="140" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300" y="179" text-anchor="middle">기본 AI 프롬프트 실행</text>
+<rect x="640" y="140" width="220" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="179" text-anchor="middle">높음</text>
+<text class="b" x="1200" y="179" text-anchor="middle">시스템 설계로 이동</text>
+<line x1="865" y1="171" x2="1000" y2="171" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="218" width="520" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="300" y="257" text-anchor="middle">일반 콘텐츠 제작</text>
+<rect x="640" y="218" width="220" height="62" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="257" text-anchor="middle">높음</text>
+<text class="b" x="1200" y="257" text-anchor="middle">브랜드와 목소리 구축</text>
+<line x1="865" y1="249" x2="1000" y2="249" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="296" width="520" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="300" y="335" text-anchor="middle">도메인 특화 분석</text>
+<rect x="640" y="296" width="220" height="62" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="335" text-anchor="middle">중간</text>
+<text class="b" x="1200" y="335" text-anchor="middle">도메인 깊이, 독자 틀</text>
+<line x1="865" y1="327" x2="1000" y2="327" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="374" width="520" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="300" y="413" text-anchor="middle">고객 관계</text>
+<rect x="640" y="374" width="220" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="413" text-anchor="middle">낮음</text>
+<text class="b" x="1200" y="413" text-anchor="middle">관계의 질에 투자</text>
+<line x1="865" y1="405" x2="1000" y2="405" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="452" width="520" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="300" y="491" text-anchor="middle">평판과 실적</text>
+<rect x="640" y="452" width="220" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="491" text-anchor="middle">매우 낮음</text>
+<text class="b" x="1200" y="491" text-anchor="middle">성과를 기록하고 공개</text>
+<line x1="865" y1="483" x2="1000" y2="483" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="530" width="520" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="300" y="569" text-anchor="middle">커뮤니티와 네트워크</text>
+<rect x="640" y="530" width="220" height="62" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="569" text-anchor="middle">매우 낮음</text>
+<text class="b" x="1200" y="569" text-anchor="middle">꾸준히 쌓기</text>
+<line x1="865" y1="561" x2="1000" y2="561" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="640" text-anchor="middle">위로 갈수록 범용화되기 쉽고, 아래로 갈수록 시간이 쌓아 주는 자산이다.</text>
+</svg>

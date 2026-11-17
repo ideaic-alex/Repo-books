@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">PAVED 다섯 기준으로 아이디어 거르기</text>
+<rect x="25" y="110" width="270" height="220" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="160.0" y="148" text-anchor="middle">P 문제</text>
+<text class="b" x="160.0" y="180" text-anchor="middle">아프고 자주</text>
+<text class="b" x="160.0" y="208" text-anchor="middle">겪는 문제인가</text>
+<text class="s" x="160.0" y="236" text-anchor="middle">위험: 있으면 좋은 정도</text>
+<rect x="320" y="110" width="270" height="220" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="455.0" y="148" text-anchor="middle">A 독자</text>
+<text class="b" x="455.0" y="180" text-anchor="middle">효율적으로</text>
+<text class="b" x="455.0" y="208" text-anchor="middle">닿을 수 있나</text>
+<text class="s" x="455.0" y="236" text-anchor="middle">위험: 모이는 곳 없음</text>
+<rect x="615" y="110" width="270" height="220" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="148" text-anchor="middle">V 수요</text>
+<text class="b" x="750.0" y="180" text-anchor="middle">돈을 내고 푸는</text>
+<text class="b" x="750.0" y="208" text-anchor="middle">증거가 있나</text>
+<text class="s" x="750.0" y="236" text-anchor="middle">위험: 대안이 전혀 없음</text>
+<rect x="910" y="110" width="270" height="220" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1045.0" y="148" text-anchor="middle">E 실행</text>
+<text class="b" x="1045.0" y="180" text-anchor="middle">4~8주 안에</text>
+<text class="b" x="1045.0" y="208" text-anchor="middle">출시 가능한가</text>
+<text class="s" x="1045.0" y="236" text-anchor="middle">위험: Claude로 불가</text>
+<rect x="1205" y="110" width="270" height="220" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1340.0" y="148" text-anchor="middle">D 유통</text>
+<text class="b" x="1340.0" y="180" text-anchor="middle">첫 고객 50명이</text>
+<text class="b" x="1340.0" y="208" text-anchor="middle">어디 있는지 아나</text>
+<text class="s" x="1340.0" y="236" text-anchor="middle">위험: 첫 경로가 없음</text>
+<rect x="300" y="380" width="900" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="418" text-anchor="middle">하나라도 통과하지 못하면</text>
+<text class="b" x="750.0" y="450" text-anchor="middle">시장에서 실패할 가능성이 훨씬 높다고 책은 본다</text>
+<text class="s" x="750" y="518" text-anchor="middle">통과하면 코드 없는 수동 시제품으로 수요를 먼저 확인한다.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">월 1만 달러로 가는 3단계 로드맵</text>
+<rect x="40" y="110" width="440" height="270" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="148" text-anchor="middle">1단계 기초</text>
+<text class="b" x="260.0" y="180" text-anchor="middle">1~2개월</text>
+<text class="b" x="260.0" y="208" text-anchor="middle">모델을 실제 매출로 증명</text>
+<text class="s" x="260.0" y="236" text-anchor="middle">첫 고객 두세 곳 확보</text>
+<text class="s" x="260.0" y="260" text-anchor="middle">사례 자료 수집</text>
+<text class="s" x="260.0" y="284" text-anchor="middle">2개월 말 가격 점검</text>
+<line x1="482" y1="245" x2="566" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="530" y="110" width="440" height="270" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750.0" y="148" text-anchor="middle">2단계 모멘텀</text>
+<text class="b" x="750.0" y="180" text-anchor="middle">3~5개월</text>
+<text class="b" x="750.0" y="208" text-anchor="middle">잘 되는 것을 시스템화</text>
+<text class="s" x="750.0" y="236" text-anchor="middle">사례 연구 공개</text>
+<text class="s" x="750.0" y="260" text-anchor="middle">추천 프로그램</text>
+<text class="s" x="750.0" y="284" text-anchor="middle">두 번째 수입원</text>
+<line x1="972" y1="245" x2="1056" y2="245" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1020" y="110" width="440" height="270" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240.0" y="148" text-anchor="middle">3단계 확장</text>
+<text class="b" x="1240.0" y="180" text-anchor="middle">6~9개월</text>
+<text class="b" x="1240.0" y="208" text-anchor="middle">검증된 것을 키움</text>
+<text class="s" x="1240.0" y="236" text-anchor="middle">팀원 최소 한 명</text>
+<text class="s" x="1240.0" y="260" text-anchor="middle">리드 생성 체계</text>
+<text class="s" x="1240.0" y="284" text-anchor="middle">고가 상품 추가</text>
+<rect x="300" y="420" width="900" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="458" text-anchor="middle">단계마다 가격을 다시 본다</text>
+<text class="b" x="750.0" y="490" text-anchor="middle">금액 구간은 책의 예이며 목표가 아니라 점검 기준으로 쓴다</text>
+<text class="s" x="750" y="558" text-anchor="middle">목표는 단가 곱하기 고객 수로 쪼개고, 모델마다 병목이 다르다.</text>
+</svg>

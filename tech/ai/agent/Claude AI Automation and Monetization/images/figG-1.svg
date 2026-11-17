@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">추가 사례 네 편의 공통 패턴</text>
+<rect x="50" y="100" width="335" height="280" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="140" text-anchor="middle">1 의료 행정 실무자</text>
+<text class="b" x="217.5" y="172" text-anchor="middle">출발: 반복 행정 업무 과다</text>
+<text class="b" x="217.5" y="200" text-anchor="middle">구축: Zapier와 Claude</text>
+<text class="b" x="217.5" y="228" text-anchor="middle">시스템 셋: 환영 메일,</text>
+<text class="b" x="217.5" y="256" text-anchor="middle">사전 승인 후속, 퇴원 요약</text>
+<text class="b" x="217.5" y="284" text-anchor="middle">결과: 행정 시간 대폭 절감</text>
+<text class="b" x="217.5" y="312" text-anchor="middle">컨설팅 부업으로 확장</text>
+<rect x="405" y="100" width="335" height="280" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="140" text-anchor="middle">2 에이전시 운영자</text>
+<text class="b" x="572.5" y="172" text-anchor="middle">출발: 작성자마다 품질 편차</text>
+<text class="b" x="572.5" y="200" text-anchor="middle">작성자 역할을 재설계</text>
+<text class="b" x="572.5" y="228" text-anchor="middle">고객 파악과 편집 담당</text>
+<text class="b" x="572.5" y="256" text-anchor="middle">고객별 콘텐츠 시스템 구축</text>
+<text class="b" x="572.5" y="284" text-anchor="middle">결과: 물량과 매출 증가</text>
+<text class="b" x="572.5" y="312" text-anchor="middle">품질 일관성 향상(주장)</text>
+<rect x="760" y="100" width="335" height="280" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="140" text-anchor="middle">3 기술 문서 작가</text>
+<text class="b" x="927.5" y="172" text-anchor="middle">출발: 시간당 청구, 한계</text>
+<text class="b" x="927.5" y="200" text-anchor="middle">전환: 문서 시스템 설계와</text>
+<text class="b" x="927.5" y="228" text-anchor="middle">구축을 프로젝트로 판매</text>
+<text class="b" x="927.5" y="256" text-anchor="middle">교육 세션까지 패키지화</text>
+<text class="b" x="927.5" y="284" text-anchor="middle">결과: 수입 증가,</text>
+<text class="b" x="927.5" y="312" text-anchor="middle">근무 시간은 감소(주장)</text>
+<rect x="1115" y="100" width="335" height="280" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="140" text-anchor="middle">4 AI 우선 창업가</text>
+<text class="b" x="1282.5" y="172" text-anchor="middle">출발: 처음부터 AI가 생산</text>
+<text class="b" x="1282.5" y="200" text-anchor="middle">온보딩 설문으로 맥락 저장</text>
+<text class="b" x="1282.5" y="228" text-anchor="middle">개인화 주간 자료 제공</text>
+<text class="b" x="1282.5" y="256" text-anchor="middle">결과: 구독형 성장,</text>
+<text class="b" x="1282.5" y="284" text-anchor="middle">높은 마진(책이 제시)</text>
+<text class="b" x="1282.5" y="312" text-anchor="middle">개인화가 전환 비용이 됨</text>
+<rect x="50" y="410" width="1400" height="100" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="450" text-anchor="middle">공통 패턴: 반복 업무를 시스템으로 바꾸고, 사람은 고객 이해와 판단과 검토에 집중한다</text>
+<text class="b" x="750" y="485" text-anchor="middle">책은 이를 시간당 판매에서 시스템 판매로의 이동으로 보여 준다</text>
+<text class="s" x="750" y="560" text-anchor="middle">수치와 결과는 책의 사례이며 노트 작성자가 검증하지 않았다.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="600" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">호스팅형 노코드에서 n8n으로 넘어가는 신호</text>
+<rect x="40" y="130" width="360" height="260" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="220.0" y="164" text-anchor="middle">Zapier·Make</text>
+<text class="b" x="220.0" y="194" text-anchor="middle">입문, 소량 작업</text>
+<text class="b" x="220.0" y="222" text-anchor="middle">설치 없이 시작</text>
+<text class="b" x="220.0" y="250" text-anchor="middle">실행량만큼 과금</text>
+<text class="b" x="220.0" y="278" text-anchor="middle">데이터는 외부 클라우드</text>
+<rect x="1100" y="130" width="360" height="260" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1280.0" y="164" text-anchor="middle">n8n 자체 호스팅</text>
+<text class="b" x="1280.0" y="194" text-anchor="middle">대량, 맞춤 요구, 에이전시</text>
+<text class="b" x="1280.0" y="222" text-anchor="middle">서버 설치와 관리 필요</text>
+<text class="b" x="1280.0" y="250" text-anchor="middle">실행당 요금 없음</text>
+<text class="b" x="1280.0" y="278" text-anchor="middle">데이터는 내 서버</text>
+<rect x="500" y="110" width="500" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750" y="148" text-anchor="middle">실행량이 늘어 비용이 부담된다</text>
+<rect x="500" y="182" width="500" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750" y="220" text-anchor="middle">복잡한 분기와 맞춤 변환이 필요하다</text>
+<rect x="500" y="254" width="500" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750" y="292" text-anchor="middle">고객이 외부 클라우드 전송을 막는다</text>
+<rect x="500" y="326" width="500" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750" y="364" text-anchor="middle">워크플로를 버전 관리하고 싶다</text>
+<line x1="405" y1="260" x2="495" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1005" y1="260" x2="1095" y2="260" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="750" y="430" text-anchor="middle">위 신호가 겹칠수록 이동을 검토한다</text>
+<rect x="300" y="460" width="900" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="750" y="498" text-anchor="middle">이동에는 서버 운영, 보안, 장애 대응이라는 새 부담이 따른다.</text>
+<text class="b" x="750" y="528" text-anchor="middle">소량이고 단순하면 지금 도구를 그대로 쓰는 편이 낫다.</text>
+</svg>

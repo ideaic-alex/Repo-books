@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">다섯 가지 산출물과 점검 포인트</text>
+<rect x="50" y="100" width="330" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="215" y="155" text-anchor="middle">시장 조사 브리프</text>
+<rect x="400" y="100" width="1050" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="925" y="155" text-anchor="middle">구체적 사실 다섯 개 이상, 구간별 분량과 근거 출처, 뚜렷한 기회 진술</text>
+<rect x="50" y="208" width="330" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="215" y="263" text-anchor="middle">콘텐츠 전략 문서</text>
+<rect x="400" y="208" width="1050" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="925" y="263" text-anchor="middle">독자, 기둥, 차별 각도, 발행 주기, 측정 지표, 90일 달력</text>
+<rect x="50" y="316" width="330" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="215" y="371" text-anchor="middle">자동화 감사 보고서</text>
+<rect x="400" y="316" width="1050" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="925" y="371" text-anchor="middle">현황 지도, 실측 시간, ROI 순위, 실행 가능성, 단계별 로드맵, 회수 기간</text>
+<rect x="50" y="424" width="330" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="215" y="479" text-anchor="middle">이메일 캠페인</text>
+<rect x="400" y="424" width="1050" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="925" y="479" text-anchor="middle">구체적 제목, 한 메일 한 아이디어, 구체적 사실, 단일 행동 유도, 알맞은 길이</text>
+<rect x="50" y="532" width="330" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="215" y="587" text-anchor="middle">컨설팅 제안서</text>
+<rect x="400" y="532" width="1050" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="925" y="587" text-anchor="middle">고객 상황 이해, 한 단계 깊은 문제 정의, 구체 산출물, 명확한 가격과 범위</text>
+<rect x="50" y="650" width="1400" height="80" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="700" text-anchor="middle">교체 테스트: 다른 시장 이름을 넣어도 그대로 읽힌다면 구체성이 부족한 것이다</text>
+</svg>

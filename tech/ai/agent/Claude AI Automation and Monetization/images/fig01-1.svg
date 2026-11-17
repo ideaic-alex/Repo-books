@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">AI 레버리지의 세 층과 기회의 창</text>
+<text class="h" x="360" y="108" text-anchor="middle">세 층의 레버리지 (아래에서 위로)</text>
+<rect x="40" y="125" width="640" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="360" y="170" text-anchor="middle">3층 규모</text>
+<text class="b" x="360" y="205" text-anchor="middle">시간과 수입이 비례하는 한계를 깬다</text>
+<rect x="40" y="275" width="640" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="360" y="320" text-anchor="middle">2층 일관성</text>
+<text class="b" x="360" y="355" text-anchor="middle">많은 양에서도 품질 기준을 유지한다</text>
+<rect x="40" y="425" width="640" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="360" y="470" text-anchor="middle">1층 속도</text>
+<text class="b" x="360" y="505" text-anchor="middle">기존 작업을 더 빨리 끝낸다 (대부분 여기서 멈춤)</text>
+<line x1="360" y1="423" x2="360" y2="388" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="360" y1="273" x2="360" y2="238" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="1140" y="108" text-anchor="middle">기회의 창 네 국면 (저자의 전망)</text>
+<rect x="820" y="125" width="640" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1140" y="163" text-anchor="middle">초기 우위 (지금)</text>
+<text class="b" x="1140" y="193" text-anchor="middle">격차가 크고 고객이 AI 운영자를 찾는다</text>
+<rect x="820" y="237" width="640" height="90" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1140" y="275" text-anchor="middle">대중화 (1~2년 뒤)</text>
+<text class="b" x="1140" y="305" text-anchor="middle">격차가 줄어 깊이가 차별점이 된다</text>
+<rect x="820" y="349" width="640" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1140" y="387" text-anchor="middle">범용화 (2~4년 뒤)</text>
+<text class="b" x="1140" y="417" text-anchor="middle">기본 사용은 당연, 시스템 설계 품질이 차별점</text>
+<rect x="820" y="461" width="640" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1140" y="499" text-anchor="middle">성숙 시장 (4년 이후)</text>
+<text class="b" x="1140" y="529" text-anchor="middle">평판과 검증된 시스템이 방어력이 된다</text>
+<line x1="1140" y1="217" x2="1140" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1140" y1="329" x2="1140" y2="347" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1140" y1="441" x2="1140" y2="459" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="610" text-anchor="middle">책의 주장을 정리한 그림이며 시기 구분은 저자의 전망으로 노트가 검증하지 않았다.</text>
+</svg>

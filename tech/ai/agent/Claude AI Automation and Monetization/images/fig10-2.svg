@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">7일 출시 시퀀스와 Claude의 역할</text>
+<rect x="25" y="150" width="190" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="120.0" y="188" text-anchor="middle">1일</text>
+<text class="b" x="120.0" y="220" text-anchor="middle">문제 인식</text>
+<text class="s" x="120.0" y="248" text-anchor="middle">문제와의</text>
+<text class="s" x="120.0" y="272" text-anchor="middle">관련성 확립</text>
+<rect x="235" y="150" width="190" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="330.0" y="188" text-anchor="middle">2일</text>
+<text class="b" x="330.0" y="220" text-anchor="middle">이야기</text>
+<text class="s" x="330.0" y="248" text-anchor="middle">변화를 보여</text>
+<text class="s" x="330.0" y="272" text-anchor="middle">감정적 연결</text>
+<rect x="445" y="150" width="190" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="540.0" y="188" text-anchor="middle">3일</text>
+<text class="b" x="540.0" y="220" text-anchor="middle">무료 팁</text>
+<text class="s" x="540.0" y="248" text-anchor="middle">전문성을</text>
+<text class="s" x="540.0" y="272" text-anchor="middle">증명</text>
+<rect x="655" y="150" width="190" height="200" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="188" text-anchor="middle">4일</text>
+<text class="b" x="750.0" y="220" text-anchor="middle">상품 발표</text>
+<text class="s" x="750.0" y="248" text-anchor="middle">해결책을</text>
+<text class="s" x="750.0" y="272" text-anchor="middle">소개</text>
+<rect x="865" y="150" width="190" height="200" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="960.0" y="188" text-anchor="middle">5일</text>
+<text class="b" x="960.0" y="220" text-anchor="middle">후기와 FAQ</text>
+<text class="s" x="960.0" y="248" text-anchor="middle">망설임을</text>
+<text class="s" x="960.0" y="272" text-anchor="middle">제거</text>
+<rect x="1075" y="150" width="190" height="200" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1170.0" y="188" text-anchor="middle">6일</text>
+<text class="b" x="1170.0" y="220" text-anchor="middle">마감 임박</text>
+<text class="s" x="1170.0" y="248" text-anchor="middle">고민하는 사람</text>
+<text class="s" x="1170.0" y="272" text-anchor="middle">결정 유도</text>
+<rect x="1285" y="150" width="190" height="200" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1380.0" y="188" text-anchor="middle">7일</text>
+<text class="b" x="1380.0" y="220" text-anchor="middle">마지막 안내</text>
+<text class="s" x="1380.0" y="248" text-anchor="middle">마지막 날</text>
+<text class="s" x="1380.0" y="272" text-anchor="middle">구매자 확보</text>
+<text class="s" x="305" y="135" text-anchor="middle">가치를 먼저 보여 준다</text>
+<text class="s" x="815" y="135" text-anchor="middle">발표</text>
+<text class="s" x="1175" y="135" text-anchor="middle">확신을 얻는다</text>
+<rect x="250" y="395" width="1000" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="433" text-anchor="middle">Claude의 역할</text>
+<text class="b" x="750.0" y="465" text-anchor="middle">매일의 초안을 쓴다. 후기와 마감은 실제 근거가 있어야 한다</text>
+<text class="s" x="750" y="538" text-anchor="middle">각 날의 메일이나 게시물 초안은 Claude가 쓰고, 사실 확인과 발송은 사람이 한다.</text>
+</svg>

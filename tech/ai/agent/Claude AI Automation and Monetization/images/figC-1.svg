@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">도구 여섯 범주</text>
+<rect x="50" y="100" width="450" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="275.0" y="140" text-anchor="middle">1 AI 모델과 API</text>
+<text class="b" x="275.0" y="172" text-anchor="middle">Claude 웹과 API가 중심</text>
+<text class="b" x="275.0" y="200" text-anchor="middle">필요 시 GPT-4를 보조 모델로</text>
+<text class="b" x="275.0" y="228" text-anchor="middle">요금과 한도는 공식 문서 확인</text>
+<rect x="525" y="100" width="450" height="200" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="140" text-anchor="middle">2 자동화 플랫폼</text>
+<text class="b" x="750.0" y="172" text-anchor="middle">Zapier: 입문, 짧은 흐름</text>
+<text class="b" x="750.0" y="200" text-anchor="middle">Make: 중간 복잡도, 데이터 변환</text>
+<text class="b" x="750.0" y="228" text-anchor="middle">n8n, Pipedream: 대량, 코드형</text>
+<rect x="1000" y="100" width="450" height="200" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1225.0" y="140" text-anchor="middle">3 노코드 제작</text>
+<text class="b" x="1225.0" y="172" text-anchor="middle">Bubble, Webflow, Softr, Glide</text>
+<text class="b" x="1225.0" y="200" text-anchor="middle">Tally, Typeform: 접수 양식</text>
+<text class="b" x="1225.0" y="228" text-anchor="middle">마이크로 SaaS 첫 버전용</text>
+<rect x="50" y="320" width="450" height="200" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="275.0" y="360" text-anchor="middle">4 콘텐츠와 발행</text>
+<text class="b" x="275.0" y="392" text-anchor="middle">Beehiiv, ConvertKit, Substack</text>
+<text class="b" x="275.0" y="420" text-anchor="middle">Ghost, Buffer, Hootsuite</text>
+<text class="b" x="275.0" y="448" text-anchor="middle">Notion: 계획과 프롬프트 보관</text>
+<rect x="525" y="320" width="450" height="200" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="360" text-anchor="middle">5 영업과 결제</text>
+<text class="b" x="750.0" y="392" text-anchor="middle">HubSpot, Pipedrive, Notion CRM</text>
+<text class="b" x="750.0" y="420" text-anchor="middle">Calendly: 일정 예약</text>
+<text class="b" x="750.0" y="448" text-anchor="middle">Stripe, Lemon Squeezy: 결제</text>
+<rect x="1000" y="320" width="450" height="200" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1225.0" y="360" text-anchor="middle">6 운영과 생산성</text>
+<text class="b" x="1225.0" y="392" text-anchor="middle">Notion: 지식과 프로젝트 관리</text>
+<text class="b" x="1225.0" y="420" text-anchor="middle">Loom, Slack: 전달과 소통</text>
+<text class="b" x="1225.0" y="448" text-anchor="middle">Linear, Trello, Toggl, Hemingway</text>
+<text class="s" x="750" y="600" text-anchor="middle">도구 이름과 요금은 책이 쓰인 시점 기준이며 바뀔 수 있다.</text>
+</svg>

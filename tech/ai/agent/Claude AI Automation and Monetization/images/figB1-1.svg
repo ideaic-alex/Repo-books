@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">여섯 청사진의 공통 뼈대와 구성</text>
+<rect x="50" y="95" width="290" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="195.0" y="135" text-anchor="middle">입력 정리</text>
+<text class="b" x="195" y="160" text-anchor="middle">출처, 고객 정보, 양식</text>
+<line x1="342" y1="140" x2="417" y2="140" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="420" y="95" width="290" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="135" text-anchor="middle">단계별 Claude 역할</text>
+<text class="b" x="565" y="160" text-anchor="middle">요약, 종합, 초안 생성</text>
+<line x1="712" y1="140" x2="787" y2="140" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="790" y="95" width="290" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="935.0" y="135" text-anchor="middle">사람의 검토</text>
+<text class="b" x="935" y="160" text-anchor="middle">전문성으로 확인과 수정</text>
+<line x1="1082" y1="140" x2="1157" y2="140" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1160" y="95" width="290" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1305.0" y="135" text-anchor="middle">전달과 기록</text>
+<text class="b" x="1305" y="160" text-anchor="middle">발송 후 구조 문서화</text>
+<rect x="50" y="225" width="450" height="195" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="275.0" y="265" text-anchor="middle">1 주간 시장 인텔리전스</text>
+<text class="b" x="275.0" y="297" text-anchor="middle">출처 요약, 테마 종합,</text>
+<text class="b" x="275.0" y="325" text-anchor="middle">시사점 분석, 브리프 편집</text>
+<text class="b" x="275.0" y="353" text-anchor="middle">주 단위, 컨설턴트와 연구자용</text>
+<rect x="525" y="225" width="450" height="195" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="265" text-anchor="middle">2 신규 고객 온보딩 패키지</text>
+<text class="b" x="750.0" y="297" text-anchor="middle">회사 프로필, 경쟁 맥락,</text>
+<text class="b" x="750.0" y="325" text-anchor="middle">전략 기회, 첫 통화 준비</text>
+<text class="b" x="750.0" y="353" text-anchor="middle">계약 직후 첫 통화 전에 제공</text>
+<rect x="1000" y="225" width="450" height="195" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1225.0" y="265" text-anchor="middle">3 콘텐츠 재활용 엔진</text>
+<text class="b" x="1225.0" y="297" text-anchor="middle">긴 글 한 편에서 일곱 형식</text>
+<text class="b" x="1225.0" y="325" text-anchor="middle">뉴스레터, 스레드, 영상 대본 등</text>
+<text class="b" x="1225.0" y="353" text-anchor="middle">형식마다 품질 질문을 부여</text>
+<rect x="50" y="440" width="450" height="195" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="275.0" y="480" text-anchor="middle">4 제안서 공장</text>
+<text class="b" x="275.0" y="512" text-anchor="middle">구조화된 접수 양식에서 시작</text>
+<text class="b" x="275.0" y="540" text-anchor="middle">일곱 절짜리 제안서 초안</text>
+<text class="b" x="275.0" y="568" text-anchor="middle">고객의 성과 중심으로 작성</text>
+<rect x="525" y="440" width="450" height="195" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="480" text-anchor="middle">5 경쟁사 모니터링</text>
+<text class="b" x="750.0" y="512" text-anchor="middle">제품, 메시지, 가격 변화 추적</text>
+<text class="b" x="750.0" y="540" text-anchor="middle">채용과 고객 반응도 관찰</text>
+<text class="b" x="750.0" y="568" text-anchor="middle">월 단위 경쟁 보고서</text>
+<rect x="1000" y="440" width="450" height="195" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1225.0" y="480" text-anchor="middle">6 리드 육성 자동화</text>
+<text class="b" x="1225.0" y="512" text-anchor="middle">새 리드가 들어오면 자동 시작</text>
+<text class="b" x="1225.0" y="540" text-anchor="middle">접수 정보로 개인화한 메일</text>
+<text class="b" x="1225.0" y="568" text-anchor="middle">환영에서 분기 연락까지</text>
+<text class="s" x="750" y="690" text-anchor="middle">구조는 틀이고, 내 분야 지식과 품질 기준이 나만의 차별점이 된다는 것이 책의 취지다.</text>
+</svg>

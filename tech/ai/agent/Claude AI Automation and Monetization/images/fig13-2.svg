@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">서비스 제공 파이프라인의 네 단계</text>
+<text class="s" x="750" y="112" text-anchor="middle">시작 신호: 고객 승인, 브리프 제출, 수정 요청</text>
+<rect x="45" y="140" width="300" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195.0" y="178" text-anchor="middle">1 접수와 브리핑</text>
+<text class="b" x="195.0" y="208" text-anchor="middle">구조화된 양식으로</text>
+<text class="b" x="195.0" y="238" text-anchor="middle">정보를 모은다</text>
+<text class="b" x="195.0" y="268" text-anchor="middle">빠진 정보를 표시</text>
+<rect x="415" y="140" width="300" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="178" text-anchor="middle">2 제작 시스템</text>
+<text class="b" x="565.0" y="208" text-anchor="middle">결과물 종류마다</text>
+<text class="b" x="565.0" y="238" text-anchor="middle">검증된 Claude 시스템</text>
+<text class="b" x="565.0" y="268" text-anchor="middle">시간 절약이 여기서</text>
+<rect x="785" y="140" width="300" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935.0" y="178" text-anchor="middle">3 품질 검토</text>
+<text class="b" x="935.0" y="208" text-anchor="middle">사람이 최종 점검</text>
+<text class="b" x="935.0" y="238" text-anchor="middle">정확성, 관련성, 어조</text>
+<text class="b" x="935.0" y="268" text-anchor="middle">완성도, 형식, 효과</text>
+<rect x="1155" y="140" width="300" height="190" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1305.0" y="178" text-anchor="middle">4 전달과 청구</text>
+<text class="b" x="1305.0" y="208" text-anchor="middle">고객에게 전달</text>
+<text class="b" x="1305.0" y="238" text-anchor="middle">수정 요청은 2단계로</text>
+<text class="b" x="1305.0" y="268" text-anchor="middle">청구서 발행</text>
+<line x1="347" y1="235" x2="413" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="717" y1="235" x2="783" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1087" y1="235" x2="1153" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M1305 332 L1305 420 L935 420 L935 334" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="1120" y="455" text-anchor="middle">수정 요청이 오면 제작 단계로 되돌아간다</text>
+<text class="s" x="750" y="520" text-anchor="middle">품질 검토는 결과물마다 십여 분에서 이십여 분 정도로 짧게 돌리는 것이 책의 제안이다.</text>
+</svg>

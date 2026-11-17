@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="620" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">산업별 AI 서비스의 규제 부담과 활용 방향</text>
+<rect x="40" y="110" width="440" height="160" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="260.0" y="144" text-anchor="middle">의료·병의원</text>
+<text class="b" x="260.0" y="174" text-anchor="middle">규제 매우 높음</text>
+<text class="b" x="260.0" y="202" text-anchor="middle">진단·임상 판단 금지</text>
+<text class="b" x="260.0" y="230" text-anchor="middle">행정, 교육, 연구 용도</text>
+<rect x="530" y="110" width="440" height="160" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="144" text-anchor="middle">법률</text>
+<text class="b" x="750.0" y="174" text-anchor="middle">규제·책임 높음</text>
+<text class="b" x="750.0" y="202" text-anchor="middle">자문이 아닌 위험 요약</text>
+<text class="b" x="750.0" y="230" text-anchor="middle">검토는 변호사가</text>
+<rect x="1020" y="110" width="440" height="160" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1240.0" y="144" text-anchor="middle">금융</text>
+<text class="b" x="1240.0" y="174" text-anchor="middle">규제 높음</text>
+<text class="b" x="1240.0" y="202" text-anchor="middle">고객 발송 전 사람 검토</text>
+<text class="b" x="1240.0" y="230" text-anchor="middle">투자 권유로 흐르지 않기</text>
+<rect x="40" y="300" width="440" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="260.0" y="334" text-anchor="middle">채용·인사</text>
+<text class="b" x="260.0" y="364" text-anchor="middle">노동법, 개인정보 주의</text>
+<text class="b" x="260.0" y="392" text-anchor="middle">문서 초안 중심</text>
+<text class="b" x="260.0" y="420" text-anchor="middle">평가·결정은 사람</text>
+<rect x="530" y="300" width="440" height="160" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="334" text-anchor="middle">부동산</text>
+<text class="b" x="750.0" y="364" text-anchor="middle">규제 중간</text>
+<text class="b" x="750.0" y="392" text-anchor="middle">매물 문안, 고객 소통</text>
+<text class="b" x="750.0" y="420" text-anchor="middle">투자자 서한 초안</text>
+<rect x="1020" y="300" width="440" height="160" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1240.0" y="334" text-anchor="middle">전자상거래</text>
+<text class="b" x="1240.0" y="364" text-anchor="middle">규제 상대적으로 낮음</text>
+<text class="b" x="1240.0" y="392" text-anchor="middle">상품 설명, 이메일 시퀀스</text>
+<text class="b" x="1240.0" y="420" text-anchor="middle">생산량이 가장 큼</text>
+<text class="s" x="750" y="520" text-anchor="middle">붉은색은 규제 부담이 큰 쪽, 초록은 상대적으로 작은 쪽이다(노트 작성자의 분류).</text>
+<text class="h" x="750" y="560" text-anchor="middle">규제가 클수록 AI는 초안과 요약, 판단과 책임은 전문가가 맡는다.</text>
+<text class="s" x="750" y="595" text-anchor="middle">실제 적용 전 해당 분야 전문가 확인이 필요하다.</text>
+</svg>

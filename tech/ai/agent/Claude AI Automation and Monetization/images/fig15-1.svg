@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="580" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">CRAFT-X 여섯 요소와 X의 역할</text>
+<rect x="35" y="105" width="450" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="143" text-anchor="middle">C 맥락 (Context)</text>
+<text class="b" x="260.0" y="173" text-anchor="middle">기본: 배경과 상황</text>
+<text class="b" x="260.0" y="203" text-anchor="middle">확장: 우선순위를 둔 구조</text>
+<text class="b" x="260.0" y="233" text-anchor="middle">이유: 정보끼리 충돌 정리</text>
+<rect x="525" y="105" width="450" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="143" text-anchor="middle">R 역할 (Role)</text>
+<text class="b" x="750.0" y="173" text-anchor="middle">기본: 하나의 역할</text>
+<text class="b" x="750.0" y="203" text-anchor="middle">확장: 여러 면의 전문성</text>
+<text class="b" x="750.0" y="233" text-anchor="middle">이유: 복합 과제엔 다각적 시각</text>
+<rect x="1015" y="105" width="450" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1240.0" y="143" text-anchor="middle">A 행동 (Action)</text>
+<text class="b" x="1240.0" y="173" text-anchor="middle">기본: 할 일 서술</text>
+<text class="b" x="1240.0" y="203" text-anchor="middle">확장: 단계별 성공 기준</text>
+<text class="b" x="1240.0" y="233" text-anchor="middle">이유: 하위 과제로 신뢰도 상승</text>
+<rect x="35" y="325" width="450" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="260.0" y="363" text-anchor="middle">F 형식 (Format)</text>
+<text class="b" x="260.0" y="393" text-anchor="middle">기본: 출력 구조</text>
+<text class="b" x="260.0" y="423" text-anchor="middle">확장: 대체 형식까지 지정</text>
+<text class="b" x="260.0" y="453" text-anchor="middle">이유: 예외 상황 대응</text>
+<rect x="525" y="325" width="450" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="750.0" y="363" text-anchor="middle">T 어조 (Tone)</text>
+<text class="b" x="750.0" y="393" text-anchor="middle">기본: 말투 설명</text>
+<text class="b" x="750.0" y="423" text-anchor="middle">확장: 독자에 맞춘 조정</text>
+<text class="b" x="750.0" y="453" text-anchor="middle">이유: 일반 문체와 구분</text>
+<rect x="1015" y="325" width="450" height="190" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1240.0" y="363" text-anchor="middle">X 실행 제약 (new)</text>
+<text class="b" x="1240.0" y="393" text-anchor="middle">새로 붙는 요소</text>
+<text class="b" x="1240.0" y="423" text-anchor="middle">시간과 토큰 예산, 품질 하한</text>
+<text class="b" x="1240.0" y="453" text-anchor="middle">실패했을 때 처리 방식</text>
+<text class="s" x="750" y="555" text-anchor="middle">기본 CRAFT 다섯 요소를 깊게 만들고, X로 실서비스의 경계와 실패 대응을 더한 것이다.</text>
+</svg>

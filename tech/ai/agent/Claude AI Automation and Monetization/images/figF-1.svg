@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">사업 계획서의 일곱 절</text>
+<rect x="50" y="100" width="335" height="165" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="140" text-anchor="middle">1 사업 개요</text>
+<text class="b" x="217.5" y="172" text-anchor="middle">무엇을 누구에게 제공하나</text>
+<text class="b" x="217.5" y="200" text-anchor="middle">세 문장에서 다섯 문장</text>
+<rect x="405" y="100" width="335" height="165" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="140" text-anchor="middle">2 목표 시장</text>
+<text class="b" x="572.5" y="172" text-anchor="middle">산업, 직책, 규모, 지역</text>
+<text class="b" x="572.5" y="200" text-anchor="middle">고민과 구매 계기까지</text>
+<rect x="760" y="100" width="335" height="165" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="140" text-anchor="middle">3 가치 제안</text>
+<text class="b" x="927.5" y="172" text-anchor="middle">결과, 대상, 차별 방식</text>
+<text class="b" x="927.5" y="200" text-anchor="middle">한두 문장으로 압축</text>
+<rect x="1115" y="100" width="335" height="165" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="140" text-anchor="middle">4 수익 모델</text>
+<text class="b" x="1282.5" y="172" text-anchor="middle">상품별 단가와 수량</text>
+<text class="b" x="1282.5" y="200" text-anchor="middle">월 목표 합계로 정리</text>
+<rect x="50" y="290" width="335" height="165" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="330" text-anchor="middle">5 핵심 시스템</text>
+<text class="b" x="217.5" y="362" text-anchor="middle">세 개에서 다섯 개</text>
+<text class="b" x="217.5" y="390" text-anchor="middle">이름, 역할, 쓰는 도구</text>
+<rect x="405" y="290" width="335" height="165" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="330" text-anchor="middle">6 고객 확보 전략</text>
+<text class="b" x="572.5" y="362" text-anchor="middle">빠른 채널 하나와</text>
+<text class="b" x="572.5" y="390" text-anchor="middle">복리 채널 하나 이상</text>
+<rect x="760" y="290" width="335" height="165" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="330" text-anchor="middle">7 성장 이정표</text>
+<text class="b" x="927.5" y="362" text-anchor="middle">시기, 매출, 운영 기준</text>
+<text class="b" x="927.5" y="390" text-anchor="middle">첫 고객에서 비전까지</text>
+<rect x="1115" y="290" width="335" height="165" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="330" text-anchor="middle">계획서의 분량</text>
+<text class="b" x="1282.5" y="362" text-anchor="middle">한두 쪽이면 충분하다</text>
+<text class="b" x="1282.5" y="390" text-anchor="middle">결정과 공유를 위한 도구</text>
+<text class="s" x="750" y="510" text-anchor="middle">각 절의 본문 문구는 옮기지 않고 무엇을 어떻게 채우는지만 정리했다.</text>
+</svg>

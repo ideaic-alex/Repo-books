@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">AI 사용 공개 판단 흐름</text>
+<rect x="550" y="100" width="400" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="143" text-anchor="middle">고객이 제작 방식을 직접 물었는가?</text>
+<rect x="80" y="230" width="420" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="290" y="268" text-anchor="middle">그렇다: 사실대로 모두 답한다</text>
+<text class="b" x="290" y="298" text-anchor="middle">직접 질문에는 직접 답한다</text>
+<line x1="550" y1="150" x2="400" y2="228" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="430" y="190" text-anchor="middle">예</text>
+<rect x="500" y="230" width="500" height="70" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="750" y="272" text-anchor="middle">아니다: 합리적 고객이 중요하게 여길까?</text>
+<line x1="750" y1="172" x2="750" y2="228" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="775" y="205" text-anchor="start">아니오</text>
+<rect x="1040" y="230" width="420" height="90" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1250" y="268" text-anchor="middle">분야 규칙이 있다면</text>
+<text class="b" x="1250" y="298" text-anchor="middle">그 규칙을 엄격히 따른다</text>
+<line x1="1000" y1="265" x2="1038" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="250" y="420" width="450" height="130" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="475.0" y="454" text-anchor="middle">먼저 알린다</text>
+<text class="b" x="475.0" y="484" text-anchor="middle">법률·금융 등 규제 맥락</text>
+<text class="b" x="475.0" y="512" text-anchor="middle">위험이 큰 문서는</text>
+<text class="b" x="475.0" y="540" text-anchor="middle">검토 표시도 남긴다</text>
+<rect x="800" y="420" width="450" height="130" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1025.0" y="454" text-anchor="middle">자발 공개는 선택</text>
+<text class="b" x="1025.0" y="484" text-anchor="middle">일반 사업 소통, 콘텐츠</text>
+<text class="b" x="1025.0" y="512" text-anchor="middle">물으면 언제나 정직하게</text>
+<text class="b" x="1025.0" y="540" text-anchor="middle">고객은 품질과 결과를 중시</text>
+<line x1="650" y1="302" x2="475" y2="418" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="520" y="350" text-anchor="middle">그렇다</text>
+<line x1="850" y1="302" x2="1025" y2="418" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="960" y="350" text-anchor="middle">아니다</text>
+<rect x="300" y="600" width="900" height="80" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="635" text-anchor="middle">어느 경우에도 AI로 만든 것을 사람이 만든 것처럼 속이지 않는다.</text>
+<text class="b" x="750" y="663" text-anchor="middle">검토하고 책임진 결과만 납품한다.</text>
+</svg>

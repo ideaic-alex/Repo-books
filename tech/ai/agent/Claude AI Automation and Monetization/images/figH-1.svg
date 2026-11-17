@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">월간 점검의 흐름</text>
+<rect x="51" y="110" width="250" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="176.0" y="150" text-anchor="middle">1 매출</text>
+<text class="b" x="176.0" y="182" text-anchor="middle">수입원별 전월 비교</text>
+<text class="b" x="176.0" y="212" text-anchor="middle">변화의 이유 기록</text>
+<line x1="303" y1="235" x2="336" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="338" y="110" width="250" height="250" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="463.0" y="150" text-anchor="middle">2 고객</text>
+<text class="b" x="463.0" y="182" text-anchor="middle">만족 신호 점검</text>
+<text class="b" x="463.0" y="212" text-anchor="middle">갱신 위험 평가</text>
+<text class="b" x="463.0" y="242" text-anchor="middle">필요한 조치 결정</text>
+<line x1="590" y1="235" x2="623" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="625" y="110" width="250" height="250" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750.0" y="150" text-anchor="middle">3 파이프라인</text>
+<text class="b" x="750.0" y="182" text-anchor="middle">신규 후보 수</text>
+<text class="b" x="750.0" y="212" text-anchor="middle">진행 중 제안 규모</text>
+<text class="b" x="750.0" y="242" text-anchor="middle">승패와 패인</text>
+<text class="b" x="750.0" y="272" text-anchor="middle">최고 유입 경로</text>
+<text class="b" x="750.0" y="302" text-anchor="middle">핵심 고객 이탈 대비</text>
+<line x1="877" y1="235" x2="910" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="912" y="110" width="250" height="250" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1037.0" y="150" text-anchor="middle">4 시스템</text>
+<text class="b" x="1037.0" y="182" text-anchor="middle">사용 횟수</text>
+<text class="b" x="1037.0" y="212" text-anchor="middle">출력 품질</text>
+<text class="b" x="1037.0" y="242" text-anchor="middle">수정 부담</text>
+<text class="b" x="1037.0" y="272" text-anchor="middle">개선 1순위</text>
+<line x1="1164" y1="235" x2="1197" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1199" y="110" width="250" height="250" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1324.0" y="150" text-anchor="middle">5 다음 달 행동</text>
+<text class="b" x="1324.0" y="182" text-anchor="middle">딱 세 가지만 선정</text>
+<text class="b" x="1324.0" y="212" text-anchor="middle">완료 모습을 구체적으로</text>
+<path d="M 1176 364 V 440 H 176 V 366" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="b" x="676" y="482" text-anchor="middle">매달 한 번, 60분에서 90분. 달력에 미리 잡아 둔다</text>
+</svg>

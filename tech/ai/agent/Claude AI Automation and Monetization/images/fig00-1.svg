@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">사용자에서 설계자로</text>
+<rect x="60" y="100" width="560" height="190" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="340" y="145" text-anchor="middle">사용자 (User)</text>
+<text class="b" x="340" y="188" text-anchor="middle">질문 문구를 다듬는다</text>
+<text class="b" x="340" y="218" text-anchor="middle">한 번에 한 가지 작업을 시킨다</text>
+<text class="b" x="340" y="248" text-anchor="middle">얻는 것: 개별 작업의 시간 절약</text>
+<line x1="630" y1="195" x2="868" y2="195" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="749" y="180" text-anchor="middle">관점 전환</text>
+<rect x="880" y="100" width="560" height="190" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1160" y="145" text-anchor="middle">설계자 (Architect)</text>
+<text class="b" x="1160" y="188" text-anchor="middle">입력, 단계, 검증을 설계한다</text>
+<text class="b" x="1160" y="218" text-anchor="middle">반복되는 일을 시스템으로 만든다</text>
+<text class="b" x="1160" y="248" text-anchor="middle">얻는 것: 쌓이는 가치(책의 주장)</text>
+<text class="h" x="750" y="342" text-anchor="middle">이 노트의 읽는 길</text>
+<rect x="60" y="362" width="320" height="110" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="220" y="405" text-anchor="middle">1부 기초</text>
+<text class="b" x="220" y="438" text-anchor="middle">관점과 설계 원리</text>
+<rect x="420" y="362" width="320" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="580" y="405" text-anchor="middle">2부 수익 모델</text>
+<text class="b" x="580" y="438" text-anchor="middle">무엇으로 일하나</text>
+<rect x="780" y="362" width="320" height="110" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="940" y="405" text-anchor="middle">3~4부 사업과 운영</text>
+<text class="b" x="940" y="438" text-anchor="middle">키우고 지키기</text>
+<rect x="1140" y="362" width="320" height="110" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1300" y="405" text-anchor="middle">5부와 부록</text>
+<text class="b" x="1300" y="438" text-anchor="middle">심화, 참조, 점검표</text>
+<line x1="382" y1="417" x2="418" y2="417" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="742" y1="417" x2="778" y2="417" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1102" y1="417" x2="1138" y2="417" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="515" text-anchor="middle">프롬프트 한 줄을 잘 쓰는 일에서 시스템을 짓는 일로. 효과는 책의 주장이며 보장이 아니다.</text>
+</svg>

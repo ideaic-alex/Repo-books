@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <style>
+    text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+    .t{font-size:34px;font-weight:700}
+    .h{font-size:20px;font-weight:700}
+    .b{font-size:16px}
+    .s{font-size:16px;fill:#666}
+  </style>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text class="t" x="750" y="58" text-anchor="middle">Claude AI Automation &amp; Monetization 한눈에 보기</text>
+  <rect x="520" y="90" width="460" height="64" rx="12" fill="#2B2F36"/>
+  <text class="h" x="750" y="130" text-anchor="middle" style="fill:#FFFFFF">Claude로 만드는 자동화와 수익</text>
+  <path d="M750 154 V180 H166 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="30" y="204" width="272" height="48" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+  <text class="h" x="166" y="235" text-anchor="middle">1부 기초와 사고방식</text>
+  <rect x="30" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="299" text-anchor="middle">머리말</text>
+  <rect x="30" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="351" text-anchor="middle">1장 새로운 레버리지</text>
+  <rect x="30" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="403" text-anchor="middle">2장 Claude 아키텍처</text>
+  <rect x="30" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="455" text-anchor="middle">3장 프롬프트 시스템</text>
+  <rect x="30" y="480" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3B6EA8" stroke-width="1.5"/>
+  <text class="b" x="166" y="507" text-anchor="middle">4장 프로덕션 워크플로</text>
+  <path d="M750 154 V180 H458 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="322" y="204" width="272" height="48" rx="10" fill="#E5F2E8" stroke="#3E8A5A" stroke-width="2"/>
+  <text class="h" x="458" y="235" text-anchor="middle">2부 수익 모델</text>
+  <rect x="322" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="299" text-anchor="middle">5장 비즈니스 모델 분석</text>
+  <rect x="322" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="351" text-anchor="middle">6장 프리랜싱</text>
+  <rect x="322" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="403" text-anchor="middle">7장 콘텐츠 엔진</text>
+  <rect x="322" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#3E8A5A" stroke-width="1.5"/>
+  <text class="b" x="458" y="455" text-anchor="middle">8장 자동화 도구 연결</text>
+  <path d="M750 154 V180 H750 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="614" y="204" width="272" height="48" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+  <text class="h" x="750" y="235" text-anchor="middle">3부 사업 키우기</text>
+  <rect x="614" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="299" text-anchor="middle">9장 AI 에이전시</text>
+  <rect x="614" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="351" text-anchor="middle">10장 디지털 상품</text>
+  <rect x="614" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="403" text-anchor="middle">11장 마이크로 SaaS</text>
+  <rect x="614" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B8862B" stroke-width="1.5"/>
+  <text class="b" x="750" y="455" text-anchor="middle">12장 월 1만 달러</text>
+  <path d="M750 154 V180 H1042 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="906" y="204" width="272" height="48" rx="10" fill="#F3E8F7" stroke="#8A5AA8" stroke-width="2"/>
+  <text class="h" x="1042" y="235" text-anchor="middle">4부 운영과 보호</text>
+  <rect x="906" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="299" text-anchor="middle">13장 수입 파이프라인</text>
+  <rect x="906" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="351" text-anchor="middle">14장 사업 보호와 미래</text>
+  <rect x="906" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="403" text-anchor="middle">15장 프롬프트 사업</text>
+  <rect x="906" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="455" text-anchor="middle">16장 콘텐츠 사업</text>
+  <rect x="906" y="480" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="507" text-anchor="middle">17장 운영 확장</text>
+  <rect x="906" y="532" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#8A5AA8" stroke-width="1.5"/>
+  <text class="b" x="1042" y="559" text-anchor="middle">18장 90일 로드맵</text>
+  <path d="M750 154 V180 H1334 V204" fill="none" stroke="#9AA1AB" stroke-width="2"/>
+  <rect x="1198" y="204" width="272" height="48" rx="10" fill="#FBE8E8" stroke="#B85A5A" stroke-width="2"/>
+  <text class="h" x="1334" y="235" text-anchor="middle">5부 심화와 마무리</text>
+  <rect x="1198" y="272" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="299" text-anchor="middle">19장 고급 자동화</text>
+  <rect x="1198" y="324" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="351" text-anchor="middle">20장 교육과 강의</text>
+  <rect x="1198" y="376" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="403" text-anchor="middle">21장 틈새시장</text>
+  <rect x="1198" y="428" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="455" text-anchor="middle">22장 윤리와 전문가 기준</text>
+  <rect x="1198" y="480" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="507" text-anchor="middle">23장 프롬프트 라이브러리</text>
+  <rect x="1198" y="532" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="559" text-anchor="middle">24장 긴 게임</text>
+  <rect x="1198" y="584" width="272" height="42" rx="8" fill="#FFFFFF" stroke="#B85A5A" stroke-width="1.5"/>
+  <text class="b" x="1334" y="611" text-anchor="middle">맺음말</text>
+  <rect x="30" y="660" width="1440" height="48" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="b" x="750" y="690" text-anchor="middle">부록: 보너스 장 B1(AI 시스템 청사진 6종) · 부록 A~K(프레임워크, 빠른 시작, 도구, 용어집, 30일 계획, 템플릿, 사례, 점검표)</text>
+  <text class="s" x="750" y="740" text-anchor="middle">※ 부 구분은 노트 작성자가 정한 것이다(원서는 24개 장). 각 장은 이 노트가 풀어 정리한 문서로 연결된다.</text>
+</svg>

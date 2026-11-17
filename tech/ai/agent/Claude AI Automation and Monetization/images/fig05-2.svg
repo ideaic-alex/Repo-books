@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">내가 가진 것에 따라 시작하는 모델</text>
+<text class="h" x="300.0" y="118" text-anchor="middle">내가 가진 것</text>
+<text class="h" x="830.0" y="118" text-anchor="middle">먼저 시작할 모델</text>
+<text class="h" x="1280.0" y="118" text-anchor="middle">3~6개월 뒤 더할 모델</text>
+<rect x="40" y="140" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="180" text-anchor="middle">도메인 전문성과 고객 네트워크</text>
+<rect x="640" y="140" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="180" text-anchor="middle">완성품 납품 또는 정기 계약</text>
+<rect x="1100" y="140" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="180" text-anchor="middle">자동화 컨설팅</text>
+<line x1="560" y1="172.0" x2="636" y2="172.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="172.0" x2="1096" y2="172.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="226" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="266" text-anchor="middle">기술 배경과 제품 구상</text>
+<rect x="640" y="226" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="266" text-anchor="middle">마이크로 SaaS 또는 자동화 컨설팅</text>
+<rect x="1100" y="226" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="266" text-anchor="middle">디지털 상품</text>
+<line x1="560" y1="258.0" x2="636" y2="258.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="258.0" x2="1096" y2="258.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="312" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="352" text-anchor="middle">콘텐츠 제작 능력과 청중</text>
+<rect x="640" y="312" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="352" text-anchor="middle">콘텐츠 사업</text>
+<rect x="1100" y="312" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="352" text-anchor="middle">디지털 상품 또는 교육</text>
+<line x1="560" y1="344.0" x2="636" y2="344.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="344.0" x2="1096" y2="344.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="398" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="438" text-anchor="middle">가르치는 능력과 직업 네트워크</text>
+<rect x="640" y="398" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="438" text-anchor="middle">교육·훈련</text>
+<rect x="1100" y="398" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="438" text-anchor="middle">정기 계약</text>
+<line x1="560" y1="430.0" x2="636" y2="430.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="430.0" x2="1096" y2="430.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="484" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="524" text-anchor="middle">사업 전략 경험</text>
+<rect x="640" y="484" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="524" text-anchor="middle">자동화 컨설팅</text>
+<rect x="1100" y="484" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="524" text-anchor="middle">AI 에이전시</text>
+<line x1="560" y1="516.0" x2="636" y2="516.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="516.0" x2="1096" y2="516.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="570" width="520" height="64" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="300.0" y="610" text-anchor="middle">아직 뚜렷한 전문 분야가 없음</text>
+<rect x="640" y="570" width="380" height="64" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="830.0" y="610" text-anchor="middle">완성품 납품 (위험 낮고 배움이 빠름)</text>
+<rect x="1100" y="570" width="360" height="64" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1280.0" y="610" text-anchor="middle">정기 계약 (첫 고객 세 곳 이후)</text>
+<line x1="560" y1="602.0" x2="636" y2="602.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1020" y1="602.0" x2="1096" y2="602.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="676" text-anchor="middle">책의 선택 기준표를 새로 그린 것이다. 처음부터 둘 이상을 동시에 돌리지 말고 하나를 익힌 뒤 두 번째를 더한다.</text>
+</svg>

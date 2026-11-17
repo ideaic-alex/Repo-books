@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="780" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">여덟 가지 수익 모델 한눈에 비교</text>
+<text class="h" x="40" y="118" text-anchor="start">모델</text>
+<text class="h" x="330" y="118" text-anchor="start">첫 수익까지 걸리는 시간 (책의 구간, 주 단위)</text>
+<text class="h" x="1130" y="118" text-anchor="middle">월 수익 상한(상대)</text>
+<text class="h" x="1365" y="118" text-anchor="middle">복잡도</text>
+<line x1="330" y1="140" x2="330" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="330" y="708" text-anchor="middle">0주</text>
+<line x1="430" y1="140" x2="430" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="430" y="708" text-anchor="middle">4주</text>
+<line x1="530" y1="140" x2="530" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="530" y="708" text-anchor="middle">8주</text>
+<line x1="630" y1="140" x2="630" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="630" y="708" text-anchor="middle">12주</text>
+<line x1="730" y1="140" x2="730" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="730" y="708" text-anchor="middle">16주</text>
+<line x1="830" y1="140" x2="830" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="830" y="708" text-anchor="middle">20주</text>
+<line x1="930" y1="140" x2="930" y2="684" stroke="#D5D9E0" stroke-width="1.5"/>
+<text class="s" x="930" y="708" text-anchor="middle">24주</text>
+<rect x="20" y="140" width="1460" height="68" fill="#F7F8FA"/>
+<text class="h" x="40" y="170.0" text-anchor="start">완성품 납품</text>
+<text class="s" x="40" y="194.0" text-anchor="start">건별 프로젝트 비용</text>
+<rect x="355" y="157.0" width="25" height="34" rx="6" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="390" y="180.0" text-anchor="start">1~2주</text>
+<text class="b" x="1130" y="170.0" text-anchor="middle" font-weight="700">낮은 편</text>
+<text class="s" x="1130" y="194.0" text-anchor="middle">내 검수 시간이 한계</text>
+<rect x="1285" y="157.0" width="160" height="34" rx="17" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1365" y="180.0" text-anchor="middle">낮음</text>
+<text class="h" x="40" y="238.0" text-anchor="start">정기 계약</text>
+<text class="s" x="40" y="262.0" text-anchor="start">매달 고정 수입</text>
+<rect x="380" y="225.0" width="50" height="34" rx="6" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="440" y="248.0" text-anchor="start">2~4주</text>
+<text class="b" x="1130" y="238.0" text-anchor="middle" font-weight="700">중간</text>
+<text class="s" x="1130" y="262.0" text-anchor="middle">범위 설계가 관건</text>
+<rect x="1285" y="225.0" width="160" height="34" rx="17" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1365" y="248.0" text-anchor="middle">낮음~중간</text>
+<rect x="20" y="276" width="1460" height="68" fill="#F7F8FA"/>
+<text class="h" x="40" y="306.0" text-anchor="start">자동화 컨설팅</text>
+<text class="s" x="40" y="330.0" text-anchor="start">프로젝트와 유지 계약</text>
+<rect x="380" y="293.0" width="100" height="34" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="490" y="316.0" text-anchor="start">2~6주</text>
+<text class="b" x="1130" y="306.0" text-anchor="middle" font-weight="700">중간~높음</text>
+<text class="s" x="1130" y="330.0" text-anchor="middle">관계 중심 고단가</text>
+<rect x="1285" y="293.0" width="160" height="34" rx="17" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1365" y="316.0" text-anchor="middle">중간</text>
+<text class="h" x="40" y="374.0" text-anchor="start">교육·훈련</text>
+<text class="s" x="40" y="398.0" text-anchor="start">강의 판매와 코칭</text>
+<rect x="405" y="361.0" width="75" height="34" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="490" y="384.0" text-anchor="start">3~6주</text>
+<text class="b" x="1130" y="374.0" text-anchor="middle" font-weight="700">중간~높음</text>
+<text class="s" x="1130" y="398.0" text-anchor="middle">자료 제작을 Claude가 가속</text>
+<rect x="1285" y="361.0" width="160" height="34" rx="17" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1365" y="384.0" text-anchor="middle">중간</text>
+<rect x="20" y="412" width="1460" height="68" fill="#F7F8FA"/>
+<text class="h" x="40" y="442.0" text-anchor="start">디지털 상품</text>
+<text class="s" x="40" y="466.0" text-anchor="start">한 번 만들어 반복 판매</text>
+<rect x="430" y="429.0" width="100" height="34" rx="6" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="540" y="452.0" text-anchor="start">4~8주</text>
+<text class="b" x="1130" y="442.0" text-anchor="middle" font-weight="700">상한 없음</text>
+<text class="s" x="1130" y="466.0" text-anchor="middle">제품 수를 늘릴수록 커짐</text>
+<rect x="1285" y="429.0" width="160" height="34" rx="17" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1365" y="452.0" text-anchor="middle">중간</text>
+<text class="h" x="40" y="510.0" text-anchor="start">AI 에이전시</text>
+<text class="s" x="40" y="534.0" text-anchor="start">정기와 프로젝트를 팀으로</text>
+<rect x="430" y="497.0" width="200" height="34" rx="6" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="530.0" y="520.0" text-anchor="middle">4~12주</text>
+<text class="b" x="1130" y="510.0" text-anchor="middle" font-weight="700">높음</text>
+<text class="s" x="1130" y="534.0" text-anchor="middle">팀 운영으로 확장</text>
+<rect x="1285" y="497.0" width="160" height="34" rx="17" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1365" y="520.0" text-anchor="middle">높음</text>
+<rect x="20" y="548" width="1460" height="68" fill="#F7F8FA"/>
+<text class="h" x="40" y="578.0" text-anchor="start">마이크로 SaaS</text>
+<text class="s" x="40" y="602.0" text-anchor="start">구독료가 매달 쌓임</text>
+<rect x="530" y="565.0" width="300" height="34" rx="6" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="680.0" y="588.0" text-anchor="middle">8~20주</text>
+<text class="b" x="1130" y="578.0" text-anchor="middle" font-weight="700">상한 없음</text>
+<text class="s" x="1130" y="602.0" text-anchor="middle">제품과 유통을 직접 구축</text>
+<rect x="1285" y="565.0" width="160" height="34" rx="17" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1365" y="588.0" text-anchor="middle">높음</text>
+<text class="h" x="40" y="646.0" text-anchor="start">콘텐츠 사업</text>
+<text class="s" x="40" y="670.0" text-anchor="start">광고, 후원, 제휴, 상품</text>
+<rect x="655" y="633.0" width="325" height="34" rx="6" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="817.5" y="656.0" text-anchor="middle">3~6개월</text>
+<text class="b" x="1130" y="646.0" text-anchor="middle" font-weight="700">상한 없음</text>
+<text class="s" x="1130" y="670.0" text-anchor="middle">청중이 자산</text>
+<rect x="1285" y="633.0" width="160" height="34" rx="17" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1365" y="656.0" text-anchor="middle">중간~높음</text>
+<text class="s" x="750" y="748" text-anchor="middle">막대 색은 복잡도(초록 낮음, 파랑 중간, 노랑 중간~높음, 분홍 높음). 구간과 상한은 책의 주장을 상대 비교용으로 옮긴 것이며 검증되지 않았다.</text>
+</svg>

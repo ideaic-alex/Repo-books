@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Claude와 자동화 도구가 연결되는 구조</text>
+<rect x="40.0" y="100" width="320" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="200.0" y="146" text-anchor="middle">트리거</text>
+<text class="b" x="200.0" y="190" text-anchor="middle">사건이 흐름을 시작</text>
+<text class="s" x="200.0" y="230" text-anchor="middle">양식 제출 · 새 이메일 · 새 행</text>
+<line x1="363.0" y1="185.0" x2="403.67" y2="185.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="200.0" y1="272" x2="200.0" y2="318" stroke="#4A5260" stroke-width="2.5"/>
+<rect x="406.7" y="100" width="320" height="170" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="566.7" y="146" text-anchor="middle">처리 (Claude)</text>
+<text class="b" x="566.7" y="190" text-anchor="middle">프롬프트와 맥락으로 생성</text>
+<text class="s" x="566.7" y="230" text-anchor="middle">시스템 프롬프트 · 입력 데이터</text>
+<line x1="729.7" y1="185.0" x2="770.37" y2="185.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="566.7" y1="272" x2="566.7" y2="318" stroke="#4A5260" stroke-width="2.5"/>
+<rect x="773.3" y="100" width="320" height="170" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="933.3" y="146" text-anchor="middle">라우팅</text>
+<text class="b" x="933.3" y="190" text-anchor="middle">분기와 형식 맞추기</text>
+<text class="s" x="933.3" y="230" text-anchor="middle">조건 분기 · 가공 · 오류 처리</text>
+<line x1="1096.3" y1="185.0" x2="1136.97" y2="185.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="933.3" y1="272" x2="933.3" y2="318" stroke="#4A5260" stroke-width="2.5"/>
+<rect x="1140.0" y="100" width="320" height="170" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1300.0" y="146" text-anchor="middle">전달</text>
+<text class="b" x="1300.0" y="190" text-anchor="middle">쓰이는 곳에 도착</text>
+<text class="s" x="1300.0" y="230" text-anchor="middle">이메일 · 문서 · 슬랙 · DB</text>
+<line x1="1300.0" y1="272" x2="1300.0" y2="318" stroke="#4A5260" stroke-width="2.5"/>
+<line x1="200" y1="320" x2="1300" y2="320" stroke="#4A5260" stroke-width="2.5"/>
+<rect x="430" y="298" width="640" height="44" rx="22" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="750" y="327" text-anchor="middle">세 가지 방법 모두 이 4층을 이어 준다</text>
+<rect x="40" y="410" width="450" height="170" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="265" y="450" text-anchor="middle">Zapier</text>
+<text class="b" x="265" y="490" text-anchor="middle">노코드, 트리거-액션 방식</text>
+<text class="b" x="265" y="520" text-anchor="middle">수천 개 앱 연결(책 기준)</text>
+<text class="b" x="265" y="550" text-anchor="middle">비개발자의 출발점</text>
+<line x1="265" y1="406" x2="265" y2="346" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="525" y="410" width="450" height="170" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="450" text-anchor="middle">Make</text>
+<text class="b" x="750" y="490" text-anchor="middle">시각 빌더, HTTP 모듈로 API 호출</text>
+<text class="b" x="750" y="520" text-anchor="middle">분기, 반복, 오류 처리 경로</text>
+<text class="b" x="750" y="550" text-anchor="middle">서너 단계 넘는 흐름에 적합</text>
+<line x1="750" y1="406" x2="750" y2="346" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1010" y="410" width="450" height="170" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="1235" y="450" text-anchor="middle">직접 API</text>
+<text class="b" x="1235" y="490" text-anchor="middle">코드로 호출(Python, JavaScript)</text>
+<text class="b" x="1235" y="520" text-anchor="middle">전처리, 프롬프트 체인, 배치</text>
+<text class="b" x="1235" y="550" text-anchor="middle">최대 유연성과 신뢰성</text>
+<line x1="1235" y1="406" x2="1235" y2="346" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="620" width="1420" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="655" text-anchor="middle">운영 수칙</text>
+<text class="b" x="750" y="690" text-anchor="middle">API 키는 보관함에 · 오류 처리 경로 마련 · 초기 실행은 직접 감시 · 고객 접점은 초안으로</text>
+<text class="s" x="750" y="742" text-anchor="middle">도구와 모델 이름은 책이 쓰인 시점 기준이며 바뀔 수 있다.</text>
+</svg>

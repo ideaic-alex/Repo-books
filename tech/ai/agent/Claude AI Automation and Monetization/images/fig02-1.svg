@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">Claude 시스템의 3층 구조</text>
+<rect x="40" y="100" width="420" height="330" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="250" y="145" text-anchor="middle">1층 입력</text>
+<text class="b" x="250" y="195" text-anchor="middle">시스템 프롬프트</text>
+<text class="b" x="250" y="230" text-anchor="middle">사용자 입력</text>
+<text class="b" x="250" y="265" text-anchor="middle">참고 문서</text>
+<text class="b" x="250" y="300" text-anchor="middle">예시 두세 개</text>
+<text class="b" x="250" y="375" text-anchor="middle">품질의 대부분이 여기서 결정</text>
+<rect x="540" y="100" width="420" height="330" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750" y="145" text-anchor="middle">2층 처리</text>
+<text class="b" x="750" y="195" text-anchor="middle">Claude의 추론과 생성</text>
+<text class="b" x="750" y="230" text-anchor="middle">사고의 사슬(단계별 추론)</text>
+<text class="b" x="750" y="265" text-anchor="middle">과업 분해(한 단계에 한 가지)</text>
+<text class="b" x="750" y="375" text-anchor="middle">직접 통제는 못 하고 구조로 유도</text>
+<rect x="1040" y="100" width="420" height="330" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1250" y="145" text-anchor="middle">3층 출력</text>
+<text class="b" x="1250" y="195" text-anchor="middle">형식과 구조</text>
+<text class="b" x="1250" y="230" text-anchor="middle">길이와 절 이름</text>
+<text class="b" x="1250" y="265" text-anchor="middle">다음에 쓰일 곳</text>
+<text class="b" x="1250" y="375" text-anchor="middle">후처리가 적도록 명시</text>
+<line x1="464" y1="265" x2="536" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="964" y1="265" x2="1036" y2="265" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="40" y="460" width="420" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="250" y="497" text-anchor="middle">흔한 실패</text>
+<text class="b" x="250" y="528" text-anchor="middle">모호하고 들쭉날쭉한 입력</text>
+<rect x="540" y="460" width="420" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750" y="497" text-anchor="middle">흔한 실패</text>
+<text class="b" x="750" y="528" text-anchor="middle">한 프롬프트에 너무 많이 요구</text>
+<rect x="1040" y="460" width="420" height="90" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1250" y="497" text-anchor="middle">흔한 실패</text>
+<text class="b" x="1250" y="528" text-anchor="middle">크게 고쳐 써야 하는 결과</text>
+<text class="s" x="750" y="600" text-anchor="middle">복잡한 산출물은 이 3층을 여러 단계로 반복하고, 단계 사이에서 결과를 점검한다.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">AI 사업의 위험 여섯 가지와 대응</text>
+<rect x="40" y="100" width="300" height="50" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="190.0" y="133" text-anchor="middle">위험</text>
+<rect x="350" y="100" width="190" height="50" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="445.0" y="133" text-anchor="middle">가능성</text>
+<rect x="550" y="100" width="190" height="50" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="645.0" y="133" text-anchor="middle">영향</text>
+<rect x="750" y="100" width="710" height="50" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1105.0" y="133" text-anchor="middle">대응(책의 제안)</text>
+<rect x="40" y="165" width="300" height="60" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="190" y="203" text-anchor="middle">품질 오류</text>
+<rect x="350" y="165" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="203" text-anchor="middle">높음</text>
+<rect x="550" y="165" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="203" text-anchor="middle">높음</text>
+<rect x="750" y="165" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="203" text-anchor="start">사람이 검토하는 단계를 의무로 둔다</text>
+<rect x="40" y="237" width="300" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190" y="275" text-anchor="middle">공급자 의존</text>
+<rect x="350" y="237" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="275" text-anchor="middle">중간</text>
+<rect x="550" y="237" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="275" text-anchor="middle">높음</text>
+<rect x="750" y="237" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="275" text-anchor="start">다른 공급자로 옮길 준비를 해 둔다</text>
+<rect x="40" y="309" width="300" height="60" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="190" y="347" text-anchor="middle">데이터 프라이버시</text>
+<rect x="350" y="309" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="347" text-anchor="middle">중간</text>
+<rect x="550" y="309" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="347" text-anchor="middle">매우 높음</text>
+<rect x="750" y="309" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="347" text-anchor="start">취급 방침을 정하고 고객에게 알린다</text>
+<rect x="40" y="381" width="300" height="60" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="190" y="419" text-anchor="middle">지식재산, 저작권</text>
+<rect x="350" y="381" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="419" text-anchor="middle">중간</text>
+<rect x="550" y="381" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="419" text-anchor="middle">중간</text>
+<rect x="750" y="381" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="419" text-anchor="start">직접 손본 가치를 더하고 소유 조항을 명시한다</text>
+<rect x="40" y="453" width="300" height="60" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="190" y="491" text-anchor="middle">시장 범용화</text>
+<rect x="350" y="453" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="491" text-anchor="middle">높음(장기)</text>
+<rect x="550" y="453" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="491" text-anchor="middle">높음</text>
+<rect x="750" y="453" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="491" text-anchor="start">깊은 전문성과 평판을 쌓는다</text>
+<rect x="40" y="525" width="300" height="60" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="190" y="563" text-anchor="middle">규제 변화</text>
+<rect x="350" y="525" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="445" y="563" text-anchor="middle">낮음~중간</text>
+<rect x="550" y="525" width="190" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="645" y="563" text-anchor="middle">중간</text>
+<rect x="750" y="525" width="710" height="60" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="770" y="563" text-anchor="start">동향을 따라가고 바꾸기 쉬운 시스템을 만든다</text>
+<text class="s" x="750" y="625" text-anchor="middle">가능성과 영향은 책의 평가이며 사업마다 다르다. 왼쪽 색은 영향이 클수록 붉다.</text>
+</svg>

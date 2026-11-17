@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="680" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">프롬프트 스택: 다섯 층과 바뀌는 빈도</text>
+<text class="h" x="510" y="108" text-anchor="middle">층 (아래가 토대)</text>
+<text class="h" x="1220" y="108" text-anchor="middle">바뀌는 빈도</text>
+<rect x="60" y="125" width="900" height="80" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="510" y="159" text-anchor="middle">5단계 제약 수정자</text>
+<text class="b" x="510" y="187" text-anchor="middle">실행별로 길이, 어조, 독자를 조정</text>
+<rect x="1000" y="125" width="440" height="80" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="b" x="1220" y="172" text-anchor="middle">작업마다 바뀜</text>
+<rect x="60" y="219" width="900" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="510" y="253" text-anchor="middle">4단계 예시 층</text>
+<text class="b" x="510" y="281" text-anchor="middle">이 과업에서 좋은 결과의 모습을 보여 줌</text>
+<rect x="1000" y="219" width="440" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1220" y="266" text-anchor="middle">품질이 떨어질 때</text>
+<rect x="60" y="313" width="900" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="510" y="347" text-anchor="middle">3단계 맥락 주입</text>
+<text class="b" x="510" y="375" text-anchor="middle">이번 작업의 자료, 문서, 매개변수</text>
+<rect x="1000" y="313" width="440" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="1220" y="360" text-anchor="middle">매 실행마다 바뀜</text>
+<rect x="60" y="407" width="900" height="80" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="510" y="441" text-anchor="middle">2단계 과업 프롬프트</text>
+<text class="b" x="510" y="469" text-anchor="middle">과업 유형과 출력 형식을 정의</text>
+<rect x="1000" y="407" width="440" height="80" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="1220" y="454" text-anchor="middle">가끔 (주 단위)</text>
+<rect x="60" y="501" width="900" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="510" y="535" text-anchor="middle">1단계 기반 프롬프트</text>
+<text class="b" x="510" y="563" text-anchor="middle">인격, 가치, 영구적 제약을 정의</text>
+<rect x="1000" y="501" width="440" height="80" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="1220" y="548" text-anchor="middle">드묾 (월 단위)</text>
+<line x1="30" y1="581" x2="30" y2="130" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="s" x="750" y="625" text-anchor="middle">아래층은 안정적으로 두고 위층만 갈아 끼운다. 층마다 시험하고 버전을 기록한다.</text>
+</svg>

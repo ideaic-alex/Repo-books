@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">콘텐츠 엔진의 다섯 층</text>
+<rect x="50" y="110" width="260" height="320" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="180.0" y="152" text-anchor="middle">1 전략</text>
+<text class="b" x="180.0" y="190" text-anchor="middle">청중과 목표 정하기</text>
+<line x1="70" y1="210" x2="290" y2="210" stroke="#3B6EA8" stroke-width="1.5"/>
+<text class="s" x="180.0" y="245" text-anchor="middle">Claude</text>
+<text class="b" x="180.0" y="275" text-anchor="middle">조사 보조, 빈틈 분석</text>
+<text class="s" x="180.0" y="325" text-anchor="middle">사람</text>
+<text class="b" x="180.0" y="355" text-anchor="middle">방향과 차별점 결정</text>
+<line x1="312" y1="270.0" x2="333" y2="270.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="335" y="110" width="260" height="320" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="465.0" y="152" text-anchor="middle">2 아이디어</text>
+<text class="b" x="465.0" y="190" text-anchor="middle">아이디어 쌓고 고르기</text>
+<line x1="355" y1="210" x2="575" y2="210" stroke="#B8862B" stroke-width="1.5"/>
+<text class="s" x="465.0" y="245" text-anchor="middle">Claude</text>
+<text class="b" x="465.0" y="275" text-anchor="middle">생성과 우선순위</text>
+<text class="s" x="465.0" y="325" text-anchor="middle">사람</text>
+<text class="b" x="465.0" y="355" text-anchor="middle">쓸 주제를 선택</text>
+<line x1="597" y1="270.0" x2="618" y2="270.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="620" y="110" width="260" height="320" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750.0" y="152" text-anchor="middle">3 생산</text>
+<text class="b" x="750.0" y="190" text-anchor="middle">브리프로 초안 작성</text>
+<line x1="640" y1="210" x2="860" y2="210" stroke="#3C8D5A" stroke-width="1.5"/>
+<text class="s" x="750.0" y="245" text-anchor="middle">Claude</text>
+<text class="b" x="750.0" y="275" text-anchor="middle">초안 작성, 형식 변환</text>
+<text class="s" x="750.0" y="325" text-anchor="middle">사람</text>
+<text class="b" x="750.0" y="355" text-anchor="middle">브리프와 품질 기준</text>
+<line x1="882" y1="270.0" x2="903" y2="270.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="905" y="110" width="260" height="320" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1035.0" y="152" text-anchor="middle">4 편집</text>
+<text class="b" x="1035.0" y="190" text-anchor="middle">목소리와 사실 확인</text>
+<line x1="925" y1="210" x2="1145" y2="210" stroke="#B5524A" stroke-width="1.5"/>
+<text class="s" x="1035.0" y="245" text-anchor="middle">Claude</text>
+<text class="b" x="1035.0" y="275" text-anchor="middle">자기 검토, 수정 보조</text>
+<text class="s" x="1035.0" y="325" text-anchor="middle">사람</text>
+<text class="b" x="1035.0" y="355" text-anchor="middle">경험 추가, 최종 승인</text>
+<line x1="1167" y1="270.0" x2="1188" y2="270.0" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1190" y="110" width="260" height="320" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="1320.0" y="152" text-anchor="middle">5 배포</text>
+<text class="b" x="1320.0" y="190" text-anchor="middle">채널별로 내보내기</text>
+<line x1="1210" y1="210" x2="1430" y2="210" stroke="#3B6EA8" stroke-width="1.5"/>
+<text class="s" x="1320.0" y="245" text-anchor="middle">Claude</text>
+<text class="b" x="1320.0" y="275" text-anchor="middle">채널별 형식 생성</text>
+<text class="s" x="1320.0" y="325" text-anchor="middle">사람</text>
+<text class="b" x="1320.0" y="355" text-anchor="middle">일정과 반응 확인</text>
+<path d="M 1320.0 434 V 500 H 465.0 V 436" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="615.0" y="478" width="440" height="44" rx="22" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="b" x="892.5" y="507" text-anchor="middle">성과 데이터를 다시 아이디어 생성에 넣는다</text>
+<text class="s" x="750" y="590" text-anchor="middle">매주 아이디어를 만들고 점수를 매겨 쌓고, 한 편의 장문을 여러 채널 형식으로 재가공한다.</text>
+<text class="s" x="750" y="626" text-anchor="middle">책의 편집 기준: 한 편당 15~25분, 사람의 개인 사례와 구체적 표현이 글을 구별되게 만든다.</text>
+</svg>

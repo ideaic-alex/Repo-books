@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="610" viewBox="0 0 1500 610">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="610" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">출시 전 네 구역 점검</text>
+<rect x="51" y="100" width="300" height="300" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="201.0" y="140" text-anchor="middle">A 새 서비스</text>
+<text class="b" x="201.0" y="172" text-anchor="middle">결과물 정의 명확화</text>
+<text class="b" x="201.0" y="200" text-anchor="middle">다섯 가지 입력으로 시험</text>
+<text class="b" x="201.0" y="228" text-anchor="middle">품질 검토 절차 설계</text>
+<text class="b" x="201.0" y="256" text-anchor="middle">서비스 설명서 작성</text>
+<text class="b" x="201.0" y="284" text-anchor="middle">잠재 고객 접촉 계획</text>
+<line x1="201" y1="404" x2="201" y2="446" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="418" y="100" width="300" height="300" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="568.0" y="140" text-anchor="middle">B 디지털 상품</text>
+<text class="b" x="568.0" y="172" text-anchor="middle">구매 의사 사전 확인</text>
+<text class="b" x="568.0" y="200" text-anchor="middle">경쟁 상품 조사</text>
+<text class="b" x="568.0" y="228" text-anchor="middle">상품 완성도 점검</text>
+<text class="b" x="568.0" y="256" text-anchor="middle">판매 페이지와 결제 시험</text>
+<text class="b" x="568.0" y="284" text-anchor="middle">출시 배포 계획</text>
+<line x1="568" y1="404" x2="568" y2="446" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="785" y="100" width="300" height="300" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935.0" y="140" text-anchor="middle">C 새 자동화</text>
+<text class="b" x="935.0" y="172" text-anchor="middle">단계별 지도 작성</text>
+<text class="b" x="935.0" y="200" text-anchor="middle">열 건 입력, 경계 사례 셋</text>
+<text class="b" x="935.0" y="228" text-anchor="middle">오류 알림, 무음 실패 방지</text>
+<text class="b" x="935.0" y="256" text-anchor="middle">고객 데이터 처리 확인</text>
+<text class="b" x="935.0" y="284" text-anchor="middle">첫 서른 번 모니터링</text>
+<text class="b" x="935.0" y="312" text-anchor="middle">구조 문서화, 비용 계산</text>
+<line x1="935" y1="404" x2="935" y2="446" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1152" y="100" width="300" height="300" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1302.0" y="140" text-anchor="middle">D 전반 준비</text>
+<text class="b" x="1302.0" y="172" text-anchor="middle">두 문장 포지셔닝</text>
+<text class="b" x="1302.0" y="200" text-anchor="middle">첫 고객 후보 셋</text>
+<text class="b" x="1302.0" y="228" text-anchor="middle">1개월, 3개월 매출 목표</text>
+<text class="b" x="1302.0" y="256" text-anchor="middle">고객 접수 절차</text>
+<text class="b" x="1302.0" y="284" text-anchor="middle">일관된 품질 검토</text>
+<text class="b" x="1302.0" y="312" text-anchor="middle">AI 사용 공개 방침</text>
+<line x1="1302" y1="404" x2="1302" y2="446" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="50" y="450" width="1400" height="90" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="750" y="505" text-anchor="middle">해당하는 구역의 항목을 모두 확인한 뒤에 출시한다</text>
+<text class="s" x="750" y="580" text-anchor="middle">항목 문구는 옮기지 않고 주제만 정리했다. 해당 없는 구역은 건너뛴다.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">여덟 가지 수익 모델의 첫걸음</text>
+<rect x="50" y="100" width="335" height="215" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="217.5" y="140" text-anchor="middle">1 맞춤 제작 서비스</text>
+<text class="b" x="217.5" y="172" text-anchor="middle">시작: 한 쪽짜리 서비스 설명</text>
+<text class="b" x="217.5" y="200" text-anchor="middle">목표: 첫 유료 프로젝트</text>
+<text class="b" x="217.5" y="228" text-anchor="middle">피할 것: 시간당 청구 유지</text>
+<rect x="405" y="100" width="335" height="215" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="572.5" y="140" text-anchor="middle">2 리테이너 서비스</text>
+<text class="b" x="572.5" y="172" text-anchor="middle">시작: 월 단위 세 등급 설계</text>
+<text class="b" x="572.5" y="200" text-anchor="middle">목표: 매달 내는 고객 셋</text>
+<text class="b" x="572.5" y="228" text-anchor="middle">피할 것: 범위 무한 확장</text>
+<rect x="760" y="100" width="335" height="215" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="927.5" y="140" text-anchor="middle">3 자동화 컨설팅</text>
+<text class="b" x="927.5" y="172" text-anchor="middle">시작: 업무 진단 양식 제작</text>
+<text class="b" x="927.5" y="200" text-anchor="middle">목표: 유료 진단 한 건</text>
+<text class="b" x="927.5" y="228" text-anchor="middle">피할 것: 진단 전에 구축</text>
+<rect x="1115" y="100" width="335" height="215" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1282.5" y="140" text-anchor="middle">4 디지털 상품</text>
+<text class="b" x="1282.5" y="172" text-anchor="middle">시작: 살 사람 열 명 확인</text>
+<text class="b" x="1282.5" y="200" text-anchor="middle">목표: 첫 상품 출시</text>
+<text class="b" x="1282.5" y="228" text-anchor="middle">피할 것: 검증 없는 제작</text>
+<rect x="50" y="340" width="335" height="215" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="217.5" y="380" text-anchor="middle">5 AI 에이전시</text>
+<text class="b" x="217.5" y="412" text-anchor="middle">시작: 틈새와 포지셔닝 문장</text>
+<text class="b" x="217.5" y="440" text-anchor="middle">목표: 채용 전 리테이너 고객</text>
+<text class="b" x="217.5" y="468" text-anchor="middle">피할 것: 시스템 전 채용</text>
+<rect x="405" y="340" width="335" height="215" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="572.5" y="380" text-anchor="middle">6 마이크로 SaaS</text>
+<text class="b" x="572.5" y="412" text-anchor="middle">시작: PAVED로 아이디어 심사</text>
+<text class="b" x="572.5" y="440" text-anchor="middle">목표: 유료 구독자 확보</text>
+<text class="b" x="572.5" y="468" text-anchor="middle">피할 것: 검증 전 완성도 집착</text>
+<rect x="760" y="340" width="335" height="215" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="927.5" y="380" text-anchor="middle">7 콘텐츠 사업</text>
+<text class="b" x="927.5" y="412" text-anchor="middle">시작: 주력 플랫폼 하나 고정</text>
+<text class="b" x="927.5" y="440" text-anchor="middle">목표: 구독자 기반 먼저</text>
+<text class="b" x="927.5" y="468" text-anchor="middle">피할 것: 수익화 서두르기</text>
+<rect x="1115" y="340" width="335" height="215" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="1282.5" y="380" text-anchor="middle">8 교육과 강의</text>
+<text class="b" x="1282.5" y="412" text-anchor="middle">시작: 대표 워크숍 하나 설계</text>
+<text class="b" x="1282.5" y="440" text-anchor="middle">목표: 첫 유료 워크숍 진행</text>
+<text class="b" x="1282.5" y="468" text-anchor="middle">피할 것: 시간당 단가로 책정</text>
+<text class="s" x="750" y="620" text-anchor="middle">가격과 목표 수치는 책의 예이며 노트에서는 구조만 정리했다. 결과는 개인과 시장에 따라 크게 다르다.</text>
+</svg>

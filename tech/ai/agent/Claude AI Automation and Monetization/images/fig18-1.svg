@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.h2{font-size:20px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">90일 실행 로드맵</text>
+<rect x="30" y="95" width="1440" height="80" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="750.0" y="133" text-anchor="middle">사전 1주: 기초 다지기</text>
+<text class="b" x="750.0" y="163" text-anchor="middle">수입원 하나 정하기, 포지셔닝 문장, 핵심 시스템 첫 판 시험, 첫 후보 목록, 월별 목표</text>
+<rect x="30" y="200" width="200" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="130.0" y="238" text-anchor="middle">1개월</text>
+<text class="b" x="130.0" y="268" text-anchor="middle">모델 검증</text>
+<rect x="255" y="200" width="290" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h2" x="400.0" y="238" text-anchor="middle">1주 첫 접촉</text>
+<text class="b" x="400.0" y="268" text-anchor="middle">맞춤 연락 시작</text>
+<text class="b" x="400.0" y="298" text-anchor="middle">목표: 통화 예약</text>
+<line x1="546" y1="262" x2="559" y2="262" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="560" y="200" width="290" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h2" x="705.0" y="238" text-anchor="middle">2주 첫 대화</text>
+<text class="b" x="705.0" y="268" text-anchor="middle">발견 통화로 요구 파악</text>
+<text class="b" x="705.0" y="298" text-anchor="middle">목표: 유력 후보 확보</text>
+<line x1="851" y1="262" x2="864" y2="262" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="865" y="200" width="290" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h2" x="1010.0" y="238" text-anchor="middle">3주 첫 제안</text>
+<text class="b" x="1010.0" y="268" text-anchor="middle">첫 제안서 발송과 후속</text>
+<text class="b" x="1010.0" y="298" text-anchor="middle">목표: 제안 제출</text>
+<line x1="1156" y1="262" x2="1169" y2="262" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1170" y="200" width="290" height="125" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h2" x="1315.0" y="238" text-anchor="middle">4주 첫 수익</text>
+<text class="b" x="1315.0" y="268" text-anchor="middle">첫 계약과 납품</text>
+<text class="b" x="1315.0" y="298" text-anchor="middle">목표: 첫 유료 고객</text>
+<line x1="130" y1="327" x2="130" y2="348" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="350" width="200" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="130.0" y="388" text-anchor="middle">2개월</text>
+<text class="b" x="130.0" y="418" text-anchor="middle">탄력 붙이기</text>
+<rect x="255" y="350" width="290" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h2" x="400.0" y="388" text-anchor="middle">5주 체계화</text>
+<text class="b" x="400.0" y="418" text-anchor="middle">절차 문서화, 정비</text>
+<text class="b" x="400.0" y="448" text-anchor="middle">목표: 절차서 완성</text>
+<line x1="546" y1="412" x2="559" y2="412" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="560" y="350" width="290" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h2" x="705.0" y="388" text-anchor="middle">6주 파이프라인</text>
+<text class="b" x="705.0" y="418" text-anchor="middle">연락량 확대, 글 추가</text>
+<text class="b" x="705.0" y="448" text-anchor="middle">목표: 진행 대화 다수</text>
+<line x1="851" y1="412" x2="864" y2="412" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="865" y="350" width="290" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h2" x="1010.0" y="388" text-anchor="middle">7주 두 번째 수익</text>
+<text class="b" x="1010.0" y="418" text-anchor="middle">두 번째 고객 전환</text>
+<text class="b" x="1010.0" y="448" text-anchor="middle">목표: 유료 고객 둘</text>
+<line x1="1156" y1="412" x2="1169" y2="412" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1170" y="350" width="290" height="125" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h2" x="1315.0" y="388" text-anchor="middle">8주 첫 사례</text>
+<text class="b" x="1315.0" y="418" text-anchor="middle">사례 연구 작성과 공개</text>
+<text class="b" x="1315.0" y="448" text-anchor="middle">목표: 사례 공개</text>
+<line x1="130" y1="477" x2="130" y2="498" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="500" width="200" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="130.0" y="538" text-anchor="middle">3개월</text>
+<text class="b" x="130.0" y="568" text-anchor="middle">통하는 것 키우기</text>
+<rect x="255" y="500" width="290" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h2" x="400.0" y="538" text-anchor="middle">9주 두 번째 수입원</text>
+<text class="b" x="400.0" y="568" text-anchor="middle">보완 상품이나 상위 티어</text>
+<text class="b" x="400.0" y="598" text-anchor="middle">목표: 둘째 수입원 가동</text>
+<line x1="546" y1="562" x2="559" y2="562" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="560" y="500" width="290" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h2" x="705.0" y="538" text-anchor="middle">10주 가격 인상</text>
+<text class="b" x="705.0" y="568" text-anchor="middle">신규 고객 가격 인상</text>
+<text class="b" x="705.0" y="598" text-anchor="middle">목표: 새 가격 적용</text>
+<line x1="851" y1="562" x2="864" y2="562" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="865" y="500" width="290" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h2" x="1010.0" y="538" text-anchor="middle">11주 소개 엔진</text>
+<text class="b" x="1010.0" y="568" text-anchor="middle">만족 고객에 소개 요청</text>
+<text class="b" x="1010.0" y="598" text-anchor="middle">목표: 첫 소개 접수</text>
+<line x1="1156" y1="562" x2="1169" y2="562" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1170" y="500" width="290" height="125" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h2" x="1315.0" y="538" text-anchor="middle">12주 점검과 계획</text>
+<text class="b" x="1315.0" y="568" text-anchor="middle">90일 점검, 자동화 1개</text>
+<text class="b" x="1315.0" y="598" text-anchor="middle">목표: 월 목표 평가</text>
+<line x1="130" y1="177" x2="130" y2="198" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="650" width="1440" height="75" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="750.0" y="688" text-anchor="middle">91일부터: 복리 단계</text>
+<text class="b" x="750.0" y="718" text-anchor="middle">쌓아 온 시스템, 콘텐츠, 관계가 들어간 노력보다 더 돌려주기 시작한다</text>
+</svg>

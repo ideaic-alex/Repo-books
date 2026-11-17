@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">AI 교육 프로그램의 네 단계</text>
+<rect x="35" y="120" width="305" height="230" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="187.5" y="154" text-anchor="middle">인식</text>
+<text class="b" x="187.5" y="184" text-anchor="middle">이 팀에 AI가</text>
+<text class="b" x="187.5" y="212" text-anchor="middle">무엇을 해 주나</text>
+<text class="b" x="187.5" y="240" text-anchor="middle">형식: 기조 강연</text>
+<text class="b" x="187.5" y="268" text-anchor="middle">지표: 활용처를 말함</text>
+<rect x="410" y="120" width="305" height="230" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="562.5" y="154" text-anchor="middle">기초</text>
+<text class="b" x="562.5" y="184" text-anchor="middle">프롬프트와 결과 평가</text>
+<text class="b" x="562.5" y="212" text-anchor="middle">형식: 실습 워크숍</text>
+<text class="b" x="562.5" y="240" text-anchor="middle">지표: 실제 업무 몇 건</text>
+<text class="b" x="562.5" y="268" text-anchor="middle">을 Claude로 완성</text>
+<rect x="785" y="120" width="305" height="230" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="937.5" y="154" text-anchor="middle">적용</text>
+<text class="b" x="937.5" y="184" text-anchor="middle">직무별 워크플로</text>
+<text class="b" x="937.5" y="212" text-anchor="middle">형식: 안내 실습</text>
+<text class="b" x="937.5" y="240" text-anchor="middle">지표: 반복 가능한</text>
+<text class="b" x="937.5" y="268" text-anchor="middle">워크플로 하나 제작</text>
+<rect x="1160" y="120" width="305" height="230" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1312.5" y="154" text-anchor="middle">통합</text>
+<text class="b" x="1312.5" y="184" text-anchor="middle">습관과 동료 학습</text>
+<text class="b" x="1312.5" y="212" text-anchor="middle">형식: 기수 점검 모임</text>
+<text class="b" x="1312.5" y="240" text-anchor="middle">지표: 실제 업무의</text>
+<text class="b" x="1312.5" y="268" text-anchor="middle">시간 절감 측정</text>
+<line x1="342" y1="235" x2="408" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="717" y1="235" x2="783" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1092" y1="235" x2="1158" y2="235" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="750" y="410" text-anchor="middle">성공 기준은 만족도 설문이 아니라 일하는 방식의 변화다.</text>
+<text class="b" x="750" y="450" text-anchor="middle">각 단계를 독립 모듈로 만들고 Claude로 자료 초안을 만든 뒤, 교육자가 검토하고 청중에 맞게 고친다.</text>
+<text class="s" x="750" y="500" text-anchor="middle">단계 구성은 책의 틀을 노트 작성자가 새로 도식화함</text>
+</svg>

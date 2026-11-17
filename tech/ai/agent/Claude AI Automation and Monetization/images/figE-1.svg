@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}
+.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:16px;fill:#666}
+</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 6 L0 12 z" fill="#4A5260"/></marker></defs>
+<rect width="1500" height="560" fill="#FFFFFF"/>
+<text class="t" x="750" y="62" text-anchor="middle">읽고, 만들고, 다시 만드는 순환</text>
+<rect x="40" y="130" width="310" height="150" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="h" x="195.0" y="164" text-anchor="middle">하나 고르기</text>
+<text class="b" x="195.0" y="194" text-anchor="middle">시스템, 사업 모델,</text>
+<text class="b" x="195.0" y="222" text-anchor="middle">파이프라인, 상품 중 하나</text>
+<rect x="410" y="130" width="310" height="150" rx="10" fill="#FBF0DC" stroke="#B8862B" stroke-width="2"/>
+<text class="h" x="565.0" y="164" text-anchor="middle">지금 실행</text>
+<text class="b" x="565.0" y="194" text-anchor="middle">완벽을 기다리지 않고</text>
+<text class="b" x="565.0" y="222" text-anchor="middle">아는 만큼으로 출시</text>
+<rect x="780" y="130" width="310" height="150" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="h" x="935.0" y="164" text-anchor="middle">반응 보기</text>
+<text class="b" x="935.0" y="194" text-anchor="middle">실제 입력과</text>
+<text class="b" x="935.0" y="222" text-anchor="middle">고객 반응에서 배움</text>
+<rect x="1150" y="130" width="310" height="150" rx="10" fill="#F9E8E8" stroke="#B5524A" stroke-width="2"/>
+<text class="h" x="1305.0" y="164" text-anchor="middle">다음 버전</text>
+<text class="b" x="1305.0" y="194" text-anchor="middle">고치고 더 깊게</text>
+<text class="b" x="1305.0" y="222" text-anchor="middle">다시 만들기</text>
+<line x1="352" y1="205" x2="408" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="722" y1="205" x2="778" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="1092" y1="205" x2="1148" y2="205" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M1305 284 L1305 360 L195 360 L195 284" fill="none" stroke="#4A5260" stroke-width="2.5" marker-end="url(#ar)"/>
+<text class="h" x="750" y="395" text-anchor="middle">반복할수록 시스템, 관계, 평판이 쌓인다</text>
+<text class="b" x="750" y="450" text-anchor="middle">이 책의 마지막 조언: 지금 아는 것으로 하나를 실행하고, 돌아와 다음 버전을 만든다.</text>
+<text class="s" x="750" y="500" text-anchor="middle">결과는 개인과 시장에 따라 크게 다르다.</text>
+</svg>
