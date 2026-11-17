@@ -1,0 +1,202 @@
+# **The Claude Code Operating Model 학습 노트**
+(The Claude Code Operating Model: Build scalable AI coding systems with Skills, MCP, Hooks, agent orchestration, and SDK patterns, 장별 정리 노트)
+<br>
+
+<p align="center"><img src="images/cover.jpg" alt="The Claude Code Operating Model 표지" width="360"></p>
+<br>
+<br>
+
+이 문서는 Jia Huang의 『The Claude Code Operating Model』(Packt)을 장별로 정리한 한국어 학습 노트입니다. 원문을 번역한 것이 아니라 내용을 우리말로 풀어서 다시 설명했고, 처음 나오는 용어에는 쉬운 풀이를 붙였습니다. 책은 Claude Code를 명령줄 도우미가 아니라 에이전트 프레임워크로 보고, 메모리(CLAUDE.md), 스킬, 서브에이전트, 훅, MCP라는 확장 요소를 하나씩 설계하는 방법을 다룹니다. 이어서 헤드리스 모드로 CI/CD 파이프라인에 붙이는 방법, Agent SDK로 직접 에이전트를 만드는 방법, 플러그인으로 팀에 공유하는 방법, 비용·보안·팀 도입 실무까지 10개 장과 맺음말로 안내합니다. 이 노트는 책의 장 구성을 그대로 따라 장마다 폴더 하나로 정리했습니다.
+
+> **이 노트를 읽을 때 유의할 점**
+> - 이 노트는 원서의 **요약·해설본**이며 원서를 대신하지 않습니다. 설정 파일 형식, 명령 옵션, 이벤트 이름, 환경 변수처럼 정확성이 필요한 내용은 반드시 원서와 Anthropic 공식 문서에서 확인하세요.
+> - Claude Code는 버전이 빠르게 바뀝니다. 책이 쓰인 시점과 지금의 기능·옵션이 다를 수 있습니다.
+> - 원서의 코드는 핵심만 옮겼습니다. PDF 추출 과정에서 코드의 들여쓰기·따옴표·줄바꿈이 깨진 곳은 문맥으로 복원했고, 해당 문서에 그 사실을 적었습니다. 원서 코드의 오류로 보이는 곳은 `참고(노트 작성자)`로 표시했습니다.
+> - 책에 없는 보충 설명도 `참고(노트 작성자)`로 따로 표시했습니다.
+> - 원서의 그림과 스크린샷은 싣지 않았고 글과 표로 풀어 설명했습니다. 표지 이미지만 책 소개용으로 넣었습니다.
+> - 예제의 키, 토큰, 접속 문자열은 자리표시자로 바꿨습니다. 실습할 때는 자신의 값을 쓰고 비밀 값을 저장소에 올리지 마세요.
+<br>
+
+---
+
+## 목차
+
+- [머리말과 이 책에 대하여](00.%20%EB%A8%B8%EB%A6%AC%EB%A7%90%EA%B3%BC%20%EC%9D%B4%20%EC%B1%85%EC%97%90%20%EB%8C%80%ED%95%98%EC%97%AC/Readme.md) — 책의 목적, 저자, 구성, 읽는 순서, 준비물
+- [에이전트 프레임워크로서의 Claude Code 기술 아키텍처 개요](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/Readme.md) — 에이전트 프레임워크로서의 4계층 구조, 하니스와 에이전틱 루프, 기술 선택
+  - [4계층 구조 모델](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/4%EA%B3%84%EC%B8%B5%20%EA%B5%AC%EC%A1%B0%20%EB%AA%A8%EB%8D%B8.md)
+  - [구성 요소 관계와 협업](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/%EA%B5%AC%EC%84%B1%20%EC%9A%94%EC%86%8C%20%EA%B4%80%EA%B3%84%EC%99%80%20%ED%98%91%EC%97%85.md)
+  - [기술 선택 가이드](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/%EA%B8%B0%EC%88%A0%20%EC%84%A0%ED%83%9D%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+  - [명령줄 도우미에서 에이전트 프레임워크로](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/%EB%AA%85%EB%A0%B9%EC%A4%84%20%EB%8F%84%EC%9A%B0%EB%AF%B8%EC%97%90%EC%84%9C%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C.md)
+  - [요약과 핵심 개념](01.%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A1%9C%EC%84%9C%EC%9D%98%20Claude%20Code%20%EA%B8%B0%EC%88%A0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EA%B0%9C%EC%9A%94/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+- [과거에서 배우기 메모리 시스템의 엔지니어링 실무](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/Readme.md) — 5계층 메모리 구조, CLAUDE.md 작성 패러다임, 조건부 규칙, 프로젝트 구성 사례
+  - [AI에게 메모리가 필요한 이유와 5계층 메모리 구조](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/AI%EC%97%90%EA%B2%8C%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B0%80%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0%EC%99%80%205%EA%B3%84%EC%B8%B5%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
+  - [CLAUDE.md 작성 패러다임 WHY WHAT HOW](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/CLAUDE.md%20%EC%9E%91%EC%84%B1%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%20WHY%20WHAT%20HOW.md)
+  - [세 가지 프로젝트 구성 사례](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EC%84%B8%20%EA%B0%80%EC%A7%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B5%AC%EC%84%B1%20%EC%82%AC%EB%A1%80.md)
+  - [요약과 핵심 개념](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [조건부 규칙 시스템](02.%20%EA%B3%BC%EA%B1%B0%EC%97%90%EC%84%9C%20%EB%B0%B0%EC%9A%B0%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EC%A1%B0%EA%B1%B4%EB%B6%80%20%EA%B7%9C%EC%B9%99%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
+- [낚시를 가르치기 재사용 가능한 스킬 설계](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/Readme.md) — 스킬의 구조와 트리거, 점진적 공개, allowed-tools, 설계 패턴
+  - [CLAUDE.md에서 스킬로 지식의 두 차원](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/CLAUDE.md%EC%97%90%EC%84%9C%20%EC%8A%A4%ED%82%AC%EB%A1%9C%20%EC%A7%80%EC%8B%9D%EC%9D%98%20%EB%91%90%20%EC%B0%A8%EC%9B%90.md)
+  - [SKILL.md 본문과 allowed-tools](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/SKILL.md%20%EB%B3%B8%EB%AC%B8%EA%B3%BC%20allowed-tools.md)
+  - [매개변수 전달과 동적 주입 그리고 범위와 우선순위](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%20%EC%A0%84%EB%8B%AC%EA%B3%BC%20%EB%8F%99%EC%A0%81%20%EC%A3%BC%EC%9E%85%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EB%B2%94%EC%9C%84%EC%99%80%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84.md)
+  - [스킬 해부 디렉터리 구조와 YAML frontmatter](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%EC%8A%A4%ED%82%AC%20%ED%95%B4%EB%B6%80%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%EC%99%80%20YAML%20frontmatter.md)
+  - [실습 스킬 세 개 만들기와 설계 패턴, 소프트웨어 공학 관점](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%EC%8B%A4%EC%8A%B5%20%EC%8A%A4%ED%82%AC%20%EC%84%B8%20%EA%B0%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%EC%99%80%20%EC%84%A4%EA%B3%84%20%ED%8C%A8%ED%84%B4%2C%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99%20%EA%B4%80%EC%A0%90.md)
+  - [요약과 핵심 개념](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [점진적 공개와 description 예산](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%EC%A0%90%EC%A7%84%EC%A0%81%20%EA%B3%B5%EA%B0%9C%EC%99%80%20description%20%EC%98%88%EC%82%B0.md)
+  - [트리거 메커니즘과 참조 스킬 대 작업 스킬](03.%20%EB%82%9A%EC%8B%9C%EB%A5%BC%20%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0%20%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%8A%A4%ED%82%AC%20%EC%84%A4%EA%B3%84/%ED%8A%B8%EB%A6%AC%EA%B1%B0%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98%EA%B3%BC%20%EC%B0%B8%EC%A1%B0%20%EC%8A%A4%ED%82%AC%20%EB%8C%80%20%EC%9E%91%EC%97%85%20%EC%8A%A4%ED%82%AC.md)
+- [분할 정복 서브에이전트와 작업 위임의 기술](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/Readme.md) — 서브에이전트의 모드, 스킬과의 협업, 토큰 경제학, 설계 원칙
+  - [서브에이전트 정의와 설정](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%A0%95%EC%9D%98%EC%99%80%20%EC%84%A4%EC%A0%95.md)
+  - [서브에이전트와 스킬의 협업](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%8A%A4%ED%82%AC%EC%9D%98%20%ED%98%91%EC%97%85.md)
+  - [서브에이전트의 모드 읽기 전용 실행 병렬 파이프라인과 팀](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%9D%98%20%EB%AA%A8%EB%93%9C%20%EC%9D%BD%EA%B8%B0%20%EC%A0%84%EC%9A%A9%20%EC%8B%A4%ED%96%89%20%EB%B3%91%EB%A0%AC%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8%EA%B3%BC%20%ED%8C%80.md)
+  - [소프트웨어 공학 관점 단일 책임 벌크헤드 MapReduce 책임 연쇄](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99%20%EA%B4%80%EC%A0%90%20%EB%8B%A8%EC%9D%BC%20%EC%B1%85%EC%9E%84%20%EB%B2%8C%ED%81%AC%ED%97%A4%EB%93%9C%20MapReduce%20%EC%B1%85%EC%9E%84%20%EC%97%B0%EC%87%84.md)
+  - [실무 고려 사항](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%8B%A4%EB%AC%B4%20%EA%B3%A0%EB%A0%A4%20%EC%82%AC%ED%95%AD.md)
+  - [요약과 핵심 개념](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [컨텍스트 윈도 딜레마와 서브에이전트의 본질](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9C%88%EB%8F%84%20%EB%94%9C%EB%A0%88%EB%A7%88%EC%99%80%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%9D%98%20%EB%B3%B8%EC%A7%88.md)
+  - [토큰 경제학](04.%20%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5%20%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%99%80%20%EC%9E%91%EC%97%85%20%EC%9C%84%EC%9E%84%EC%9D%98%20%EA%B8%B0%EC%88%A0/%ED%86%A0%ED%81%B0%20%EA%B2%BD%EC%A0%9C%ED%95%99.md)
+- [지침에서 가드레일로 훅으로 통제 자동화하기](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/Readme.md) — 훅 이벤트 수명주기, 처리기 종류, 보안 보호와 코드 품질 자동화
+  - [hookSpecificOutput 프로토콜](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/hookSpecificOutput%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
+  - [서브에이전트 훅과 비동기 훅](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%9B%85%EA%B3%BC%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%ED%9B%85.md)
+  - [설정 위치 6곳과 처리기 세 종류](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%EC%84%A4%EC%A0%95%20%EC%9C%84%EC%B9%98%206%EA%B3%B3%EA%B3%BC%20%EC%B2%98%EB%A6%AC%EA%B8%B0%20%EC%84%B8%20%EC%A2%85%EB%A5%98.md)
+  - [실습 1 보안 보호 체계](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%EC%8B%A4%EC%8A%B5%201%20%EB%B3%B4%EC%95%88%20%EB%B3%B4%ED%98%B8%20%EC%B2%B4%EA%B3%84.md)
+  - [실습 2 자동 코드 품질](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%EC%8B%A4%EC%8A%B5%202%20%EC%9E%90%EB%8F%99%20%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88.md)
+  - [요약과 핵심 개념](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [환경 변수와 디버깅과 함정과 설계 방법론](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%ED%99%98%EA%B2%BD%20%EB%B3%80%EC%88%98%EC%99%80%20%EB%94%94%EB%B2%84%EA%B9%85%EA%B3%BC%20%ED%95%A8%EC%A0%95%EA%B3%BC%20%EC%84%A4%EA%B3%84%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)
+  - [훅의 역할과 이벤트 수명주기](05.%20%EC%A7%80%EC%B9%A8%EC%97%90%EC%84%9C%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%EB%A1%9C%20%ED%9B%85%EC%9C%BC%EB%A1%9C%20%ED%86%B5%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/%ED%9B%85%EC%9D%98%20%EC%97%AD%ED%95%A0%EA%B3%BC%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%88%98%EB%AA%85%EC%A3%BC%EA%B8%B0.md)
+- [모든 것을 연결하기 MCP로 외부 도구 통합](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/Readme.md) — MCP 아키텍처와 설정, 서버 구축, 생태계와 보안, 엔터프라이즈 배포
+  - [MCP 서버 생태계와 보안 메커니즘](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/MCP%20%EC%84%9C%EB%B2%84%20%EC%83%9D%ED%83%9C%EA%B3%84%EC%99%80%20%EB%B3%B4%EC%95%88%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98.md)
+  - [MCP와 스킬과 엔터프라이즈 배포와 디버깅](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/MCP%EC%99%80%20%EC%8A%A4%ED%82%AC%EA%B3%BC%20%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88%20%EB%B0%B0%ED%8F%AC%EC%99%80%20%EB%94%94%EB%B2%84%EA%B9%85.md)
+  - [N×M에서 N+M으로와 아키텍처와 전송 방식](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/N%C3%97M%EC%97%90%EC%84%9C%20N%2BM%EC%9C%BC%EB%A1%9C%EC%99%80%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%99%80%20%EC%A0%84%EC%86%A1%20%EB%B0%A9%EC%8B%9D.md)
+  - [설정 CLI와 .mcp.json과 범위](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/%EC%84%A4%EC%A0%95%20CLI%EC%99%80%20.mcp.json%EA%B3%BC%20%EB%B2%94%EC%9C%84.md)
+  - [실습 데이터베이스 연결과 사용자 정의 MCP 서버](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/%EC%8B%A4%EC%8A%B5%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%97%B0%EA%B2%B0%EA%B3%BC%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A0%95%EC%9D%98%20MCP%20%EC%84%9C%EB%B2%84.md)
+  - [요약과 핵심 개념](06.%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0%20MCP%EB%A1%9C%20%EC%99%B8%EB%B6%80%20%EB%8F%84%EA%B5%AC%20%ED%86%B5%ED%95%A9/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+- [헤드리스 모드와 CI-CD 통합](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/Readme.md) — 헤드리스 모드 매개변수, GitHub Actions·GitLab·Jenkins 통합, CI 보안
+  - [CI 환경 구성 프로덕션 체크리스트와 MCP 설정](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/CI%20%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1%20%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98%20%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%99%80%20MCP%20%EC%84%A4%EC%A0%95.md)
+  - [보안 모범 사례와 단계적 도입 전략과 Agent SDK로의 확장](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EB%B3%B4%EC%95%88%20%EB%AA%A8%EB%B2%94%20%EC%82%AC%EB%A1%80%EC%99%80%20%EB%8B%A8%EA%B3%84%EC%A0%81%20%EB%8F%84%EC%9E%85%20%EC%A0%84%EB%9E%B5%EA%B3%BC%20Agent%20SDK%EB%A1%9C%EC%9D%98%20%ED%99%95%EC%9E%A5.md)
+  - [비대화형 전환과 핵심 매개변수 4축](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EB%B9%84%EB%8C%80%ED%99%94%ED%98%95%20%EC%A0%84%ED%99%98%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%204%EC%B6%95.md)
+  - [실습 1 GitHub Actions 자동 코드 리뷰](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EC%8B%A4%EC%8A%B5%201%20GitHub%20Actions%20%EC%9E%90%EB%8F%99%20%EC%BD%94%EB%93%9C%20%EB%A6%AC%EB%B7%B0.md)
+  - [실습 2 다단계 CI 파이프라인](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EC%8B%A4%EC%8A%B5%202%20%EB%8B%A4%EB%8B%A8%EA%B3%84%20CI%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
+  - [요약과 핵심 개념](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [유닉스 파이프라인과 스트리밍 출력과 세션 관리](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%EC%9C%A0%EB%8B%89%EC%8A%A4%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8%EA%B3%BC%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D%20%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%84%B8%EC%85%98%20%EA%B4%80%EB%A6%AC.md)
+  - [플랫폼 간 통합 GitLab CI와 Jenkins와 로컬 스크립트](07.%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20%EB%AA%A8%EB%93%9C%EC%99%80%20CI-CD%20%ED%86%B5%ED%95%A9/%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EA%B0%84%20%ED%86%B5%ED%95%A9%20GitLab%20CI%EC%99%80%20Jenkins%EC%99%80%20%EB%A1%9C%EC%BB%AC%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md)
+- [Claude를 엔진으로 삼아 만들기 Agent SDK](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/Readme.md) — Agent SDK의 query 함수, 메시지·권한·세션, 사용자 정의 도구와 훅
+  - [Agent SDK의 위치와 핵심 API query 함수](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/Agent%20SDK%EC%9D%98%20%EC%9C%84%EC%B9%98%EC%99%80%20%ED%95%B5%EC%8B%AC%20API%20query%20%ED%95%A8%EC%88%98.md)
+  - [ClaudeAgentOptions와 권한 모드·도구 권한 패턴](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/ClaudeAgentOptions%EC%99%80%20%EA%B6%8C%ED%95%9C%20%EB%AA%A8%EB%93%9C%C2%B7%EB%8F%84%EA%B5%AC%20%EA%B6%8C%ED%95%9C%20%ED%8C%A8%ED%84%B4.md)
+  - [SDK 훅과 4계층 보안 방어, 구조화된 출력](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/SDK%20%ED%9B%85%EA%B3%BC%204%EA%B3%84%EC%B8%B5%20%EB%B3%B4%EC%95%88%20%EB%B0%A9%EC%96%B4%2C%20%EA%B5%AC%EC%A1%B0%ED%99%94%EB%90%9C%20%EC%B6%9C%EB%A0%A5.md)
+  - [메시지 유형 해석](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9C%A0%ED%98%95%20%ED%95%B4%EC%84%9D.md)
+  - [세션 관리와 사용자 정의 도구](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/%EC%84%B8%EC%85%98%20%EA%B4%80%EB%A6%AC%EC%99%80%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A0%95%EC%9D%98%20%EB%8F%84%EA%B5%AC.md)
+  - [실습 코드 분석 웹 서비스와 SDK 대 헤드리스 CLI 선택](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/%EC%8B%A4%EC%8A%B5%20%EC%BD%94%EB%93%9C%20%EB%B6%84%EC%84%9D%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%99%80%20SDK%20%EB%8C%80%20%ED%97%A4%EB%93%9C%EB%A6%AC%EC%8A%A4%20CLI%20%EC%84%A0%ED%83%9D.md)
+  - [요약과 핵심 개념](08.%20Claude%EB%A5%BC%20%EC%97%94%EC%A7%84%EC%9C%BC%EB%A1%9C%20%EC%82%BC%EC%95%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20Agent%20SDK/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+- [개인의 기술에서 공유 자산으로 플러그인 생태계](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/Readme.md) — 플러그인 구조와 수명주기, 팀 역량 팩, 비공개 마켓플레이스
+  - [비공개 마켓플레이스와 조직 관리](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%EB%B9%84%EA%B3%B5%EA%B0%9C%20%EB%A7%88%EC%BC%93%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%99%80%20%EC%A1%B0%EC%A7%81%20%EA%B4%80%EB%A6%AC.md)
+  - [설계 원칙, 패키징 시점, LSP 지원과 미래](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%EC%84%A4%EA%B3%84%20%EC%9B%90%EC%B9%99%2C%20%ED%8C%A8%ED%82%A4%EC%A7%95%20%EC%8B%9C%EC%A0%90%2C%20LSP%20%EC%A7%80%EC%9B%90%EA%B3%BC%20%EB%AF%B8%EB%9E%98.md)
+  - [설치와 수명주기, 네임스페이스](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%EC%84%A4%EC%B9%98%EC%99%80%20%EC%88%98%EB%AA%85%EC%A3%BC%EA%B8%B0%2C%20%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4.md)
+  - [실습 팀 역량 팩 만들기](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%EC%8B%A4%EC%8A%B5%20%ED%8C%80%20%EC%97%AD%EB%9F%89%20%ED%8C%A9%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+  - [요약과 핵심 개념](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [플러그인의 역할과 물리 구조](09.%20%EA%B0%9C%EC%9D%B8%EC%9D%98%20%EA%B8%B0%EC%88%A0%EC%97%90%EC%84%9C%20%EA%B3%B5%EC%9C%A0%20%EC%9E%90%EC%82%B0%EC%9C%BC%EB%A1%9C%20%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%20%EC%83%9D%ED%83%9C%EA%B3%84/%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%98%20%EC%97%AD%ED%95%A0%EA%B3%BC%20%EB%AC%BC%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
+- [개인에서 팀으로 Claude Code 엔지니어링 실무](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/Readme.md) — 비용·디버깅·보안, 대규모 코드베이스, 팀 도입 로드맵, SDD 통합
+  - [SDD 생태계 통합과 아홉 가지 핵심 메커니즘](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/SDD%20%EC%83%9D%ED%83%9C%EA%B3%84%20%ED%86%B5%ED%95%A9%EA%B3%BC%20%EC%95%84%ED%99%89%20%EA%B0%80%EC%A7%80%20%ED%95%B5%EC%8B%AC%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98.md)
+  - [대규모 코드베이스와 프롬프트 엔지니어링](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%BD%94%EB%93%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%99%80%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81.md)
+  - [디버깅 블랙박스 열어 보기](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EB%94%94%EB%B2%84%EA%B9%85%20%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4%20%EC%97%B4%EC%96%B4%20%EB%B3%B4%EA%B8%B0.md)
+  - [보안 지침 최소 권한과 겹겹의 방어](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EB%B3%B4%EC%95%88%20%EC%A7%80%EC%B9%A8%20%EC%B5%9C%EC%86%8C%20%EA%B6%8C%ED%95%9C%EA%B3%BC%20%EA%B2%B9%EA%B2%B9%EC%9D%98%20%EB%B0%A9%EC%96%B4.md)
+  - [비용 통제와 토큰 경제](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EB%B9%84%EC%9A%A9%20%ED%86%B5%EC%A0%9C%EC%99%80%20%ED%86%A0%ED%81%B0%20%EA%B2%BD%EC%A0%9C.md)
+  - [요약과 핵심 개념](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [팀 도입 공유 설정과 단계적 로드맵](10.%20%EA%B0%9C%EC%9D%B8%EC%97%90%EC%84%9C%20%ED%8C%80%EC%9C%BC%EB%A1%9C%20Claude%20Code%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%20%EC%8B%A4%EB%AC%B4/%ED%8C%80%20%EB%8F%84%EC%9E%85%20%EA%B3%B5%EC%9C%A0%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EB%8B%A8%EA%B3%84%EC%A0%81%20%EB%A1%9C%EB%93%9C%EB%A7%B5.md)
+- [맺음말 칼날의 길](11.%20%EB%A7%BA%EC%9D%8C%EB%A7%90%20%EC%B9%BC%EB%82%A0%EC%9D%98%20%EA%B8%B8/Readme.md) — 책의 구조와 하니스 논지, 에이전틱 루프와 칼날의 길
+  - [에이전틱 루프와 칼날의 길](11.%20%EB%A7%BA%EC%9D%8C%EB%A7%90%20%EC%B9%BC%EB%82%A0%EC%9D%98%20%EA%B8%B8/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8B%B1%20%EB%A3%A8%ED%94%84%EC%99%80%20%EC%B9%BC%EB%82%A0%EC%9D%98%20%EA%B8%B8.md)
+  - [요약과 핵심 개념](11.%20%EB%A7%BA%EC%9D%8C%EB%A7%90%20%EC%B9%BC%EB%82%A0%EC%9D%98%20%EA%B8%B8/%EC%9A%94%EC%95%BD%EA%B3%BC%20%ED%95%B5%EC%8B%AC%20%EA%B0%9C%EB%85%90.md)
+  - [책의 구조와 하니스 논지](11.%20%EB%A7%BA%EC%9D%8C%EB%A7%90%20%EC%B9%BC%EB%82%A0%EC%9D%98%20%EA%B8%B8/%EC%B1%85%EC%9D%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%ED%95%98%EB%8B%88%EC%8A%A4%20%EB%85%BC%EC%A7%80.md)
+
+---
+
+## 읽는 순서 제안
+
+| 목적 | 추천 경로 |
+|------|-----------|
+| Claude Code의 전체 구조를 먼저 잡고 싶다 | 1장 → 2장 |
+| 팀의 반복 작업을 스킬과 서브에이전트로 만들고 싶다 | 3장 → 4장 |
+| AI의 행동을 자동으로 통제하고 외부 도구와 연결하고 싶다 | 5장 → 6장 |
+| CI/CD에 Claude Code를 붙이고 싶다 | 7장 (필요하면 5장의 훅, 8장의 SDK) |
+| 직접 에이전트를 코드로 만들고 싶다 | 8장 |
+| 팀과 조직에 도입하고 싶다 | 9장 → 10장 |
+| 전체를 빠르게 복습하고 싶다 | 각 장의 Readme와 요약과 핵심 개념 |
+
+## 용어 몇 가지
+
+| 용어 | 쉬운 설명 |
+|------|-----------|
+| 하니스(harness) | 모델 주위에서 도구 실행, 권한, 컨텍스트를 관리하며 에이전트를 굴리는 실행 틀. |
+| 에이전틱 루프 | 모델이 생각하고, 도구를 쓰고, 결과를 보고 다시 판단하는 반복 과정. |
+| CLAUDE.md | Claude Code에 프로젝트 규칙과 배경을 알려 주는 메모리 파일. |
+| 스킬(Skills) | 필요할 때만 불러 쓰는 재사용 가능한 작업 지식 묶음. |
+| 서브에이전트 | 별도 컨텍스트에서 특정 작업을 맡아 처리하고 결과만 돌려주는 보조 에이전트. |
+| 훅(Hooks) | 도구 실행 전후 같은 시점에 자동으로 실행되어 검사·차단하는 장치. |
+| MCP | 에이전트가 외부 도구와 데이터를 같은 방식으로 쓰게 하는 표준 규약. |
+| 헤드리스 모드 | 화면 상호작용 없이 명령줄이나 CI에서 자동으로 실행하는 방식. |
+| 플러그인 | 스킬, 서브에이전트, 훅, MCP 설정을 하나로 묶어 배포하는 단위. |
+
+---
+
+## 이 노트를 만든 방법과 사용한 프롬프트
+
+이 노트는 AI 코딩 도구(Claude Code)에 원서 PDF와 기존 노트 형식을 주고 작성하게 한 결과물입니다. 작성에 쓴 지시문을 아래에 정리합니다. 원문 텍스트는 PDF에서 추출했고, 장 단위로 나눠 작성한 뒤 파일명과 링크, 코드 블록, 비밀 값 유무를 기계적으로 점검했습니다.
+
+### 1. 최초 요청
+
+> 'The Claude Code Operating Model' PDF를 'Repo-books' 저장소의 다른 작성된 폴더와 md 파일들을 참고해서 저장소의 'tech' 폴더에 문서를 작성합니다. 작성하는데 사용된 prompt는 'README.md' 파일에 정리해서 기록합니다. 표지 추가합니다.
+
+표지 요청은 같은 저장소의 다른 책 폴더가 `images/cover.jpg`를 책 소개 맨 위에 두는 관례를 따라, PDF 1쪽을 이미지로 변환해 `images/cover.jpg`로 넣었습니다.
+
+### 2. 작업 방식
+
+| 단계 | 내용 |
+|---|---|
+| 형식 조사 | 같은 저장소의 기존 책 폴더(머리말 폴더, 장 폴더, 장 Readme, 요약과 핵심 개념, 표지 이미지)를 견본으로 삼았다. |
+| 원문 추출 | PDF 379쪽의 텍스트와 목차(북마크)를 추출해 장별 쪽 범위를 정했다. |
+| 장별 작성 | 장을 4개 묶음으로 나눠 각각 별도 작성자(에이전트)에게 아래 공통 프롬프트로 작성하게 했다. |
+| 점검 | 문서 링크와 실제 파일명 일치, 금지 문자, 코드 블록 짝, 비밀 값 패턴을 점검했다. |
+
+| 담당 묶음 | 장 | PDF 쪽 범위 |
+|---|---|---|
+| 1 | 머리말, 1장, 2장, 맺음말 | 21~85쪽, 343~347쪽 |
+| 2 | 3장, 4장 | 86~168쪽 |
+| 3 | 5장, 6장, 7장 | 169~256쪽 |
+| 4 | 8장, 9장, 10장 | 257~342쪽 |
+
+### 3. 공통 작성 프롬프트(요지)
+
+```text
+역할: 영문 기술서 한 권을 한국어 학습 노트(마크다운 문서 묶음)로 정리하는 작성자다.
+      담당 범위만 작성하고 저장소에는 올리지 않는다. 모든 문장은 한국어로 쓴다.
+입력: 책 정보, PDF 추출 텍스트(쪽 구분자 포함), 담당 장과 쪽 범위, 출력 폴더명.
+      원문은 구간별로 끝까지 읽는다.
+형식: 견본 문서(장 Readme, 주제 문서, 요약과 핵심 개념)의 형식과 어조(평서문, 쉬운 설명)를 따른다.
+      장 폴더 = Readme.md(소개, 핵심 요점, 문서 목록) + 주제 문서 + 요약과 핵심 개념.md.
+      00 폴더 = Readme.md 한 개(목적, 저자, 구성, 읽는 순서, 준비물, 읽는 법).
+내용 규칙:
+  1. 번역이 아니라 이해한 뒤 우리말로 다시 설명한다. 원문 문장을 그대로 옮기지 않되
+     구조, 절차, 설정 항목, 수치, 사례, 주의점의 정보량은 줄이지 않는다.
+  2. 설정 파일·명령·코드는 핵심만 짧게(문서당 약 25줄 이내) 싣는다. 이벤트 이름, 키 이름,
+     필드명, 파일명, 명령 옵션, 환경 변수는 영어 원문 그대로 정확히 쓴다.
+  3. 영어 용어는 처음 나올 때 한국어 풀이를 붙이고, 제품명·명령·경로는 영어 그대로 둔다.
+     용어는 전체에서 통일한다(서브에이전트, 스킬, 훅, 하니스, 헤드리스 모드 등).
+  4. 원문에 없는 보충은 '참고(노트 작성자):'로 표시하고, 없는 사실을 지어내지 않는다.
+     추출이 깨져 불확실한 곳은 그렇게 밝히고 문맥으로 복원했다고 적는다.
+  5. 비밀 값은 자리표시자로 쓰고, 그림과 스크린샷은 싣지 않는다.
+  6. 문서는 도입 1~2문단, 구분선, 번호 붙인 절 순서. 표는 문서당 1~3개.
+  7. 7장(CI/CD)은 CLI 옵션, 환경 변수, 워크플로 단계, 수치를 빠짐없이 정확히 적는다.
+  8. 파일명에 / \ : * ? " < > | 를 쓰지 않는다.
+보고: 작성 파일 목록과 글자 수, 복원한 부분, 다루지 못한 부분만 간결히 보고한다.
+```
+
+### 4. 이 프롬프트로 작성할 때의 한계
+
+- 일부 문서는 원서 해당 절이 짧아 2,500자에 못 미치고, 일부는 원문 분량이 많아 7,000자를 넘습니다. 정보량을 줄이지 않으려고 그대로 두었습니다.
+- PDF 텍스트 추출본은 표와 코드의 칸, 들여쓰기, 줄바꿈이 깨져 있고 일부 그림에는 글자가 없어, 확인하지 못한 항목은 해당 문서에 그렇게 적었습니다.
+- 원서 내부의 장 번호 참조와 수치가 서로 어긋난 곳은 원서 표기를 따르고 `참고(노트 작성자)`로 표시했습니다.
+- 정확한 코드와 설정은 원서와 Anthropic 공식 문서에서 대조하세요.
+
+---
+
+## 이 노트에 대하여
+
+- 각 장 폴더는 Readme.md, 주제별 문서, 요약과 핵심 개념으로 구성됩니다.
+- 같은 저장소의 다른 학습 노트와 같은 형식을 따릅니다.
