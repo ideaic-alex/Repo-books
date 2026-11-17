@@ -2,6 +2,9 @@
 (Claude AI Automation & Monetization: Build AI-Powered Systems, Automate Workflows, and Generate Real Income Using Claude AI, 장별 정리 노트)
 <br>
 
+<p align="center"><img src="images/cover.jpg" alt="Claude AI Automation &amp; Monetization 표지" width="360"></p>
+<br>
+
 이 문서는 Eslam Wahba의 『Claude AI Automation & Monetization』(2판)을 장별로 정리한 한국어 학습 노트입니다. 원문을 번역한 것이 아니라 내용을 우리말로 풀어서 다시 설명했고, 처음 나오는 용어에는 쉬운 풀이와 영어 병기를 붙였습니다. 책은 Claude를 단순한 채팅 도구가 아니라 하나의 시스템으로 설계하는 관점에서 출발해, 프롬프트 시스템과 자동화 워크플로를 만들고 이를 프리랜싱, 콘텐츠, 에이전시, 디지털 상품, 마이크로 SaaS 같은 수익 모델로 연결하는 방법을 24개 장과 보너스 장, 부록 A~K로 다룹니다. 이 노트는 5개 부와 부록으로 묶어 같은 순서를 따르며, 장마다 개념도와 표를 직접 만들어 넣었습니다.
 
 > **이 노트를 읽을 때 유의할 점**
