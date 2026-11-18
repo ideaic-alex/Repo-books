@@ -1,0 +1,65 @@
+name: sync-folder-structure
+
+# Mirrors the folder structure of this repo (down to the book-name folder) into
+# ideaic-alex/Repo-books-src. Only creates missing folders (with an empty .gitkeep).
+# Never deletes or renames anything in the target.
+#
+# Required secret: SRC_SYNC_TOKEN
+#   A fine-grained personal access token with Contents: Read and write on
+#   ideaic-alex/Repo-books-src only.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tech/**'
+      - '.github/scripts/sync_folders.py'
+      - '.github/workflows/sync-folder-structure.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-folder-structure
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Clone target repo
+        env:
+          SRC_SYNC_TOKEN: ${{ secrets.SRC_SYNC_TOKEN }}
+        run: |
+          if [ -z "$SRC_SYNC_TOKEN" ]; then
+            echo "::error::Secret SRC_SYNC_TOKEN is not set"
+            exit 1
+          fi
+          AUTH=$(printf 'x-access-token:%s' "$SRC_SYNC_TOKEN" | base64 -w0)
+          echo "::add-mask::$AUTH"
+          git -c http.extraheader="Authorization: Basic $AUTH" clone --depth 1 \
+            https://github.com/ideaic-alex/Repo-books-src.git target
+
+      - name: Mirror folders
+        run: |
+          python3 .github/scripts/sync_folders.py . target | tee "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push
+        env:
+          SRC_SYNC_TOKEN: ${{ secrets.SRC_SYNC_TOKEN }}
+        run: |
+          cd target
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No folder changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync folder structure from Repo-books@${GITHUB_SHA::7}"
+          AUTH=$(printf 'x-access-token:%s' "$SRC_SYNC_TOKEN" | base64 -w0)
+          git -c http.extraheader="Authorization: Basic $AUTH" push origin HEAD
