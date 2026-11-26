@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="680" fill="#fff"/>
+<text x="750" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">맥락이 없을 때와 있을 때의 결과 비교</text>
+<rect x="60" y="95" width="650" height="70" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="385.0" y="138.4" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">1차 시도: CLAUDE.md 없음</text>
+<rect x="790" y="95" width="650" height="70" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1115.0" y="138.4" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">2차 시도: CLAUDE.md 커밋 + 함수 힌트</text>
+<rect x="60" y="195" width="650" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="385.0" y="247.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">@claude, can you fix this</text>
+<rect x="790" y="195" width="650" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1115.0" y="247.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">@claude와 함께 수정할 함수 위치를 알려 줌</text>
+<line x1="712" y1="240" x2="788" y2="240" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="305" width="650" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="385.0" y="357.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">CLAUDE.md를 찾지 못한 채 진행</text>
+<rect x="790" y="305" width="650" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1115.0" y="357.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">/init으로 만든 CLAUDE.md를 읽을 수 있음</text>
+<line x1="712" y1="350" x2="788" y2="350" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="415" width="650" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="385.0" y="467.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">외부 API로 보내는 변수 이름까지 변경</text>
+<rect x="790" y="415" width="650" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1115.0" y="467.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">정의와 호출 지점에서 일관되게 이름 변경</text>
+<line x1="712" y1="460" x2="788" y2="460" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="525" width="650" height="90" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="385.0" y="577.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">결과: 외부 API 계약이 깨짐, PR 거절</text>
+<rect x="790" y="525" width="650" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1115.0" y="577.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">결과: 외부 계약 유지, 자동 리뷰 승인</text>
+<line x1="712" y1="570" x2="788" y2="570" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="750" y="650" text-anchor="middle" font-size="22" font-weight="bold" fill="#333">맥락을 커밋하면 정확도가 오르지만 사람의 검토는 여전히 필요하다</text>
+</svg>

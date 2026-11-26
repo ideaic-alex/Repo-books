@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#455A64"/></marker></defs>
+<rect width="1500" height="720" fill="#fff"/>
+<text x="750" y="52" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">컨텍스트가 커지는 문제와 네 가지 대응 전략</text>
+<g text-anchor="middle" fill="#222">
+<text x="750" y="105" font-size="22" font-weight="bold" fill="#B71C1C">도구 호출이 쌓일수록 컨텍스트 윈도우가 불어난다</text>
+<rect x="40" y="125" width="440" height="100" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="2"/>
+<text x="260" y="168" font-size="21" font-weight="bold">크기 한도 초과</text><text x="260" y="200" font-size="19">윈도우가 가득 찬다</text>
+<rect x="530" y="125" width="440" height="100" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="2"/>
+<text x="750" y="168" font-size="21" font-weight="bold">비용과 지연 증가</text><text x="750" y="200" font-size="19">보내는 토큰이 많아진다</text>
+<rect x="1020" y="125" width="440" height="100" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="2"/>
+<text x="1240" y="168" font-size="21" font-weight="bold">성능 저하</text><text x="1240" y="200" font-size="19">오염, 혼란, 충돌이 생긴다</text>
+</g>
+<line x1="750" y1="235" x2="750" y2="298" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<g text-anchor="middle" fill="#222">
+<text x="750" y="330" font-size="22" font-weight="bold" fill="#1E5AA8">Claude Code가 쓰는 전략</text>
+<rect x="45" y="350" width="335" height="330" rx="10" fill="#E8F0F9" stroke="#1E5AA8" stroke-width="2.5"/>
+<text x="212" y="395" font-size="23" font-weight="bold">1 쓰기 Write</text>
+<text x="212" y="440" font-size="20">컨텍스트를 밖에</text><text x="212" y="470" font-size="20">적어 두고 유지</text>
+<text x="212" y="530" font-size="19">CLAUDE.md 3층</text><text x="212" y="560" font-size="19">/memory 명령</text><text x="212" y="590" font-size="19">@ 가져오기, 훅</text>
+<rect x="410" y="350" width="335" height="330" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="577" y="395" font-size="23" font-weight="bold">2 선택 Select</text>
+<text x="577" y="440" font-size="20">필요한 것만</text><text x="577" y="470" font-size="20">찾아서 넣기</text>
+<text x="577" y="530" font-size="19">상위 폴더 탐색</text><text x="577" y="560" font-size="19">구체적 정보 우선</text><text x="577" y="590" font-size="19">도구별 주의사항</text>
+<rect x="775" y="350" width="335" height="330" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2.5"/>
+<text x="942" y="395" font-size="23" font-weight="bold">3 압축 Compress</text>
+<text x="942" y="440" font-size="20">같은 정보를</text><text x="942" y="470" font-size="20">짧게 줄이기</text>
+<text x="942" y="530" font-size="19">/clear 초기화</text><text x="942" y="560" font-size="19">/compact 요약</text>
+<rect x="1140" y="350" width="335" height="330" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="1307" y="395" font-size="23" font-weight="bold">4 격리 Isolate</text>
+<text x="1307" y="440" font-size="20">작업별로 창을</text><text x="1307" y="470" font-size="20">나누어 쓰기</text>
+<text x="1307" y="530" font-size="19">서브에이전트</text><text x="1307" y="560" font-size="19">각자 독립된 윈도우</text><text x="1307" y="590" font-size="19">관리자가 위임</text>
+</g>
+</svg>

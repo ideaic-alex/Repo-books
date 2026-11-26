@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="720" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="55" font-size="34" font-weight="bold">스킬, MCP, 서브에이전트: 컨텍스트와 실행 위치</text>
+
+<rect x="40" y="95" width="1420" height="150" rx="10" fill="#F5F5F5" stroke="#777" stroke-width="2"/>
+<text x="750" y="135" font-size="22" font-weight="bold">메인 에이전트의 컨텍스트 윈도우</text>
+<text x="750" y="180" font-size="19">대화와 시스템 프롬프트에, 아래 세 가지가 들어오는 방식에 따라 크기가 달라진다</text>
+<text x="750" y="215" font-size="19">여기서 작업을 정하고 스킬, MCP, 서브에이전트를 부른다</text>
+
+<g stroke="#555" stroke-width="3" fill="none" marker-end="url(#a)">
+<line x1="260" y1="250" x2="260" y2="320"/><line x1="750" y1="250" x2="750" y2="320"/><line x1="1240" y1="250" x2="1240" y2="320"/>
+</g>
+
+<rect x="40" y="325" width="440" height="340" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="260" y="365" font-size="24" font-weight="bold">에이전트 스킬</text>
+<text x="260" y="415" font-size="19">목적: 작업 방식을 표준화</text>
+<text x="260" y="450" font-size="19">로딩: 이름과 설명만 먼저,</text>
+<text x="260" y="480" font-size="19">쓸 때 본문과 스크립트</text>
+<text x="260" y="525" font-size="19">실행: 메인 스레드 안</text>
+<text x="260" y="555" font-size="19">(fork 지정 시 격리)</text>
+<text x="260" y="605" font-size="19">컨텍스트 효율: 높음</text>
+<text x="260" y="635" font-size="19">용도: 반복 워크플로</text>
+
+<rect x="530" y="325" width="440" height="340" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="750" y="365" font-size="24" font-weight="bold">MCP 서버</text>
+<text x="750" y="415" font-size="19">목적: 외부 서비스에 연결</text>
+<text x="750" y="450" font-size="19">로딩: 세션 시작 때</text>
+<text x="750" y="480" font-size="19">도구 정의를 미리 로드</text>
+<text x="750" y="525" font-size="19">실행: MCP 서버 쪽</text>
+<text x="750" y="555" font-size="19">(로컬 또는 원격)</text>
+<text x="750" y="605" font-size="19">컨텍스트 효율: 낮음</text>
+<text x="750" y="635" font-size="19">용도: 외부 API와 서비스</text>
+
+<rect x="1020" y="325" width="440" height="340" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="1240" y="365" font-size="24" font-weight="bold">서브에이전트</text>
+<text x="1240" y="415" font-size="19">목적: 격리된 에이전트에 위임</text>
+<text x="1240" y="450" font-size="19">로딩: 실행마다 새 컨텍스트</text>
+<text x="1240" y="480" font-size="19">(메인과 완전 분리)</text>
+<text x="1240" y="525" font-size="19">실행: 격리된 컨텍스트</text>
+<text x="1240" y="555" font-size="19">시스템 프롬프트 조정 가능</text>
+<text x="1240" y="605" font-size="19">컨텍스트 효율: 높음</text>
+<text x="1240" y="635" font-size="19">용도: 장기 작업</text>
+</g>
+</svg>

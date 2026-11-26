@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">서브에이전트를 조절하는 세 곳</text>
+<rect x="40" y="110" width="300" height="130" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="190.0" y="153.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">사용자 요청</text>
+<text x="190.0" y="182.0" font-size="20" text-anchor="middle" fill="#222">RAG 흐름을</text>
+<text x="190.0" y="211.0" font-size="20" text-anchor="middle" fill="#222">다이어그램으로</text>
+<rect x="400" y="110" width="320" height="130" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="560.0" y="153.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">메인 에이전트</text>
+<text x="560.0" y="182.0" font-size="20" text-anchor="middle" fill="#222">description 을 읽고</text>
+<text x="560.0" y="211.0" font-size="20" text-anchor="middle" fill="#222">위임과 프롬프트 결정</text>
+<rect x="780" y="110" width="300" height="130" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="930.0" y="153.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="930.0" y="182.0" font-size="20" text-anchor="middle" fill="#222">시스템 프롬프트와</text>
+<text x="930.0" y="211.0" font-size="20" text-anchor="middle" fill="#222">허용된 도구로 실행</text>
+<rect x="1140" y="110" width="320" height="130" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1300.0" y="153.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">단일 응답</text>
+<text x="1300.0" y="182.0" font-size="20" text-anchor="middle" fill="#222">결과물을 메인에 반환</text>
+<text x="1300.0" y="211.0" font-size="20" text-anchor="middle" fill="#222">내부 컨텍스트는 소멸</text>
+<line x1="340" y1="175" x2="400" y2="175" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="720" y1="175" x2="780" y2="175" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1080" y1="175" x2="1140" y2="175" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="40" y="330" width="420" height="230" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="250.0" y="394.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">조절 지점 1: description</text>
+<text x="250.0" y="423.0" font-size="20" text-anchor="middle" fill="#222">메인 에이전트의 시스템</text>
+<text x="250.0" y="452.0" font-size="20" text-anchor="middle" fill="#222">프롬프트에 덧붙는 설명</text>
+<text x="250.0" y="481.0" font-size="20" text-anchor="middle" fill="#222">언제 부를지와 어떤 프롬프트를</text>
+<text x="250.0" y="510.0" font-size="20" text-anchor="middle" fill="#222">만들지를 바꾼다</text>
+<rect x="540" y="330" width="420" height="230" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="750.0" y="394.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">조절 지점 2: 본문</text>
+<text x="750.0" y="423.0" font-size="20" text-anchor="middle" fill="#222">서브에이전트 내부의 단계</text>
+<text x="750.0" y="452.0" font-size="20" text-anchor="middle" fill="#222">순서와 최종 응답 형식</text>
+<text x="750.0" y="481.0" font-size="20" text-anchor="middle" fill="#222">0단계 검색, 마지막 단계에서</text>
+<text x="750.0" y="510.0" font-size="20" text-anchor="middle" fill="#222">다이어그램 코드만 반환</text>
+<rect x="1040" y="330" width="420" height="230" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1250.0" y="394.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">조절 지점 3: tools</text>
+<text x="1250.0" y="423.0" font-size="20" text-anchor="middle" fill="#222">허용 도구를 이름으로 나열</text>
+<text x="1250.0" y="452.0" font-size="20" text-anchor="middle" fill="#222">필요한 것만 주는 최소 권한</text>
+<text x="1250.0" y="481.0" font-size="20" text-anchor="middle" fill="#222">불필요한 도구는 토큰 낭비와</text>
+<text x="1250.0" y="510.0" font-size="20" text-anchor="middle" fill="#222">보안 노출을 키운다</text>
+<line x1="250" y1="330" x2="500" y2="242" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="750" y1="330" x2="900" y2="242" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1250" y1="330" x2="960" y2="242" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="40" y="610" width="1420" height="110" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="750.0" y="657.35" font-size="21" text-anchor="middle" fill="#222">주의: description 은 메인 에이전트 지시문에 들어가므로,</text>
+<text x="750.0" y="687.35" font-size="21" text-anchor="middle" fill="#222">출처를 모르는 서브에이전트 정의를 내려받으면 악성 지시가 실행될 수 있다</text>
+</svg>

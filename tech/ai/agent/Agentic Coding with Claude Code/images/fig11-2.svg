@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="800" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">딥 에이전트의 네 가지 핵심 구성 요소</text>
+<rect x="500" y="100" width="500" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="750.0" y="143.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">딥 에이전트</text>
+<text x="750.0" y="171.0" text-anchor="middle" font-size="20" fill="#222">긴 작업을 품질 있게 수행</text>
+<line x1="620" y1="200" x2="230" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="700" y1="200" x2="600" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="800" y1="200" x2="970" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="880" y1="200" x2="1320" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="290" width="340" height="160" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="230.0" y="349.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">계획 도구</text>
+<text x="230.0" y="376.65" text-anchor="middle" font-size="19" fill="#222">마크다운 할 일 목록</text>
+<text x="230.0" y="403.65" text-anchor="middle" font-size="19" fill="#222">대기, 진행 중, 완료</text>
+<rect x="430" y="290" width="340" height="160" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="600.0" y="349.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">서브에이전트</text>
+<text x="600.0" y="376.65" text-anchor="middle" font-size="19" fill="#222">격리된 컨텍스트의</text>
+<text x="600.0" y="403.65" text-anchor="middle" font-size="19" fill="#222">전문 일꾼에게 위임</text>
+<rect x="800" y="290" width="340" height="160" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="970.0" y="349.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">파일시스템</text>
+<text x="970.0" y="376.65" text-anchor="middle" font-size="19" fill="#222">중간 상태를 디스크에</text>
+<text x="970.0" y="403.65" text-anchor="middle" font-size="19" fill="#222">쓰고 골라 읽기</text>
+<rect x="1170" y="290" width="300" height="160" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1320.0" y="349.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">긴 시스템 프롬프트</text>
+<text x="1320.0" y="376.65" text-anchor="middle" font-size="19" fill="#222">정체성, 제약,</text>
+<text x="1320.0" y="403.65" text-anchor="middle" font-size="19" fill="#222">운영 지침</text>
+<line x1="230" y1="450" x2="230" y2="500" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="600" y1="450" x2="600" y2="500" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="970" y1="450" x2="970" y2="500" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1320" y1="450" x2="1320" y2="500" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="500" width="340" height="110" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="230.0" y="548.15" text-anchor="middle" font-size="19" fill="#222">목적 없이 맴도는</text>
+<text x="230.0" y="575.15" text-anchor="middle" font-size="19" fill="#222">실행을 막는다</text>
+<rect x="430" y="500" width="340" height="110" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="600.0" y="548.15" text-anchor="middle" font-size="19" fill="#222">한 컨텍스트가</text>
+<text x="600.0" y="575.15" text-anchor="middle" font-size="19" fill="#222">부푸는 것을 막는다</text>
+<rect x="800" y="500" width="340" height="110" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="970.0" y="548.15" text-anchor="middle" font-size="19" fill="#222">통제 없는 컨텍스트</text>
+<text x="970.0" y="575.15" text-anchor="middle" font-size="19" fill="#222">증가를 막는다</text>
+<rect x="1170" y="500" width="300" height="110" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1320.0" y="548.15" text-anchor="middle" font-size="19" fill="#222">행동 기준이</text>
+<text x="1320.0" y="575.15" text-anchor="middle" font-size="19" fill="#222">흔들리는 것을 막는다</text>
+<rect x="260" y="670" width="980" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="750.0" y="717.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">공통 목표는 컨텍스트 엔지니어링: 윈도우에 맞는 정보만 둔다</text>
+</g>
+</svg>

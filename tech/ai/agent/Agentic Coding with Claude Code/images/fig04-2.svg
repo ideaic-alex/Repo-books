@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <rect width="1500" height="780" fill="#FFFFFF"/>
+  <text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">MCP 설정 범위에 따른 컨텍스트 사용량</text>
+  <text x="750" y="98" font-size="22" text-anchor="middle" fill="#424242">MCP 도구 설명이 컨텍스트 윈도우에서 차지하는 비율 (책의 측정값, 막대 길이는 비례)</text>
+
+  <text x="80" y="165" font-size="23" font-weight="bold" fill="#3E2A00">1. 서버 4개를 모두 로딩 (프로젝트 .mcp.json)</text>
+  <rect x="80" y="185" width="800" height="70" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="3"/>
+  <text x="905" y="231" font-size="26" font-weight="bold" fill="#5A1010">약 20%</text>
+
+  <text x="80" y="325" font-size="23" font-weight="bold" fill="#1B4D1F">2. Tavily 서버만 로딩 (--mcp-config 와 --strict-mcp-config)</text>
+  <rect x="80" y="345" width="96" height="70" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="200" y="391" font-size="26" font-weight="bold" fill="#1B4D1F">약 2.4%</text>
+
+  <text x="80" y="485" font-size="23" font-weight="bold" fill="#1F3F66">3. 4개 로딩 후 세션 안에서 2개 비활성 (/mcp)</text>
+  <rect x="80" y="505" width="128" height="70" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="3"/>
+  <text x="232" y="551" font-size="26" font-weight="bold" fill="#1F3F66">약 3.2%</text>
+
+  <rect x="80" y="620" width="1340" height="120" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="750" y="660" font-size="22" text-anchor="middle" fill="#3E2A00">첫 프롬프트를 쓰기 전 상태: 시스템 프롬프트 약 2천 토큰, 시스템 도구 약 1만 2천 토큰,</text>
+  <text x="750" y="692" font-size="22" text-anchor="middle" fill="#3E2A00">MCP 도구 설명 약 20%를 합쳐 컨텍스트 윈도우의 절반 가까이를 이미 사용한다.</text>
+  <text x="750" y="724" font-size="22" text-anchor="middle" fill="#3E2A00">필요한 서버만 켜면 같은 세션에서 MCP 몫이 한 자리 수 퍼센트로 줄어든다.</text>
+</svg>

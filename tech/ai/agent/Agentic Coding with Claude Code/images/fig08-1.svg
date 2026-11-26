@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="720" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="55" font-size="34" font-weight="bold">출력 스타일: 시스템 프롬프트 교체와 적용 범위</text>
+
+<rect x="40" y="100" width="430" height="300" rx="10" fill="#F5F5F5" stroke="#777" stroke-width="2"/>
+<text x="255" y="140" font-size="22" font-weight="bold">기본 상태</text>
+<rect x="65" y="165" width="380" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="255" y="205" font-size="20">핵심 기능</text><text x="255" y="235" font-size="19">파일 작업, 스크립트 실행</text>
+<rect x="65" y="280" width="380" height="90" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="255" y="320" font-size="20">기본 지침</text><text x="255" y="350" font-size="19">소프트웨어 엔지니어링 안내</text>
+
+<line x1="475" y1="250" x2="565" y2="250" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="520" y="235" font-size="19">선택</text>
+
+<rect x="570" y="100" width="430" height="300" rx="10" fill="#F5F5F5" stroke="#777" stroke-width="2"/>
+<text x="785" y="140" font-size="22" font-weight="bold">/output-style로 선택한 후</text>
+<rect x="595" y="165" width="380" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="785" y="205" font-size="20">핵심 기능</text><text x="785" y="235" font-size="19">그대로 유지됨</text>
+<rect x="595" y="280" width="380" height="90" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="785" y="320" font-size="20">스타일 지침</text><text x="785" y="350" font-size="19">기본 지침 자리를 대체</text>
+
+<line x1="1005" y1="250" x2="1095" y2="250" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+<rect x="1100" y="100" width="360" height="300" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2"/>
+<text x="1280" y="150" font-size="22" font-weight="bold">LLM에 전달</text>
+<text x="1280" y="205" font-size="19">요청할 때마다</text>
+<text x="1280" y="235" font-size="19">바뀐 시스템 프롬프트가</text>
+<text x="1280" y="265" font-size="19">그대로 함께 간다</text>
+<text x="1280" y="330" font-size="20" font-weight="bold">모델은 같고</text>
+<text x="1280" y="360" font-size="20" font-weight="bold">프롬프트만 다르다</text>
+
+<text x="750" y="455" font-size="24" font-weight="bold">스타일 파일(마크다운)을 어디에 두는가</text>
+<rect x="150" y="480" width="520" height="190" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="410" y="520" font-size="22" font-weight="bold">사용자 범위</text>
+<text x="410" y="565" font-size="19">홈 디렉터리 아래</text>
+<text x="410" y="595" font-size="19">.claude/output-styles/</text>
+<text x="410" y="640" font-size="19">내 모든 프로젝트에 적용</text>
+<rect x="830" y="480" width="520" height="190" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="2"/>
+<text x="1090" y="520" font-size="22" font-weight="bold">프로젝트 범위</text>
+<text x="1090" y="565" font-size="19">프로젝트 안의</text>
+<text x="1090" y="595" font-size="19">.claude/output-styles/</text>
+<text x="1090" y="640" font-size="19">그 프로젝트에만 적용</text>
+</g>
+</svg>

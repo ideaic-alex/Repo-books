@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="854" viewBox="0 0 1500 854">
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:18px;fill:#555}</style>
+<rect width="1500" height="854" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">Agentic Coding with Claude Code 학습 노트 한눈에 보기</text>
+<rect x="40" y="402" width="300" height="110" rx="14" fill="#FFF3E0" stroke="#E08A1E" stroke-width="3"/>
+<text class="h" x="190" y="443" text-anchor="middle">Agentic Coding</text>
+<text class="h" x="190" y="471" text-anchor="middle">with Claude Code</text>
+<text class="s" x="190" y="499" text-anchor="middle">Eden Marco</text>
+<path d="M340 457 C 420 457, 420 126, 480 126" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="100" width="420" height="52" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="133" font-weight="700">1장 컨텍스트 엔지니어링</text>
+<text class="b" x="930" y="133">프롬프트에서 컨텍스트로 · 4전략</text>
+<path d="M340 457 C 420 457, 420 190, 480 190" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="164" width="420" height="52" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="197" font-weight="700">2장 Claude Code 한눈에</text>
+<text class="b" x="930" y="197">CLAUDE.md · Playwright MCP</text>
+<path d="M340 457 C 420 457, 420 254, 480 254" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="228" width="420" height="52" rx="10" fill="#FFF3E0" stroke="#E08A1E" stroke-width="2"/>
+<text class="b" x="500" y="261" font-weight="700">3장 핵심 명령어</text>
+<text class="b" x="930" y="261">훅 · 메모리 · 되감기</text>
+<path d="M340 457 C 420 457, 420 318, 480 318" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="292" width="420" height="52" rx="10" fill="#F3E5F5" stroke="#8E4FA8" stroke-width="2"/>
+<text class="b" x="500" y="325" font-weight="700">4장 MCP와 플러그인</text>
+<text class="b" x="930" y="325">MCP 구조 · 코드 모드 · 플러그인</text>
+<path d="M340 457 C 420 457, 420 382, 480 382" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="356" width="420" height="52" rx="10" fill="#FDECEA" stroke="#C0504D" stroke-width="2"/>
+<text class="b" x="500" y="389" font-weight="700">5장 GitHub 자동화</text>
+<text class="b" x="930" y="389">이슈 해결 자동화</text>
+<path d="M340 457 C 420 457, 420 446, 480 446" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="420" width="420" height="52" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="453" font-weight="700">6장 계획 모드와 멀티 에이전트</text>
+<text class="b" x="930" y="453">계획 모드 · 병렬 에이전트</text>
+<path d="M340 457 C 420 457, 420 510, 480 510" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="484" width="420" height="52" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="517" font-weight="700">7장 서브에이전트</text>
+<text class="b" x="930" y="517">컨텍스트 격리 · 동시 실행</text>
+<path d="M340 457 C 420 457, 420 574, 480 574" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="548" width="420" height="52" rx="10" fill="#FFF3E0" stroke="#E08A1E" stroke-width="2"/>
+<text class="b" x="500" y="581" font-weight="700">8장 출력 스타일과 상태줄</text>
+<text class="b" x="930" y="581">시스템 프롬프트 교체 · 상태줄</text>
+<path d="M340 457 C 420 457, 420 638, 480 638" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="612" width="420" height="52" rx="10" fill="#F3E5F5" stroke="#8E4FA8" stroke-width="2"/>
+<text class="b" x="500" y="645" font-weight="700">9장 에이전트 스킬</text>
+<text class="b" x="930" y="645">점진적 공개 · 스킬 대 MCP</text>
+<path d="M340 457 C 420 457, 420 702, 480 702" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="676" width="420" height="52" rx="10" fill="#FDECEA" stroke="#C0504D" stroke-width="2"/>
+<text class="b" x="500" y="709" font-weight="700">10장 데스크톱 활용</text>
+<text class="b" x="930" y="709">워크트리 · 클라우드 병렬</text>
+<path d="M340 457 C 420 457, 420 766, 480 766" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="740" width="420" height="52" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="773" font-weight="700">11장 딥 에이전트</text>
+<text class="b" x="930" y="773">계획 도구 · 파일시스템</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="860" fill="#FFFFFF"/>
+  <text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">기존 MCP 호출과 코드 모드 비교</text>
+
+  <text x="400" y="115" font-size="26" font-weight="bold" text-anchor="middle" fill="#3E2A00">기존 방식 (도구 호출 핑퐁)</text>
+  <text x="1100" y="115" font-size="26" font-weight="bold" text-anchor="middle" fill="#1B4D1F">코드 모드 (코드 한 번 실행)</text>
+
+  <rect x="100" y="140" width="600" height="90" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="400" y="178" font-size="21" text-anchor="middle" fill="#3E2A00">1. 모든 MCP 도구 정의를</text>
+  <text x="400" y="209" font-size="21" text-anchor="middle" fill="#3E2A00">LLM 호출에 그대로 실어 보낸다</text>
+  <rect x="100" y="270" width="600" height="90" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="400" y="308" font-size="21" text-anchor="middle" fill="#3E2A00">2. LLM이 특수 토큰으로</text>
+  <text x="400" y="339" font-size="21" text-anchor="middle" fill="#3E2A00">도구 하나를 호출한다</text>
+  <rect x="100" y="400" width="600" height="90" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="400" y="438" font-size="21" text-anchor="middle" fill="#3E2A00">3. 에이전트가 호출을 해석해</text>
+  <text x="400" y="469" font-size="21" text-anchor="middle" fill="#3E2A00">MCP 서버에서 실행한다</text>
+  <rect x="100" y="530" width="600" height="90" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="400" y="568" font-size="21" text-anchor="middle" fill="#3E2A00">4. 결과를 대화 기록에 붙이고</text>
+  <text x="400" y="599" font-size="21" text-anchor="middle" fill="#3E2A00">전체 기록을 다시 LLM에 보낸다</text>
+  <line x1="400" y1="232" x2="400" y2="266" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="400" y1="362" x2="400" y2="396" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="400" y1="492" x2="400" y2="526" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <path d="M100,575 L62,575 L62,315 L96,315" fill="none" stroke="#C62828" stroke-width="3.5" marker-end="url(#arr)"/>
+  <text x="400" y="665" font-size="21" text-anchor="middle" fill="#5A1010">도구를 부를 때마다 이 순환이 반복된다</text>
+
+  <rect x="800" y="140" width="600" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="1100" y="178" font-size="21" text-anchor="middle" fill="#1B4D1F">1. MCP 서버의 스키마를</text>
+  <text x="1100" y="209" font-size="21" text-anchor="middle" fill="#1B4D1F">TypeScript API로 바꿔 LLM에 준다</text>
+  <rect x="800" y="270" width="600" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="1100" y="308" font-size="21" text-anchor="middle" fill="#1B4D1F">2. LLM이 그 API를 쓰는</text>
+  <text x="1100" y="339" font-size="21" text-anchor="middle" fill="#1B4D1F">TypeScript 코드를 한 번에 쓴다</text>
+  <rect x="800" y="400" width="600" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="1100" y="438" font-size="21" text-anchor="middle" fill="#1B4D1F">3. 격리된 샌드박스에서</text>
+  <text x="1100" y="469" font-size="21" text-anchor="middle" fill="#1B4D1F">코드를 한 번 실행한다</text>
+  <rect x="800" y="530" width="600" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="1100" y="568" font-size="21" text-anchor="middle" fill="#1B4D1F">4. API 호출은 RPC로 MCP 서버에</text>
+  <text x="1100" y="599" font-size="21" text-anchor="middle" fill="#1B4D1F">전달되고 console.log 결과만 돌아온다</text>
+  <line x1="1100" y1="232" x2="1100" y2="266" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="1100" y1="362" x2="1100" y2="396" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="1100" y1="492" x2="1100" y2="526" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <text x="1100" y="665" font-size="21" text-anchor="middle" fill="#1B4D1F">중간 결과가 LLM 컨텍스트에 쌓이지 않는다</text>
+
+  <rect x="100" y="710" width="1300" height="110" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="3"/>
+  <text x="750" y="752" font-size="22" text-anchor="middle" fill="#3B0F47">왕복이 줄면 LLM 추론 횟수, 지연, 비용이 함께 줄어든다.</text>
+  <text x="750" y="788" font-size="22" text-anchor="middle" fill="#3B0F47">MCP는 도구를 알아내고 연결하는 통일된 방법으로 그대로 남는다.</text>
+</svg>

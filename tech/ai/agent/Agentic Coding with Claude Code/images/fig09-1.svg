@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="700" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="55" font-size="34" font-weight="bold">스킬 점진적 공개: 필요할 때만 단계적으로 로드</text>
+
+<rect x="40" y="100" width="420" height="330" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="250" y="145" font-size="24" font-weight="bold">1단계 항상 노출</text>
+<text x="250" y="200" font-size="20" font-weight="bold">프런트매터</text>
+<text x="250" y="240" font-size="19">name 과 description</text>
+<text x="250" y="290" font-size="19">시스템 프롬프트에 올라간다</text>
+<text x="250" y="320" font-size="19">스킬당 대략 100 내지</text>
+<text x="250" y="350" font-size="19">200토큰 (책의 예시)</text>
+<text x="250" y="400" font-size="19">선택의 유일한 근거</text>
+
+<line x1="465" y1="265" x2="535" y2="265" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="500" y="235" font-size="19">선택</text>
+
+<rect x="540" y="100" width="420" height="330" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="750" y="145" font-size="24" font-weight="bold">2단계 선택 후</text>
+<text x="750" y="200" font-size="20" font-weight="bold">SKILL.md 본문</text>
+<text x="750" y="240" font-size="19">워크플로 지시</text>
+<text x="750" y="270" font-size="19">스크립트 사용 안내</text>
+<text x="750" y="320" font-size="19">에이전트가 활성화를</text>
+<text x="750" y="350" font-size="19">결정했을 때만 로드</text>
+<text x="750" y="400" font-size="19">사용 승인을 한 번 거친다</text>
+
+<line x1="965" y1="265" x2="1035" y2="265" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="1000" y="235" font-size="19">실행</text>
+
+<rect x="1040" y="100" width="420" height="330" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="1250" y="145" font-size="24" font-weight="bold">3단계 실행 결정 후</text>
+<text x="1250" y="200" font-size="20" font-weight="bold">보조 스크립트</text>
+<text x="1250" y="240" font-size="19">scripts 폴더의 파일</text>
+<text x="1250" y="290" font-size="19">쓰기로 한 스크립트만</text>
+<text x="1250" y="320" font-size="19">컨텍스트에 들어온다</text>
+<text x="1250" y="370" font-size="19">쓰지 않는 스크립트는</text>
+<text x="1250" y="400" font-size="19">로드되지 않는다</text>
+
+<rect x="150" y="490" width="1200" height="160" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2"/>
+<text x="750" y="535" font-size="22" font-weight="bold">결과: 컨텍스트 윈도우가 깨끗하게 유지된다</text>
+<text x="750" y="580" font-size="19">CLAUDE.md에 디자인 규칙을 넣으면 백엔드 작업에도 항상 따라붙지만,</text>
+<text x="750" y="612" font-size="19">스킬은 프런트엔드 작업에서 선택될 때만 그 내용이 들어온다</text>
+</g>
+</svg>

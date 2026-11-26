@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">로컬 워크트리 모드와 클라우드 모드</text>
+<rect x="40" y="95" width="680" height="570" rx="14" fill="#E8F0F9" fill-opacity="0.35" stroke="#2F5D8C" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="60" y="131" font-size="24" font-weight="bold" fill="#2F5D8C">로컬 워크트리 모드 (내 컴퓨터)</text>
+<rect x="780" y="95" width="680" height="570" rx="14" fill="#FFF3E0" fill-opacity="0.35" stroke="#C77700" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="800" y="131" font-size="24" font-weight="bold" fill="#C77700">클라우드 모드 (Anthropic 서버)</text>
+<rect x="70" y="160" width="620" height="80" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="380.0" y="193.0" text-anchor="middle" font-size="20" fill="#222">작업 폴더를 고른다</text>
+<text x="380.0" y="221.0" text-anchor="middle" font-size="20" fill="#222">(GitHub 저장소 권장)</text>
+<line x1="380" y1="240" x2="380" y2="280" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="70" y="280" width="620" height="70" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="380.0" y="322.0" text-anchor="middle" font-size="20" fill="#222">에이전트마다 깃 워크트리를 만든다</text>
+<line x1="225" y1="350" x2="225" y2="400" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="535" y1="350" x2="535" y2="400" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="70" y="400" width="300" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="220.0" y="443.0" text-anchor="middle" font-size="20" fill="#222">워크트리 A</text>
+<text x="220.0" y="471.0" text-anchor="middle" font-size="20" fill="#222">브랜치 A 전용 폴더</text>
+<rect x="390" y="400" width="300" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="540.0" y="443.0" text-anchor="middle" font-size="20" fill="#222">워크트리 B</text>
+<text x="540.0" y="471.0" text-anchor="middle" font-size="20" fill="#222">브랜치 B 전용 폴더</text>
+<rect x="70" y="550" width="620" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="380.0" y="583.0" text-anchor="middle" font-size="20" fill="#222">모든 실행이 내 컴퓨터에서만 일어난다</text>
+<text x="380.0" y="611.0" text-anchor="middle" font-size="20" fill="#222">클라우드에서는 아무것도 돌지 않음</text>
+<rect x="810" y="160" width="620" height="80" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1120.0" y="193.0" text-anchor="middle" font-size="20" fill="#222">GitHub 저장소 접근 권한을</text>
+<text x="1120.0" y="221.0" text-anchor="middle" font-size="20" fill="#222">Claude Code web에 부여</text>
+<line x1="1120" y1="240" x2="1120" y2="280" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="810" y="280" width="620" height="70" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1120.0" y="322.0" text-anchor="middle" font-size="20" fill="#222">Anthropic 관리형 컨테이너 인스턴스</text>
+<line x1="1120" y1="350" x2="1120" y2="400" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="810" y="400" width="620" height="100" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1120.0" y="443.0" text-anchor="middle" font-size="20" fill="#222">복제 → 코드 수정 → 커밋</text>
+<text x="1120.0" y="471.0" text-anchor="middle" font-size="20" fill="#222">→ 풀 리퀘스트 생성</text>
+<rect x="810" y="550" width="620" height="80" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1120.0" y="583.0" text-anchor="middle" font-size="20" fill="#222">인스턴스를 여러 개 동시에 실행</text>
+<text x="1120.0" y="611.0" text-anchor="middle" font-size="20" fill="#222">개수는 준비하고 결제한 범위에 따름</text>
+</g>
+</svg>

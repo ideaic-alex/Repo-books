@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="840" viewBox="0 0 1500 840">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="840" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">세 작업의 병렬 진행과 브랜치 구성</text>
+<rect x="480" y="100" width="540" height="80" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="750.0" y="133.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">project/hookhub 브랜치</text>
+<text x="750.0" y="161.0" text-anchor="middle" font-size="20" fill="#222">(기존 HookHub 구현)</text>
+<line x1="620" y1="180" x2="440" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="750" y1="180" x2="730" y2="290" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M1020,150 L1380,150 L1380,290" fill="none" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="30" y="230" width="950" height="330" rx="14" fill="#E8F0F9" fill-opacity="0.35" stroke="#2F5D8C" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="50" y="266" font-size="24" font-weight="bold" fill="#2F5D8C">내 컴퓨터 (로컬 워크트리 2개)</text>
+<rect x="1000" y="230" width="470" height="330" rx="14" fill="#FFF3E0" fill-opacity="0.35" stroke="#C77700" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1020" y="266" font-size="24" font-weight="bold" fill="#C77700">Anthropic 클라우드</text>
+<rect x="60" y="290" width="430" height="130" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="275.0" y="348.0" text-anchor="middle" font-size="20" fill="#222">워크트리 vigilant feistel</text>
+<text x="275.0" y="376.0" text-anchor="middle" font-size="20" fill="#222">UI 애니메이션 추가</text>
+<rect x="510" y="290" width="440" height="130" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="730.0" y="334.65" text-anchor="middle" font-size="19" fill="#222">워크트리 zealous jemison</text>
+<text x="730.0" y="361.65" text-anchor="middle" font-size="19" fill="#222">연구 결과 링크를</text>
+<text x="730.0" y="388.65" text-anchor="middle" font-size="19" fill="#222">hooks.json에 추가</text>
+<rect x="1030" y="290" width="410" height="130" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1235.0" y="334.65" text-anchor="middle" font-size="19" fill="#222">claude/anthropic-hero-design</text>
+<text x="1235.0" y="361.65" text-anchor="middle" font-size="19" fill="#222">히어로 섹션 재설계</text>
+<text x="1235.0" y="388.65" text-anchor="middle" font-size="19" fill="#222">(처음엔 main에서 시작)</text>
+<rect x="60" y="440" width="430" height="90" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="275.0" y="478.15" text-anchor="middle" font-size="19" fill="#222">커밋은 이 워크트리</text>
+<text x="275.0" y="505.15" text-anchor="middle" font-size="19" fill="#222">브랜치에만 쌓인다</text>
+<rect x="510" y="440" width="440" height="90" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="730.0" y="478.15" text-anchor="middle" font-size="19" fill="#222">본 브랜치 project/hookhub는</text>
+<text x="730.0" y="505.15" text-anchor="middle" font-size="19" fill="#222">건드려지지 않는다</text>
+<rect x="1030" y="440" width="410" height="90" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1235.0" y="478.15" text-anchor="middle" font-size="19" fill="#222">프롬프트에 시작 브랜치를</text>
+<text x="1235.0" y="505.15" text-anchor="middle" font-size="19" fill="#222">분명히 적어야 한다</text>
+<rect x="480" y="610" width="540" height="70" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="750.0" y="651.65" text-anchor="middle" font-size="19" fill="#222">별도 Claude 채팅: 별 많은 훅 저장소 조사</text>
+<line x1="750" y1="680" x2="750" y2="730" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="380" y="730" width="740" height="70" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="750.0" y="771.65" text-anchor="middle" font-size="19" fill="#222">결과를 복사해 로컬 세션에 붙여 넣음</text>
+</g>
+</svg>

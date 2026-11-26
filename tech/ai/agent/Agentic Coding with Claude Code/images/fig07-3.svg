@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="700" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">무한 에이전트 루프: 스펙 하나에서 변형 여러 개</text>
+<rect x="40" y="110" width="300" height="200" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="190.0" y="172.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">입력 3가지</text>
+<text x="190.0" y="202.35" font-size="21" text-anchor="middle" fill="#222">스펙 파일</text>
+<text x="190.0" y="232.35" font-size="21" text-anchor="middle" fill="#222">출력 디렉터리</text>
+<text x="190.0" y="262.35" font-size="21" text-anchor="middle" fill="#222">개수(예: 6)</text>
+<rect x="420" y="110" width="380" height="200" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="610.0" y="159.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">/infinite 명령(메인)</text>
+<text x="610.0" y="188.0" font-size="20" text-anchor="middle" fill="#222">1 스펙 분석</text>
+<text x="610.0" y="217.0" font-size="20" text-anchor="middle" fill="#222">2 출력 폴더 정찰</text>
+<text x="610.0" y="246.0" font-size="20" text-anchor="middle" fill="#222">3 반복 전략</text>
+<text x="610.0" y="275.0" font-size="20" text-anchor="middle" fill="#222">4 병렬 에이전트 조율</text>
+<line x1="340" y1="210" x2="420" y2="210" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="900" y="110" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="985.0" y="147.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="985.0" y="175.65" font-size="19" text-anchor="middle" fill="#222">Minimal</text>
+<rect x="1090" y="110" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1175.0" y="147.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="1175.0" y="175.65" font-size="19" text-anchor="middle" fill="#222">Centered</text>
+<rect x="1280" y="110" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1365.0" y="147.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="1365.0" y="175.65" font-size="19" text-anchor="middle" fill="#222">Waveform</text>
+<rect x="900" y="215" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="985.0" y="252.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="985.0" y="280.65" font-size="19" text-anchor="middle" fill="#222">Particles</text>
+<rect x="1090" y="215" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1175.0" y="252.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="1175.0" y="280.65" font-size="19" text-anchor="middle" fill="#222">Terminal</text>
+<rect x="1280" y="215" width="170" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1365.0" y="252.65" font-size="19" text-anchor="middle" fill="#222" font-weight="bold">서브에이전트</text>
+<text x="1365.0" y="280.65" font-size="19" text-anchor="middle" fill="#222">Gradient mesh</text>
+<line x1="800" y1="210" x2="895" y2="210" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="900" y="340" width="550" height="90" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1175.0" y="392.35" font-size="21" text-anchor="middle" fill="#222">출력 디렉터리 heros 에 파일 6개 생성</text>
+<text x="750" y="480" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">각 서브에이전트는 서로를 모르는 깨끗한 컨텍스트에서 시작한다</text>
+<rect x="40" y="520" width="430" height="150" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="255.0" y="572.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">1. 비교</text>
+<text x="255.0" y="602.35" font-size="21" text-anchor="middle" fill="#222">모든 변형을 한 페이지에</text>
+<text x="255.0" y="632.35" font-size="21" text-anchor="middle" fill="#222">나란히 렌더링</text>
+<rect x="535" y="520" width="430" height="150" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="750.0" y="572.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">2. 선택</text>
+<text x="750.0" y="602.35" font-size="21" text-anchor="middle" fill="#222">책에서는 Terminal 히어로를</text>
+<text x="750.0" y="632.35" font-size="21" text-anchor="middle" fill="#222">고름</text>
+<rect x="1030" y="520" width="430" height="150" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="1245.0" y="572.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">3. 정리</text>
+<text x="1245.0" y="602.35" font-size="21" text-anchor="middle" fill="#222">컨텍스트를 비우고 나머지는</text>
+<text x="1245.0" y="632.35" font-size="21" text-anchor="middle" fill="#222">파일로 보존, 커밋</text>
+<line x1="470" y1="595" x2="535" y2="595" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="965" y1="595" x2="1030" y2="595" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+</svg>

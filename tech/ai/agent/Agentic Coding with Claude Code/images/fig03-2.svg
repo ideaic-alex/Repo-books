@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="620" fill="#fff"/>
+<text x="750" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">훅 이벤트와 Stop 알림 훅의 흐름</text>
+<rect x="40" y="100" width="262" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="171.0" y="142.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">PreToolUse</text>
+<text x="171.0" y="172.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">도구 실행 전</text>
+<rect x="328" y="100" width="262" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="459.0" y="142.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">PostToolUse</text>
+<text x="459.0" y="172.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">도구 실행 후</text>
+<rect x="616" y="100" width="262" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="747.0" y="142.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">Notification</text>
+<text x="747.0" y="172.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">알림이 나갈 때</text>
+<rect x="904" y="100" width="262" height="100" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="1035.0" y="142.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">UserPromptSubmit</text>
+<text x="1035.0" y="172.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">프롬프트 제출 시</text>
+<rect x="1192" y="100" width="262" height="100" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="1323.0" y="142.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">Stop</text>
+<text x="1323.0" y="172.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">응답 끝내기 직전</text>
+<text x="750" y="260" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">Stop 이벤트를 고른 알림 훅의 동작</text>
+<rect x="40" y="290" width="250" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="165.0" y="342.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">프롬프트 제출</text>
+<line x1="292" y1="335" x2="326" y2="335" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="328" y="290" width="250" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="453.0" y="342.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">Claude 응답 생성</text>
+<line x1="580" y1="335" x2="614" y2="335" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="616" y="290" width="250" height="90" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="741.0" y="342.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">Stop 이벤트 발생</text>
+<line x1="868" y1="335" x2="902" y2="335" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="904" y="290" width="250" height="90" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1029.0" y="342.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">훅 명령 실행</text>
+<line x1="1156" y1="335" x2="1190" y2="335" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1192" y="290" width="250" height="90" rx="10" fill="#F3E5F5" stroke="#7B3F99" stroke-width="2.5"/>
+<text x="1317.0" y="342.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">알림음 재생</text>
+<rect x="40" y="440" width="1420" height="120" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="750.0" y="492.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">설정 위치: 프로젝트 .claude 폴더의 설정 JSON</text>
+<text x="750.0" y="522.35" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">hooks - Stop - matcher 빈 문자열(모든 Stop에 적용) - 명령 uv run play_sound.py</text>
+</svg>

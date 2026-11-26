@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="860" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">컨텍스트 세 상자와 파일시스템의 역할</text>
+<rect x="40" y="95" width="780" height="500" rx="14" fill="#E8F0F9" fill-opacity="0.35" stroke="#2F5D8C" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="60" y="131" font-size="24" font-weight="bold" fill="#2F5D8C">상자 1: 쓸 수 있는 모든 컨텍스트</text>
+<text x="70" y="170" text-anchor="start" font-size="20" fill="#333">코드베이스, 문서, 웹 검색 결과, 파일, 데이터베이스</text>
+<rect x="80" y="215" width="330" height="150" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="245.0" y="269.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">상자 2</text>
+<text x="245.0" y="296.65" text-anchor="middle" font-size="19" fill="#222">에이전트가 한 단계에서</text>
+<text x="245.0" y="323.65" text-anchor="middle" font-size="19" fill="#222">윈도우로 끌어온 부분</text>
+<rect x="430" y="215" width="330" height="150" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="595.0" y="269.65" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">상자 3</text>
+<text x="595.0" y="296.65" text-anchor="middle" font-size="19" fill="#222">작업에 실제로</text>
+<text x="595.0" y="323.65" text-anchor="middle" font-size="19" fill="#222">필요한 정보</text>
+<rect x="80" y="400" width="680" height="160" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="420.0" y="473.0" text-anchor="middle" font-size="20" fill="#222">목표: 상자 2는 작게, 상자 3은 완전히 덮기</text>
+<text x="420.0" y="501.0" text-anchor="middle" font-size="20" fill="#222">필요한 것만 담고 나머지는 윈도우 밖에 둔다</text>
+<rect x="860" y="95" width="600" height="50" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1160.0" y="127.35" text-anchor="middle" font-size="21" font-weight="bold" fill="#222">어긋나면 생기는 실패</text>
+<rect x="860" y="155" width="600" height="70" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1160.0" y="196.65" text-anchor="middle" font-size="19" fill="#222">과소 검색: 필요한 정보를 놓침</text>
+<rect x="860" y="235" width="600" height="70" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1160.0" y="276.65" text-anchor="middle" font-size="19" fill="#222">과다 검색: 잡음이 신호를 흐림</text>
+<rect x="860" y="315" width="600" height="70" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1160.0" y="356.65" text-anchor="middle" font-size="19" fill="#222">어긋난 검색: 엉뚱한 곳을 찾음</text>
+<rect x="860" y="395" width="600" height="70" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1160.0" y="436.65" text-anchor="middle" font-size="19" fill="#222">윈도우 한계: 너무 크면 성능 저하</text>
+<line x1="750" y1="595" x2="750" y2="650" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="650" width="1400" height="170" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="760.0" y="714.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">파일시스템 = 컨텍스트 엔진</text>
+<text x="760.0" y="742.0" text-anchor="middle" font-size="20" fill="#222">쓰기: 중간 결과를 파일에 저장해 윈도우를 부풀리지 않음</text>
+<text x="760.0" y="770.0" text-anchor="middle" font-size="20" fill="#222">선택: glob으로 파일 찾기, grep으로 내용 찾기</text>
+</g>
+</svg>

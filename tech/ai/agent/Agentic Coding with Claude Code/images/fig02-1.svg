@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#455A64"/></marker></defs>
+<rect width="1500" height="620" fill="#fff"/>
+<text x="750" y="52" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">2장 HookHub 실습의 여섯 단계</text>
+<g text-anchor="middle" fill="#222">
+<rect x="40" y="100" width="420" height="200" rx="10" fill="#E8F0F9" stroke="#1E5AA8" stroke-width="2.5"/>
+<text x="250" y="145" font-size="23" font-weight="bold">1 프로젝트 준비</text>
+<text x="250" y="190" font-size="20">create-next-app으로 생성</text><text x="250" y="225" font-size="20">npm run dev로 실행</text><text x="250" y="260" font-size="20">localhost:3000 확인</text>
+<rect x="540" y="100" width="420" height="200" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="750" y="145" font-size="23" font-weight="bold">2 /init 실행</text>
+<text x="750" y="190" font-size="20">코드베이스를 훑어서</text><text x="750" y="225" font-size="20">CLAUDE.md 생성</text><text x="750" y="260" font-size="20">쓰기 권한은 직접 승인</text>
+<rect x="1040" y="100" width="420" height="200" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2.5"/>
+<text x="1250" y="145" font-size="23" font-weight="bold">3 Playwright MCP</text>
+<text x="1250" y="190" font-size="20">claude mcp add로 연결</text><text x="1250" y="225" font-size="20">/mcp로 연결 확인</text><text x="1250" y="260" font-size="20">브라우저 열기 시험</text>
+<rect x="1040" y="360" width="420" height="200" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="1250" y="405" font-size="23" font-weight="bold">4 memory 폴더</text>
+<text x="1250" y="450" font-size="20">프런트엔드 전문가 역할을</text><text x="1250" y="485" font-size="20">memory/frontend에 저장</text><text x="1250" y="520" font-size="20">자동 로드는 안 됨</text>
+<rect x="540" y="360" width="420" height="200" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="2.5"/>
+<text x="750" y="405" font-size="23" font-weight="bold">5 스펙 작성</text>
+<text x="750" y="450" font-size="20">계획 모드에서 Opus로</text><text x="750" y="485" font-size="20">HookHub 스펙을 쓰게 함</text><text x="750" y="520" font-size="20">memory/spec에 보관</text>
+<rect x="40" y="360" width="420" height="200" rx="10" fill="#E8F0F9" stroke="#1E5AA8" stroke-width="2.5"/>
+<text x="250" y="405" font-size="23" font-weight="bold">6 메인 페이지 구현</text>
+<text x="250" y="450" font-size="20">Sonnet으로 전환하고</text><text x="250" y="485" font-size="20">@로 스펙을 붙여 요청</text><text x="250" y="520" font-size="20">훅 카드 그리드 완성</text>
+</g>
+<line x1="460" y1="200" x2="540" y2="200" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<line x1="960" y1="200" x2="1040" y2="200" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1250" y1="300" x2="1250" y2="360" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1040" y1="460" x2="960" y2="460" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<line x1="540" y1="460" x2="460" y2="460" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+</svg>

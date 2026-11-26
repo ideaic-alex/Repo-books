@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="780" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">에이전트 분류와 코딩 에이전트의 위치</text>
+<rect x="40" y="95" width="1420" height="660" rx="14" fill="#E8F0F9" fill-opacity="0.35" stroke="#2F5D8C" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="60" y="131" font-size="24" font-weight="bold" fill="#2F5D8C">에이전트 (실제 시스템에 배치된 모든 종류)</text>
+<text x="60" y="175" text-anchor="start" font-size="20" fill="#333">자율 에이전트, 에이전트형 애플리케이션, 예: LLM이 다음 단계를 고르는 하이브리드 RAG</text>
+<rect x="70" y="205" width="640" height="520" rx="14" fill="#FFF3E0" fill-opacity="0.35" stroke="#C77700" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="90" y="241" font-size="24" font-weight="bold" fill="#C77700">얕은 에이전트</text>
+<rect x="100" y="260" width="580" height="100" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="390.0" y="303.0" text-anchor="middle" font-size="20" fill="#222">ReAct 에이전트</text>
+<text x="390.0" y="331.0" text-anchor="middle" font-size="20" fill="#222">도구 선택 → 실행 → 관찰 순환</text>
+<rect x="100" y="390" width="580" height="130" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="390.0" y="434.65" text-anchor="middle" font-size="19" fill="#222">함수 호출로 도구를 고름</text>
+<text x="390.0" y="461.65" text-anchor="middle" font-size="19" fill="#222">반복마다 컨텍스트가 쌓임</text>
+<text x="390.0" y="488.65" text-anchor="middle" font-size="19" fill="#222">→ 컨텍스트 부패, 지연, 비용 증가</text>
+<rect x="100" y="550" width="580" height="130" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="390.0" y="608.15" text-anchor="middle" font-size="19" fill="#222">몇 번만 도는 작업에는 충분하다</text>
+<text x="390.0" y="635.15" text-anchor="middle" font-size="19" fill="#222">실제 운영 시스템 다수가 사용</text>
+<rect x="750" y="205" width="680" height="520" rx="14" fill="#E6F4EA" fill-opacity="0.35" stroke="#2E7D4F" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="770" y="241" font-size="24" font-weight="bold" fill="#2E7D4F">딥 에이전트</text>
+<rect x="780" y="260" width="620" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1090.0" y="303.15" text-anchor="middle" font-size="19" fill="#222">장기 과제용 (분, 시간, 며칠)</text>
+<text x="1090.0" y="330.15" text-anchor="middle" font-size="19" fill="#222">멈추고 사용자 입력 후 재개 가능</text>
+<rect x="780" y="390" width="620" height="100" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1090.0" y="433.15" text-anchor="middle" font-size="19" fill="#222">딥 리서치 에이전트</text>
+<text x="1090.0" y="460.15" text-anchor="middle" font-size="19" fill="#222">Perplexity, GPT Researcher 등</text>
+<rect x="790" y="510" width="540" height="190" rx="14" fill="#F3E5F5" fill-opacity="0.35" stroke="#7B3FA0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="810" y="546" font-size="24" font-weight="bold" fill="#7B3FA0">코딩 에이전트</text>
+<rect x="810" y="555" width="500" height="120" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1060.0" y="608.0" text-anchor="middle" font-size="20" fill="#222">Claude Code, Devin</text>
+<text x="1060.0" y="636.0" text-anchor="middle" font-size="20" fill="#222">Cursor, Gemini CLI</text>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="760" fill="#FFFFFF"/>
+  <text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">MCP 구조: 호스트, 클라이언트, 서버</text>
+
+  <rect x="50" y="110" width="500" height="490" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="3"/>
+  <text x="300" y="152" font-size="23" font-weight="bold" text-anchor="middle" fill="#1F3F66">MCP 호스트 (Claude Code, Cursor)</text>
+
+  <rect x="90" y="185" width="420" height="100" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="300" y="243" font-size="22" text-anchor="middle" fill="#3E2A00">MCP 클라이언트 1</text>
+  <rect x="90" y="320" width="420" height="100" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="300" y="378" font-size="22" text-anchor="middle" fill="#3E2A00">MCP 클라이언트 2</text>
+  <rect x="90" y="455" width="420" height="100" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="3"/>
+  <text x="300" y="513" font-size="22" text-anchor="middle" fill="#3E2A00">MCP 클라이언트 3</text>
+
+  <line x1="515" y1="235" x2="690" y2="235" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="515" y1="370" x2="690" y2="370" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="515" y1="505" x2="690" y2="505" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <text x="602" y="215" font-size="20" text-anchor="middle" fill="#37474F">MCP</text>
+
+  <rect x="700" y="185" width="330" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="865" y="228" font-size="22" font-weight="bold" text-anchor="middle" fill="#1B4D1F">MCP 서버 A</text>
+  <text x="865" y="260" font-size="20" text-anchor="middle" fill="#1B4D1F">날씨 조회 도구</text>
+  <rect x="700" y="320" width="330" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="865" y="363" font-size="22" font-weight="bold" text-anchor="middle" fill="#1B4D1F">MCP 서버 B</text>
+  <text x="865" y="395" font-size="20" text-anchor="middle" fill="#1B4D1F">Context7 최신 문서</text>
+  <rect x="700" y="455" width="330" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="3"/>
+  <text x="865" y="498" font-size="22" font-weight="bold" text-anchor="middle" fill="#1B4D1F">MCP 서버 C</text>
+  <text x="865" y="530" font-size="20" text-anchor="middle" fill="#1B4D1F">데이터베이스 검색</text>
+
+  <line x1="1035" y1="235" x2="1175" y2="235" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="1035" y1="370" x2="1175" y2="370" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+  <line x1="1035" y1="505" x2="1175" y2="505" stroke="#37474F" stroke-width="3.5" marker-end="url(#arr)"/>
+
+  <rect x="1185" y="185" width="270" height="100" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="3"/>
+  <text x="1320" y="243" font-size="22" text-anchor="middle" fill="#3B0F47">외부 날씨 API</text>
+  <rect x="1185" y="320" width="270" height="100" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="3"/>
+  <text x="1320" y="378" font-size="22" text-anchor="middle" fill="#3B0F47">패키지 문서 서비스</text>
+  <rect x="1185" y="455" width="270" height="100" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="3"/>
+  <text x="1320" y="513" font-size="22" text-anchor="middle" fill="#3B0F47">데이터베이스</text>
+
+  <rect x="50" y="640" width="1405" height="90" rx="10" fill="#FDECEA" stroke="#C62828" stroke-width="3"/>
+  <text x="752" y="678" font-size="22" text-anchor="middle" fill="#5A1010">클라이언트와 서버는 1대1이다. 서버가 3개면 호스트 안에 클라이언트도 3개가 생긴다.</text>
+  <text x="752" y="711" font-size="22" text-anchor="middle" fill="#5A1010">서버를 한 번 만들면 MCP를 지원하는 어느 호스트에서도 그대로 연결해 쓴다.</text>
+</svg>

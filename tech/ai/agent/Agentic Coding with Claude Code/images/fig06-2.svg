@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="660" fill="#FFFFFF"/>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle" fill="#222">병렬 에이전트: 독립 작업과 의존 작업 구분</text>
+<rect x="60" y="100" width="660" height="230" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="390.0" y="177.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">독립 작업: 동시에 실행해도 된다</text>
+<text x="390.0" y="207.35" font-size="21" text-anchor="middle" fill="#222">관련 없는 버그 두 개를 각각 수정</text>
+<text x="390.0" y="237.35" font-size="21" text-anchor="middle" fill="#222">서로 다른 UI 페이지를 따로 제작</text>
+<text x="390.0" y="267.35" font-size="21" text-anchor="middle" fill="#222">컴포넌트 라이브러리의 개별 컴포넌트</text>
+<rect x="780" y="100" width="660" height="230" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1110.0" y="177.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">의존 작업: 순서대로 해야 한다</text>
+<text x="1110.0" y="207.35" font-size="21" text-anchor="middle" fill="#222">백엔드 API를 만든 뒤 프런트가 사용</text>
+<text x="1110.0" y="237.35" font-size="21" text-anchor="middle" fill="#222">동시에 하면 없는 API를 가정하거나</text>
+<text x="1110.0" y="267.35" font-size="21" text-anchor="middle" fill="#222">목업을 쓰다가 인터페이스가 어긋난다</text>
+<text x="750" y="385" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">HookHub 예: 파일 단위로 일을 나눠 서로의 파일을 건드리지 않게 한다</text>
+<rect x="60" y="420" width="300" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="210.0" y="457.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">터미널 1</text>
+<text x="210.0" y="487.35" font-size="21" text-anchor="middle" fill="#222">Claude Code A</text>
+<rect x="60" y="540" width="300" height="90" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="210.0" y="577.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">터미널 2</text>
+<text x="210.0" y="607.35" font-size="21" text-anchor="middle" fill="#222">Claude Code B</text>
+<rect x="540" y="420" width="400" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="740.0" y="457.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">HookCard.tsx</text>
+<text x="740.0" y="487.35" font-size="21" text-anchor="middle" fill="#222">카드 디자인 개선만 허용</text>
+<rect x="540" y="540" width="400" height="90" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="740.0" y="577.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">Hero.tsx</text>
+<text x="740.0" y="607.35" font-size="21" text-anchor="middle" fill="#222">히어로 영역만 허용</text>
+<line x1="360" y1="465" x2="540" y2="465" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="360" y1="585" x2="540" y2="585" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1100" y="420" width="340" height="210" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="1270.0" y="487.35" font-size="21" text-anchor="middle" fill="#222" font-weight="bold">같은 브랜치</text>
+<text x="1270.0" y="517.35" font-size="21" text-anchor="middle" fill="#222">같은 코드베이스</text>
+<text x="1270.0" y="547.35" font-size="21" text-anchor="middle" fill="#222">파일이 겹치지 않아</text>
+<text x="1270.0" y="577.35" font-size="21" text-anchor="middle" fill="#222">충돌이 없다</text>
+<line x1="940" y1="465" x2="1100" y2="500" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="940" y1="585" x2="1100" y2="550" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+</svg>

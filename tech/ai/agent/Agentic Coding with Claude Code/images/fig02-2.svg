@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#455A64"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="52" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">자동으로 읽히는 파일과 직접 불러와야 하는 파일</text>
+<g text-anchor="middle" fill="#222">
+<rect x="60" y="100" width="640" height="210" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="380" y="145" font-size="24" font-weight="bold">자동으로 읽히는 파일</text>
+<text x="380" y="195" font-size="20">/init이 만든 프로젝트 CLAUDE.md</text>
+<text x="380" y="235" font-size="20">요청을 보낼 때마다 먼저 로드</text>
+<text x="380" y="275" font-size="20">기술 스택, 구조, 실행 방법 포함</text>
+<rect x="800" y="100" width="640" height="210" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2.5"/>
+<text x="1120" y="145" font-size="24" font-weight="bold">자동으로 읽히지 않는 파일</text>
+<text x="1120" y="195" font-size="20">memory/frontend/CLAUDE.md</text>
+<text x="1120" y="235" font-size="20">memory/spec/CLAUDE.md</text>
+<text x="1120" y="275" font-size="20">Claude가 알아서 읽지 않는다</text>
+<rect x="800" y="370" width="640" height="90" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="1120" y="408" font-size="21" font-weight="bold">직접 불러오기</text>
+<text x="1120" y="440" font-size="20">프롬프트의 @ 파일 태그, 훅 (3장 이후)</text>
+<rect x="60" y="520" width="1380" height="100" rx="10" fill="#E8F0F9" stroke="#1E5AA8" stroke-width="2.5"/>
+<text x="750" y="558" font-size="22" font-weight="bold">Claude에게 보내는 컨텍스트</text>
+<text x="750" y="593" font-size="20">필요한 때에 필요한 파일만 들어가게 하는 것이 컨텍스트 엔지니어링</text>
+</g>
+<line x1="1120" y1="310" x2="1120" y2="370" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1120,460 L1120,490 L1000,490 L1000,520" fill="none" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+<line x1="380" y1="310" x2="380" y2="520" stroke="#455A64" stroke-width="3" marker-end="url(#a)"/>
+</svg>

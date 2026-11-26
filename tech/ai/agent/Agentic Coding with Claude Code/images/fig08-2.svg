@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="680" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="55" font-size="34" font-weight="bold">상태줄 스크립트의 입출력 흐름</text>
+
+<rect x="40" y="110" width="330" height="230" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="205" y="150" font-size="22" font-weight="bold">Claude Code</text>
+<text x="205" y="195" font-size="19">세션 정보를 모아서</text>
+<text x="205" y="225" font-size="19">JSON으로 보낸다</text>
+<text x="205" y="275" font-size="19">모델, 비용, 깃 정보,</text>
+<text x="205" y="305" font-size="19">output_style 등</text>
+
+<line x1="375" y1="225" x2="505" y2="225" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="440" y="195" font-size="19" font-weight="bold">stdin</text>
+
+<rect x="510" y="110" width="480" height="230" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="750" y="150" font-size="22" font-weight="bold">statusline.py (uv로 실행)</text>
+<text x="750" y="195" font-size="19">json.load(sys.stdin) 으로 읽기</text>
+<text x="750" y="225" font-size="19">output_style 값 꺼내기</text>
+<text x="750" y="255" font-size="19">transcript_path 로 기록 파일 열기</text>
+<text x="750" y="305" font-size="19">ANSI 색상으로 꾸며 print</text>
+
+<line x1="995" y1="225" x2="1125" y2="225" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<text x="1060" y="195" font-size="19" font-weight="bold">stdout</text>
+
+<rect x="1130" y="110" width="330" height="230" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="1295" y="150" font-size="22" font-weight="bold">터미널 아래 상태줄</text>
+<text x="1295" y="205" font-size="19">출력된 글자가 그대로</text>
+<text x="1295" y="235" font-size="19">항상 떠 있다</text>
+<text x="1295" y="285" font-size="19">예: 스타일 이름,</text>
+<text x="1295" y="315" font-size="19">마지막 프롬프트</text>
+
+<line x1="750" y1="345" x2="750" y2="435" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="400" y="440" width="700" height="190" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2"/>
+<text x="750" y="480" font-size="22" font-weight="bold">마지막 사용자 프롬프트 찾기</text>
+<text x="750" y="525" font-size="19">기록 파일(JSONL)을 뒤에서부터 한 줄씩 읽는다</text>
+<text x="750" y="555" font-size="19">role이 user인 메시지만 고른다</text>
+<text x="750" y="585" font-size="19">슬래시 명령과 어시스턴트 응답은 건너뛴다</text>
+<text x="750" y="615" font-size="19">처음 찾은 것이 가장 최근 프롬프트</text>
+</g>
+</svg>

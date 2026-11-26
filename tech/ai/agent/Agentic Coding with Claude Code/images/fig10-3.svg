@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#444"/></marker></defs>
+<rect width="1500" height="860" fill="#FFFFFF"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">세 브랜치를 임시 통합 브랜치에서 합치는 흐름</text>
+<rect x="60" y="110" width="400" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="260.0" y="148.0" text-anchor="middle" font-size="20" fill="#222">vigilant-fiestel</text>
+<text x="260.0" y="176.0" text-anchor="middle" font-size="20" fill="#222">UI 애니메이션</text>
+<rect x="550" y="110" width="400" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="750.0" y="148.0" text-anchor="middle" font-size="20" fill="#222">zealous-jemison</text>
+<text x="750.0" y="176.0" text-anchor="middle" font-size="20" fill="#222">훅 저장소 데이터</text>
+<rect x="1040" y="110" width="400" height="90" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1240.0" y="148.0" text-anchor="middle" font-size="20" fill="#222">anthropic-hero-design</text>
+<text x="1240.0" y="176.0" text-anchor="middle" font-size="20" fill="#222">히어로 재설계 (원격)</text>
+<line x1="260" y1="200" x2="640" y2="300" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="750" y1="200" x2="750" y2="300" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1240" y1="200" x2="860" y2="300" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="420" y="300" width="660" height="100" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="750.0" y="343.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">임시 통합 브랜치 project/hookhub-merge</text>
+<text x="750.0" y="371.0" text-anchor="middle" font-size="20" fill="#222">(워크트리 suspicious-bassi에서 작업)</text>
+<text x="1290" y="335" text-anchor="middle" font-size="21" font-weight="bold" fill="#B3372E">전역 CSS 충돌 발생</text>
+<text x="1290" y="370" text-anchor="middle" font-size="19" fill="#333">Claude가 해결안 제안, 사용자 승인</text>
+<line x1="750" y1="400" x2="750" y2="460" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="420" y="460" width="660" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="750.0" y="498.0" text-anchor="middle" font-size="20" fill="#222">로컬에서 npm run dev로 시험</text>
+<text x="750.0" y="526.0" text-anchor="middle" font-size="20" fill="#222">(3002번 포트에서 결과 비교)</text>
+<line x1="750" y1="550" x2="750" y2="610" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="420" y="610" width="660" height="80" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="750.0" y="657.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">푸시 승인은 시험이 끝난 뒤에</text>
+<line x1="750" y1="690" x2="750" y2="750" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="420" y="750" width="660" height="80" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="750.0" y="797.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">project/hookhub에 병합 (커밋 3개)</text>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="720" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="55" font-size="34" font-weight="bold">한 저장소, 여러 세션: 스타일과 역할을 나눠 쓰기</text>
+
+<rect x="450" y="90" width="600" height="80" rx="10" fill="#F5F5F5" stroke="#777" stroke-width="2"/>
+<text x="750" y="140" font-size="22" font-weight="bold">같은 저장소 (프로젝트 폴더)</text>
+
+<g stroke="#555" stroke-width="3" fill="none" marker-end="url(#a)">
+<line x1="560" y1="175" x2="300" y2="255"/><line x1="680" y1="175" x2="680" y2="255"/>
+<line x1="820" y1="175" x2="1000" y2="255"/>
+</g>
+
+<rect x="40" y="260" width="440" height="190" rx="10" fill="#E8F0F9" stroke="#1565C0" stroke-width="2"/>
+<text x="260" y="300" font-size="22" font-weight="bold">세션 1: minimal-bullets</text>
+<text x="260" y="350" font-size="19">불릿으로 짧게 답한다</text>
+<text x="260" y="380" font-size="19">빠른 질의응답에 적합</text>
+
+<rect x="520" y="260" width="440" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"/>
+<text x="740" y="300" font-size="22" font-weight="bold">세션 2: yaml-concise</text>
+<text x="740" y="350" font-size="19">YAML 구조로 답한다</text>
+<text x="740" y="380" font-size="19">의존 관계 정리에 적합</text>
+
+<rect x="1000" y="260" width="460" height="190" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="1230" y="300" font-size="22" font-weight="bold">세션 3: 전용 스타일 (예시)</text>
+<text x="1230" y="350" font-size="19">리뷰, 설명, 디버그처럼</text>
+<text x="1230" y="380" font-size="19">작업에 맞춰 초점을 정한다</text>
+
+<rect x="40" y="510" width="1420" height="170" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2"/>
+<text x="750" y="550" font-size="22" font-weight="bold">확장 아이디어: 세션에 역할 이름을 붙이면 팀이 된다</text>
+<text x="750" y="595" font-size="19">frontend-engineer   backend-engineer   devops   security-review</text>
+<text x="750" y="630" font-size="19">이름은 출력 스타일, 컨텍스트, 맡은 작업 종류를 함께 가리킨다</text>
+<text x="750" y="662" font-size="19">상태줄에 지금 어느 세션인지 표시하면 창을 헷갈리지 않는다</text>
+</g>
+</svg>
