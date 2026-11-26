@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect width="1500" height="800" fill="#FFFFFF"/>
+<text x="750" y="62" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">답이 아쉬울 때 고르는 네 가지 선택</text>
+<rect x="480" y="110" width="540" height="80" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="750.0" y="157.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">답이 마음에 들지 않는다</text>
+<rect x="40" y="290" width="310" height="140" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="195.0" y="350.0" text-anchor="middle" font-size="20" fill="#222">작은 말투나</text>
+<text x="195.0" y="384.0" text-anchor="middle" font-size="20" fill="#222">길이만 어긋남</text>
+<rect x="40" y="540" width="310" height="140" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="195.0" y="600.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">같은 대화에서</text>
+<text x="195.0" y="634.0" text-anchor="middle" font-size="20" fill="#222">답장으로 수정</text>
+<line x1="195" y1="432" x2="195" y2="538" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="192" x2="195" y2="288" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="410" y="290" width="310" height="140" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="565.0" y="350.0" text-anchor="middle" font-size="20" fill="#222">질문에 핵심 맥락이</text>
+<text x="565.0" y="384.0" text-anchor="middle" font-size="20" fill="#222">빠져 엉뚱한 답</text>
+<rect x="410" y="540" width="310" height="140" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="565.0" y="600.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">원래 메시지를</text>
+<text x="565.0" y="634.0" text-anchor="middle" font-size="20" fill="#222">편집해 다시 보냄</text>
+<line x1="565" y1="432" x2="565" y2="538" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="192" x2="565" y2="288" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="780" y="290" width="310" height="140" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="935.0" y="350.0" text-anchor="middle" font-size="20" fill="#222">질문은 좋은데</text>
+<text x="935.0" y="384.0" text-anchor="middle" font-size="20" fill="#222">이번 답만 밋밋함</text>
+<rect x="780" y="540" width="310" height="140" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="935.0" y="600.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">다시 생성</text>
+<text x="935.0" y="634.0" text-anchor="middle" font-size="20" fill="#222">새 시도를 받음</text>
+<line x1="935" y1="432" x2="935" y2="538" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="192" x2="935" y2="288" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="1150" y="290" width="310" height="140" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1305.0" y="350.0" text-anchor="middle" font-size="20" fill="#222">두 방향을 나란히</text>
+<text x="1305.0" y="384.0" text-anchor="middle" font-size="20" fill="#222">비교하고 싶음</text>
+<rect x="1150" y="540" width="310" height="140" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1305.0" y="600.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">편집한 뒤 가지로</text>
+<text x="1305.0" y="634.0" text-anchor="middle" font-size="20" fill="#222">보존, 1/2 화살표 전환</text>
+<line x1="1305" y1="432" x2="1305" y2="538" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="192" x2="1305" y2="288" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="750" y="740" text-anchor="middle" font-size="21" fill="#222">다시 생성을 반복해도 질문이 틀렸다면 소용없다. 그때는 편집으로 돌아간다.</text>
+</svg>

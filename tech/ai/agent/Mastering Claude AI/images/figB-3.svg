@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="640" fill="#ffffff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">자동화 워크플로 공통 구조와 안전장치</text>
+<rect x="35" y="120" width="250" height="190" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="160.0" y="188.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">트리거</text>
+<text x="160.0" y="222.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">주간, 신규 계약,</text>
+<text x="160.0" y="256.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">마감 등 시작 조건</text>
+<line x1="287" y1="215" x2="328" y2="215" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="330" y="120" width="250" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="455.0" y="188.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">자료 투입</text>
+<text x="455.0" y="222.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">프로젝트나 파일,</text>
+<text x="455.0" y="256.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">메모를 모은다</text>
+<line x1="582" y1="215" x2="623" y2="215" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="625" y="120" width="250" height="190" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750.0" y="188.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">Claude 처리</text>
+<text x="750.0" y="222.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">초안, 추출,</text>
+<text x="750.0" y="256.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">분류, 요약</text>
+<line x1="877" y1="215" x2="918" y2="215" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="920" y="120" width="250" height="190" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1045.0" y="188.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">사람 검토</text>
+<text x="1045.0" y="222.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">정확성과 어조를</text>
+<text x="1045.0" y="256.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">직접 확인</text>
+<line x1="1172" y1="215" x2="1213" y2="215" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1215" y="120" width="250" height="190" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="1340.0" y="188.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">실행</text>
+<text x="1340.0" y="222.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">발송, 등록,</text>
+<text x="1340.0" y="256.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">게시</text>
+<rect x="560" y="360" width="380" height="110" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="750.0" y="405.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">자동 발송 금지</text>
+<text x="750.0" y="439.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">검토 없는 실행은 하지 않음</text>
+<line x1="1000" y1="312" x2="860" y2="358" stroke="#C0392B" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+<rect x="1000" y="360" width="460" height="110" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1230.0" y="405.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">확대 조건</text>
+<text x="1230.0" y="439.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">충분한 실적이 쌓이면 감독을 줄임</text>
+<rect x="40" y="360" width="460" height="110" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="270.0" y="405.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">시작은 작게</text>
+<text x="270.0" y="439.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">저위험 사례로 먼저 시험</text>
+<text x="750" y="545" text-anchor="middle" font-size="21" font-weight="normal" fill="#444">20개 워크플로 모두 이 다섯 칸의 변형이다(20장의 작게 시작하고 감독을 더한다는 원칙)</text>
+</svg>

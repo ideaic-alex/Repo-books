@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860">
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="860" fill="#FFFFFF"/>
+<text x="750" y="58" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="bold" fill="#222">긴 문서 분석: 방법 고르기부터 사람 검토까지</text>
+<rect x="60" y="170" width="300" height="120" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="210.0" y="222" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">긴 문서나 PDF</text>
+<text x="210.0" y="253" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">길이, 구조, 목적을 본다</text>
+<rect x="520" y="100" width="420" height="90" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="730.0" y="137" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">한 번에 분석</text>
+<text x="730.0" y="168" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">중간 길이, 목적 하나</text>
+<line x1="360" y1="230" x2="518" y2="145" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="940" y1="145" x2="1058" y2="255" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="520" y="205" width="420" height="90" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="730.0" y="242" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">구간별 분석</text>
+<text x="730.0" y="273" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">매우 길고 촘촘한 문서</text>
+<line x1="360" y1="230" x2="518" y2="250" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="940" y1="250" x2="1058" y2="285" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="520" y="310" width="420" height="90" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="730.0" y="347" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">추출 패스</text>
+<text x="730.0" y="378" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">날짜, 위험 등 범주별</text>
+<line x1="360" y1="230" x2="518" y2="355" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="940" y1="355" x2="1058" y2="315" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="520" y="415" width="420" height="90" rx="10" fill="#F3E5F5" stroke="#7B3F98" stroke-width="2.5"/>
+<text x="730.0" y="452" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">문서 비교</text>
+<text x="730.0" y="483" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">여러 문서를 함께 첨부</text>
+<line x1="360" y1="230" x2="518" y2="460" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="940" y1="460" x2="1058" y2="345" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="1060" y="230" width="380" height="140" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1250.0" y="276" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">표본 검증</text>
+<text x="1250.0" y="307" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">핵심 주장 두세 개를</text>
+<text x="1250.0" y="339" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">원문과 직접 대조</text>
+<line x1="1250" y1="370" x2="1250" y2="438" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="1060" y="440" width="380" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1250.0" y="482" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">사람 검토</text>
+<text x="1250.0" y="513" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">중요한 부분은 직접 읽기</text>
+<text x="750" y="590" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">조심할 실패 유형</text>
+<rect x="60" y="620" width="440" height="170" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="280.0" y="681" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">스캔본 문서</text>
+<text x="280.0" y="712" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">글자를 제대로 읽었는지</text>
+<text x="280.0" y="744" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">되읽혀 보며 확인한다</text>
+<rect x="530" y="620" width="440" height="170" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="750.0" y="681" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">맥락 한도 초과</text>
+<text x="750.0" y="712" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">아주 긴 문서는</text>
+<text x="750.0" y="744" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">구간별 분석이 필수가 된다</text>
+<rect x="1000" y="620" width="440" height="170" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5"/>
+<text x="1220.0" y="681" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">요약의 거짓 확신</text>
+<text x="1220.0" y="712" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">깔끔해도 압축본이다</text>
+<text x="1220.0" y="744" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">핵심은 원문과 대조한다</text>
+</svg>

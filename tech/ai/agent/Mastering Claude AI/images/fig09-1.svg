@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="900" fill="#FFFFFF"/>
+<text x="750" y="58" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="bold" fill="#222">정보를 들여오는 다섯 방법과 두 종류의 일</text>
+<text x="330" y="115" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">정보의 성격</text>
+<text x="1150" y="115" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">알맞은 방법</text>
+<rect x="60" y="135" width="540" height="66" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="330.0" y="175" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">짧고 단순한 정보</text>
+<rect x="880" y="135" width="540" height="66" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1150.0" y="175" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">직접 입력하거나 붙여넣기</text>
+<line x1="600" y1="168" x2="878" y2="168" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="220" width="540" height="66" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="330.0" y="260" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">긴 문서, 표나 제목이 중요</text>
+<rect x="880" y="220" width="540" height="66" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1150.0" y="260" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">파일 첨부</text>
+<line x1="600" y1="253" x2="878" y2="253" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="305" width="540" height="66" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="330.0" y="345" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">최근 사실, 변할 수 있는 것</text>
+<rect x="880" y="305" width="540" height="66" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1150.0" y="345" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">웹 검색</text>
+<line x1="600" y1="338" x2="878" y2="338" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="390" width="540" height="66" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="330.0" y="430" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">반복되는 참고 자료</text>
+<rect x="880" y="390" width="540" height="66" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1150.0" y="430" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">프로젝트 지식</text>
+<line x1="600" y1="423" x2="878" y2="423" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="475" width="540" height="66" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="330.0" y="515" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">앞선 대화의 결정과 결과</text>
+<rect x="880" y="475" width="540" height="66" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1150.0" y="515" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">지난 대화 참조</text>
+<line x1="600" y1="508" x2="878" y2="508" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="60" y="590" width="660" height="230" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="390.0" y="665" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">검색형 일 (Retrieval)</text>
+<text x="390.0" y="697" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">구체적 사실, 인용, 수치를 찾는 일</text>
+<text x="390.0" y="728" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">검색이나 문서 참조로 확인한다</text>
+<text x="390.0" y="760" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">기억에 맡기면 환각 위험이 커진다</text>
+<rect x="780" y="590" width="660" height="230" rx="10" fill="#F3E5F5" stroke="#7B3F98" stroke-width="2.5"/>
+<text x="1110.0" y="665" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">추론형 일 (Reasoning)</text>
+<text x="1110.0" y="697" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">주어진 자료로 결론과 권고를 만드는 일</text>
+<text x="1110.0" y="728" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">내 숫자와 상황을 직접 준다</text>
+<text x="1110.0" y="760" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">웹에서 정답을 찾으려 해도 소용없다</text>
+<text x="750" y="862" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" fill="#222" font-weight="bold">먼저 검색으로 사실을 확인하고, 그 사실을 대화에 넣어 추론시킨다</text>
+</svg>

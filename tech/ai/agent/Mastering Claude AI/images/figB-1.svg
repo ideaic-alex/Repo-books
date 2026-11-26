@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="640" fill="#ffffff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">보너스 섹션의 여덟 가지 자료 묶음</text>
+<rect x="45" y="110" width="320" height="200" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="205.0" y="183.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">350개</text>
+<text x="205.0" y="217.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">프롬프트</text>
+<text x="205.0" y="251.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">7개 분야 x 50개</text>
+<rect x="400" y="110" width="320" height="200" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="560.0" y="183.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">20개</text>
+<text x="560.0" y="217.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">자동화 워크플로</text>
+<text x="560.0" y="251.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">트리거-단계-검토</text>
+<rect x="755" y="110" width="320" height="200" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="915.0" y="183.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">20개</text>
+<text x="915.0" y="217.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">의사결정 틀</text>
+<text x="915.0" y="251.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">기준 먼저 정하기</text>
+<rect x="1110" y="110" width="320" height="200" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="1270.0" y="183.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">20개</text>
+<text x="1270.0" y="217.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">체크리스트</text>
+<text x="1270.0" y="251.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">상황별 점검표</text>
+<rect x="45" y="360" width="320" height="200" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="205.0" y="433.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">20개</text>
+<text x="205.0" y="467.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">템플릿</text>
+<text x="205.0" y="501.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">빈칸 채우는 양식</text>
+<rect x="400" y="360" width="320" height="200" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="560.0" y="433.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">20개</text>
+<text x="560.0" y="467.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">SOP</text>
+<text x="560.0" y="501.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">표준 작업 절차</text>
+<rect x="755" y="360" width="320" height="200" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="915.0" y="433.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">30개</text>
+<text x="915.0" y="467.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">사례 연구</text>
+<text x="915.0" y="501.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">원칙을 보이는 가상 사례</text>
+<rect x="1110" y="360" width="320" height="200" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="1270.0" y="433.0" text-anchor="middle" font-size="40" font-weight="bold" fill="#222">10개</text>
+<text x="1270.0" y="467.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">업무 시스템</text>
+<text x="1270.0" y="501.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">여러 기법을 묶은 운영</text>
+<text x="750" y="612" text-anchor="middle" font-size="21" font-weight="normal" fill="#444">합계 490개 항목. 본문 30개 장과 함께 쓰는 참조용이다(프롬프트 350 + 나머지 140).</text>
+</svg>

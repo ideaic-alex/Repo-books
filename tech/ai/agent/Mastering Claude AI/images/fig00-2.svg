@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="640" fill="#ffffff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">독자 유형별로 이 책을 읽는 길</text>
+<rect x="60" y="100" width="400" height="100" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="260.0" y="157.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">처음 쓰는 사람</text>
+<line x1="462" y1="150" x2="598" y2="150" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="600" y="100" width="520" height="100" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="860.0" y="140.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">1장부터 순서대로</text>
+<text x="860.0" y="174.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">각 장이 앞 장 위에 쌓인다</text>
+<rect x="60" y="225" width="400" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="260.0" y="282.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">이미 자주 쓰는 사람</text>
+<line x1="462" y1="275" x2="598" y2="275" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="600" y="225" width="520" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="860.0" y="265.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">목차 훑고 막힌 곳으로</text>
+<text x="860.0" y="299.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">3부 쓰기, 4부 조사가 빠른 길</text>
+<rect x="60" y="350" width="400" height="100" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="260.0" y="407.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">개발자·코딩 입문자</text>
+<line x1="462" y1="400" x2="598" y2="400" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="600" y="350" width="520" height="100" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="860.0" y="390.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">5부 22-25장 중심</text>
+<text x="860.0" y="424.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">단 2부의 작업 습관이 전제</text>
+<rect x="60" y="475" width="400" height="100" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="260.0" y="532.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">바쁜 실무자</text>
+<line x1="462" y1="525" x2="598" y2="525" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="600" y="475" width="520" height="100" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="860.0" y="515.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">보너스에서 골라 쓰기</text>
+<text x="860.0" y="549.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">프롬프트·SOP를 찾아 고친다</text>
+<rect x="1180" y="100" width="280" height="475" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1320.0" y="259.5" text-anchor="middle" font-size="25" font-weight="bold" fill="#222">공통 원칙</text>
+<text x="1320.0" y="293.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">연습과 미니</text>
+<text x="1320.0" y="327.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">프로젝트는 건너뛰지</text>
+<text x="1320.0" y="361.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">않는다</text>
+<text x="1320.0" y="395.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">읽기와 해 보기는</text>
+<text x="1320.0" y="429.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#222">다르다</text>
+<line x1="1122" y1="150" x2="1178" y2="150" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1122" y1="275" x2="1178" y2="275" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1122" y1="400" x2="1178" y2="400" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1122" y1="525" x2="1178" y2="525" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+</svg>

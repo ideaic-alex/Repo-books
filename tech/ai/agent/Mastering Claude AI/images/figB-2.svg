@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="560" fill="#ffffff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">보너스 자료를 쓰는 다섯 걸음</text>
+<rect x="35" y="130" width="250" height="210" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="160.0" y="208.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">1. 고르기</text>
+<text x="160.0" y="242.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">내 작업과 맞는</text>
+<text x="160.0" y="276.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">항목을 찾는다</text>
+<line x1="287" y1="235" x2="328" y2="235" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="330" y="130" width="250" height="210" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="455.0" y="208.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">2. 빈칸 채우기</text>
+<text x="455.0" y="242.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">대괄호 자리에</text>
+<text x="455.0" y="276.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">실제 상황을 쓴다</text>
+<line x1="582" y1="235" x2="623" y2="235" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="625" y="130" width="250" height="210" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750.0" y="208.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">3. 맥락 더하기</text>
+<text x="750.0" y="242.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">문서, 예시, 숫자를</text>
+<text x="750.0" y="276.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">5장 방식대로 붙인다</text>
+<line x1="877" y1="235" x2="918" y2="235" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="920" y="130" width="250" height="210" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="1045.0" y="208.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">4. 실행하기</text>
+<text x="1045.0" y="242.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">Claude에게</text>
+<text x="1045.0" y="276.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">보내고 결과를 본다</text>
+<line x1="1172" y1="235" x2="1213" y2="235" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1215" y="130" width="250" height="210" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1340.0" y="208.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">5. 확인과 기록</text>
+<text x="1340.0" y="242.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">사람이 검토하고</text>
+<text x="1340.0" y="276.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">고친 점을 남긴다</text>
+<path d="M1160,342 L1160,420 L160,420 L160,344" fill="none" stroke="#C0392B" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+<text x="750" y="470" text-anchor="middle" font-size="22" font-weight="bold" fill="#C0392B">자주 쓰는 것은 내 프로젝트의 지침이나 컨텍스트 패킷으로 올려 둔다</text>
+<text x="750" y="515" text-anchor="middle" font-size="21" font-weight="normal" fill="#444">원문 그대로 외우지 않고, 상황에 맞게 고쳐 쓰는 것이 전제다</text>
+</svg>

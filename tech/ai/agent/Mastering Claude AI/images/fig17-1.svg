@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">의사결정 틀 만들기 순서</text>
+<rect x="60" y="110" width="300" height="170" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="210.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2F5D9B">1 기준 먼저</text>
+<text x="210.0" y="190" text-anchor="middle" font-size="20" fill="#222">선택지를 보기 전에</text>
+<text x="210.0" y="220" text-anchor="middle" font-size="20" fill="#222">무엇이 중요한지 정한다</text>
+<line x1="360" y1="195" x2="420" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="420" y="110" width="300" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="570.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2E7D32">2 가중치</text>
+<text x="570.0" y="190" text-anchor="middle" font-size="20" fill="#222">기준마다 중요도 부여</text>
+<text x="570.0" y="220" text-anchor="middle" font-size="20" fill="#222">이유를 함께 적게 한다</text>
+<line x1="720" y1="195" x2="780" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="780" y="110" width="300" height="170" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="930.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#E08A00">3 점수 비교</text>
+<text x="930.0" y="190" text-anchor="middle" font-size="20" fill="#222">선택지별 점수와 이유</text>
+<text x="930.0" y="220" text-anchor="middle" font-size="20" fill="#222">가중 합계를 표 한 장에</text>
+<line x1="1080" y1="195" x2="1140" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1140" y="110" width="300" height="170" rx="10" fill="#F3E5F5" stroke="#7B3F9E" stroke-width="2.5"/>
+<text x="1290.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#7B3F9E">4 반대 논거</text>
+<text x="1290.0" y="190" text-anchor="middle" font-size="20" fill="#222">최하위 선택지 스틸맨</text>
+<text x="1290.0" y="220" text-anchor="middle" font-size="20" fill="#222">내 선호의 반대 논거</text>
+<line x1="1290" y1="280" x2="1290" y2="340" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="340" width="1380" height="100" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="750.0" y="376" text-anchor="middle" font-size="23" font-weight="bold" fill="#C0392B">5 사람의 판단</text>
+<text x="750.0" y="420" text-anchor="middle" font-size="20" fill="#222">틀은 생각을 정리할 뿐이다. 결과가 영 찜찜하면 빠진 기준이 있다는 신호이니 추가하고 다시 돌린다.</text>
+<rect x="60" y="470" width="1380" height="130" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750.0" y="506" text-anchor="middle" font-size="23" font-weight="bold" fill="#E08A00">닻 내림 방지 세 가지</text>
+<text x="750.0" y="550" text-anchor="middle" font-size="19" fill="#222">선호를 밝히기 전에 기준과 가중치부터 정한다  /  선택지를 중립적으로 묘사해 블라인드로 평가시킨다</text>
+<text x="750.0" y="580" text-anchor="middle" font-size="19" fill="#222">'지금 B로 기울었다. B에 반대하는 가장 강한 논거를 달라'고 요청한다</text>
+</svg>

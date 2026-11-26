@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="760" fill="#FFFFFF"/>
+<text x="750" y="58" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="bold" fill="#222">기억의 세 층과 메모리 점검 순환</text>
+<text x="60" y="120" text-anchor="start" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">범위가 넓은 것에서 좁은 것으로</text>
+<rect x="60" y="150" width="820" height="130" rx="10" fill="#F3E5F5" stroke="#7B3F98" stroke-width="2.5"/>
+<text x="470.0" y="207" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">메모리 (Memory)</text>
+<text x="470.0" y="238" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">일반 채팅 전반에 걸친 선호와 반복되는 사실</text>
+<rect x="140" y="310" width="660" height="130" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="470.0" y="367" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">프로젝트 지식</text>
+<text x="470.0" y="398" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">한 프로젝트 안의 깊고 정제된 자료</text>
+<rect x="220" y="470" width="500" height="130" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="470.0" y="527" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">이번 프롬프트</text>
+<text x="470.0" y="558" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">한 번의 작업을 위한 구체적 지시</text>
+<text x="470" y="650" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">세부가 중요한 일은 메모리에 기대지 말고 직접 적는다</text>
+<text x="1180" y="120" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">메모리 점검 순환</text>
+<rect x="960" y="150" width="300" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1110.0" y="192" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">1. 설정에서</text>
+<text x="1110.0" y="223" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">항목 목록 열기</text>
+<rect x="1100" y="320" width="340" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1270.0" y="362" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">2. 낡은 항목 찾기</text>
+<text x="1270.0" y="393" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">수정 또는 삭제</text>
+<rect x="960" y="490" width="300" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1110.0" y="532" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">3. 큰 변화 뒤</text>
+<text x="1110.0" y="563" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">전체 초기화도 가능</text>
+<line x1="1180" y1="250" x2="1260" y2="318" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1260" y1="420" x2="1180" y2="488" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M960,540 C910,540 910,200 958,200" fill="none" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<text x="1180" y="680" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" fill="#222">분기마다 한 번, 직업이나 사업이 바뀐 뒤에는 즉시</text>
+</svg>

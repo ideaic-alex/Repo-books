@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="600" fill="#ffffff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">이 책의 학습 리듬과 다섯 가지 역량</text>
+<text x="45" y="112" text-anchor="start" font-size="22" font-weight="bold" fill="#444">모든 레슨이 반복하는 네 박자</text>
+<rect x="45" y="135" width="270" height="120" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="180.0" y="185.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">1. 설명 (Explain)</text>
+<text x="180.0" y="219.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">개념과 이유를 먼저</text>
+<line x1="317" y1="195" x2="423" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="425" y="135" width="270" height="120" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="560.0" y="185.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">2. 시연 (Show)</text>
+<text x="560.0" y="219.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">실제 대화 예시로</text>
+<line x1="697" y1="195" x2="803" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="805" y="135" width="270" height="120" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="940.0" y="185.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">3. 연습 (Practice)</text>
+<text x="940.0" y="219.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">직접 해 보는 과제</text>
+<line x1="1077" y1="195" x2="1183" y2="195" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1185" y="135" width="270" height="120" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="1320.0" y="185.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">4. 점검 (Review)</text>
+<text x="1320.0" y="219.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">요약과 체크리스트</text>
+<text x="45" y="330" text-anchor="start" font-size="22" font-weight="bold" fill="#444">여섯 부가 차례로 쌓는 다섯 가지 역량</text>
+<rect x="35" y="360" width="250" height="200" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="160.0" y="416.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">문해력</text>
+<text x="160.0" y="450.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">1부 1-5장</text>
+<text x="160.0" y="484.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">AI를 이해하고</text>
+<text x="160.0" y="518.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">잘 말을 건다</text>
+<line x1="287" y1="460" x2="328" y2="460" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="330" y="360" width="250" height="200" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="455.0" y="416.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">정리력</text>
+<text x="455.0" y="450.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">2부 6-10장</text>
+<text x="455.0" y="484.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">작업이 흩어지지</text>
+<text x="455.0" y="518.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">않고 구조를 갖는다</text>
+<line x1="582" y1="460" x2="623" y2="460" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="625" y="360" width="250" height="200" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750.0" y="416.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">산출 품질</text>
+<text x="750.0" y="450.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">3-4부 11-18장</text>
+<text x="750.0" y="484.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">결과물이 그대로</text>
+<text x="750.0" y="518.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">내보낼 수준이 된다</text>
+<line x1="877" y1="460" x2="918" y2="460" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="920" y="360" width="250" height="200" rx="10" fill="#F3E5F5" stroke="#8E44AD" stroke-width="2.5"/>
+<text x="1045.0" y="416.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">지렛대</text>
+<text x="1045.0" y="450.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">5부 19-25장</text>
+<text x="1045.0" y="484.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">다시 시키지 않아도</text>
+<text x="1045.0" y="518.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">돌아가는 것을 만든다</text>
+<line x1="1172" y1="460" x2="1213" y2="460" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1215" y="360" width="250" height="200" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1340.0" y="416.0" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">지속성</text>
+<text x="1340.0" y="450.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#222">6부 26-30장</text>
+<text x="1340.0" y="484.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">모델이 바뀌고 팀이</text>
+<text x="1340.0" y="518.0" text-anchor="middle" font-size="19" font-weight="normal" fill="#222">커져도 살아남는다</text>
+</svg>

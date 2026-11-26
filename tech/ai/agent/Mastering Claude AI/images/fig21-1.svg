@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="620" fill="#fff"/>
+<text x="750" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">MCP 전과 후: 연결 방식의 차이</text>
+<text x="375" y="115" text-anchor="middle" font-size="25" fill="#222" font-weight="bold">MCP 이전: 쌍마다 맞춤 연결</text>
+<text x="1125" y="115" text-anchor="middle" font-size="25" fill="#222" font-weight="bold">MCP 이후: 표준 하나로 연결</text>
+<line x1="230" y1="230" x2="520" y2="230" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="230" x2="520" y2="330" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="230" x2="520" y2="430" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="330" x2="520" y2="230" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="330" x2="520" y2="330" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="330" x2="520" y2="430" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="430" x2="520" y2="230" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="430" x2="520" y2="330" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<line x1="230" y1="430" x2="520" y2="430" stroke="#C0392B" stroke-width="2" opacity="0.6"/>
+<rect x="70" y="190" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="150.0" y="237.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI A</text>
+<rect x="70" y="290" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="150.0" y="337.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI B</text>
+<rect x="70" y="390" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="150.0" y="437.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI C</text>
+<rect x="520" y="190" width="160" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="600.0" y="237.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 X</text>
+<rect x="520" y="290" width="160" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="600.0" y="337.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 Y</text>
+<rect x="520" y="390" width="160" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="600.0" y="437.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 Z</text>
+<text x="375" y="545" text-anchor="middle" font-size="22" fill="#C0392B" font-weight="bold">3 곱하기 3 = 맞춤 연결 9개</text>
+<text x="375" y="580" text-anchor="middle" font-size="21" fill="#222">AI나 도구가 늘면 연결이 곱으로 늘어난다</text>
+<rect x="820" y="190" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="900.0" y="237.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI A</text>
+<rect x="820" y="290" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="900.0" y="337.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI B</text>
+<rect x="820" y="390" width="160" height="80" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="900.0" y="437.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">AI C</text>
+<rect x="1090" y="200" width="140" height="230" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1160.0" y="306.9" text-anchor="middle" font-size="24" fill="#222" font-weight="bold">MCP</text>
+<text x="1160.0" y="339.9" text-anchor="middle" font-size="24" fill="#222">표준</text>
+<rect x="1340" y="190" width="140" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1410.0" y="237.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 X</text>
+<rect x="1340" y="290" width="140" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1410.0" y="337.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 Y</text>
+<rect x="1340" y="390" width="140" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1410.0" y="437.7" text-anchor="middle" font-size="22" fill="#222" font-weight="bold">도구 Z</text>
+<line x1="980" y1="230" x2="1090" y2="315" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="980" y1="330" x2="1090" y2="315" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="980" y1="430" x2="1090" y2="315" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1230" y1="315" x2="1340" y2="230" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1230" y1="315" x2="1340" y2="330" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1230" y1="315" x2="1340" y2="430" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<text x="1150" y="545" text-anchor="middle" font-size="22" fill="#2E7D4F" font-weight="bold">각자 표준에 한 번만 맞추면 서로 연결된다</text>
+<text x="1150" y="580" text-anchor="middle" font-size="21" fill="#222">AI 쪽이 클라이언트, 도구 쪽이 서버 역할</text>
+</svg>

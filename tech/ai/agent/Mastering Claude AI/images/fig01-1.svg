@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="790" viewBox="0 0 1500 790" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect width="1500" height="790" fill="#FFFFFF"/>
+<text x="750" y="62" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">Claude 접근 지도: 하나의 두뇌, 세 가지 입구</text>
+<rect x="40" y="120" width="440" height="260" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="260.0" y="189.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">Claude.ai</text>
+<text x="260.0" y="223.0" text-anchor="middle" font-size="20" fill="#222">채팅 화면과 앱</text>
+<text x="260.0" y="257.0" text-anchor="middle" font-size="20" fill="#222">대상: 개인</text>
+<text x="260.0" y="291.0" text-anchor="middle" font-size="20" fill="#222">글쓰기, 조사, 문서 분석</text>
+<text x="260.0" y="325.0" text-anchor="middle" font-size="20" fill="#222">이 책의 대부분</text>
+<rect x="530" y="120" width="440" height="260" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="750.0" y="189.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">Claude Code</text>
+<text x="750.0" y="223.0" text-anchor="middle" font-size="20" fill="#222">터미널(명령줄) 도구</text>
+<text x="750.0" y="257.0" text-anchor="middle" font-size="20" fill="#222">대상: 개발자</text>
+<text x="750.0" y="291.0" text-anchor="middle" font-size="20" fill="#222">코드베이스를 직접 읽고 수정</text>
+<text x="750.0" y="325.0" text-anchor="middle" font-size="20" fill="#222">23장에서 다룸</text>
+<rect x="1020" y="120" width="440" height="260" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1240.0" y="189.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">Claude API</text>
+<text x="1240.0" y="223.0" text-anchor="middle" font-size="20" fill="#222">프로그램이 직접 호출</text>
+<text x="1240.0" y="257.0" text-anchor="middle" font-size="20" fill="#222">대상: 제품을 만드는 기업</text>
+<text x="1240.0" y="291.0" text-anchor="middle" font-size="20" fill="#222">채팅창 없이 소프트웨어가 호출</text>
+<text x="1240.0" y="325.0" text-anchor="middle" font-size="20" fill="#222">25장에서 다룸</text>
+<circle cx="750" cy="580" r="100" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="750" y="572" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">Claude 모델</text>
+<text x="750" y="608" text-anchor="middle" font-size="20" fill="#222">같은 두뇌</text>
+<line x1="700" y1="490" x2="300" y2="384" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="750" y1="478" x2="750" y2="384" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="800" y1="490" x2="1200" y2="384" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="750" y="745" text-anchor="middle" font-size="22" fill="#222">무엇을 하려는가에 따라 입구만 고른다. 두뇌가 다른 제품이 아니다.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">자동화 스펙트럼과 신뢰를 쌓는 순서</text>
+<rect x="60" y="360" width="300" height="110" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="210.0" y="407.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">1. 재사용 프롬프트</text>
+<text x="210.0" y="437.35" text-anchor="middle" font-size="21" fill="#222">컨텍스트 패킷</text>
+<line x1="360" y1="415" x2="400" y2="335" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="400" y="280" width="300" height="110" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="550.0" y="327.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">2. 프로젝트</text>
+<text x="550.0" y="357.35" text-anchor="middle" font-size="21" fill="#222">지침이 지속됨</text>
+<line x1="700" y1="335" x2="740" y2="255" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="740" y="200" width="300" height="110" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="890.0" y="247.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">3. 커넥터</text>
+<text x="890.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">외부 도구와 연결</text>
+<line x1="1040" y1="255" x2="1080" y2="175" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1080" y="120" width="300" height="110" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1230.0" y="167.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">4. 재사용 워크플로</text>
+<text x="1230.0" y="197.35" text-anchor="middle" font-size="21" fill="#222">여러 단계를 한 번에</text>
+<text x="750" y="110" text-anchor="middle" font-size="22" fill="#222">위로 갈수록 설정 비용과 위험이 커진다. 대부분은 1, 2단계로 충분하다.</text>
+<rect x="60" y="530" width="430" height="80" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="275.0" y="577.35" text-anchor="middle" font-size="21" fill="#222">낮은 위험: 외부 연결 없음</text>
+<rect x="535" y="530" width="430" height="80" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="750.0" y="577.35" text-anchor="middle" font-size="21" fill="#222">중간: 읽기 전용 커넥터 한 개</text>
+<rect x="1010" y="530" width="430" height="80" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1225.0" y="577.35" text-anchor="middle" font-size="21" fill="#222">높은 위험: 쓰기 권한과 자동 실행</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">데이터 분석 다섯 단계와 검증 네 가지</text>
+<rect x="20" y="110" width="260" height="190" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="150.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2F5D9B">1 가져오기</text>
+<text x="150.0" y="190" text-anchor="middle" font-size="19" fill="#222">파일 그대로 첨부</text>
+<text x="150.0" y="220" text-anchor="middle" font-size="19" fill="#222">열 의미를 설명</text>
+<text x="150.0" y="250" text-anchor="middle" font-size="19" fill="#222">알려진 문제 먼저 말함</text>
+<line x1="280" y1="205" x2="320" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="320" y="110" width="260" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="450.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2E7D32">2 정리하기</text>
+<text x="450.0" y="190" text-anchor="middle" font-size="19" fill="#222">중복 행, 빈 값</text>
+<text x="450.0" y="220" text-anchor="middle" font-size="19" fill="#222">표기 불일치 찾기</text>
+<text x="450.0" y="250" text-anchor="middle" font-size="19" fill="#222">처리 방안은 제안받기</text>
+<line x1="580" y1="205" x2="620" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="620" y="110" width="260" height="190" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#E08A00">3 분석 요청</text>
+<text x="750.0" y="190" text-anchor="middle" font-size="19" fill="#222">어떤 결정에 쓰나</text>
+<text x="750.0" y="220" text-anchor="middle" font-size="19" fill="#222">요약 비교 이상치</text>
+<text x="750.0" y="250" text-anchor="middle" font-size="19" fill="#222">묶음별 집계로 구체화</text>
+<line x1="880" y1="205" x2="920" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="920" y="110" width="260" height="190" rx="10" fill="#F3E5F5" stroke="#7B3F9E" stroke-width="2.5"/>
+<text x="1050.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#7B3F9E">4 수식과 차트</text>
+<text x="1050.0" y="190" text-anchor="middle" font-size="19" fill="#222">수식을 설명과 함께</text>
+<text x="1050.0" y="220" text-anchor="middle" font-size="19" fill="#222">차트가 전할 내용</text>
+<text x="1050.0" y="250" text-anchor="middle" font-size="19" fill="#222">미리 지정한다</text>
+<line x1="1180" y1="205" x2="1220" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1220" y="110" width="260" height="190" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1350.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#C0392B">5 검증</text>
+<text x="1350.0" y="190" text-anchor="middle" font-size="19" fill="#222">절대 건너뛰지 않는</text>
+<text x="1350.0" y="220" text-anchor="middle" font-size="19" fill="#222">가장 중요한 단계</text>
+<text x="1350.0" y="250" text-anchor="middle" font-size="19" fill="#222">아래 네 가지로 확인</text>
+<line x1="1350" y1="300" x2="1350" y2="370" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="20" y="380" width="340" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="190.0" y="416" text-anchor="middle" font-size="22" font-weight="bold" fill="#2E7D32">표본 한 건 직접 계산</text>
+<text x="190.0" y="460" text-anchor="middle" font-size="20" fill="#222">한 행 한 항목 한 합계</text>
+<text x="190.0" y="490" text-anchor="middle" font-size="20" fill="#222">대략 계산도 도움</text>
+<rect x="390" y="380" width="340" height="170" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="560.0" y="416" text-anchor="middle" font-size="22" font-weight="bold" fill="#E08A00">계산 과정 보여 달라</text>
+<text x="560.0" y="460" text-anchor="middle" font-size="20" fill="#222">단계별로 풀게 한다</text>
+<text x="560.0" y="490" text-anchor="middle" font-size="20" fill="#222">최종 숫자만 믿지 않는다</text>
+<rect x="760" y="380" width="340" height="170" rx="10" fill="#F3E5F5" stroke="#7B3F9E" stroke-width="2.5"/>
+<text x="930.0" y="416" text-anchor="middle" font-size="22" font-weight="bold" fill="#7B3F9E">현실성 점검</text>
+<text x="930.0" y="460" text-anchor="middle" font-size="20" fill="#222">월 400퍼센트 성장 같은</text>
+<text x="930.0" y="490" text-anchor="middle" font-size="20" fill="#222">수치는 의심부터</text>
+<rect x="1130" y="380" width="340" height="170" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1300.0" y="416" text-anchor="middle" font-size="22" font-weight="bold" fill="#C0392B">합계 교차 확인</text>
+<text x="1300.0" y="460" text-anchor="middle" font-size="20" fill="#222">범주별 합이 전체와</text>
+<text x="1300.0" y="490" text-anchor="middle" font-size="20" fill="#222">맞는지 기계적으로 대조</text>
+<text x="750" y="600" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">깔끔한 표와 차트는 틀린 계산도 맞아 보이게 한다. 검증은 사람이 한다.</text>
+</svg>

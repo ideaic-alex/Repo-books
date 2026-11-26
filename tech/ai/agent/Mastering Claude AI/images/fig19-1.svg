@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="560" fill="#fff"/>
+<text x="750" y="55" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">노코드 만들기 사이클: 명세에서 공유까지</text>
+<rect x="30" y="130" width="240" height="190" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+<text x="150.0" y="187.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">1. 기능 명세</text>
+<text x="150.0" y="217.35" text-anchor="middle" font-size="21" fill="#222">무엇을 하는가</text>
+<text x="150.0" y="247.35" text-anchor="middle" font-size="21" fill="#222">입력, 출력, 규칙</text>
+<text x="150.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">예외 입력까지</text>
+<rect x="330" y="130" width="240" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="450.0" y="187.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">2. 아티팩트로 제작</text>
+<text x="450.0" y="217.35" text-anchor="middle" font-size="21" fill="#222">Claude가 구현</text>
+<text x="450.0" y="247.35" text-anchor="middle" font-size="21" fill="#222">처음엔 거친</text>
+<text x="450.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">프로토타입</text>
+<rect x="630" y="130" width="240" height="190" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="750.0" y="187.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">3. 의도적 테스트</text>
+<text x="750.0" y="217.35" text-anchor="middle" font-size="21" fill="#222">정상 입력과</text>
+<text x="750.0" y="247.35" text-anchor="middle" font-size="21" fill="#222">이상한 입력 모두</text>
+<text x="750.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">(0, 빈칸, 음수)</text>
+<rect x="930" y="130" width="240" height="190" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1050.0" y="187.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">4. 구체적 피드백</text>
+<text x="1050.0" y="217.35" text-anchor="middle" font-size="21" fill="#222">증상과 재현 방법</text>
+<text x="1050.0" y="247.35" text-anchor="middle" font-size="21" fill="#222">유지할 부분 명시</text>
+<text x="1050.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">변경마다 재테스트</text>
+<rect x="1230" y="130" width="240" height="190" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="1350.0" y="187.35" text-anchor="middle" font-size="21" fill="#222" font-weight="bold">5. 넓게 공유</text>
+<text x="1350.0" y="217.35" text-anchor="middle" font-size="21" fill="#222">실제 조건에서</text>
+<text x="1350.0" y="247.35" text-anchor="middle" font-size="21" fill="#222">믿을 수 있을 때</text>
+<text x="1350.0" y="277.35" text-anchor="middle" font-size="21" fill="#222">그제서야 공유</text>
+<line x1="270" y1="225" x2="330" y2="225" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="570" y1="225" x2="630" y2="225" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="870" y1="225" x2="930" y2="225" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<line x1="1170" y1="225" x2="1230" y2="225" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 1050 322 C 1050 420, 750 420, 750 324" fill="none" stroke="#444" stroke-width="3" marker-end="url(#a)"/>
+<text x="900" y="430" text-anchor="middle" font-size="21" fill="#222">문제를 찾으면 되돌아가 다시 테스트</text>
+<rect x="150" y="480" width="1200" height="60" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="750.0" y="517.35" text-anchor="middle" font-size="21" fill="#222">실패가 나오면 명세에 예외 처리를 추가한다. 한 번 통과했다고 끝내지 않는다.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect width="1500" height="900" fill="#FFFFFF"/>
+<text x="750" y="62" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">첫 15분 설정 체크리스트</text>
+<rect x="120" y="110" width="1260" height="110" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<rect x="150" y="140" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#2F5D9B" stroke-width="3"/>
+<text x="225" y="172" text-anchor="middle" font-size="30" font-weight="bold" fill="#2F5D9B">1</text>
+<text x="280" y="158" text-anchor="start" font-size="28" font-weight="bold" fill="#222">설정 패널 찾기</text>
+<text x="280" y="198" text-anchor="start" font-size="21" fill="#222">프로필 아이콘이나 모서리 메뉴에서 연다</text>
+<rect x="1100" y="137" width="250" height="56" rx="10" fill="#FFFFFF" stroke="#2F5D9B" stroke-width="2"/>
+<text x="1225" y="174" text-anchor="middle" font-size="22" fill="#222">통제실</text>
+<line x1="750" y1="222" x2="750" y2="263" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="265" width="1260" height="110" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<rect x="150" y="295" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="3"/>
+<text x="225" y="327" text-anchor="middle" font-size="30" font-weight="bold" fill="#2E7D4F">2</text>
+<text x="280" y="313" text-anchor="start" font-size="28" font-weight="bold" fill="#222">기본 모델 정하기</text>
+<text x="280" y="353" text-anchor="start" font-size="21" fill="#222">빠른 작업이 많은지 복잡한 분석이 많은지 본다</text>
+<rect x="1100" y="292" width="250" height="56" rx="10" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="2"/>
+<text x="1225" y="329" text-anchor="middle" font-size="22" fill="#222">1장 모델</text>
+<line x1="750" y1="377" x2="750" y2="418" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="420" width="1260" height="110" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<rect x="150" y="450" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#C77700" stroke-width="3"/>
+<text x="225" y="482" text-anchor="middle" font-size="30" font-weight="bold" fill="#C77700">3</text>
+<text x="280" y="468" text-anchor="start" font-size="28" font-weight="bold" fill="#222">메모리 켤지 정하기</text>
+<text x="280" y="508" text-anchor="start" font-size="21" fill="#222">개인 일과 고객 일이 섞이면 범위를 신중히</text>
+<rect x="1100" y="447" width="250" height="56" rx="10" fill="#FFFFFF" stroke="#C77700" stroke-width="2"/>
+<text x="1225" y="484" text-anchor="middle" font-size="22" fill="#222">7장 메모리</text>
+<line x1="750" y1="532" x2="750" y2="573" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="575" width="1260" height="110" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<rect x="150" y="605" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#7B3FA0" stroke-width="3"/>
+<text x="225" y="637" text-anchor="middle" font-size="30" font-weight="bold" fill="#7B3FA0">4</text>
+<text x="280" y="623" text-anchor="start" font-size="28" font-weight="bold" fill="#222">기능 미리보기 확인</text>
+<text x="280" y="663" text-anchor="start" font-size="21" fill="#222">아티팩트 같은 새 기능을 켤지 살핀다</text>
+<rect x="1100" y="602" width="250" height="56" rx="10" fill="#FFFFFF" stroke="#7B3FA0" stroke-width="2"/>
+<text x="1225" y="639" text-anchor="middle" font-size="22" fill="#222">8장 아티팩트</text>
+<line x1="750" y1="687" x2="750" y2="728" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="120" y="730" width="1260" height="110" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<rect x="150" y="760" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#B3372D" stroke-width="3"/>
+<text x="225" y="792" text-anchor="middle" font-size="30" font-weight="bold" fill="#B3372D">5</text>
+<text x="280" y="778" text-anchor="start" font-size="28" font-weight="bold" fill="#222">데이터와 개인정보 확인</text>
+<text x="280" y="818" text-anchor="start" font-size="21" fill="#222">학습 사용 여부와 삭제 위치를 찾아 둔다</text>
+<rect x="1100" y="757" width="250" height="56" rx="10" fill="#FFFFFF" stroke="#B3372D" stroke-width="2"/>
+<text x="1225" y="794" text-anchor="middle" font-size="22" fill="#222">26장 보안</text>
+</svg>

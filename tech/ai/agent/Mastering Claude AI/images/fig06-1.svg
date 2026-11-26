@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#444"/></marker></defs>
+<rect width="1500" height="720" fill="#FFFFFF"/>
+<text x="750" y="58" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="bold" fill="#222">프로젝트의 구조: 한 지붕 아래 세 가지</text>
+<rect x="60" y="90" width="1380" height="430" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="90" y="130" text-anchor="start" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" fill="#222" font-weight="bold">프로젝트 예: 고객 Larsen Co.</text>
+<rect x="100" y="160" width="500" height="150" rx="10" fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2.5"/>
+<text x="350.0" y="227" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">프로젝트 지식</text>
+<text x="350.0" y="258" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">스타일 가이드, 좋은 과거 사례, 핵심 문서</text>
+<rect x="100" y="340" width="500" height="150" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="350.0" y="407" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222" font-weight="bold">사용자 지침</text>
+<text x="350.0" y="438" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">어조, 형식 기본값, 꼭 지킬 제약</text>
+<rect x="820" y="160" width="580" height="330" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1110" y="198" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="23" fill="#222" font-weight="bold">관련 대화들</text>
+<rect x="860" y="225" width="500" height="62" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1110.0" y="263" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">대화 1: 제안서 초안</text>
+<rect x="860" y="305" width="500" height="62" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1110.0" y="343" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">대화 2: 주간 보고</text>
+<rect x="860" y="385" width="500" height="62" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2.5"/>
+<text x="1110.0" y="423" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">대화 3: 이메일 답장</text>
+<line x1="600" y1="235" x2="820" y2="260" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="600" y1="415" x2="820" y2="390" stroke="#444" stroke-width="3" marker-end="url(#ar)"/>
+<text x="710" y="335" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" fill="#222">모든 대화에 적용</text>
+<rect x="60" y="550" width="1380" height="110" rx="10" fill="#FDECEA" stroke="#B3372E" stroke-width="2.5" stroke-dasharray="10 6"/>
+<text x="750.0" y="597" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">벽: 다른 프로젝트와 일반 채팅으로는 기본적으로 내용이 새지 않는다</text>
+<text x="750.0" y="628" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" fill="#222">필요한 정보는 직접 옮기고, 오래된 자료는 주기적으로 정리한다</text>
+</svg>

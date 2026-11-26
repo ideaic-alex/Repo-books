@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#555"/></marker></defs>
+<rect width="1500" height="600" fill="#fff"/>
+<text x="750" y="58" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">믿을 만한 조사의 네 단계</text>
+<rect x="60" y="110" width="300" height="190" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="210.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2F5D9B">1 틀 잡기</text>
+<text x="210.0" y="190" text-anchor="middle" font-size="20" fill="#222">무엇을 알고 싶은가</text>
+<text x="210.0" y="220" text-anchor="middle" font-size="20" fill="#222">어떤 결정에 쓰나</text>
+<text x="210.0" y="250" text-anchor="middle" font-size="20" fill="#222">범위 밖은 무엇인가</text>
+<line x1="360" y1="205" x2="420" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="420" y="110" width="300" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="570.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#2E7D32">2 모으기</text>
+<text x="570.0" y="190" text-anchor="middle" font-size="20" fill="#222">검색을 일부러 쓴다</text>
+<text x="570.0" y="220" text-anchor="middle" font-size="20" fill="#222">출처를 여럿 구한다</text>
+<text x="570.0" y="250" text-anchor="middle" font-size="20" fill="#222">출처 성격과 편향 표시</text>
+<line x1="720" y1="205" x2="780" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="780" y="110" width="300" height="190" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="930.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#E08A00">3 종합하기</text>
+<text x="930.0" y="190" text-anchor="middle" font-size="20" fill="#222">일치하는 부분은 확정</text>
+<text x="930.0" y="220" text-anchor="middle" font-size="20" fill="#222">엇갈리는 부분은 그대로</text>
+<text x="930.0" y="250" text-anchor="middle" font-size="20" fill="#222">하나로 뭉개지 않는다</text>
+<line x1="1080" y1="205" x2="1140" y2="205" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1140" y="110" width="300" height="190" rx="10" fill="#F3E5F5" stroke="#7B3F9E" stroke-width="2.5"/>
+<text x="1290.0" y="146" text-anchor="middle" font-size="23" font-weight="bold" fill="#7B3F9E">4 점검하기</text>
+<text x="1290.0" y="190" text-anchor="middle" font-size="20" fill="#222">결정을 좌우할 주장 고름</text>
+<text x="1290.0" y="220" text-anchor="middle" font-size="20" fill="#222">독립 출처로 다시 확인</text>
+<text x="1290.0" y="250" text-anchor="middle" font-size="20" fill="#222">Claude 자신 없는 곳 묻기</text>
+<rect x="60" y="350" width="1380" height="100" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+<text x="750.0" y="386" text-anchor="middle" font-size="23" font-weight="bold" fill="#C0392B">연구 브리프 (프로젝트 안에 저장하고 세션마다 갱신)</text>
+<text x="750.0" y="430" text-anchor="middle" font-size="20" fill="#222">처음 던진 질문 / 지금까지 확인된 사실과 출처 메모 / 남은 질문 / 제외한 것과 그 이유</text>
+<rect x="60" y="480" width="1380" height="80" rx="10" fill="#FFF3E0" stroke="#E08A00" stroke-width="2.5"/>
+<text x="750" y="527" text-anchor="middle" font-size="21"  fill="#222">한 번에 '조사해 줘'라고 하면 4단계가 한 덩어리가 되어 점검이 빠진다. 단계마다 따로 요청한다.</text>
+</svg>

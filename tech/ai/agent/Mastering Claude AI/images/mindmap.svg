@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:18px;fill:#555}</style>
+<rect width="1500" height="640" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">Mastering Claude AI 학습 노트 한눈에 보기</text>
+<rect x="40" y="295" width="300" height="110" rx="14" fill="#FFF3E0" stroke="#E08A1E" stroke-width="3"/>
+<text class="h" x="190" y="342" text-anchor="middle">Mastering Claude AI</text>
+<text class="s" x="190" y="378" text-anchor="middle">Cade Corwin · 30개 장</text>
+<path d="M340 350 C 420 350, 420 128, 480 128" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="100" width="440" height="56" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="135" font-weight="700">1부 기초 (1-5장)</text>
+<text class="b" x="950" y="135">정체 · 작업 공간 · 프롬프트 · 컨텍스트</text>
+<path d="M340 350 C 420 350, 420 198, 480 198" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="170" width="440" height="56" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="205" font-weight="700">2부 핵심 작업 도구 (6-10장)</text>
+<text class="b" x="950" y="205">프로젝트 · 메모리 · 아티팩트 · 문서</text>
+<path d="M340 350 C 420 350, 420 268, 480 268" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="240" width="440" height="56" rx="10" fill="#FFF3E0" stroke="#E08A1E" stroke-width="2"/>
+<text class="b" x="500" y="275" font-weight="700">3부 쓰기와 소통 (11-14장)</text>
+<text class="b" x="950" y="275">업무 문서 · 장문 · 카피 · 편집</text>
+<path d="M340 350 C 420 350, 420 338, 480 338" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="310" width="440" height="56" rx="10" fill="#F3E5F5" stroke="#8E4FA8" stroke-width="2"/>
+<text class="b" x="500" y="345" font-weight="700">4부 조사와 분석 (15-18장)</text>
+<text class="b" x="950" y="345">조사 · 데이터 · 의사결정 · 검증</text>
+<path d="M340 350 C 420 350, 420 408, 480 408" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="380" width="440" height="56" rx="10" fill="#FDECEA" stroke="#C0504D" stroke-width="2"/>
+<text class="b" x="500" y="415" font-weight="700">5부 만들기와 자동화 (19-25장)</text>
+<text class="b" x="950" y="415">노코드 · MCP · Claude Code · API</text>
+<path d="M340 350 C 420 350, 420 478, 480 478" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="450" width="440" height="56" rx="10" fill="#E3F2FD" stroke="#2F7FB5" stroke-width="2"/>
+<text class="b" x="500" y="485" font-weight="700">6부 책임 있게 규모 있게 (26-30장)</text>
+<text class="b" x="950" y="485">보안 · 협업 · 품질 · 생산성</text>
+<path d="M340 350 C 420 350, 420 548, 480 548" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="520" width="440" height="56" rx="10" fill="#FFFDE7" stroke="#B8A21A" stroke-width="2"/>
+<text class="b" x="500" y="555" font-weight="700">보너스</text>
+<text class="b" x="950" y="555">350 프롬프트 · SOP · 사례</text>
+</svg>

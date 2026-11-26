@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="870" viewBox="0 0 1500 870" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect width="1500" height="870" fill="#FFFFFF"/>
+<text x="750" y="62" text-anchor="middle" font-size="34" font-weight="bold" fill="#222">컨텍스트 패킷 만들기와 컨텍스트 부패 고치기</text>
+<text x="380" y="120" text-anchor="middle" font-size="28" font-weight="bold" fill="#222">재사용 컨텍스트 패킷</text>
+<text x="1120" y="120" text-anchor="middle" font-size="28" font-weight="bold" fill="#222">컨텍스트 부패의 순환</text>
+<line x1="750" y1="100" x2="750" y2="840" stroke="#BBBBBB" stroke-width="2" stroke-dasharray="8 8"/>
+<rect x="80" y="150" width="600" height="85" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="380.0" y="199.5" text-anchor="middle" font-size="20" fill="#222">목표와 독자</text>
+<line x1="380" y1="237" x2="380" y2="263" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="80" y="265" width="600" height="85" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="380.0" y="314.5" text-anchor="middle" font-size="20" fill="#222">잘된 과거 결과 두세 개</text>
+<line x1="380" y1="352" x2="380" y2="378" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="80" y="380" width="600" height="85" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="380.0" y="429.5" text-anchor="middle" font-size="20" fill="#222">피해야 할 예시 한 개</text>
+<line x1="380" y1="467" x2="380" y2="493" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="80" y="495" width="600" height="85" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="380.0" y="544.5" text-anchor="middle" font-size="20" fill="#222">자주 쓰는 사실, 용어, 제약</text>
+<line x1="380" y1="612" x2="380" y2="668" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="80" y="670" width="600" height="100" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="380.0" y="710.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">프로젝트에 저장</text>
+<text x="380.0" y="744.0" text-anchor="middle" font-size="20" fill="#222">모든 대화에서 자동으로 쓰인다</text>
+<rect x="820" y="150" width="600" height="85" rx="10" fill="#FDECEA" stroke="#B3372D" stroke-width="2.5"/>
+<text x="1120.0" y="199.5" text-anchor="middle" font-size="20" fill="#222">긴 대화가 계속 쌓인다</text>
+<line x1="1120" y1="237" x2="1120" y2="263" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="820" y="265" width="600" height="85" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+<text x="1120.0" y="314.5" text-anchor="middle" font-size="20" fill="#222">낡고 모순된 내용이 섞여 흐려진다</text>
+<line x1="1120" y1="352" x2="1120" y2="378" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="820" y="380" width="600" height="85" rx="10" fill="#E8F0F9" stroke="#2F5D9B" stroke-width="2.5"/>
+<text x="1120.0" y="429.5" text-anchor="middle" font-size="20" fill="#222">요약을 만들게 하고 직접 검토한다</text>
+<line x1="1120" y1="467" x2="1120" y2="493" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="820" y="495" width="600" height="85" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+<text x="1120.0" y="544.5" text-anchor="middle" font-size="20" fill="#222">새 대화나 프로젝트에서 요약으로 시작</text>
+<line x1="1120" y1="612" x2="1120" y2="668" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="820" y="670" width="600" height="100" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+<text x="1120.0" y="710.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">일관되고 또렷한 답으로 복귀</text>
+<text x="1120.0" y="744.0" text-anchor="middle" font-size="20" fill="#222">컨텍스트가 깨끗하게 유지된다</text>
+</svg>
