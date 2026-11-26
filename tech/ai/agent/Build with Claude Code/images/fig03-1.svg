@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <text x="750" y="64" font-size="34" font-weight="bold" fill="#1F2933">Claude Code 설치부터 첫 대화까지</text>
+
+    <rect x="25" y="120" width="250" height="190" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+    <text x="150" y="168" font-size="24" font-weight="bold" fill="#1F2933">1. Git 설치</text>
+    <text x="150" y="220" font-size="21" fill="#1F2933">Windows에서만</text>
+    <text x="150" y="256" font-size="21" fill="#1F2933">먼저 필요</text>
+    <text x="150" y="292" font-size="21" fill="#1F2933">git-scm.com</text>
+
+    <rect x="325" y="120" width="250" height="190" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+    <text x="450" y="168" font-size="24" font-weight="bold" fill="#1F2933">2. 터미널 열기</text>
+    <text x="450" y="220" font-size="21" fill="#1F2933">Windows는</text>
+    <text x="450" y="256" font-size="21" fill="#1F2933">PowerShell</text>
+    <text x="450" y="292" font-size="21" fill="#1F2933">macOS는 Terminal</text>
+
+    <rect x="625" y="120" width="250" height="190" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+    <text x="750" y="168" font-size="24" font-weight="bold" fill="#1F2933">3. 설치 명령</text>
+    <text x="750" y="220" font-size="21" fill="#1F2933">Windows는 irm</text>
+    <text x="750" y="256" font-size="21" fill="#1F2933">macOS는 curl</text>
+    <text x="750" y="292" font-size="21" fill="#1F2933">한 줄이면 끝</text>
+
+    <rect x="925" y="120" width="250" height="190" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+    <text x="1050" y="168" font-size="24" font-weight="bold" fill="#1F2933">4. 초기 설정</text>
+    <text x="1050" y="220" font-size="21" fill="#1F2933">테마 고르기</text>
+    <text x="1050" y="256" font-size="21" fill="#1F2933">구독 계정으로</text>
+    <text x="1050" y="292" font-size="21" fill="#1F2933">로그인, 권한 허락</text>
+
+    <rect x="1225" y="120" width="250" height="190" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+    <text x="1350" y="168" font-size="24" font-weight="bold" fill="#1F2933">5. 첫 대화</text>
+    <text x="1350" y="220" font-size="21" fill="#1F2933">claude 입력</text>
+    <text x="1350" y="256" font-size="21" fill="#1F2933">자연어로 질문</text>
+    <text x="1350" y="292" font-size="21" fill="#1F2933">/exit로 종료</text>
+
+    <line x1="277" y1="215" x2="321" y2="215" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="577" y1="215" x2="621" y2="215" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="877" y1="215" x2="921" y2="215" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1177" y1="215" x2="1221" y2="215" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+
+    <text x="750" y="400" font-size="26" font-weight="bold" fill="#1F2933">Claude를 쓰는 세 가지 형태</text>
+
+    <rect x="25" y="430" width="470" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+    <text x="260" y="476" font-size="23" font-weight="bold" fill="#1F2933">터미널의 Claude Code</text>
+    <text x="260" y="522" font-size="21" fill="#1F2933">이 책의 실습 환경</text>
+    <text x="260" y="558" font-size="21" fill="#1F2933">에이전트 팀 같은 고급 기능</text>
+    <text x="260" y="588" font-size="21" fill="#1F2933">Linux도 지원</text>
+
+    <rect x="515" y="430" width="470" height="170" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+    <text x="750" y="476" font-size="23" font-weight="bold" fill="#1F2933">데스크톱 앱의 Code</text>
+    <text x="750" y="522" font-size="21" fill="#1F2933">터미널 위에 얹은 화면</text>
+    <text x="750" y="558" font-size="21" fill="#1F2933">변경 확인, 세션 관리, 미리보기</text>
+    <text x="750" y="588" font-size="21" fill="#1F2933">macOS와 Windows만</text>
+
+    <rect x="1005" y="430" width="470" height="170" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+    <text x="1240" y="476" font-size="23" font-weight="bold" fill="#1F2933">Cowork</text>
+    <text x="1240" y="522" font-size="21" fill="#1F2933">개발자가 아닌 사람용</text>
+    <text x="1240" y="558" font-size="21" fill="#1F2933">문서 정리, 조사</text>
+    <text x="1240" y="588" font-size="21" fill="#1F2933">스프레드시트, 발표 자료</text>
+  </g>
+</svg>

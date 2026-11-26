@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker>
+  </defs>
+  <rect width="1500" height="800" fill="#FFFFFF"/>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" fill="#222" text-anchor="middle">
+    <text x="750" y="55" font-size="34" font-weight="bold">쇼핑 목록 앱: 만들기부터 서비스까지</text>
+
+    <rect x="40" y="120" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#1F4E79" stroke-width="2.5"/>
+    <text x="170" y="162" font-weight="bold">1. 내 컴퓨터</text>
+    <text x="170" y="196">Claude Code가</text>
+    <text x="170" y="226">앱 파일을 만든다</text>
+
+    <rect x="370" y="120" width="260" height="150" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2.5"/>
+    <text x="500" y="162" font-weight="bold">2. GitHub</text>
+    <text x="500" y="196">GitHub MCP로</text>
+    <text x="500" y="226">add, commit, push</text>
+
+    <rect x="700" y="120" width="260" height="150" rx="10" fill="#E6F4EA" stroke="#1B6B3A" stroke-width="2.5"/>
+    <text x="830" y="162" font-weight="bold">3. Vercel</text>
+    <text x="830" y="196">저장소를 읽어</text>
+    <text x="830" y="226">자동 배포한다</text>
+
+    <rect x="1030" y="120" width="430" height="150" rx="10" fill="#FFF3E0" stroke="#B26A00" stroke-width="2.5"/>
+    <text x="1245" y="162" font-weight="bold">4. 공개 URL</text>
+    <text x="1245" y="196">index.html이 있어야</text>
+    <text x="1245" y="226">시작 페이지가 열린다</text>
+
+    <line x1="302" y1="195" x2="368" y2="195" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="632" y1="195" x2="698" y2="195" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="962" y1="195" x2="1028" y2="195" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+
+    <rect x="1030" y="400" width="430" height="150" rx="10" fill="#E6F4EA" stroke="#1B6B3A" stroke-width="2.5"/>
+    <text x="1245" y="442" font-weight="bold">5. Supabase 데이터베이스</text>
+    <text x="1245" y="476">shopping_items 테이블</text>
+    <text x="1245" y="506">id, name, completed, created_at</text>
+
+    <line x1="1245" y1="272" x2="1245" y2="398" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1285" y1="398" x2="1285" y2="274" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <text x="1170" y="340" font-size="19">저장</text>
+    <text x="1355" y="340" font-size="19">읽기</text>
+
+    <rect x="40" y="400" width="900" height="150" rx="10" fill="#FDECEA" stroke="#B3261E" stroke-width="2.5"/>
+    <text x="490" y="446" font-size="24" font-weight="bold">연결 전과 후의 차이</text>
+    <text x="490" y="488">전: 데이터가 브라우저 로컬 스토리지에만 있어 나만, 이 기기에서만 보인다</text>
+    <text x="490" y="524">후: 데이터가 클라우드에 있어 다른 기기와 시크릿 모드에서도 같은 목록이 보인다</text>
+
+    <rect x="40" y="620" width="1420" height="130" rx="10" fill="#E8F0F9" stroke="#1F4E79" stroke-width="2.5"/>
+    <text x="750" y="664" font-size="24" font-weight="bold">앱에서 하는 동작이 곧바로 데이터베이스에 반영된다</text>
+    <text x="750" y="706">추가하면 새 행이 생기고, 체크하면 completed가 true가 되고, 삭제하면 행이 사라진다</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="640" fill="#FFFFFF"/>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <text x="750" y="64" font-size="34" font-weight="bold" fill="#1F2933">CLAUDE.md 계층 구조</text>
+
+    <rect x="450" y="100" width="600" height="110" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+    <text x="750" y="145" font-size="23" font-weight="bold" fill="#1F2933">홈 디렉터리 .claude 폴더의 CLAUDE.md</text>
+    <text x="750" y="185" font-size="21" fill="#1F2933">전역 규칙: 모든 프로젝트에 적용</text>
+
+    <rect x="450" y="260" width="600" height="110" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+    <text x="750" y="305" font-size="23" font-weight="bold" fill="#1F2933">Study-01 루트의 CLAUDE.md</text>
+    <text x="750" y="345" font-size="21" fill="#1F2933">프로젝트 공통 규칙을 한 번만 작성</text>
+
+    <rect x="150" y="440" width="560" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+    <text x="430" y="486" font-size="23" font-weight="bold" fill="#1F2933">desktop_version 폴더</text>
+    <text x="430" y="530" font-size="21" fill="#1F2933">CLAUDE.md: 데스크톱 전용 규칙</text>
+    <text x="430" y="566" font-size="21" fill="#1F2933">기존 손글씨 프로그램 코드</text>
+
+    <rect x="790" y="440" width="560" height="170" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+    <text x="1070" y="486" font-size="23" font-weight="bold" fill="#1F2933">web_version 폴더</text>
+    <text x="1070" y="530" font-size="21" fill="#1F2933">CLAUDE.md: 웹 전용 규칙</text>
+    <text x="1070" y="566" font-size="21" fill="#1F2933">브라우저에서 실행되는 웹 앱</text>
+
+    <line x1="750" y1="212" x2="750" y2="256" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="650" y1="372" x2="440" y2="436" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="850" y1="372" x2="1060" y2="436" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+
+    <text x="1260" y="190" font-size="21" fill="#37474F" text-anchor="middle">위에서 아래로</text>
+    <text x="1260" y="222" font-size="21" fill="#37474F" text-anchor="middle">공통 규칙이 내려가고</text>
+    <text x="1260" y="254" font-size="21" fill="#37474F" text-anchor="middle">아래에서 전문 규칙을 더한다</text>
+  </g>
+</svg>

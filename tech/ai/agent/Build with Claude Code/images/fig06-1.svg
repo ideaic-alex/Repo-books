@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="55" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">FridgeChef가 API로 AI 모델을 부르는 구조</text>
+<g stroke-width="2.5" font-size="21" text-anchor="middle" fill="#212121">
+<rect x="40" y="215" width="260" height="150" rx="10" fill="#E8F0F9" stroke="#1565C0"/>
+<text x="170" y="265" font-weight="bold">사용자</text><text x="170" y="305">냉장고 사진을</text><text x="170" y="337">올리고 결과 확인</text>
+<rect x="390" y="215" width="300" height="150" rx="10" fill="#E6F4EA" stroke="#2E7D32"/>
+<text x="540" y="265" font-weight="bold">FridgeChef 웹앱</text><text x="540" y="305">Streamlit으로 만든</text><text x="540" y="337">내 컴퓨터의 앱</text>
+<rect x="780" y="215" width="280" height="150" rx="10" fill="#FFF3E0" stroke="#EF6C00"/>
+<text x="920" y="265" font-weight="bold">OpenRouter</text><text x="920" y="305">여러 모델을 모은 창구</text><text x="920" y="337">API 키로 신원 확인</text>
+<rect x="1150" y="110" width="310" height="150" rx="10" fill="#F3E5F5" stroke="#6A1B9A"/>
+<text x="1305" y="160" font-weight="bold">이미지 인식 모델</text><text x="1305" y="200">Gemma 4 26B A4B</text><text x="1305" y="232">(free)</text>
+<rect x="1150" y="320" width="310" height="150" rx="10" fill="#F3E5F5" stroke="#6A1B9A"/>
+<text x="1305" y="370" font-weight="bold">텍스트 생성 모델</text><text x="1305" y="410">gpt-oss-20b</text><text x="1305" y="442">(free)</text>
+<rect x="390" y="500" width="670" height="110" rx="10" fill="#FDECEA" stroke="#C62828"/>
+<text x="725" y="545" font-weight="bold">.env: API 키를 따로 보관</text><text x="725" y="582">.gitignore: .env를 GitHub 업로드에서 제외</text>
+</g>
+<g stroke="#37474F" stroke-width="3" fill="none" marker-end="url(#a)">
+<line x1="302" y1="290" x2="388" y2="290"/>
+<line x1="692" y1="290" x2="778" y2="290"/>
+<line x1="1062" y1="260" x2="1148" y2="190"/>
+<line x1="1062" y1="320" x2="1148" y2="390"/>
+<line x1="540" y1="498" x2="540" y2="368"/>
+</g>
+</svg>

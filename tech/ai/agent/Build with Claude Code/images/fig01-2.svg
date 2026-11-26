@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540">
+<defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#555"/></marker></defs>
+<rect width="1500" height="540" fill="#FFFFFF"/>
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#222}</style>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle">바이브 코딩의 작업 흐름</text>
+<rect x="60" y="150" width="300" height="120" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="210.0" y="187.0" font-size="22" font-weight="bold" text-anchor="middle">아이디어</text>
+<text x="210.0" y="217.0" font-size="20"  text-anchor="middle">만들고 싶은 것을</text>
+<text x="210.0" y="247.0" font-size="20"  text-anchor="middle">자연어로 정리</text>
+<rect x="440" y="150" width="300" height="120" rx="10" fill="#E6F4EA" stroke="#3C8D55" stroke-width="2.5"/>
+<text x="590.0" y="202.0" font-size="22" font-weight="bold" text-anchor="middle">프롬프트</text>
+<text x="590.0" y="232.0" font-size="20"  text-anchor="middle">대화하듯 AI에게 설명</text>
+<rect x="820" y="150" width="300" height="120" rx="10" fill="#FFF3E0" stroke="#D98324" stroke-width="2.5"/>
+<text x="970.0" y="202.0" font-size="22" font-weight="bold" text-anchor="middle">AI의 제안</text>
+<text x="970.0" y="232.0" font-size="20"  text-anchor="middle">코드와 실행 방법 생성</text>
+<rect x="1200" y="150" width="240" height="120" rx="10" fill="#F3E5F5" stroke="#8E4A9E" stroke-width="2.5"/>
+<text x="1320.0" y="202.0" font-size="22" font-weight="bold" text-anchor="middle">사람의 검토</text>
+<text x="1320.0" y="232.0" font-size="20"  text-anchor="middle">확인하고 수정 요청</text>
+<rect x="440" y="380" width="680" height="100" rx="10" fill="#FDECEA" stroke="#C0453A" stroke-width="2.5"/>
+<text x="780.0" y="422.0" font-size="22" font-weight="bold" text-anchor="middle">충분히 마음에 들 때까지 반복</text>
+<text x="780.0" y="452.0" font-size="20"  text-anchor="middle">한 번에 완벽하길 기대하지 않는다</text>
+<path d="M360,210 L436,210" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M740,210 L816,210" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M1120,210 L1196,210" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M1320,274 L1320,430 L1124,430" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M436,430 L400,430 L400,330 L590,330 L590,274" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+</svg>

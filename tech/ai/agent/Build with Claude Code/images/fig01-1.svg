@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="630" viewBox="0 0 1500 630">
+<defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#555"/></marker></defs>
+<rect width="1500" height="630" fill="#FFFFFF"/>
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#222}</style>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle">AI 코딩 도구의 세 가지 유형</text>
+<rect x="60" y="130" width="420" height="300" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="270.0" y="227.0" font-size="22" font-weight="bold" text-anchor="middle">웹 챗봇형</text>
+<text x="270.0" y="257.0" font-size="20"  text-anchor="middle">ChatGPT, Claude 웹</text>
+<text x="270.0" y="287.0" font-size="20"  text-anchor="middle">설치 없이 바로 사용</text>
+<text x="270.0" y="317.0" font-size="20"  text-anchor="middle">코드는 복사해서 붙여 넣기</text>
+<text x="270.0" y="347.0" font-size="20"  text-anchor="middle">내 컴퓨터 파일 접근 한계</text>
+<rect x="540" y="130" width="420" height="300" rx="10" fill="#FFF3E0" stroke="#D98324" stroke-width="2.5"/>
+<text x="750.0" y="227.0" font-size="22" font-weight="bold" text-anchor="middle">모델 선택형 (렌터카)</text>
+<text x="750.0" y="257.0" font-size="20"  text-anchor="middle">Cursor, Antigravity</text>
+<text x="750.0" y="287.0" font-size="20"  text-anchor="middle">한 도구에서 여러 모델 선택</text>
+<text x="750.0" y="317.0" font-size="20"  text-anchor="middle">도구 구독료 + 모델 비용</text>
+<text x="750.0" y="347.0" font-size="20"  text-anchor="middle">(Antigravity는 무료)</text>
+<rect x="1020" y="130" width="420" height="300" rx="10" fill="#E6F4EA" stroke="#3C8D55" stroke-width="2.5"/>
+<text x="1230.0" y="227.0" font-size="22" font-weight="bold" text-anchor="middle">전용 모델형 (자기 차)</text>
+<text x="1230.0" y="257.0" font-size="20"  text-anchor="middle">Claude Code, Gemini CLI</text>
+<text x="1230.0" y="287.0" font-size="20"  text-anchor="middle">모델 회사의 전용 도구 설치</text>
+<text x="1230.0" y="317.0" font-size="20"  text-anchor="middle">모델 비용만 지불</text>
+<text x="1230.0" y="347.0" font-size="20"  text-anchor="middle">로컬 파일에 직접 접근</text>
+<rect x="60" y="480" width="1380" height="90" rx="10" fill="#F3E5F5" stroke="#8E4A9E" stroke-width="2.5"/>
+<text x="750.0" y="517.0" font-size="22" font-weight="bold" text-anchor="middle">모두 같은 LLM 엔진 위에 놓인 서로 다른 인터페이스</text>
+<text x="750.0" y="547.0" font-size="20"  text-anchor="middle">도구는 달라 보여도 본질은 같고, 상황에 맞게 고르면 된다</text>
+</svg>

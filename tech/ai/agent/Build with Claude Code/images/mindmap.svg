@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="726" viewBox="0 0 1500 726">
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#2B2F36}.t{font-size:34px;font-weight:700}.h{font-size:22px;font-weight:700}.b{font-size:19px}.s{font-size:18px;fill:#555}</style>
+<rect width="1500" height="726" fill="#FFFFFF"/>
+<text class="t" x="750" y="58" text-anchor="middle">Build with Claude Code 학습 노트 한눈에 보기</text>
+<rect x="40" y="338" width="300" height="110" rx="14" fill="#FFF3E0" stroke="#E08A1E" stroke-width="3"/>
+<text class="h" x="190" y="379" text-anchor="middle">Build with</text>
+<text class="h" x="190" y="407" text-anchor="middle">Claude Code</text>
+<text class="s" x="190" y="435" text-anchor="middle">Taeho Jo</text>
+<path d="M340 393 C 420 393, 420 126, 480 126" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="100" width="420" height="52" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="133" font-weight="700">1장 나의 첫 바이브 코딩</text>
+<text class="b" x="930" y="133">바이브 코딩 · 아티팩트</text>
+<path d="M340 393 C 420 393, 420 190, 480 190" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="164" width="420" height="52" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="197" font-weight="700">2장 효과적인 프롬프트</text>
+<text class="b" x="930" y="197">5W1H · PRD</text>
+<path d="M340 393 C 420 393, 420 254, 480 254" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="228" width="420" height="52" rx="10" fill="#FFF3E0" stroke="#E08A1E" stroke-width="2"/>
+<text class="b" x="500" y="261" font-weight="700">3장 Claude Code 시작하기</text>
+<text class="b" x="930" y="261">설치 · CLAUDE.md</text>
+<path d="M340 393 C 420 393, 420 318, 480 318" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="292" width="420" height="52" rx="10" fill="#F3E5F5" stroke="#8E4FA8" stroke-width="2"/>
+<text class="b" x="500" y="325" font-weight="700">4장 Claude Code 실전 활용</text>
+<text class="b" x="930" y="325">세션 재개 · 컨텍스트</text>
+<path d="M340 393 C 420 393, 420 382, 480 382" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="356" width="420" height="52" rx="10" fill="#FDECEA" stroke="#C0504D" stroke-width="2"/>
+<text class="b" x="500" y="389" font-weight="700">5장 게임 제작과 체계적 개발</text>
+<text class="b" x="930" y="389">환각 점검 · 커스텀 명령</text>
+<path d="M340 393 C 420 393, 420 446, 480 446" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="420" width="420" height="52" rx="10" fill="#E8F0F9" stroke="#3B6EA8" stroke-width="2"/>
+<text class="b" x="500" y="453" font-weight="700">6장 API로 날개 달기</text>
+<text class="b" x="930" y="453">API 키 · FridgeChef</text>
+<path d="M340 393 C 420 393, 420 510, 480 510" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="484" width="420" height="52" rx="10" fill="#E6F4EA" stroke="#3C8D5A" stroke-width="2"/>
+<text class="b" x="500" y="517" font-weight="700">7장 AI 에이전트 개발 팀</text>
+<text class="b" x="930" y="517">서브에이전트 · 팀 구성</text>
+<path d="M340 393 C 420 393, 420 574, 480 574" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="548" width="420" height="52" rx="10" fill="#FFF3E0" stroke="#E08A1E" stroke-width="2"/>
+<text class="b" x="500" y="581" font-weight="700">8장 MCP, 스킬, 플러그인</text>
+<text class="b" x="930" y="581">Notion · GitHub · Vercel · Supabase</text>
+<path d="M340 393 C 420 393, 420 638, 480 638" fill="none" stroke="#9AA3AF" stroke-width="2"/>
+<rect x="480" y="612" width="420" height="52" rx="10" fill="#F3E5F5" stroke="#8E4FA8" stroke-width="2"/>
+<text class="b" x="500" y="645" font-weight="700">부록 복습 문제 정답</text>
+<text class="b" x="930" y="645">장별 정답</text>
+</svg>

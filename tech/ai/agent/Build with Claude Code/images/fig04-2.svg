@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="690" viewBox="0 0 1500 690">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker></defs>
+<rect width="1500" height="690" fill="#ffffff"/>
+<g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle" fill="#222">
+<text x="750" y="50" font-size="34" font-weight="bold">오래 일하기 위한 두 가지 관리: 세션과 컨텍스트</text>
+<text x="40" y="115" font-size="26" font-weight="bold" fill="#2F5D8C" text-anchor="start">A. 세션 이어가기</text>
+<g fill="#E8F0F9" stroke="#2F5D8C" stroke-width="2"><rect x="40" y="140" width="300" height="120" rx="10"/><rect x="400" y="140" width="300" height="120" rx="10"/><rect x="760" y="140" width="300" height="120" rx="10"/><rect x="1120" y="140" width="300" height="120" rx="10"/></g>
+<g font-size="22"><text x="190" y="190">작업 중</text><text x="550" y="190">터미널 닫힘</text><text x="910" y="190">--resume 또는 -c</text><text x="1270" y="190">대화 복원</text></g>
+<g font-size="20" fill="#444"><text x="190" y="228">대화가 폴더에 자동 저장</text><text x="550" y="228">며칠 뒤 다시 열기</text><text x="910" y="228">/resume도 가능</text><text x="1270" y="228">중단한 지점부터 계속</text></g>
+<g stroke="#37474F" stroke-width="3" marker-end="url(#a)"><line x1="340" y1="200" x2="396" y2="200"/><line x1="700" y1="200" x2="756" y2="200"/><line x1="1060" y1="200" x2="1116" y2="200"/></g>
+<text x="40" y="345" font-size="26" font-weight="bold" fill="#2E7D32" text-anchor="start">B. 컨텍스트 관리</text>
+<g fill="#E6F4EA" stroke="#2E7D32" stroke-width="2"><rect x="40" y="370" width="300" height="120" rx="10"/><rect x="400" y="370" width="300" height="120" rx="10"/><rect x="760" y="370" width="300" height="120" rx="10"/><rect x="1120" y="370" width="300" height="120" rx="10"/></g>
+<g font-size="22"><text x="190" y="420">작업이 길어짐</text><text x="550" y="420">/context 확인</text><text x="910" y="420">/compact 실행</text><text x="1270" y="420">여유 공간 회복</text></g>
+<g font-size="20" fill="#444"><text x="190" y="458">컨텍스트가 차오름</text><text x="550" y="458">사용량을 눈으로 점검</text><text x="910" y="458">대화를 요약해 압축</text><text x="1270" y="458">Messages 78.0k에서 1.9k</text></g>
+<g stroke="#37474F" stroke-width="3" marker-end="url(#a)"><line x1="340" y1="430" x2="396" y2="430"/><line x1="700" y1="430" x2="756" y2="430"/><line x1="1060" y1="430" x2="1116" y2="430"/></g>
+<rect x="40" y="540" width="1380" height="100" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="730" y="582" font-size="22">임계에 가까워지면 자동 압축(auto-compact)이 알아서 실행된다</text>
+<text x="730" y="618" font-size="22">중간에 끊겨 요약되면 정보가 빠질 수 있으니 작업 단위가 끝날 때 직접 압축한다</text>
+</g></svg>

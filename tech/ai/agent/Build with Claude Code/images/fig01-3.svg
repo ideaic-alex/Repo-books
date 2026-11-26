@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+<defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#555"/></marker></defs>
+<rect width="1500" height="500" fill="#FFFFFF"/>
+<style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#222}</style>
+<text x="750" y="58" font-size="34" font-weight="bold" text-anchor="middle">첫 웹페이지 실습 여섯 단계</text>
+<rect x="60" y="130" width="420" height="140" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="270.0" y="192.0" font-size="22" font-weight="bold" text-anchor="middle">1. Claude 접속</text>
+<text x="270.0" y="222.0" font-size="20"  text-anchor="middle">claude.ai 로그인</text>
+<rect x="540" y="130" width="420" height="140" rx="10" fill="#E8F0F9" stroke="#3A6EA5" stroke-width="2.5"/>
+<text x="750.0" y="192.0" font-size="22" font-weight="bold" text-anchor="middle">2. 새 아티팩트</text>
+<text x="750.0" y="222.0" font-size="20"  text-anchor="middle">Artifacts, 처음부터 시작</text>
+<rect x="1020" y="130" width="420" height="140" rx="10" fill="#E6F4EA" stroke="#3C8D55" stroke-width="2.5"/>
+<text x="1230.0" y="192.0" font-size="22" font-weight="bold" text-anchor="middle">3. 첫 프롬프트</text>
+<text x="1230.0" y="222.0" font-size="20"  text-anchor="middle">날짜, 시간, 검색창 요청</text>
+<rect x="60" y="330" width="420" height="140" rx="10" fill="#E6F4EA" stroke="#3C8D55" stroke-width="2.5"/>
+<text x="270.0" y="392.0" font-size="22" font-weight="bold" text-anchor="middle">4. 질문에 답하기</text>
+<text x="270.0" y="422.0" font-size="20"  text-anchor="middle">24시간제, Google, 깔끔한 밝은 디자인</text>
+<rect x="540" y="330" width="420" height="140" rx="10" fill="#FFF3E0" stroke="#D98324" stroke-width="2.5"/>
+<text x="750.0" y="392.0" font-size="22" font-weight="bold" text-anchor="middle">5. 공개 링크</text>
+<text x="750.0" y="422.0" font-size="20"  text-anchor="middle">Publish artifact 후 링크 복사</text>
+<rect x="1020" y="330" width="420" height="140" rx="10" fill="#F3E5F5" stroke="#8E4A9E" stroke-width="2.5"/>
+<text x="1230.0" y="392.0" font-size="22" font-weight="bold" text-anchor="middle">6. 디자인 수정</text>
+<text x="1230.0" y="422.0" font-size="20"  text-anchor="middle">Google 스타일로 바꿔 달라고 요청</text>
+<path d="M484,200 L536,200" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M964,200 L1016,200" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M484,400 L536,400" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M964,400 L1016,400" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M1230.0,274 L1230.0,300 L270.0,300 L270.0,326" fill="none" stroke="#555" stroke-width="3" marker-end="url(#ah)"/>
+</svg>

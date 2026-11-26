@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker></defs>
+<rect width="1500" height="600" fill="#fff"/>
+<text x="750" y="55" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">PDF 요약 앱을 만드는 에이전트 팀의 순서</text>
+<g stroke-width="2.5" font-size="21" text-anchor="middle" fill="#212121">
+<rect x="30" y="100" width="240" height="210" rx="10" fill="#E8F0F9" stroke="#1565C0"/>
+<text x="150" y="145" font-weight="bold">기획 담당</text><text x="150" y="190">product-manager-</text><text x="150" y="222">prd</text><text x="150" y="268">PRD 작성</text>
+<rect x="330" y="100" width="240" height="210" rx="10" fill="#E6F4EA" stroke="#2E7D32"/>
+<text x="450" y="145" font-weight="bold">백엔드 담당</text><text x="450" y="190">backend-architect</text><text x="450" y="268">업로드, 텍스트 추출</text>
+<rect x="630" y="100" width="240" height="210" rx="10" fill="#F3E5F5" stroke="#6A1B9A"/>
+<text x="750" y="145" font-weight="bold">AI 통합 담당</text><text x="750" y="190">ai-integration-</text><text x="750" y="222">specialist</text><text x="750" y="268">요약 API 연결</text>
+<rect x="930" y="100" width="240" height="210" rx="10" fill="#FFF3E0" stroke="#EF6C00"/>
+<text x="1050" y="145" font-weight="bold">프런트 담당</text><text x="1050" y="190">frontend-</text><text x="1050" y="222">developer</text><text x="1050" y="268">드래그 앤 드롭 화면</text>
+<rect x="1230" y="100" width="240" height="210" rx="10" fill="#FDECEA" stroke="#C62828"/>
+<text x="1350" y="145" font-weight="bold">품질 담당</text><text x="1350" y="190">qa-engineer</text><text x="1350" y="268">시험하고 오류 수정</text>
+<rect x="30" y="385" width="700" height="170" rx="10" fill="#E8F0F9" stroke="#1565C0"/>
+<text x="380" y="430" font-weight="bold">공유 문서: PRD_PDF_Summary_App.md</text>
+<text x="380" y="475">프로젝트 폴더에 저장되어</text><text x="380" y="512">모든 에이전트가 읽는다</text>
+<rect x="800" y="385" width="670" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D32"/>
+<text x="1135" y="430" font-weight="bold">결과물: index_pdf.html</text>
+<text x="1135" y="475">브라우저에서 바로 열어</text><text x="1135" y="512">PDF를 올리고 요약을 본다</text>
+</g>
+<g stroke="#37474F" stroke-width="3" fill="none" marker-end="url(#a)">
+<line x1="272" y1="205" x2="328" y2="205"/><line x1="572" y1="205" x2="628" y2="205"/><line x1="872" y1="205" x2="928" y2="205"/><line x1="1172" y1="205" x2="1228" y2="205"/>
+<line x1="150" y1="312" x2="150" y2="383"/>
+<line x1="1350" y1="312" x2="1350" y2="383"/>
+</g>
+</svg>

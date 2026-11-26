@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#37474F"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="560" fill="#FFFFFF"/>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <text x="750" y="64" font-size="34" font-weight="bold" fill="#1F2933">말로 만드는 손글씨 인식 프로그램</text>
+
+    <rect x="25" y="120" width="320" height="200" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+    <text x="185" y="168" font-size="24" font-weight="bold" fill="#1F2933">1. 폴더 준비</text>
+    <text x="185" y="216" font-size="21" fill="#1F2933">Study-01 폴더에서</text>
+    <text x="185" y="252" font-size="21" fill="#1F2933">터미널을 열고</text>
+    <text x="185" y="288" font-size="21" fill="#1F2933">claude 실행</text>
+
+    <rect x="590" y="120" width="320" height="200" rx="10" fill="#E6F4EA" stroke="#2E7D4F" stroke-width="2.5"/>
+    <text x="750" y="168" font-size="24" font-weight="bold" fill="#1F2933">2. 프롬프트 입력</text>
+    <text x="750" y="216" font-size="21" fill="#1F2933">손글씨 숫자를 인식하는</text>
+    <text x="750" y="252" font-size="21" fill="#1F2933">코드를 만들고 실행해 줘</text>
+    <text x="750" y="288" font-size="21" fill="#1F2933">(MNIST로 학습)</text>
+
+    <rect x="1155" y="120" width="320" height="200" rx="10" fill="#FFF3E0" stroke="#C77700" stroke-width="2.5"/>
+    <text x="1315" y="168" font-size="24" font-weight="bold" fill="#1F2933">3. 권한 확인</text>
+    <text x="1315" y="216" font-size="21" fill="#1F2933">저장, 설치, 실행마다</text>
+    <text x="1315" y="252" font-size="21" fill="#1F2933">1번 Yes를 선택</text>
+    <text x="1315" y="288" font-size="21" fill="#1F2933">세션 허용도 가능</text>
+
+    <rect x="25" y="380" width="320" height="150" rx="10" fill="#F3E5F5" stroke="#7B3FA0" stroke-width="2.5"/>
+    <text x="185" y="428" font-size="24" font-weight="bold" fill="#1F2933">6. 더블클릭 실행</text>
+    <text x="185" y="476" font-size="21" fill="#1F2933">.bat 파일로</text>
+    <text x="185" y="508" font-size="21" fill="#1F2933">Claude Code 없이</text>
+
+    <rect x="590" y="380" width="320" height="150" rx="10" fill="#FDECEA" stroke="#C0392B" stroke-width="2.5"/>
+    <text x="750" y="428" font-size="24" font-weight="bold" fill="#1F2933">5. 숫자 쓰기</text>
+    <text x="750" y="476" font-size="21" fill="#1F2933">Recognize를 누르면</text>
+    <text x="750" y="508" font-size="21" fill="#1F2933">숫자와 신뢰도 표시</text>
+
+    <rect x="1155" y="380" width="320" height="150" rx="10" fill="#E8F0F9" stroke="#2F5C8F" stroke-width="2.5"/>
+    <text x="1315" y="428" font-size="24" font-weight="bold" fill="#1F2933">4. 프로그램 창</text>
+    <text x="1315" y="476" font-size="21" fill="#1F2933">쓰는 칸, Clear,</text>
+    <text x="1315" y="508" font-size="21" fill="#1F2933">Recognize 버튼</text>
+
+    <line x1="347" y1="220" x2="586" y2="220" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="912" y1="220" x2="1151" y2="220" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1315" y1="322" x2="1315" y2="376" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1153" y1="455" x2="914" y2="455" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="588" y1="455" x2="349" y2="455" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+  </g>
+</svg>

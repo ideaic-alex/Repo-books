@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker></defs>
+<rect width="1500" height="560" fill="#fff"/>
+<text x="750" y="55" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">퀴즈 게임으로 배우는 환각 점검 흐름</text>
+<g stroke-width="2.5" font-size="21" text-anchor="middle" fill="#212121">
+<rect x="45" y="110" width="250" height="170" rx="10" fill="#E8F0F9" stroke="#1565C0"/>
+<text x="170" y="150" font-weight="bold">1. PRD 작성</text><text x="170" y="195">claude.ai에서</text><text x="170" y="228">요구사항 정리</text>
+<rect x="335" y="110" width="250" height="170" rx="10" fill="#E6F4EA" stroke="#2E7D32"/>
+<text x="460" y="150" font-weight="bold">2. 3단계 프롬프트</text><text x="460" y="195">기본 게임, 확장,</text><text x="460" y="228">랭킹 저장</text>
+<rect x="625" y="110" width="250" height="170" rx="10" fill="#FFF3E0" stroke="#EF6C00"/>
+<text x="750" y="150" font-weight="bold">3. 실행과 점검</text><text x="750" y="195">index.html을</text><text x="750" y="228">직접 풀어 봄</text>
+<rect x="915" y="110" width="250" height="170" rx="10" fill="#FDECEA" stroke="#C62828"/>
+<text x="1040" y="150" font-weight="bold">4. 환각 발견</text><text x="1040" y="195">가장 긴 강:</text><text x="1040" y="228">나일 대 아마존</text>
+<rect x="1205" y="110" width="250" height="170" rx="10" fill="#F3E5F5" stroke="#6A1B9A"/>
+<text x="1330" y="150" font-weight="bold">5. 지침 저장</text><text x="1330" y="195">CLAUDE.md에 기록</text><text x="1330" y="228">/clear 후 재확인</text>
+</g>
+<g stroke="#37474F" stroke-width="3" fill="none" marker-end="url(#a)">
+<line x1="297" y1="195" x2="333" y2="195"/><line x1="587" y1="195" x2="623" y2="195"/><line x1="877" y1="195" x2="913" y2="195"/><line x1="1167" y1="195" x2="1203" y2="195"/>
+<line x1="1330" y1="282" x2="1330" y2="368"/>
+</g>
+<rect x="45" y="370" width="1410" height="130" rx="10" fill="#E6F4EA" stroke="#2E7D32" stroke-width="2.5"/>
+<g font-size="22" text-anchor="middle" fill="#212121">
+<text x="750" y="420" font-weight="bold">결과: 기준을 밝힌 문제와 면책 문구가 붙은 해설</text>
+<text x="750" y="462">예) "전통적 측정 기준으로" 라는 조건을 문제에 넣고, 정답 해설에 논쟁이 있음을 알린다</text>
+</g>
+</svg>

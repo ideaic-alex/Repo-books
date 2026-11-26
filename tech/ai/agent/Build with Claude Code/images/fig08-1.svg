@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker>
+  </defs>
+  <rect width="1500" height="780" fill="#FFFFFF"/>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" fill="#222" text-anchor="middle">
+    <text x="750" y="55" font-size="34" font-weight="bold">API와 MCP, 그리고 클라이언트-서버 구조</text>
+
+    <text x="370" y="130" font-size="26" font-weight="bold">API 방식: 요청하고 답을 받는다</text>
+    <rect x="60" y="170" width="260" height="110" rx="10" fill="#E8F0F9" stroke="#1F4E79" stroke-width="2.5"/>
+    <text x="190" y="215" font-weight="bold">내 프로그램</text>
+    <text x="190" y="247">글 생성을 요청</text>
+    <rect x="460" y="170" width="260" height="110" rx="10" fill="#FFF3E0" stroke="#B26A00" stroke-width="2.5"/>
+    <text x="590" y="215" font-weight="bold">AI 모델</text>
+    <text x="590" y="247">글로 답변만 한다</text>
+    <line x1="320" y1="210" x2="458" y2="210" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="458" y1="250" x2="322" y2="250" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="160" y="320" width="460" height="90" rx="10" fill="#FDECEA" stroke="#B3261E" stroke-width="2.5"/>
+    <text x="390" y="358">AI가 파일이나 데이터베이스를</text>
+    <text x="390" y="390">직접 만질 수는 없다</text>
+
+    <line x1="750" y1="110" x2="750" y2="720" stroke="#B0BEC5" stroke-width="2" stroke-dasharray="8 8"/>
+
+    <text x="1120" y="130" font-size="26" font-weight="bold">MCP 방식: 도구를 직접 쓴다</text>
+    <rect x="800" y="170" width="220" height="120" rx="10" fill="#E8F0F9" stroke="#1F4E79" stroke-width="2.5"/>
+    <text x="910" y="212" font-weight="bold">Claude Code</text>
+    <text x="910" y="244">클라이언트</text>
+    <text x="910" y="272">(요청하는 쪽)</text>
+    <rect x="1180" y="170" width="260" height="120" rx="10" fill="#E6F4EA" stroke="#1B6B3A" stroke-width="2.5"/>
+    <text x="1310" y="212" font-weight="bold">MCP 서버</text>
+    <text x="1310" y="244">서버</text>
+    <text x="1310" y="272">(실제로 일하는 쪽)</text>
+    <line x1="1022" y1="215" x2="1178" y2="215" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1178" y1="255" x2="1022" y2="255" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <text x="1100" y="200" font-size="19">요청</text>
+    <text x="1100" y="290" font-size="19">결과</text>
+
+    <line x1="1310" y1="290" x2="930" y2="400" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1310" y1="290" x2="1170" y2="400" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="1310" y1="290" x2="1390" y2="400" stroke="#37474F" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="820" y="402" width="220" height="90" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2.5"/>
+    <text x="930" y="440" font-weight="bold">Notion</text>
+    <text x="930" y="472">문서 생성</text>
+    <rect x="1060" y="402" width="220" height="90" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2.5"/>
+    <text x="1170" y="440" font-weight="bold">GitHub</text>
+    <text x="1170" y="472">저장소 관리</text>
+    <rect x="1300" y="402" width="180" height="90" rx="10" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="2.5"/>
+    <text x="1390" y="440" font-weight="bold">데이터베이스</text>
+    <text x="1390" y="472">조회·수정</text>
+
+    <rect x="800" y="560" width="640" height="150" rx="10" fill="#FFF3E0" stroke="#B26A00" stroke-width="2.5"/>
+    <text x="1120" y="604" font-weight="bold">클라이언트-서버 구조의 장점</text>
+    <text x="1120" y="644">새 기능은 서버만 새로 연결하면 된다 (확장이 쉽다)</text>
+    <text x="1120" y="680">Claude는 지시만 하고 실행은 서버가 맡는다 (안정적)</text>
+  </g>
+</svg>

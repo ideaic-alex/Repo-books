@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#37474F"/></marker></defs>
+<rect width="1500" height="640" fill="#fff"/>
+<text x="750" y="55" font-size="34" font-weight="bold" text-anchor="middle" fill="#212121">커스텀 명령이 자라는 구조</text>
+<text x="45" y="110" font-size="22" font-weight="bold" fill="#1565C0">1층. 명령 하나는 md 파일 하나 (.claude/commands/)</text>
+<g stroke-width="2.5" font-size="19" text-anchor="middle" fill="#212121">
+<rect x="45" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="152" y="170" font-weight="bold">/quiz-validate</text><text x="152" y="203">최상급 표현 점검</text>
+<rect x="284" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="391" y="170" font-weight="bold">/quiz-range</text><text x="391" y="203">난이도, 정답 분포</text>
+<rect x="523" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="630" y="170" font-weight="bold">/quiz-add</text><text x="630" y="203">새 문제 추가</text>
+<rect x="762" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="869" y="170" font-weight="bold">/quiz-check</text><text x="869" y="203">정답 전체 검증</text>
+<rect x="1001" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="1108" y="170" font-weight="bold">/quiz-stats</text><text x="1108" y="203">통계 분석</text>
+<rect x="1240" y="130" width="215" height="95" rx="10" fill="#E8F0F9" stroke="#1565C0"/><text x="1347" y="170" font-weight="bold">/quiz-leaderboard</text><text x="1347" y="203">순위표 갱신</text>
+</g>
+<g stroke="#37474F" stroke-width="3" fill="none" marker-end="url(#a)"><line x1="750" y1="232" x2="750" y2="316"/><line x1="750" y1="424" x2="750" y2="516"/></g>
+<text x="45" y="300" font-size="22" font-weight="bold" fill="#2E7D32">2층. 연결하거나 통합한다</text>
+<g stroke-width="2.5" font-size="21" text-anchor="middle" fill="#212121">
+<rect x="250" y="320" width="500" height="100" rx="10" fill="#E6F4EA" stroke="#2E7D32"/>
+<text x="500" y="358" font-weight="bold">연결 실행</text><text x="500" y="395">한 문장 요청으로 세 명령을 차례로</text>
+<rect x="760" y="320" width="480" height="100" rx="10" fill="#FFF3E0" stroke="#EF6C00"/>
+<text x="1000" y="358" font-weight="bold">통합 명령 /quiz-daily</text><text x="1000" y="395">7단계 파이프라인, 실패 시 중단</text>
+</g>
+<text x="45" y="500" font-size="22" font-weight="bold" fill="#6A1B9A">3층. 명령이 명령을 만든다</text>
+<g stroke-width="2.5" font-size="21" text-anchor="middle" fill="#212121">
+<rect x="250" y="520" width="990" height="90" rx="10" fill="#F3E5F5" stroke="#6A1B9A"/>
+<text x="745" y="558" font-weight="bold">/teacher-dashboard (Claude Code가 설계한 통합 명령)</text>
+<text x="745" y="593">/create-report 수정, /export-report 추가 : 필요한 파일만 고친다</text>
+</g>
+</svg>
